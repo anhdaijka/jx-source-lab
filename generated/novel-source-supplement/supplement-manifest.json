@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_source_supplement.py",
+  "generated_at_utc": "2026-08-14T14:20:25.032514+00:00",
+  "handoff_status": "NOVEL_SOURCE_SUPPLEMENT_READY",
+  "promotion_status": "SOURCE_RECOGNITION_SUPPLEMENT_READY",
+  "source_repository": "anhdaijka/jx-source-lab",
+  "source_lab_commit": "a4398039bb1a8b3b5a44ae8c7130cfb72e3d52cc",
+  "baseline_novel_handoff_manifest_sha256": "d48c4435790cb3c56fd631db77cb9851f173e951f0704d5905201ca7434f747c",
+  "scope": "BOUNDED_RECOGNITION_CATALOG_AND_OPTIONAL_SYSTEM_PRESENCE",
+  "counts": {
+    "weapon_candidates": 28,
+    "route_manual_families": 24,
+    "mount_families": 22,
+    "mantle_candidates": 10,
+    "optional_system_candidates": 9,
+    "promoted_story_claims": 0
+  },
+  "uncertainty": {
+    "narrative_role_default": "UNKNOWN",
+    "adaptation_status_default": "SOURCE_CANDIDATE_NOT_NOVEL_CANON",
+    "implementation_only_records_preserved": true
+  },
+  "excluded": [
+    "raw client/server/PAK payloads",
+    "bulk item and asset catalogs",
+    "private-input and archives",
+    "UI accounting, guild funds, appointments, logs and registry procedure",
+    "invented story causality, ownership, rarity, motives, rewards or outcomes"
+  ],
+  "raw_proprietary_payloads_excluded": true,
+  "one_way_import_contract": true,
+  "runtime_dependency_on_lab": false,
+  "files": [
+    {
+      "path": "catalog/mounts-and-mantles.json",
+      "sha256": "8e17499c7546300b51c5d951a9340fb1e954768beec7b8f7eba822309637bb2c",
+      "bytes": 173212
+    },
+    {
+      "path": "catalog/route-manuals.json",
+      "sha256": "bd1cb9d7b4c539812c641bfd5dc42fc28866fe3c6fdff9f4486ce9cf35b5141f",
+      "bytes": 131015
+    },
+    {
+      "path": "catalog/weapons.json",
+      "sha256": "887826fa81897bb2432d42fd47f3477a439c79b3619922e6e6d98c87fcd7ce56",
+      "bytes": 32310
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "e5503741b91c4296b63b3eacee0c09bec96a93da38c740d8048b7558fe093ab5",
+      "bytes": 2293
+    },
+    {
+      "path": "systems/optional-system-candidates.json",
+      "sha256": "943fb4053574d180150374cc699f67154b20b06c27268293501fdd4099f51b06",
+      "bytes": 21475
+    }
+  ],
+  "manifest_self_hash_note": "The manifest cannot recursively hash itself; every payload artifact is hashed above."
+}

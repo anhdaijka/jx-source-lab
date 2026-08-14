@@ -1,0 +1,538 @@
+{
+  "schema_version": "1.0",
+  "status": "SOURCE_RECOGNITION_CANDIDATES",
+  "count": 9,
+  "curation_rule": "Retain only exact names, direct presence and bounded human-facing texture. Exclude funds, appointments, logs, registry paperwork, bookkeeping, UI procedure and reward-loop detail.",
+  "systems": [
+    {
+      "system_id": "SYS-GUILD-COMMUNITY",
+      "name": "Bang hội và liên minh",
+      "priority": 1,
+      "source_scope": "The game directly exposes player guild presence and guild-linked representatives.",
+      "narrative_causality_status": "UNKNOWN",
+      "existence_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "adaptation_status": "SOURCE_CANDIDATE_NOT_NOVEL_CANON",
+      "evidence": [
+        {
+          "record_kind": "dialognpc_literal",
+          "record_id": "dialognpc:335",
+          "name": "",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/npc/dialognpc.txt",
+              "sha256": "073738204c0c9696e533712b580d18432d2c091f31cf3642be86a094476de562",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:336",
+              "notes": ""
+            }
+          ],
+          "text": "Thiên biến hữu dị hướng, nhân biến hữu dị tướng. Những ngày gần đây ta xem bói cho một số bang hội, quẻ bói thay đổi phân ly, ngay cả ta cũng không hiểu được biến số!"
+        },
+        {
+          "record_kind": "map_spawn",
+          "record_id": "map-spawn:linanfu:line:203",
+          "name": "Bang hội liên minh sứ",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/map/map_info/linanfu/info.txt",
+              "sha256": "3a6b41b8d98eb30ccae1a1cc5b99fde8b6ff4846125050ab4fefc5d8730cd140",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:203",
+              "notes": ""
+            }
+          ],
+          "source_context": {
+            "NpcName": "Bang hội liên minh sứ"
+          }
+        }
+      ],
+      "unsupported_without_further_evidence": [
+        "mandatory participation",
+        "novel causal role",
+        "exact in-world rules",
+        "main-story ownership",
+        "game UI or accounting as prose texture"
+      ]
+    },
+    {
+      "system_id": "SYS-TEAM-FORMATION",
+      "name": "Tổ đội",
+      "priority": 1,
+      "source_scope": "Vietnamese implementation strings directly establish voluntary team formation.",
+      "narrative_causality_status": "IMPLEMENTATION_ONLY",
+      "existence_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "adaptation_status": "SOURCE_CANDIDATE_NOT_NOVEL_CANON",
+      "evidence": [
+        {
+          "record_kind": "localization",
+          "record_id": "vi-vi:core:G_ScriptFuns_4",
+          "name": "",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/pak/l10n/vi-vi/stringtable_core.txt",
+              "sha256": "3c2988c2abb8e1b42480d6431e6de6e294037bc94a36f1b938cd40dce73df85f",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:264",
+              "notes": ""
+            }
+          ],
+          "value": "Thông tin tổ đội"
+        },
+        {
+          "record_kind": "localization",
+          "record_id": "vi-vi:core:MSG_TEAM_SEND_INVITE",
+          "name": "",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/pak/l10n/vi-vi/stringtable_core.txt",
+              "sha256": "3c2988c2abb8e1b42480d6431e6de6e294037bc94a36f1b938cd40dce73df85f",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:692",
+              "notes": ""
+            }
+          ],
+          "value": "Gửi lời mời tổ đội đến %s!"
+        }
+      ],
+      "unsupported_without_further_evidence": [
+        "mandatory participation",
+        "novel causal role",
+        "exact in-world rules",
+        "main-story ownership",
+        "game UI or accounting as prose texture"
+      ]
+    },
+    {
+      "system_id": "SYS-MILITARY-CAMPS",
+      "name": "Quân doanh và đời sống quân trại",
+      "priority": 2,
+      "source_scope": "Camp locations and human-facing dialogue establish weapons work, separation and battlefield pressure.",
+      "narrative_causality_status": "NOT_LINKED_TO_MAIN_STORY_BY_THIS_SUPPLEMENT",
+      "existence_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "adaptation_status": "SOURCE_CANDIDATE_NOT_NOVEL_CANON",
+      "evidence": [
+        {
+          "record_kind": "dialognpc_literal",
+          "record_id": "dialognpc:65",
+          "name": "",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/npc/dialognpc.txt",
+              "sha256": "073738204c0c9696e533712b580d18432d2c091f31cf3642be86a094476de562",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:66",
+              "notes": ""
+            }
+          ],
+          "text": "Công dục thiện kỳ sự, tất tiên lợi kỳ khí. Ta không thể thay ngươi lên sa trường, nhưng có thể mài sắc đao thương của ngươi, hãy xem thử coi có món gì cần không!",
+          "map_name": "Phục Ngưu Sơn Quân Doanh"
+        },
+        {
+          "record_kind": "dialognpc_literal",
+          "record_id": "dialognpc:448",
+          "name": "",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/npc/dialognpc.txt",
+              "sha256": "073738204c0c9696e533712b580d18432d2c091f31cf3642be86a094476de562",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:449",
+              "notes": ""
+            }
+          ],
+          "text": "Huynh đệ ta - Ngô Tín cũng trong quân doanh, nếu gặp cho ta gửi lời hỏi thăm! Huynh đệ cùng trong quân trại nhưng chưa 1 lần thăm viếng, thật là áy náy!"
+        },
+        {
+          "record_kind": "map_transfer",
+          "record_id": "map-transfer:line:467",
+          "name": "to_liangxianglin",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/map/transmit.txt",
+              "sha256": "64bb20b64cbb96dfe58fddb5dcb6dbd6afb1dbcc560b825edde4360bf16590c3",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:467",
+              "notes": ""
+            },
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/script/map/map.lua",
+              "sha256": "eb9b4ba7a987cdf78eb7dfca3146695afd377dffc419389ea9bf6c24597685c2",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:90-113",
+              "notes": "Runtime loader constructs directed traffic and trap transfers from transmit.txt."
+            }
+          ],
+          "source_context": {
+            "FromMap chú thích": "Cư Diên Trạch",
+            "ToMap chú thích": "Quân Doanh Lương Hạng Lâm"
+          }
+        }
+      ],
+      "unsupported_without_further_evidence": [
+        "mandatory participation",
+        "novel causal role",
+        "exact in-world rules",
+        "main-story ownership",
+        "game UI or accounting as prose texture"
+      ]
+    },
+    {
+      "system_id": "SYS-SONG-JIN-BATTLEFIELD",
+      "name": "Chiến trường Tống–Kim",
+      "priority": 2,
+      "source_scope": "Direct map/NPC/dialogue evidence establishes a recurring Song–Jin battlefield frame.",
+      "narrative_causality_status": "MAIN_STORY_RELATION_REQUIRES_SEPARATE_SOURCE_MAPPING",
+      "existence_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "adaptation_status": "SOURCE_CANDIDATE_NOT_NOVEL_CANON",
+      "evidence": [
+        {
+          "record_kind": "dialognpc_literal",
+          "record_id": "dialognpc:263",
+          "name": "",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/npc/dialognpc.txt",
+              "sha256": "073738204c0c9696e533712b580d18432d2c091f31cf3642be86a094476de562",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:264",
+              "notes": ""
+            }
+          ],
+          "text": "Đại Tán Quan là trọng địa nối liền Tống Kim, không biết đã có bao nhiêu cuộc chiến lớn nhỏ ở đây? Đại Tán Quan là dãy cát vàng dày đặc lại thêm chiến tranh liên miên làm vùng đất này thêm thê lương."
+        },
+        {
+          "record_kind": "map_spawn",
+          "record_id": "map-spawn:global_songjin_baomingdian:line:2",
+          "name": "Hiệu Úy Mộ Binh (Tống Kim)",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/map/map_info/global_songjin_baomingdian/info.txt",
+              "sha256": "297e686736e7472787f502dd5563d547e962a488128ddc0eaf43b6f130fce44e",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:2",
+              "notes": ""
+            }
+          ],
+          "source_context": {
+            "NpcName": "Hiệu Úy Mộ Binh (Tống Kim)"
+          }
+        }
+      ],
+      "unsupported_without_further_evidence": [
+        "mandatory participation",
+        "novel causal role",
+        "exact in-world rules",
+        "main-story ownership",
+        "game UI or accounting as prose texture"
+      ]
+    },
+    {
+      "system_id": "SYS-BAI-HU-TANG",
+      "name": "Bạch Hổ Đường",
+      "priority": 4,
+      "source_scope": "Direct NPC/map presence establishes Bạch Hổ Đường as a recognizable game activity space.",
+      "narrative_causality_status": "UNKNOWN",
+      "existence_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "adaptation_status": "SOURCE_CANDIDATE_NOT_NOVEL_CANON",
+      "evidence": [
+        {
+          "record_kind": "map_spawn",
+          "record_id": "map-spawn:linanfu:line:67",
+          "name": "Hộ Vệ Bạch Hổ Đường",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/map/map_info/linanfu/info.txt",
+              "sha256": "3a6b41b8d98eb30ccae1a1cc5b99fde8b6ff4846125050ab4fefc5d8730cd140",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:67",
+              "notes": ""
+            }
+          ],
+          "source_context": {
+            "NpcName": "Hộ Vệ Bạch Hổ Đường"
+          }
+        },
+        {
+          "record_kind": "npc",
+          "record_id": "npc:7261",
+          "name": "Thân vệ Bạch Hổ Đường",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/npc/npc.txt",
+              "sha256": "483648d45bb1a91cde4ab47a577917a9b82af53cd0516f38ba4a334cc73b9dee",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:5302",
+              "notes": ""
+            }
+          ],
+          "description": "Thân vệ Bạch Hổ Đường_NPC truyền tống",
+          "source_context": {
+            "Title": "<color=green>Người truyền tống mật thất<color>"
+          }
+        }
+      ],
+      "unsupported_without_further_evidence": [
+        "mandatory participation",
+        "novel causal role",
+        "exact in-world rules",
+        "main-story ownership",
+        "game UI or accounting as prose texture"
+      ]
+    },
+    {
+      "system_id": "SYS-XOYO-VALLEY",
+      "name": "Tiêu Dao Cốc",
+      "priority": 4,
+      "source_scope": "Direct dialogue and NPC/map presence establish Tiêu Dao Cốc and its activity-facing cast.",
+      "narrative_causality_status": "UNKNOWN",
+      "existence_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "adaptation_status": "SOURCE_CANDIDATE_NOT_NOVEL_CANON",
+      "evidence": [
+        {
+          "record_kind": "dialognpc_literal",
+          "record_id": "dialognpc:64",
+          "name": "",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/npc/dialognpc.txt",
+              "sha256": "073738204c0c9696e533712b580d18432d2c091f31cf3642be86a094476de562",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:65",
+              "notes": ""
+            }
+          ],
+          "text": "Nhắc đến Tiêu Dao Cốc, đó quả là tiên cảnh giữa cõi người! Không biết thiếu hiệp có từng đến đó chưa? Ai da, lạc đề rồi, lạc đề rồi….. Thiếu hiệp có muốn xem thử trang bị cực phẩm thế gian hiếm có không?"
+        },
+        {
+          "record_kind": "map_spawn",
+          "record_id": "map-spawn:dariluojusuo:line:6",
+          "name": "Tiêu Dao Sứ",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/map/map_info/dariluojusuo/info.txt",
+              "sha256": "bd216f5929425da6e10411ae6c696e2ed038584d7f6e6bdf2c3099d30f26dbbd",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:6",
+              "notes": ""
+            }
+          ],
+          "source_context": {
+            "NpcName": "Tiêu Dao Sứ"
+          }
+        },
+        {
+          "record_kind": "npc",
+          "record_id": "npc:3234",
+          "name": "Hoàng Phỉ",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/npc/npc.txt",
+              "sha256": "483648d45bb1a91cde4ab47a577917a9b82af53cd0516f38ba4a334cc73b9dee",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:2790",
+              "notes": ""
+            }
+          ],
+          "description": "Hoàng Phỉ_Báo Danh Tiêu Dao Cốc",
+          "source_context": {
+            "Title": "<color=green>Tầm Bảo Nhân<color>"
+          }
+        }
+      ],
+      "unsupported_without_further_evidence": [
+        "mandatory participation",
+        "novel causal role",
+        "exact in-world rules",
+        "main-story ownership",
+        "game UI or accounting as prose texture"
+      ]
+    },
+    {
+      "system_id": "SYS-WULIN-LEAGUE",
+      "name": "Võ Lâm Liên Đấu",
+      "priority": 4,
+      "source_scope": "Direct map representatives establish organized Wulin competition presence.",
+      "narrative_causality_status": "IMPLEMENTATION_ONLY",
+      "existence_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "adaptation_status": "SOURCE_CANDIDATE_NOT_NOVEL_CANON",
+      "evidence": [
+        {
+          "record_kind": "map_spawn",
+          "record_id": "map-spawn:linanfu:line:185",
+          "name": "Quan Liên Đấu (cao)",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/map/map_info/linanfu/info.txt",
+              "sha256": "3a6b41b8d98eb30ccae1a1cc5b99fde8b6ff4846125050ab4fefc5d8730cd140",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:185",
+              "notes": ""
+            }
+          ],
+          "source_context": {
+            "NpcName": "Quan Liên Đấu (cao)"
+          }
+        }
+      ],
+      "unsupported_without_further_evidence": [
+        "mandatory participation",
+        "novel causal role",
+        "exact in-world rules",
+        "main-story ownership",
+        "game UI or accounting as prose texture"
+      ]
+    },
+    {
+      "system_id": "SYS-MOUNTED-TRAVEL",
+      "name": "Thú cưỡi và mạng trạm dịch",
+      "priority": 3,
+      "source_scope": "Mount catalog records and station configuration establish mounted travel and connected hubs.",
+      "narrative_causality_status": "IMPLEMENTATION_ONLY",
+      "existence_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "adaptation_status": "SOURCE_CANDIDATE_NOT_NOVEL_CANON",
+      "evidence": [
+        {
+          "record_kind": "dialognpc_literal",
+          "record_id": "dialognpc:33",
+          "name": "",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/npc/dialognpc.txt",
+              "sha256": "073738204c0c9696e533712b580d18432d2c091f31cf3642be86a094476de562",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:34",
+              "notes": ""
+            }
+          ],
+          "text": "Ngựa quý ngựa hiếm, muốn gì có nấy! Muốn mua phi phong xin đi tìm Tạ Hiền, ta không bán thứ đó."
+        },
+        {
+          "record_kind": "travel_station",
+          "record_id": "travel_station:line:4",
+          "name": "Lâm An Phủ",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/map/station.txt",
+              "sha256": "389c31acca35855093d10b5c0798f9121bb9d0fbd7c69cb7877284e64e8763a0",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:4",
+              "notes": ""
+            },
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/script/npc/chefu.lua",
+              "sha256": "d030aec3a96a5a17b12b0a857f3aceb16a5d3bcca2747eb519452c3c9afaca8b",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:14",
+              "notes": "Runtime loader evidence for station.txt."
+            }
+          ],
+          "source_context": {
+            "MapName": "Lâm An Phủ"
+          }
+        }
+      ],
+      "unsupported_without_further_evidence": [
+        "mandatory participation",
+        "novel causal role",
+        "exact in-world rules",
+        "main-story ownership",
+        "game UI or accounting as prose texture"
+      ]
+    },
+    {
+      "system_id": "SYS-WULIN-MASTER-ENCOUNTERS",
+      "name": "Võ Lâm Cao Thủ",
+      "priority": 4,
+      "source_scope": "A direct map-spawn record establishes named high-level encounter presence only.",
+      "narrative_causality_status": "LOW_CONTEXT_SOURCE_PRESENCE",
+      "existence_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "adaptation_status": "SOURCE_CANDIDATE_NOT_NOVEL_CANON",
+      "evidence": [
+        {
+          "record_kind": "map_spawn",
+          "record_id": "map-spawn:yuanshisenlin_2:line:7",
+          "name": "Võ Lâm Cao Thủ",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/map/map_info/yuanshisenlin_2/info.txt",
+              "sha256": "f0e77f2ce4553ce54c61a83f0070c5fc2a548efb195d02234bf8e29ec559da5c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:7",
+              "notes": ""
+            }
+          ],
+          "source_context": {
+            "NpcName": "Võ Lâm Cao Thủ"
+          }
+        }
+      ],
+      "unsupported_without_further_evidence": [
+        "mandatory participation",
+        "novel causal role",
+        "exact in-world rules",
+        "main-story ownership",
+        "game UI or accounting as prose texture"
+      ]
+    }
+  ]
+}

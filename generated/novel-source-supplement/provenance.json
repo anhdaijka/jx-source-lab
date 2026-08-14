@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_source_supplement.py",
+  "generated_at_utc": "2026-08-14T14:20:25.028166+00:00",
+  "source_repository": "anhdaijka/jx-source-lab",
+  "source_lab_commit": "a4398039bb1a8b3b5a44ae8c7130cfb72e3d52cc",
+  "baseline_novel_handoff_manifest_sha256": "d48c4435790cb3c56fd631db77cb9851f173e951f0704d5905201ca7434f747c",
+  "input_artifacts": [
+    {
+      "name": "items",
+      "path": "generated/records/items/item-records.jsonl",
+      "sha256": "4a85f59ae4725a24a2a4dddb3e65ddb96a2bc06048fac6e7eb9033cb038a4cfc",
+      "bytes": 24359191
+    },
+    {
+      "name": "features",
+      "path": "generated/records/features/feature-records.jsonl",
+      "sha256": "d5adc8537bebf8fe1c55866178b8717d545b76f50047d89be1b140cbff7f0349",
+      "bytes": 10853863
+    },
+    {
+      "name": "dialogue",
+      "path": "generated/records/dialogue/dialognpc-records.jsonl",
+      "sha256": "40ff4729631a3526ecc62cbda91a9a56c99afaa18eedd5d73ec9b941bf5da668",
+      "bytes": 490296
+    },
+    {
+      "name": "localization",
+      "path": "generated/records/dialogue/localization-records.jsonl",
+      "sha256": "5fa16c8348ba9764d1b1ea4fdcb79ec246144da0318ad3f71e6c3c1677d96713",
+      "bytes": 744932
+    },
+    {
+      "name": "npcs",
+      "path": "generated/records/npcs/npc-records.jsonl",
+      "sha256": "30e00cdd2d2057d2784d2388d9a57f1c87773607c590f36005de033ea5010190",
+      "bytes": 7337856
+    },
+    {
+      "name": "baseline_handoff_manifest",
+      "path": "generated/novel-handoff/handoff-manifest.json",
+      "sha256": "d48c4435790cb3c56fd631db77cb9851f173e951f0704d5905201ca7434f747c",
+      "bytes": 10088
+    },
+    {
+      "name": "release_validation",
+      "path": "generated/reports/release-validation-report.json",
+      "sha256": "603d1f400e260e74728af092cafdac32bb2b35b52cc19ea38f16b4702da56bf2",
+      "bytes": 3167
+    }
+  ],
+  "new_broad_source_research_performed": false,
+  "raw_proprietary_payloads_excluded": true,
+  "curation_scope": "Existing generated item, feature, dialogue, localization and NPC records only.",
+  "source_truth_guard": "Catalog or system presence does not establish novel use, ownership, rarity, story causality, motive, outcome or power."
+}

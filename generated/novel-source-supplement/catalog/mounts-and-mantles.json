@@ -1,0 +1,4295 @@
+{
+  "schema_version": "1.0",
+  "status": "SOURCE_RECOGNITION_CANDIDATES",
+  "mount_family_count": 22,
+  "mantle_count": 10,
+  "selection_rule": "Mounts are grouped by direct catalog kind with event-leaderboard/error/generic placeholders excluded; mantles retain the ten base progression names before element/gender duplication.",
+  "mounts": [
+    {
+      "catalog_family": "Bạch Long Cự Mộc",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:89",
+          "name": "[Thánh Thú] Bạch Long Cự Mộc",
+          "description": "[Linh Thú]Thiên Kỳ Lân - chưa nâng cấp",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "149",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "0df6ac3b87c7338612000121aa68c14dc19078603991c0d0e2f36f62ad23b15f",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:89",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:90",
+          "name": "[Thánh Thú] Bạch Long Cự Mộc - Bậc 1",
+          "description": "<color=yellow>Cấp bậc: (bậc 1)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "150",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "3e300c2701f31efd40bb34f7ca71affef958e85284109d3d2afae1f09fb0d125",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:90",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:91",
+          "name": "[Thánh Thú] Bạch Long Cự Mộc - Bậc 2",
+          "description": "<color=yellow>Cấp bậc: (bậc 2)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "151",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "89621673a2973ed57d842bd3efccd8b936b133d3507039cf3f05e34b42eb3a2d",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:91",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:92",
+          "name": "[Thánh Thú] Bạch Long Cự Mộc - Bậc 3",
+          "description": "<color=yellow>Cấp bậc: (bậc 3)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "152",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "455c29e318cd9e0fa3809899133145c94302a4791a938dd98f72365cf275f751",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:92",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:93",
+          "name": "[Thánh Thú] Bạch Long Cự Mộc - Bậc 4",
+          "description": "<color=yellow>Cấp bậc: (bậc 4)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "153",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "7145a2e5ad2d5afa0a10fbe3c2c9b6f8c399065d3e86cef9f950c6f50cab3206",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:93",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:94",
+          "name": "[Thánh Thú] Bạch Long Cự Mộc - Bậc 5",
+          "description": "<color=yellow>Cấp bậc: (bậc 5)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "154",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "627831a98a5f1a7158530b842cd25e63550989cd13b657d94e1424a0c0e93242",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:94",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:95",
+          "name": "[Thánh Thú] Bạch Long Cự Mộc - Bậc 6",
+          "description": "<color=yellow>Cấp bậc: (bậc 6)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "155",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "7bbe5249383d6ada4ef71481ba5c8897b4918df4b564e2a196993a09b3d9fea4",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:95",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:96",
+          "name": "[Thánh Thú] Bạch Long Cự Mộc - Bậc 7",
+          "description": "<color=yellow>Cấp bậc: (bậc 7)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "156",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "ddd827c26ace10c54344cb89526533306d98635f97547d61ab6f5f0493dd56a3",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:96",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:97",
+          "name": "[Thánh Thú] Bạch Long Cự Mộc - Bậc 8",
+          "description": "<color=yellow>Cấp bậc: (bậc 8)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "157",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "6c5276240ff4acfe32e83069baef369aa3bbe3287b010169a31ff8e3b0c07100",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:97",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:98",
+          "name": "[Thánh Thú] Bạch Long Cự Mộc - Bậc 9",
+          "description": "<color=yellow>Cấp bậc: (bậc 9)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "158",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "b09aef74abb61a89d4dde64b633d496249ece1b1d47c48b5c47754290bf82421",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:98",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:99",
+          "name": "[Thánh Thú] Bạch Long Cự Mộc - Bậc 10",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "159",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "3e4d0cff022eeb46e2146f72fa586d0644d520b02c88b060e5d5b8cc60ba01e1",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:99",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Cự Long Xích Luyện",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:111",
+          "name": "[Tiên Thú] Cự Long Xích Luyện",
+          "description": "[Tiên Thú]Chí Tôn Cự Long - chưa nâng cấp",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "171",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "71997e75f98eecddb08dbd015a98a92279356acaee9aa97252c2e89115480da6",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:111",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:112",
+          "name": "[Tiên Thú] Cự Long Xích Luyện - Bậc 1",
+          "description": "<color=yellow>Cấp bậc: (bậc 1)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "172",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "bc46f49123240a93c5049c920a616966a934dfb4aa1e6b2d19e5c8458f3b0c17",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:112",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:113",
+          "name": "[Tiên Thú] Cự Long Xích Luyện - Bậc 2",
+          "description": "<color=yellow>Cấp bậc: (bậc 2)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "173",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "61cfc5e30344c97a330d61c72c3ba7a9b0a2b02b071668813a140294b10834cf",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:113",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:114",
+          "name": "[Tiên Thú] Cự Long Xích Luyện - Bậc 3",
+          "description": "<color=yellow>Cấp bậc: (bậc 3)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "174",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "a3b9be3f1ce827f7d18e14895cbc8af70f54c5c7fded1aa7cdfc1682dcf32dd7",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:114",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:115",
+          "name": "[Tiên Thú] Cự Long Xích Luyện - Bậc 4",
+          "description": "<color=yellow>Cấp bậc: (bậc 4)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "175",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "a5ad2069df925817faa945e35867cc265867f0e496be5c7260dc9eb242c75a3c",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:115",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:116",
+          "name": "[Tiên Thú] Cự Long Xích Luyện - Bậc 5",
+          "description": "<color=yellow>Cấp bậc: (bậc 5)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "176",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "b63f06d0858fbe74b35d0e376909bd588e0ebcb6653ecf331d77ee148e8f1b50",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:116",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:117",
+          "name": "[Tiên Thú] Cự Long Xích Luyện - Bậc 6",
+          "description": "<color=yellow>Cấp bậc: (bậc 6)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "177",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "b70fbf9228e8e63a974001b16fe4a5a13d2315b5c060807df63aa3669008b8ee",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:117",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:118",
+          "name": "[Tiên Thú] Cự Long Xích Luyện - Bậc 7",
+          "description": "<color=yellow>Cấp bậc: (bậc 7)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "178",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "5e75beea3f95390e119a54809589079cb6e6eba029fe9a688e472a59b97eeea7",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:118",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:119",
+          "name": "[Tiên Thú] Cự Long Xích Luyện - Bậc 8",
+          "description": "<color=yellow>Cấp bậc: (bậc 8)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "179",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "b21616776b819df4ff0785c0aafdd94cc45d3f3d624012679846c7f830eb6e70",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:119",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:120",
+          "name": "[Tiên Thú] Cự Long Xích Luyện - Bậc 9",
+          "description": "<color=yellow>Cấp bậc: (bậc 9)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "180",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "35f873458e0d21fc1bc049724514566220d81cbfb02be41d3dae9277177a82a8",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:120",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:121",
+          "name": "[Tiên Thú] Cự Long Xích Luyện - Bậc 10",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "181",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "4eca77368397ebd5b4c58ee9773d0c92b7ea71b76737ef30a5fb9b2d1c7bb560",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:121",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Huyết Vương Thanh Âm",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:132",
+          "name": "[Tân Thủ] Huyết Vương Thanh Âm",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "686",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "8031a804b20efacfd1f2fa7ce64268d28883ffe371875db59f3e677ac66b0d32",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:132",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Hắc Chiến",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:53",
+          "name": "[Phong Vân] Hắc Chiến",
+          "description": "[Tuyệt Phẩm]Huyễn Minh Long - chưa nâng cấp",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "113",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "7e52ef3a0b4db4515fe204ddb1238c1067c133fc242f6c746ee37a66e2766bbf",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:53",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:54",
+          "name": "[Phong Vân] Hắc Chiến - Bậc 1",
+          "description": "<color=yellow>Cấp bậc: (bậc 1)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "114",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "5e50e2339066b70a6e2ebaf969267eb6ebda54891d0783054a39bbabf1add2a5",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:54",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:55",
+          "name": "[Phong Vân] Hắc Chiến - Bậc 2",
+          "description": "<color=yellow>Cấp bậc: (bậc 2)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "115",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "313d21b493bd86464876ab3e9fb87ea50ae117efa97eefa45e1a5cc241e5f76b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:55",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:56",
+          "name": "[Phong Vân] Hắc Chiến - Bậc 3",
+          "description": "<color=yellow>Cấp bậc: (bậc 3)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "116",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "112c6a080d92d18f57482ffe3ad7f85db4b788bcbfda59c81ddd175c6479fc59",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:56",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:57",
+          "name": "[Phong Vân] Hắc Chiến - Bậc 4",
+          "description": "<color=yellow>Cấp bậc: (bậc 4)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "117",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "c858942b6628618c858f184947d4e65664b8ccafd09e5ed42abac2c9fe1b11dc",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:57",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:58",
+          "name": "[Phong Vân] Hắc Chiến - Bậc 5",
+          "description": "<color=yellow>Cấp bậc: (bậc 5)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "118",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "4bdf292684e2949d56b2c7f731e1dfd2bbd6041ba2918bcdcde70cc70e32dccd",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:58",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:59",
+          "name": "[Phong Vân] Hắc Chiến - Bậc 6",
+          "description": "<color=yellow>Cấp bậc: (bậc 6)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "119",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "47f7466dd8b9fc8f7c2c1989449ff0d8cb8e0a4f35257d37326f9ce1bdb865d6",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:59",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Hỏa Huyết Thần Ngưu",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:60",
+          "name": "[Thần Thú] Hỏa Huyết Thần Ngưu",
+          "description": "[Tuyệt Phẩm]Huyễn Ma Long - chưa nâng cấp",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "120",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "05ba33eaac41c187250a29c83ab014288ba283b2fc2ec711c0a51b0bf8ff5d99",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:60",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:61",
+          "name": "[Thần Thú] Hỏa Huyết Thần Ngưu - Bậc 1",
+          "description": "<color=yellow>Cấp bậc: (bậc 1)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "121",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "df388f71c2c394836936a192c362f06a0fa0060d5487291cf0135579d0bb06e7",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:61",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:62",
+          "name": "[Thần Thú] Hỏa Huyết Thần Ngưu - Bậc 2",
+          "description": "<color=yellow>Cấp bậc: (bậc 2)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "122",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "c5f0556fbc57d0aab89b4ac57b41506e90d05565e53c55e7c1bd9bf810b17f7b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:62",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:63",
+          "name": "[Thần Thú] Hỏa Huyết Thần Ngưu - Bậc 3",
+          "description": "<color=yellow>Cấp bậc: (bậc 3)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "123",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "cf740212144b80d39f5dc6343d31bacfcded2e5b4f894a470f8eea6cfe4d75b7",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:63",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:64",
+          "name": "[Thần Thú] Hỏa Huyết Thần Ngưu - Bậc 4",
+          "description": "<color=yellow>Cấp bậc: (bậc 4)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "124",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "cf4f2403f0639de74d877e61c509d3e1752727b54b05a95b7c41e324243a540a",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:64",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:65",
+          "name": "[Thần Thú] Hỏa Huyết Thần Ngưu - Bậc 5",
+          "description": "<color=yellow>Cấp bậc: (bậc 5)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "125",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "4221204df98cc10dab3608aee0be433ddb35f3022fea7bd2b104af132ce8f5ca",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:65",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:66",
+          "name": "[Thần Thú] Hỏa Huyết Thần Ngưu - Bậc 6",
+          "description": "<color=yellow>Cấp bậc: (bậc 6)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "126",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "5e9a4d46445a29a9e0131dccf93fdec9cc892782c7d94a59d808b7e9f4e3356b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:66",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Hỏa Đế",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:46",
+          "name": "[Phong Vân] Hỏa Đế",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "106",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "440e97b37acc155508fdb036a55c3893fd9da32c40cba03e06ef712575af040b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:46",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:47",
+          "name": "[Phong Vân] Hỏa Đế - Bậc 1",
+          "description": "<color=yellow>Cấp bậc: (bậc 1)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "107",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "e7402de05f3240bfffd8855e36e30ebcb2a07ba0d7d1333a45c40f468adfbb39",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:47",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:48",
+          "name": "[Phong Vân] Hỏa Đế - Bậc 2",
+          "description": "<color=yellow>Cấp bậc: (bậc 2)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "108",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "02c0e3802e8e4ea18a4b3ce54f70f6eb509c835ae837014efc2ebc10ff999f7c",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:48",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:49",
+          "name": "[Phong Vân] Hỏa Đế - Bậc 3",
+          "description": "<color=yellow>Cấp bậc: (bậc 3)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "109",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "06e39f1559e11cb669f4c9845968d57daa74afc3e55b38791a8c8a7213c704bf",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:49",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:50",
+          "name": "[Phong Vân] Hỏa Đế - Bậc 4",
+          "description": "<color=yellow>Cấp bậc: (bậc 4)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "110",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "637df274ab218e4169dd3f3896f1060af747a43026cf986234ce13ba3140b2cb",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:50",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:51",
+          "name": "[Phong Vân] Hỏa Đế - Bậc 5",
+          "description": "<color=yellow>Cấp bậc: (bậc 5)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "111",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "5191a9f25df721568545b7c1ba41e1c3b080b0105055223e938614808ed6998e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:51",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Hồng Diệm",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:21",
+          "name": "[Phong Vân] Hồng Diệm - Cấp 1",
+          "description": "Thú cưỡi tuyệt thế danh mã thời Tam Quốc, toàn thân đỏ như lửa, không có sợi lông tạp nào.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "81",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "e2dc1968924ce7f0cb3a76c47fd2dc55447250f8a00987deb5e96ad7cc5ae87c",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:21",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:22",
+          "name": "[Phong Vân] Hồng Diệm - Cấp 2",
+          "description": "Thú cưỡi tuyệt thế danh mã thời Tam Quốc, toàn thân đỏ như lửa, không có sợi lông tạp nào.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "82",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "404dbda45f85f329c3c5367b4be475e4a417c51b101cdc2768372eab7664abb4",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:22",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:23",
+          "name": "[Phong Vân] Hồng Diệm - Cấp 3",
+          "description": "Thú cưỡi tuyệt thế danh mã thời Tam Quốc, toàn thân đỏ như lửa, không có sợi lông tạp nào.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "83",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "1776f6f5b76c6bfc515c9c38cfc427f73c57aebe37951f52466feb1327f54fc9",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:23",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:24",
+          "name": "[Phong Vân] Hồng Diệm - Cấp 4",
+          "description": "Thú cưỡi tuyệt thế danh mã thời Tam Quốc, toàn thân đỏ như lửa, không có sợi lông tạp nào.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "84",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "dbb06c1e3c89ba0a9e3d99d7f0fe0948d6e0bc7c9aafa7eb8eeae111cc510ae4",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:24",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:25",
+          "name": "[Phong Vân] Hồng Diệm - Cấp 5",
+          "description": "Thú cưỡi tuyệt thế danh mã thời Tam Quốc, toàn thân đỏ như lửa, không có sợi lông tạp nào.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "85",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "d58e913adb7d82fa65d3eedf0a158405b81f4fde6bd0304be4335094761f1604",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:25",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:26",
+          "name": "[Phong Vân] Hồng Diệm - Cấp 6",
+          "description": "Thú cưỡi tuyệt thế danh mã thời Tam Quốc, toàn thân đỏ như lửa, không có sợi lông tạp nào.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "86",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "3c62ef7d3db439d12741c167a9b1bbcdbcf111e8f9d7407a20dc18f54d675ff6",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:26",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Lam Vũ",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:33",
+          "name": "[Phong Vân] Lam Vũ - Cấp 1",
+          "description": "Thú Cưỡi của Lưu Bị thời Tam quốc, cực kỳ quý hiếm",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "93",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "b2bb53f56cc45ae2f5aceb722591b45ac11fdc107afd5d5ccb222b84f79184dd",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:33",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:34",
+          "name": "[Phong Vân] Lam Vũ - Cấp 2",
+          "description": "Thú Cưỡi của Lưu Bị thời Tam quốc, cực kỳ quý hiếm",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "94",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "04850fc87b5b696f7b821eab5cb59fdd7c695f18bd5fba435ef9622afebdc4a3",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:34",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:35",
+          "name": "[Phong Vân] Lam Vũ - Cấp 3",
+          "description": "Thú Cưỡi của Lưu Bị thời Tam quốc, cực kỳ quý hiếm",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "95",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "ae4d0d64bc732973341649174e07843d62ca2d96e95adb368cffc30a840107d7",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:35",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:36",
+          "name": "[Phong Vân] Lam Vũ - Cấp 4",
+          "description": "Thú Cưỡi của Lưu Bị thời Tam quốc, cực kỳ quý hiếm",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "96",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "03c5662fa35090589de43451e53b70797b45bb15f169166034177feca66c185e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:36",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:37",
+          "name": "[Phong Vân] Lam Vũ - Cấp 5",
+          "description": "Thú Cưỡi của Lưu Bị thời Tam quốc, cực kỳ quý hiếm",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "97",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "45a83cfe525c98766295661adfb9ac3a75480256d5dbf84b0fbe90dba310aca2",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:37",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:38",
+          "name": "[Phong Vân] Lam Vũ - Cấp 6",
+          "description": "Thú Cưỡi của Lưu Bị thời Tam quốc, cực kỳ quý hiếm",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "98",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "8e36b75279cc0d5f34d8710a6c1db7d4b93a1b46fd435df9a55d3974c973e859",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:38",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Liệt Phong",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:39",
+          "name": "[Phong Vân] Liệt Phong",
+          "description": "[Tuyệt Phẩm]U Minh Hồ - chưa nâng cấp",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "99",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "254b8e8bd8fd372b47500f59eb1d5c94b580318c46deb0fbcda4073d22f397ea",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:39",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:40",
+          "name": "[Phong Vân] Liệt Phong - Bậc 1",
+          "description": "<color=yellow>Cấp bậc: (bậc 1)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "100",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "d7daf0f6977beb2e05f1406b304483da372cbe258efa8513450685be0eb35cda",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:40",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:41",
+          "name": "[Phong Vân] Liệt Phong - Bậc 2",
+          "description": "<color=yellow>Cấp bậc:(bậc 2)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "101",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "4c626e25ee482d66167855f19aaecfeba8ff80ef4df37057daf62420eae473ec",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:41",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:42",
+          "name": "[Phong Vân] Liệt Phong - Bậc 3",
+          "description": "<color=yellow>Cấp bậc: (bậc 3)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "102",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "f2e012ce3aeeeb258751331daf5d417e4e4c2f2df641a743e00f678a5872085a",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:42",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:43",
+          "name": "[Phong Vân] Liệt Phong - Bậc 4",
+          "description": "<color=yellow>Cấp bậc: (bậc 4)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "103",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "9589fe64bfeb26b56a2fc8012ef4ee9d5ffe65ea01f73674988f0cd4052c9c94",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:43",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:44",
+          "name": "[Phong Vân] Liệt Phong - Bậc 5",
+          "description": "<color=yellow>Cấp bậc: (bậc 5)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "104",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "d5884389c3df388e4c54a537975e57645478ea643be7e68922e08594b6f4f83a",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:44",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:45",
+          "name": "[Phong Vân] Liệt Phong - Bậc 6",
+          "description": "<color=yellow>Cấp bậc: (bậc 6)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "105",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "ed47587005ad59a40f17903f0803ce7bd7eea8fb929d9b9a72565a48a9b1df4d",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:45",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Luyện Ngục Khải Thú",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:78",
+          "name": "[Ma Thú]Luyện Ngục Khải Thú",
+          "description": "[Ma Thú]Luyện Ngục Khải Thú - chưa nâng cấp",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "138",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "6bfebb66e763fa78e068cd1a695cc866abb61a76adcd89c952665a922d6e0da6",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:78",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:79",
+          "name": "[Ma Thú] Luyện Ngục Khải Thú - Bậc 1",
+          "description": "<color=yellow>Cấp bậc: (bậc 1)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "139",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "f0312c436e34f4650cb4ed445820b341759dde13b2fa2438585ffe5e04d0a350",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:79",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:80",
+          "name": "[Ma Thú] Luyện Ngục Khải Thú - Bậc 2",
+          "description": "<color=yellow>Cấp bậc: (bậc 2)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "140",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "ebf1d6f49a0aabda939fc99d077becd9a77e336c7e02b673df0cb62b9d0825f7",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:80",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:81",
+          "name": "[Ma Thú] Luyện Ngục Khải Thú - Bậc 3",
+          "description": "<color=yellow>Cấp bậc: (bậc 3)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "141",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "53008ca07296afe863be9055c99016d9efa4eae0935f86d051d2fdc4e7774bed",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:81",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:82",
+          "name": "[Ma Thú] Luyện Ngục Khải Thú - Bậc 4",
+          "description": "<color=yellow>Cấp bậc: (bậc 4)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "142",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "82818463509d67cbbd3ebfffc1acab2a8454d7e5d1e73d8339248d76154e9cc3",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:82",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:83",
+          "name": "[Ma Thú] Luyện Ngục Khải Thú - Bậc 5",
+          "description": "<color=yellow>Cấp bậc: (bậc 5)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "143",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "8bb557ec9cfb647217a79015960a07bbaddb1c7a2572d13b39524a7dcf5c4042",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:83",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:84",
+          "name": "[Ma Thú] Luyện Ngục Khải Thú - Bậc 6",
+          "description": "<color=yellow>Cấp bậc: (bậc 6)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "144",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "f7a21227d04291e7c447fc5743f67aaec4644948cd807e0cdf855fa9488d2c19",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:84",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:85",
+          "name": "[Ma Thú] Luyện Ngục Khải Thú - Bậc 7",
+          "description": "<color=yellow>Cấp bậc: (bậc 7)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "145",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "4ecc226f58774db9e1ca7cb72bc2d0f3902306266966a3d4207ab7c0f77cee78",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:85",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:86",
+          "name": "[Ma Thú] Luyện Ngục Khải Thú - Bậc 8",
+          "description": "<color=yellow>Cấp bậc: (bậc 8)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "146",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "986db87ed61fbe709d23aef58eea1ae32afbb5c958b5ee5bf434ec9b4e34f64f",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:86",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:87",
+          "name": "[Ma Thú] Luyện Ngục Khải Thú - Bậc 9",
+          "description": "<color=yellow>Cấp bậc: (bậc 9)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "147",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "f64dcafd2d8c9d1d3a964863f53776161ba1aad70b7fe7475673fa4686287224",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:87",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:88",
+          "name": "[Ma Thú] Luyện Ngục Khải Thú - Bậc 10",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "148",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "dd79e11040fc58eeb36fcb7026797d3c0322b2a654bd836fbff366bb132b2dee",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:88",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Mị Vũ Thiên Hương",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:2",
+          "name": "[Tân Thủ] Mị Vũ Thiên Hương",
+          "description": "Thú cưỡi hiệp lữ, phẩm chất tốt hợp với dáng của chủ nhân, thể hiện thân phận cao quý.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "62",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "84239613b5eb64f0b8daae42ca2084e4c3ae09b440a469e4f09b20cf24044560",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:2",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:3",
+          "name": "[Thú Cưỡi] Mị Vũ Thiên Hương- Cấp 1",
+          "description": "Thú cưới do Tây Hải Long Vương Tam Thái Tử Hóa Thân Thành",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "63",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "6d3b1e08ce70f2f1cf8c7f93db83b7076065b536405be89d146c520806e9f01e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:3",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:4",
+          "name": "[Thú Cưỡi] Mị Vũ Thiên Hương- Cấp 2",
+          "description": "Thú cưới do Tây Hải Long Vương Tam Thái Tử Hóa Thân Thành",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "64",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "9e45d37cc82953f61957f0204cee1f53964dcf2603c4a0efca72f3ffd2ac1ca3",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:4",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:5",
+          "name": "[Thú Cưỡi] Mị Vũ Thiên Hương- Cấp 3",
+          "description": "Thú cưới do Tây Hải Long Vương Tam Thái Tử Hóa Thân Thành",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "65",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "1ba8e8983816035054094899baa2ecb8b3724a8b1a0664330ea81d01a02880b0",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:5",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:6",
+          "name": "[Thú Cưỡi] Mị Vũ Thiên Hương- Cấp 4",
+          "description": "Thú cưới do Tây Hải Long Vương Tam Thái Tử Hóa Thân Thành",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "66",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "3beed0bed3a2c54612ea1629480290a8facfa48f424bc2baccd4d24dfe6bdd70",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:6",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:7",
+          "name": "[Thú Cưỡi] Mị Vũ Thiên Hương- Cấp 5",
+          "description": "Thú cưới do Tây Hải Long Vương Tam Thái Tử Hóa Thân Thành",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "67",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "18300664c4e12c07389b1018cf0420a5ef58bd8076520c86fc4ec0e2be26cb7a",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:7",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:8",
+          "name": "[Thú Cưỡi] Mị Vũ Thiên Hương- Cấp 6",
+          "description": "Thú cưới do Tây Hải Long Vương Tam Thái Tử Hóa Thân Thành",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "68",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "b5cd5b3ec82f490d78582fa5ff5cf108ceaea50354d83c025a93a3aff8087659",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:8",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Thiết Kỵ",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:27",
+          "name": "[Phong Vân] Thiết Kỵ - Cấp 1",
+          "description": "Kim Tượng, vật cưỡi của Văn Thù Bồ Tát,có thể nuốt rất nhiều người.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "87",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "0f89f30ce4b1de487e69ec6e122659c669da3f29ce587dc09a54ad7447dfe5be",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:27",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:28",
+          "name": "[Phong Vân] Thiết Kỵ - Cấp 2",
+          "description": "Kim Tượng, vật cưỡi của Văn Thù Bồ Tát,có thể nuốt rất nhiều người.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "88",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "7d7f4b385cb138cbee6ac69a554e8f936a046fe72ed6251f14bda8c470b9145b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:28",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:29",
+          "name": "[Phong Vân] Thiết Kỵ - Cấp 3",
+          "description": "Kim Tượng, vật cưỡi của Văn Thù Bồ Tát,có thể nuốt rất nhiều người.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "89",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "b1ba0efc66fd62481326be2fc7ddf809043d00d315103547fab8badc564c32ed",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:29",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:30",
+          "name": "[Phong Vân] Thiết Kỵ - Cấp 4",
+          "description": "Kim Tượng, vật cưỡi của Văn Thù Bồ Tát,có thể nuốt rất nhiều người.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "90",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "7d46443b56385205a123804cef97c023058c3ef59d250a4270a61e5458656bd8",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:30",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:31",
+          "name": "[Phong Vân] Thiết Kỵ - Cấp 5",
+          "description": "Kim Tượng, vật cưỡi của Văn Thù Bồ Tát,có thể nuốt rất nhiều người.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "91",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "050309c7a672784a7d65dedc5c8b2e8b8b652552ce896cc4f233f95e8f8fe413",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:31",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:32",
+          "name": "[Phong Vân] Thiết Kỵ - Cấp 6",
+          "description": "Kim Tượng, vật cưỡi của Văn Thù Bồ Tát,có thể nuốt rất nhiều người.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "92",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "7a5d010f61eaef75399c74ddde55b4f8e71a7a052b2b972f869d898dafcbdcf7",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:32",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Thiết Mã Cuồn Chiến",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:15",
+          "name": "[Phong Vân] Thiết Mã Cuồng Chiến- Cấp 1",
+          "description": "Săn lùng kho báu đang ráo riết lùng sục những dấu vết có thể dẫn đến nơi chôn \"Hồn Hổ phách\", thú cưỡi nổi tiếng và giá trị cực cao.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "75",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "7bccfe572b3355006b76ed6875fe37ac28c5b05bc87055ba87afcb74974c86ab",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:15",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:16",
+          "name": "[Phong Vân] Thiết Mã Cuồng Chiến- Cấp 2",
+          "description": "Săn lùng kho báu đang ráo riết lùng sục những dấu vết có thể dẫn đến nơi chôn \"Hồn Hổ phách\", thú cưỡi nổi tiếng và giá trị cực cao.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "76",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "0cfdbf9028022e8777e1d54782e0f3a048f6bdb6608f69b5c0006bf4d6a16465",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:16",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:17",
+          "name": "[Phong Vân] Thiết Mã Cuồng Chiến- Cấp 3",
+          "description": "Săn lùng kho báu đang ráo riết lùng sục những dấu vết có thể dẫn đến nơi chôn \"Hồn Hổ phách\", thú cưỡi nổi tiếng và giá trị cực cao.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "77",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "0b72f4932069f673f9e3409fe580085a3aa4a1b0dde34d297edc8ff494d6ef84",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:17",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:18",
+          "name": "[Phong Vân] Thiết Mã Cuồng Chiến- Cấp 4",
+          "description": "Săn lùng kho báu đang ráo riết lùng sục những dấu vết có thể dẫn đến nơi chôn \"Hồn Hổ phách\", thú cưỡi nổi tiếng và giá trị cực cao.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "78",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "ccf46d991daa4123669a6b7f71c4a81a4dcf8096985dbc3ca934454224ad6e10",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:18",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:19",
+          "name": "[Phong Vân] Thiết Mã Cuồng Chiến- Cấp 5",
+          "description": "Săn lùng kho báu đang ráo riết lùng sục những dấu vết có thể dẫn đến nơi chôn \"Hồn Hổ phách\", thú cưỡi nổi tiếng và giá trị cực cao.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "79",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "ef512338bb88cc7805435b6b3fcd9e6feb1f235332c4e551de963e3c49c2c44f",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:19",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:20",
+          "name": "[Phong Vân] Thiết Mã Cuồng Chiến- Cấp 6",
+          "description": "Săn lùng kho báu đang ráo riết lùng sục những dấu vết có thể dẫn đến nơi chôn \"Hồn Hổ phách\", thú cưỡi nổi tiếng và giá trị cực cao.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "80",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "90186cbccc62da6cfa26791e10f260919af6c00887e850599443d232bf8ca140",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:20",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Thú Cưỡi Hoàng Thành Chủ",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:125",
+          "name": "[Thượng Cổ] Tái Thái Tuế ",
+          "description": "Lông tu dài mọc khắp cơ thể.<enter>Mắt sắc như dao, cầm chày diệt ma.<enter><color=gold>Thú cưỡi Hoàng Thành Chủ.<color>",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "185",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "2eff42594c63a8cee5dcc62cb1cb1e0000ecbfabb0922aba46e0f39973a671c8",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:125",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Thần Long Ly Ảnh",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:100",
+          "name": "[Tiên Thú] Thần Long Ly Ảnh",
+          "description": "[Thánh Thú]Kim Thần Long - chưa nâng cấp",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "160",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "246f3b51a8a9014506d555a1871ba153e04f6f791fcad9750ef0c992bd8c3f12",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:100",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:101",
+          "name": "[Tiên Thú] Thần Long Ly Ảnh - Bậc 1",
+          "description": "<color=yellow>Cấp bậc: (bậc 1)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "161",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "b6a6ed98e094244083d30957ba070aa421bbe84e0c7bda9d72347d5cf9a2ce13",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:101",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:102",
+          "name": "[Tiên Thú] Thần Long Ly Ảnh - Bậc 2",
+          "description": "<color=yellow>Cấp bậc: (bậc 2)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "162",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "24f185d3bf113c8d80f416210a8218ba4370147bbef52c2d97704e10697133ea",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:102",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:103",
+          "name": "[Tiên Thú] Thần Long Ly Ảnh - Bậc 3",
+          "description": "<color=yellow>Cấp bậc: (bậc 3)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "163",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "6ee80064a8b7d1ae2037afaf7d59ddc231377be40488fbb30032c399ba3ba0cd",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:103",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:104",
+          "name": "[Tiên Thú] Thần Long Ly Ảnh - Bậc 4",
+          "description": "<color=yellow>Cấp bậc: (bậc 4)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "164",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "ff14148f508a648d0f91cf3318e36f131982747df3d709e76e44c1970674900a",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:104",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:105",
+          "name": "[Tiên Thú] Thần Long Ly Ảnh - Bậc 5",
+          "description": "<color=yellow>Cấp bậc: (bậc 5)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "165",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "722abc65f11a84921f79a5fed21b468f5eaa0f98f0ecf760e0a5ee6025dc8fdd",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:105",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:106",
+          "name": "[Tiên Thú] Thần Long Ly Ảnh - Bậc 6",
+          "description": "<color=yellow>Cấp bậc: (bậc 6)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "166",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "ca8f40eaeb13b355a87ddfcf5d3de15ae6fe900992682fd4890fd0a3cab179cb",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:106",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:107",
+          "name": "[Tiên Thú] Thần Long Ly Ảnh - Bậc 7",
+          "description": "<color=yellow>Cấp bậc: (bậc 7)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "167",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "9e8558da2e63afbf22653bfd6884a96f71df0c422e56514023d2f8d04167a3e9",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:107",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:108",
+          "name": "[Tiên Thú] Thần Long Ly Ảnh - Bậc 8",
+          "description": "<color=yellow>Cấp bậc: (bậc 8)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "168",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "076dc22249837ed04ecfe38a57189e136e79c18249da0108bad0847478b4ec44",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:108",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:109",
+          "name": "[Tiên Thú] Thần Long Ly Ảnh - Bậc 9",
+          "description": "<color=yellow>Cấp bậc: (bậc 9)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "169",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "b1d326bd3176e075e8be9c7746411d7afdaf64b26fad2ba061ba98176edd234b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:109",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:110",
+          "name": "[Tiên Thú] Thần Long Ly Ảnh - Bậc 10",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "170",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "278ac2397fd8e01c3d0d6a6495b6fcbf4c584034a318876f7acb26bb6c4d6725",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:110",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Tuyết Vũ Thiên Hương",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:10",
+          "name": "[Thú Cưỡi] Tuyết Vũ Thiên Hương - Cấp 2",
+          "description": "Thú cưỡi hiệp lữ-Bạch Hổ, phẩm chất tốt hợp với dáng của chủ nhân, thể hiện thân phận cao quý.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "70",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "830d9130987bdd62baf444eed445d30523191ac39d22901539ef26ef1ef2fc4d",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:10",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:11",
+          "name": "[Thú Cưỡi] Tuyết Vũ Thiên Hương - Cấp 3",
+          "description": "Thú cưỡi hiệp lữ-Bạch Hổ, phẩm chất tốt hợp với dáng của chủ nhân, thể hiện thân phận cao quý.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "71",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "e335c6531447fccd69ab871c4c4ea8735077e5df98abf613568f2dad07f68671",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:11",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:12",
+          "name": "[Thú Cưỡi] Tuyết Vũ Thiên Hương - Cấp 4",
+          "description": "Thú cưỡi hiệp lữ-Bạch Hổ, phẩm chất tốt hợp với dáng của chủ nhân, thể hiện thân phận cao quý.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "72",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "1950f19cfc21a981a73353df051ea8201c79a3f3a1130af05d660a65b762a55b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:12",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:13",
+          "name": "[Thú Cưỡi] Tuyết Vũ Thiên Hương - Cấp 5",
+          "description": "Thú cưỡi hiệp lữ-Bạch Hổ, phẩm chất tốt hợp với dáng của chủ nhân, thể hiện thân phận cao quý.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "73",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "35cb1fce6477569b583b24aaff0caefbd23d9b6139be9066959f359ccc1c390b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:13",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:14",
+          "name": "[Thú Cưỡi] Tuyết Vũ Thiên Hương - Cấp 6",
+          "description": "Thú cưỡi hiệp lữ-Bạch Hổ, phẩm chất tốt hợp với dáng của chủ nhân, thể hiện thân phận cao quý.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "74",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "3ae064b07d07eb773a89dedf18ac8b5ccb899b5cabfe3458b2e571841b6db503",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:14",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:9",
+          "name": "[Thú Cưỡi] Tuyết Vũ Thiên Hương - Cấp 1",
+          "description": "Hàn phong trưởng mạc mạc, ngọ hậu chính tứ phương <enter>Tuyết Hồn thích ly thương, ngạo tuyết độc phi dương.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "69",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "1ddfcd6d0ddb47078be670ec04643e3a5510ae48ec84768cc1fbb008d6b93c00",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:9",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Tuyệt Thế Nai Sừng Tấm",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:155",
+          "name": "Tuyệt Thế Nai Sừng Tấm (Cấp 40)",
+          "description": "Không thể nắm bắt, cũng không vĩnh hằng, nhưng lại khiến người ta mê hoặc.",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "1373",
+            "Level": "5"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "92f40a5a42634424773f66047f20cec269ab921ff884eadf175360ef4cf5eb69",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:155",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Tự Quỳ",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:67",
+          "name": "[Thần Thú] Tự Quỳ ",
+          "description": "[Thần Thú]Vong Linh Thú - chưa nâng cấp",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "127",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "1dff6b9c164a18617bc7168238accf96e45429f410739618c8cc57bfcdf98ee5",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:67",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:68",
+          "name": "[Thần Thú] Tự Quỳ  - Bậc 1",
+          "description": "<color=yellow>Cấp bậc: (bậc 1)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "128",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "e913315da5ab82136f4b8150c00914998bcfbb4f1399072e684ecbdf5df596fe",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:68",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:69",
+          "name": "[Thần Thú] Tự Quỳ  - Bậc 2",
+          "description": "<color=yellow>Cấp bậc: (bậc 2)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "129",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "c7656d2ad4a929e3f69d08da8b30d62c48a9562f8c8676ecc8a23f653f341407",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:69",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:70",
+          "name": "[Thần Thú] Tự Quỳ  - Bậc 3",
+          "description": "<color=yellow>Cấp bậc: (bậc 3)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "130",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "900ee7d811331a5c4a3fa1d9426eb5b1e476d19007344dd5774c7c272a26ac6b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:70",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:71",
+          "name": "[Thần Thú] Tự Quỳ  - Bậc 4",
+          "description": "<color=yellow>Cấp bậc: (bậc 4)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "131",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "d1620b34b558e03ea411871d8b6e7599f00bc7bce75c39db7b76684790ae3cd4",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:71",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:72",
+          "name": "[Thần Thú] Tự Quỳ  - Bậc 5",
+          "description": "<color=yellow>Cấp bậc: (bậc 5)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "132",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "3e30e6e5ebc8f0aad07fb88dc75c2bb0ad56b4668d45149c27bd55b67c6eb83a",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:72",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:73",
+          "name": "[Thần Thú] Tự Quỳ  - Bậc 6",
+          "description": "<color=yellow>Cấp bậc: (bậc 6)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "133",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "91613ea6a4f37486010c0d0438fe2a87f24ca98cf5f37b76567f3260f95dbd62",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:73",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:74",
+          "name": "[Thần Thú] Tự Quỳ  - Bậc 7",
+          "description": "<color=yellow>Cấp bậc: (bậc 7)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "134",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "ba288af63c8567ea4f9d14e95e758d35e5db5092f9ebc6ee856b22f8e7bcb792",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:74",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:75",
+          "name": "[Thần Thú] Tự Quỳ  - Bậc 8",
+          "description": "<color=yellow>Cấp bậc: (bậc 8)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "135",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "fbea5ec90c367f9330c431f1c6eb0d787ad08b7b65d99cc2d1d9f05b8c74c10e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:75",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:76",
+          "name": "[Thần Thú] Tự Quỳ  - Bậc 9",
+          "description": "<color=yellow>Cấp bậc: (bậc 9)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "136",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "ef4212aa17ba3aa886cf7f5c4c75d173face9b5036109816bf51c051ddb9ee4e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:76",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:77",
+          "name": "[Thần Thú] Tự Quỳ  - Bậc 10",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "137",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "b2cd9ffd67dfcc0ed7d492c78cba77dbb5e7a9857bdb3eed754aab0e31da6875",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:77",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Vô Ngã Tọa Thiên",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:134",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "190",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "1841a10eaed5bb4dc799400057acc618fe06571d372e7554446a73764b04bc8f",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:134",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:135",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 1",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "191",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "eae7ef3ca5779646a456752ffdb136ee91805d08abe2a3cce9ad08323567a2d1",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:135",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:136",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 2",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "192",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "9064ddd1a16eef2d5cb96bb7811297e04336e5d2f6269142d95d926f7ef50470",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:136",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:137",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 3",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "193",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "0948f967297b8aa7d8d648c49a6fca47bfeea036d9582f601aab6bad502f712a",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:137",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:138",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 4",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "194",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "56c765ddf80bcda81d202fa78de6ab13f49f82d6950640eb8720b1804a1c39b8",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:138",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:139",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 5",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "195",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "5659b587913b804abe4036d43014b40564bffaf5fdf92aadb204b4bec14120c5",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:139",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:140",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 6",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "196",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "0b35c3d8cd6e9d054d2a67db04eff2b852777bc61fc1bea68f049df06236ab1b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:140",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:141",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 7",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "197",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "b507c29784269ddf5d7e6a11faaed20553067e873c03403d7d71fac2750aca53",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:141",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:142",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 8",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "198",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "db9f36ad06565df78b8a2f9e42f8c13c8012e3c9988deab951124fcebca5f5fe",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:142",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:143",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 9",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "199",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "3291aeeb34b3854818f97989bcf1341332dbb4d9a3a910d45b4bfba4a9873d4f",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:143",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:144",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 10",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "200",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "4eb9d58ea7fe2c83e91a461bcf72427900978915353e9744bc8260873725d91e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:144",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:145",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 11",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "201",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "c004405ae90ca809f265ac5689953f48149a409743e84ec2204285218d0cd51d",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:145",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:146",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 12",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "202",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "cad7696fa819ffd31c23ebbc81034a37c8fd2b14b1957681e796334d70785ea4",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:146",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:147",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 13",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "203",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "11a50d71bf7e852bc4ae7e28d02c3de51eb98b366417b9945c6096a0e00156b8",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:147",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:148",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 14",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "204",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "da9dc3eb8735286d0ace21814eda67259f54d9dcffb364752d2cd75d94611e12",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:148",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:149",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 15",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "205",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "d06b5f7e60abb66233f41259728d91903e4ddddf773b8fbaeb5b17774e7c3478",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:149",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:150",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 16",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "206",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "c9b3808fd0d3ec029aca88c465f645070a3598751d380719e649524bf25acc73",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:150",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:151",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 17",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "207",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "7556cd1d2ef32f327fa1b2919fe1efdbce8068980978999ca6818297dc44dc7d",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:151",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:152",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 18",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "208",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "85d62dc735682fcd7aa8c1945a2a95994c29a58a9cb700fa095d3a9651629ecb",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:152",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:153",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 19",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "209",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "73d4aef792d6638350ac991cf116d0ebfb2368d75b453f702e93d63724a4bb4b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:153",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "record_key": "item:equip/general/horse.txt:line:154",
+          "name": "[Thiên Thú] Hồng Thiên Tọa Kỳ Lân - Bậc 20",
+          "description": "<color=yellow>Cấp bậc: (bậc 10)",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "210",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "6726ca36e2ef3c6fbd4a21b4bb0f0e49e89ee8cdd513cd632287a4ab2bf44c20",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:154",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "[Thần Thú]Vong Linh Thú",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:126",
+          "name": "[Thần Thú] Vong Linh Thú - Thú Cưỡi Tân Thủ",
+          "description": "[Thần Thú] Vong Linh Thú - Thú Cưỡi Tân Thủ không thể nâng cấp",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "188",
+            "Level": "10"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "585d644b3c52da04f6a8deb74bfef6868773d8af8da3433edb2144aeca33bb3f",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:126",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Ánh Trăng Thanh Sương",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:131",
+          "name": "[Tân Thủ] Ánh Trăng Thanh Sương",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "691",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "3d271fe909df177d078d33dc54a8e869b1ad30d832aa898deee06f9340f4ff25",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:131",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_family": "Địa Vương Ngục Kỳ",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_species_status": "UNKNOWN",
+      "narrative_ability_status": "UNKNOWN",
+      "wuxia_fit_status": "REQUIRES_ADAPTATION_REVIEW",
+      "variants": [
+        {
+          "record_key": "item:equip/general/horse.txt:line:133",
+          "name": "[Tân Thủ] Địa Vương Ngục Kỳ",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "12",
+            "ParticularType": "693",
+            "Level": "4"
+          },
+          "family": "equip/general/horse.txt",
+          "class_name": "horse",
+          "source_row_sha256": "a541ee8439f69acb9cefdab65b76478f850b445fd42c1faf2cdf6a91920b97d2",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/horse.txt",
+              "sha256": "64225bb3d389ba6f17f9f585324edd3f85ea98f143d5abe7259bd65276482123",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:133",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mantles": [
+    {
+      "record_key": "item:equip/general/mantle.txt:line:2",
+      "name": "Phi Phong Siêu Phàm Hi Ký",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "17",
+        "ParticularType": "1",
+        "Level": "1"
+      },
+      "family": "equip/general/mantle.txt",
+      "class_name": "mantle",
+      "source_row_sha256": "ce6663b1f5fab802b689c6474cf75c330c760f630a3af3519409e0d1e727baee",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/mantle.txt",
+          "sha256": "70f9e57006b1bbbef1075c77ea0fefd3b2bf4e7fc97dc6f289c06f9e45607c40",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:2",
+          "notes": ""
+        }
+      ],
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "reputation_or_rank_meaning_status": "GAMEPLAY_CATALOG_ONLY",
+      "narrative_importance_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/mantle.txt:line:3",
+      "name": "Phi Phong Xuất Trần Kinh Hồng",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "17",
+        "ParticularType": "1",
+        "Level": "2"
+      },
+      "family": "equip/general/mantle.txt",
+      "class_name": "mantle",
+      "source_row_sha256": "56df5a6ff3e114a493a015f6f2a4255d0d228b936e7af93b5f320967f284d761",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/mantle.txt",
+          "sha256": "70f9e57006b1bbbef1075c77ea0fefd3b2bf4e7fc97dc6f289c06f9e45607c40",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:3",
+          "notes": ""
+        }
+      ],
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "reputation_or_rank_meaning_status": "GAMEPLAY_CATALOG_ONLY",
+      "narrative_importance_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/mantle.txt:line:4",
+      "name": "Phi Phong Lăng Tuyệt Vụ Ảnh",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "17",
+        "ParticularType": "1",
+        "Level": "3"
+      },
+      "family": "equip/general/mantle.txt",
+      "class_name": "mantle",
+      "source_row_sha256": "c554975a9044953bff3f9deda03a5cc31d84986014c9adfe156576f73c69cf7d",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/mantle.txt",
+          "sha256": "70f9e57006b1bbbef1075c77ea0fefd3b2bf4e7fc97dc6f289c06f9e45607c40",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:4",
+          "notes": ""
+        }
+      ],
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "reputation_or_rank_meaning_status": "GAMEPLAY_CATALOG_ONLY",
+      "narrative_importance_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/mantle.txt:line:5",
+      "name": "Phi Phong Kinh Thế Độc Vũ",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "17",
+        "ParticularType": "1",
+        "Level": "4"
+      },
+      "family": "equip/general/mantle.txt",
+      "class_name": "mantle",
+      "source_row_sha256": "157c4df3db327b640f21c1f08b8dbec742749e8d0f36c8d5d55089327339831d",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/mantle.txt",
+          "sha256": "70f9e57006b1bbbef1075c77ea0fefd3b2bf4e7fc97dc6f289c06f9e45607c40",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:5",
+          "notes": ""
+        }
+      ],
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "reputation_or_rank_meaning_status": "GAMEPLAY_CATALOG_ONLY",
+      "narrative_importance_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/mantle.txt:line:6",
+      "name": "Phi Phong Ngự Không Phùng Hư",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "17",
+        "ParticularType": "1",
+        "Level": "5"
+      },
+      "family": "equip/general/mantle.txt",
+      "class_name": "mantle",
+      "source_row_sha256": "a819fd86ffb44d92702c90b8d2e1fc8a505f69ebfc0e878a243d270c17929853",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/mantle.txt",
+          "sha256": "70f9e57006b1bbbef1075c77ea0fefd3b2bf4e7fc97dc6f289c06f9e45607c40",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:6",
+          "notes": ""
+        }
+      ],
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "reputation_or_rank_meaning_status": "GAMEPLAY_CATALOG_ONLY",
+      "narrative_importance_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/mantle.txt:line:7",
+      "name": "Phi Phong Hỗn Thiên Trấn Nguyên",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "17",
+        "ParticularType": "1",
+        "Level": "6"
+      },
+      "family": "equip/general/mantle.txt",
+      "class_name": "mantle",
+      "source_row_sha256": "2fc82865ce4e078a19d6b049bbf030b29c19b85ff6091a1a63a9ae0144db7f57",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/mantle.txt",
+          "sha256": "70f9e57006b1bbbef1075c77ea0fefd3b2bf4e7fc97dc6f289c06f9e45607c40",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:7",
+          "notes": ""
+        }
+      ],
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "reputation_or_rank_meaning_status": "GAMEPLAY_CATALOG_ONLY",
+      "narrative_importance_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/mantle.txt:line:8",
+      "name": "Phi Phong Sồ Phượng Linh Vũ",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "17",
+        "ParticularType": "1",
+        "Level": "7"
+      },
+      "family": "equip/general/mantle.txt",
+      "class_name": "mantle",
+      "source_row_sha256": "fb5609f3b5216f5befab33f14db30493a3c8ef60f09d1df2e56397e8de0d36e7",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/mantle.txt",
+          "sha256": "70f9e57006b1bbbef1075c77ea0fefd3b2bf4e7fc97dc6f289c06f9e45607c40",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:8",
+          "notes": ""
+        }
+      ],
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "reputation_or_rank_meaning_status": "GAMEPLAY_CATALOG_ONLY",
+      "narrative_importance_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/mantle.txt:line:9",
+      "name": "Phi Phong Tiềm Long Ngâm Uyên",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "17",
+        "ParticularType": "1",
+        "Level": "8"
+      },
+      "family": "equip/general/mantle.txt",
+      "class_name": "mantle",
+      "source_row_sha256": "364ef0b4ea37d19922bb2579321a9149a7d1166e176b3975c147c5eb712ec7a9",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/mantle.txt",
+          "sha256": "70f9e57006b1bbbef1075c77ea0fefd3b2bf4e7fc97dc6f289c06f9e45607c40",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:9",
+          "notes": ""
+        }
+      ],
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "reputation_or_rank_meaning_status": "GAMEPLAY_CATALOG_ONLY",
+      "narrative_importance_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/mantle.txt:line:10",
+      "name": "Phi Phong Chí Tôn Truyền Thuyết",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "17",
+        "ParticularType": "1",
+        "Level": "9"
+      },
+      "family": "equip/general/mantle.txt",
+      "class_name": "mantle",
+      "source_row_sha256": "0bd81684747d77009f75e6ba6a2f7ffb8a2fdf7f793c1a65c75eb31611737ed5",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/mantle.txt",
+          "sha256": "70f9e57006b1bbbef1075c77ea0fefd3b2bf4e7fc97dc6f289c06f9e45607c40",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:10",
+          "notes": ""
+        }
+      ],
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "reputation_or_rank_meaning_status": "GAMEPLAY_CATALOG_ONLY",
+      "narrative_importance_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/mantle.txt:line:11",
+      "name": "Phi Phong Vô Song Vương Giả",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "17",
+        "ParticularType": "1",
+        "Level": "10"
+      },
+      "family": "equip/general/mantle.txt",
+      "class_name": "mantle",
+      "source_row_sha256": "222ecab079344e9b9d826d0944acc606bfc54c2db2dc0f35791e473a0fa02db8",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/mantle.txt",
+          "sha256": "70f9e57006b1bbbef1075c77ea0fefd3b2bf4e7fc97dc6f289c06f9e45607c40",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:11",
+          "notes": ""
+        }
+      ],
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "reputation_or_rank_meaning_status": "GAMEPLAY_CATALOG_ONLY",
+      "narrative_importance_status": "UNKNOWN"
+    }
+  ]
+}

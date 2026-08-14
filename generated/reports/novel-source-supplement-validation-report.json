@@ -1,0 +1,19 @@
+{
+  "status": "NOVEL_SOURCE_SUPPLEMENT_READY",
+  "checks": {
+    "manifest_parsed": 1,
+    "payload_hashes_checked": 5,
+    "semantic_catalogs_checked": 4
+  },
+  "metrics": {
+    "weapon_candidates": 28,
+    "route_manual_families": 24,
+    "mount_families": 22,
+    "mantle_candidates": 10,
+    "optional_system_candidates": 9,
+    "promoted_story_claims": 0,
+    "payload_files": 5,
+    "total_bytes": 362666
+  },
+  "errors": []
+}

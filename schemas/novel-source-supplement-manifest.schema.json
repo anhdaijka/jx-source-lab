@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jx-source-lab.local/schemas/novel-source-supplement-manifest.schema.json",
+  "title": "Kiếm Thế Novel Source Recognition Supplement Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generator",
+    "handoff_status",
+    "promotion_status",
+    "source_lab_commit",
+    "scope",
+    "counts",
+    "uncertainty",
+    "excluded",
+    "raw_proprietary_payloads_excluded",
+    "one_way_import_contract",
+    "runtime_dependency_on_lab",
+    "files"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "handoff_status": {"const": "NOVEL_SOURCE_SUPPLEMENT_READY"},
+    "promotion_status": {"const": "SOURCE_RECOGNITION_SUPPLEMENT_READY"},
+    "source_lab_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "scope": {"const": "BOUNDED_RECOGNITION_CATALOG_AND_OPTIONAL_SYSTEM_PRESENCE"},
+    "raw_proprietary_payloads_excluded": {"const": true},
+    "one_way_import_contract": {"const": true},
+    "runtime_dependency_on_lab": {"const": false},
+    "counts": {
+      "type": "object",
+      "required": ["weapon_candidates", "route_manual_families", "mount_families", "mantle_candidates", "optional_system_candidates", "promoted_story_claims"]
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256", "bytes"],
+        "properties": {
+          "path": {"type": "string"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "bytes": {"type": "integer", "minimum": 1}
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

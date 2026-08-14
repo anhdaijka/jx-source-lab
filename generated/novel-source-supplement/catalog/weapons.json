@@ -1,0 +1,904 @@
+{
+  "schema_version": "1.0",
+  "status": "SOURCE_RECOGNITION_CANDIDATES",
+  "count": 28,
+  "selection_rule": "For each general weapon catalog group, retain levels 1, 5 and 10; retain the sole soft-sword row. Game levels do not become novel power ranks.",
+  "weapons": [
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:52",
+      "name": "Chiến Chùy",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "6",
+        "Level": "1"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "92c9ed1950846398d822e0825f3aa09950f4362e97d6ad407362990100c74e9a",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:52",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "CHÙY",
+      "catalog_level": 1,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:56",
+      "name": "Tích Lịch Chùy",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "6",
+        "Level": "5"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "afba4d68e5a342868a728608b7b387343c3a727ce7df4194e29e2453c8c05084",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:56",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "CHÙY",
+      "catalog_level": 5,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:61",
+      "name": "Phá Thiên Chùy",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "6",
+        "Level": "10"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "8c2fd235cfaede27f735b05480efa0d6d087c698f50e93789a12814559091028",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:61",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "CHÙY",
+      "catalog_level": 10,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:32",
+      "name": "Trọng Mộc Côn",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "4",
+        "Level": "1"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "41e82282f652c31f4d2fc052db337224b8e6d47d62b8bf5a88814c0d4352f8d7",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:32",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "CÔN",
+      "catalog_level": 1,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:36",
+      "name": "Phân Thủy Côn",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "4",
+        "Level": "5"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "a11c0abafa8c6c1cd29703abaadd06d1b3471751de11ecd7607af874b9110b62",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:36",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "CÔN",
+      "catalog_level": 5,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:41",
+      "name": "Kim Cô Bổng",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "4",
+        "Level": "10"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "e5a34b3680e4a9b77da64a4f1b519a124b6d1797c62cbda4dfb0bde3746d8629",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:41",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "CÔN",
+      "catalog_level": 10,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:12",
+      "name": "Đồng Kiếm",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "2",
+        "Level": "1"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "ff3cfcbe6354d3021fca4a2570aeff29f809287dfa8088696ac75cba9c2fdfa4",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:12",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "KIẾM",
+      "catalog_level": 1,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:16",
+      "name": "Long Tuyền Kiếm",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "2",
+        "Level": "5"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "0dd786848071871bbee90fa33cc78732632cd0d4bd03f68faec1c26c85a63da9",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:16",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "KIẾM",
+      "catalog_level": 5,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:21",
+      "name": "Long Uyên Kiếm",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "2",
+        "Level": "10"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "48ee29a94bac001b0f04d370f9244f336069ccc95f618830bb25c4a69afced76",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:21",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "KIẾM",
+      "catalog_level": 10,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:62",
+      "name": "Nhuyễn Đồng Kiếm",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "7",
+        "Level": "1"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "a8a42173d59083eaf4e3ff07b893d90d393d68b3c682eb695696b46321e33d9f",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:62",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "NHUYỄN_KIẾM",
+      "catalog_level": 1,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/rangeweapon.txt:line:2",
+      "name": "Mai Hoa Tiêu",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "2",
+        "ParticularType": "1",
+        "Level": "1"
+      },
+      "family": "equip/general/rangeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "954fd5b17ea6e9b42a71ad068fac233d8578629905832064bd93b733f0bb414b",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/rangeweapon.txt",
+          "sha256": "def12ae48e894b541c79b99fa0b6df0d9eb09d06d1fc2f0d8074fc3a61044b07",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:2",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "PHI_TIÊU",
+      "catalog_level": 1,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/rangeweapon.txt:line:6",
+      "name": "Đoạn Trường Tiêu",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "2",
+        "ParticularType": "1",
+        "Level": "5"
+      },
+      "family": "equip/general/rangeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "14b0de30dc556e53e468114d94b056d3718e7ebf0feb0fbedbe456d4ecc12516",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/rangeweapon.txt",
+          "sha256": "def12ae48e894b541c79b99fa0b6df0d9eb09d06d1fc2f0d8074fc3a61044b07",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:6",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "PHI_TIÊU",
+      "catalog_level": 5,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/rangeweapon.txt:line:11",
+      "name": "Thiết Nhạc Tiêu",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "2",
+        "ParticularType": "1",
+        "Level": "10"
+      },
+      "family": "equip/general/rangeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "b93c5713b07c869d476242fafaebdd6544bc4c074043838dc5f6fc3b335c6ef8",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/rangeweapon.txt",
+          "sha256": "def12ae48e894b541c79b99fa0b6df0d9eb09d06d1fc2f0d8074fc3a61044b07",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:11",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "PHI_TIÊU",
+      "catalog_level": 10,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/rangeweapon.txt:line:12",
+      "name": "Phi đao",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "2",
+        "ParticularType": "2",
+        "Level": "1"
+      },
+      "family": "equip/general/rangeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "3cff48c32330ed14814d905f51abb5f5ccd9aef3b80e987f284155b63910a33e",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/rangeweapon.txt",
+          "sha256": "def12ae48e894b541c79b99fa0b6df0d9eb09d06d1fc2f0d8074fc3a61044b07",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:12",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "PHI_ĐAO",
+      "catalog_level": 1,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/rangeweapon.txt:line:16",
+      "name": "Định Quân Đao",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "2",
+        "ParticularType": "2",
+        "Level": "5"
+      },
+      "family": "equip/general/rangeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "8015e2e061e1a013c9de95208cd525cf012783e73b117893805f919c4d618619",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/rangeweapon.txt",
+          "sha256": "def12ae48e894b541c79b99fa0b6df0d9eb09d06d1fc2f0d8074fc3a61044b07",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:16",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "PHI_ĐAO",
+      "catalog_level": 5,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/rangeweapon.txt:line:21",
+      "name": "Long Hành Đao",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "2",
+        "ParticularType": "2",
+        "Level": "10"
+      },
+      "family": "equip/general/rangeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "717de84d3dee9f3ec4e6c237142877fc08257272eb91f9c43dd8180efda28cb8",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/rangeweapon.txt",
+          "sha256": "def12ae48e894b541c79b99fa0b6df0d9eb09d06d1fc2f0d8074fc3a61044b07",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:21",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "PHI_ĐAO",
+      "catalog_level": 10,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:42",
+      "name": "Trường Thương",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "5",
+        "Level": "1"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "66b787e32a48fb47a5f2e1b7f8daf88e7cabae7cde76f6bba74861942066a922",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:42",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "THƯƠNG",
+      "catalog_level": 1,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:46",
+      "name": "Kim Câu Thương",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "5",
+        "Level": "5"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "4aeb05d7f066f83de9adbbe0acf9a9cc5c2d42f923849c67d6ab8c9c0c00dc71",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:46",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "THƯƠNG",
+      "catalog_level": 5,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:51",
+      "name": "Phá Thiên Kích",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "5",
+        "Level": "10"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "e01bf350df6cc5c78dc5839ac8b4cbf418686764383de3237518455dc4e12a53",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:51",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "THƯƠNG",
+      "catalog_level": 10,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:2",
+      "name": "Thô Bố Triền Thủ",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "1",
+        "Level": "1"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "c9ef33eedf9c472fa2022a3acf92d3724b4e7e07dbe512079e14a196e262d149",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:2",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "TRIỀN_THỦ",
+      "catalog_level": 1,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:6",
+      "name": "Xuyên Vân Triền Thủ",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "1",
+        "Level": "5"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "c0e004a5fe0bbfc5ffde6a053a8e9026c142758ed18cc1dcbd5855ce2c4dbba5",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:6",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "TRIỀN_THỦ",
+      "catalog_level": 5,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:11",
+      "name": "Thanh Long Triền Thủ",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "1",
+        "Level": "10"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "8c56ae651188658cb0968d8ba25c196d955436cde8b37a9bc63830bd5a014585",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:11",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "TRIỀN_THỦ",
+      "catalog_level": 10,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/rangeweapon.txt:line:22",
+      "name": "Tụ Lí Tiễn",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "2",
+        "ParticularType": "3",
+        "Level": "1"
+      },
+      "family": "equip/general/rangeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "4314eccc6642acbbfbda60ede11ebd6ed078db78fd8eee8f34b125730f6b3952",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/rangeweapon.txt",
+          "sha256": "def12ae48e894b541c79b99fa0b6df0d9eb09d06d1fc2f0d8074fc3a61044b07",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:22",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "TỤ_TIỄN",
+      "catalog_level": 1,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/rangeweapon.txt:line:26",
+      "name": "Liên Châu Tiễn",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "2",
+        "ParticularType": "3",
+        "Level": "5"
+      },
+      "family": "equip/general/rangeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "3cc49c2512c77501210a0c4b2a62cacc416b8d8f561f448725ba9f55e9545fe2",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/rangeweapon.txt",
+          "sha256": "def12ae48e894b541c79b99fa0b6df0d9eb09d06d1fc2f0d8074fc3a61044b07",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:26",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "TỤ_TIỄN",
+      "catalog_level": 5,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/rangeweapon.txt:line:31",
+      "name": "Thiên Ngoại Phi Tiên",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "2",
+        "ParticularType": "3",
+        "Level": "10"
+      },
+      "family": "equip/general/rangeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "a1497d428e49c1a3ed97547d98ea5377d41b7af5875cdb2ba2dec057afe63139",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/rangeweapon.txt",
+          "sha256": "def12ae48e894b541c79b99fa0b6df0d9eb09d06d1fc2f0d8074fc3a61044b07",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:31",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "TỤ_TIỄN",
+      "catalog_level": 10,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:22",
+      "name": "Đơn đao",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "3",
+        "Level": "1"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "9031a6755d24ef006e5c19161245384283971581cadf3b3e03027ace474d6e55",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:22",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "ĐAO",
+      "catalog_level": 1,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:26",
+      "name": "Nguyệt Nha Đao",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "3",
+        "Level": "5"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "2fbe0b1862ca35ad6d931f1d46015dd13890ef60e3575670ebf048bbe7e6ca20",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:26",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "ĐAO",
+      "catalog_level": 5,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    },
+    {
+      "record_key": "item:equip/general/meleeweapon.txt:line:31",
+      "name": "Yển Nguyệt Đao",
+      "description": "",
+      "item_id": {
+        "Genre": "1",
+        "DetailType": "1",
+        "ParticularType": "3",
+        "Level": "10"
+      },
+      "family": "equip/general/meleeweapon.txt",
+      "class_name": "equip",
+      "source_row_sha256": "7ea51817c963c916cb90aa9fddf550c585e024655fe1c05807e98ccf2d4e9f9e",
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/equip/general/meleeweapon.txt",
+          "sha256": "662662437924f45413f2d8097d7fd1c233a945539aa4d2055dcb6f0b672930fe",
+          "edition": null,
+          "encoding": "utf-8-sig",
+          "locator": "line:31",
+          "notes": ""
+        }
+      ],
+      "catalog_group": "ĐAO",
+      "catalog_level": 10,
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "narrative_importance_status": "UNKNOWN",
+      "ownership_status": "UNKNOWN",
+      "special_property_status": "UNKNOWN"
+    }
+  ]
+}

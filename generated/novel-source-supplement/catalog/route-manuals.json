@@ -1,0 +1,3464 @@
+{
+  "schema_version": "1.0",
+  "status": "SOURCE_RECOGNITION_CANDIDATES",
+  "count": 24,
+  "selection_rule": "Group every exact 'Mật tịch <route> (<stage>)' catalog record by the 24 source route names.",
+  "manual_families": [
+    {
+      "route_name": "Chiến Nhẫn",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:112",
+          "name": "Mật tịch Chiến Nhẫn (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "63",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "a34c4de83c2b9725b6b977f29d7a51c9213dbe25dbc31ba3f8841b71bf0cb5f1",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:112",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:16",
+          "name": "Mật tịch Chiến Nhẫn (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "15",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "d919e3663fde735964dc2e048babb2aaa386e819c855ab4bdc79dd333e04e43f",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:16",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:40",
+          "name": "Mật tịch Chiến Nhẫn (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "15",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "72fcd0dc7b7ab1b3e692859f7d7c72123548ad705d096526d2dcbbda20019be7",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:40",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:64",
+          "name": "Mật tịch Chiến Nhẫn (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "15",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "729140aeb2e72f55fac090375f75b5bd7929deed5c99827abdf56bc6570d721e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:64",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:88",
+          "name": "Mật tịch Chiến Nhẫn (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "39",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "3cf27402a21790e2389e8eb8882b0289f4f52ae99da6ae77fdef230deb4316cb",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:88",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Chùy Minh Giáo",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:118",
+          "name": "Mật tịch Chùy Minh Giáo (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "69",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "6e196a95a33b321c456e81ce0f40f1b6795ce3cd9e47c8f1408d7fd0a140ddaa",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:118",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:22",
+          "name": "Mật tịch Chùy Minh Giáo (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "21",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "a204001c5610e678305e5660c6853d9fc7469e20154bbbee6fa11f0794f8b84e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:22",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:46",
+          "name": "Mật tịch Chùy Minh Giáo (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "21",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "3e4986a332baacc528d6423cf1464bb1963f62edb40de5052565df01fb1508cf",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:46",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:70",
+          "name": "Mật tịch Chùy Minh Giáo (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "21",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "b5212e50cdb5a90e701e547602f4dd2e6d60bc1f4e5b459c7641f1e467c8eae6",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:70",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:94",
+          "name": "Mật tịch Chùy Minh Giáo (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "45",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "7a9d3c226d7c19e6bc64bb85e23d30dc1da4c2761ef2345507b76625ddeb4327",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:94",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Chùy Thiên Vương",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:101",
+          "name": "Mật tịch Chùy Thiên Vương (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "52",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "460092e78db6ab1eb20111f378ec92501012a31eaacdaf752ec2f09123eab039",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:101",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:29",
+          "name": "Mật tịch Chùy Thiên Vương (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "4",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "aac5756c300925c0ee6ba7d99f0ed92a4709153e9306895d62ed1bafa27f5309",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:29",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:5",
+          "name": "Mật tịch Chùy Thiên Vương (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "4",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "9236a384dbf701cc5c1e3951944e4d9d9e9d4e457d5ca6b5e545c2eef57cf4a1",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:5",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:53",
+          "name": "Mật tịch Chùy Thiên Vương (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "4",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "783b71bb987198d3fae63f82c3d460f9759619bbbf4c70b06719d8be4205f3f3",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:53",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:77",
+          "name": "Mật tịch Chùy Thiên Vương (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "28",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "c647f7fde0fcac102f4c4feddf1f7ff2c2cdb751aaa9ba2a086209e6c34c0eba",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:77",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Chưởng Cái Bang",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:110",
+          "name": "Mật tịch Chưởng Cái Bang (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "61",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "691ff6f718fee1b6fa452bf585eeebacf3ca844b521ad1a62be545abb02bd29c",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:110",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:14",
+          "name": "Mật tịch Chưởng Cái Bang (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "13",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "8509f568a14e0460e293aab713140b705ba8fb4c9841daeea54629c445c2647b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:14",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:38",
+          "name": "Mật tịch Chưởng Cái Bang (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "13",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "cab2f5ed51fbff1b8426faf31da0b89c99d16afa37f06c24e459233fe5cecbab",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:38",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:62",
+          "name": "Mật tịch Chưởng Cái Bang (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "13",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "774dce66944e577905e51929af105cddfe646b797762938cc83d1141c41ced5a",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:62",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:86",
+          "name": "Mật tịch Chưởng Cái Bang (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "37",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "5c189817993b69c02c09246321a6eaab1e0b8035c54a731419684567d19b0adc",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:86",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Chưởng Nga My",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:10",
+          "name": "Mật tịch Chưởng Nga My (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "9",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "6a802417f9558c2568d09e6d3ea6c7ed6ca61174d1089fc7a0739cf12320f440",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:10",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:106",
+          "name": "Mật tịch Chưởng Nga My (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "57",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "701fa70692ddf40871895f62539ee576c844ebd67f1e5f896396c3c6a7ab877b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:106",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:34",
+          "name": "Mật tịch Chưởng Nga My (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "9",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "486bbc36f6250f1b5652e731475993437cb48f99a3047afb7f8acf70b059adab",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:34",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:58",
+          "name": "Mật tịch Chưởng Nga My (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "9",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "db0c4b4303524b6c4c5e7b12026f7a811b45d98ae71a897edb98bfe4d9633a5b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:58",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:82",
+          "name": "Mật tịch Chưởng Nga My (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "33",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "1b8e9e0470e68cd3b79f1c93b67aaceacdc0dd5c06839b131a8a10ff8f8250c4",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:82",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Chưởng Ngũ Độc",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:105",
+          "name": "Mật tịch Chưởng Ngũ Độc (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "56",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "1fc9897954f6e381714a0d64cec53ec4d996b807d942f96b4b6efbc0ff37f9ba",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:105",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:33",
+          "name": "Mật tịch Chưởng Ngũ Độc (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "8",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "4cc243dc2ad25028dbb04c01c43d0239602dcc669cf82d17772a578e225a0702",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:33",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:57",
+          "name": "Mật tịch Chưởng Ngũ Độc (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "8",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "1d45bcf69cbf057432c41e9f8d74971933e1c55a5d60ecbf0b5ccf56b7b695d7",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:57",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:81",
+          "name": "Mật tịch Chưởng Ngũ Độc (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "32",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "bb60257b40238be63c08227c6decb769960aa3f54b89a2434fadb167a65039ec",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:81",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:9",
+          "name": "Mật tịch Chưởng Ngũ Độc (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "8",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "ff2887b0ab237f6d0c5b5fec6680d929d021acc6db18ca0caf498ec145cd7e62",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:9",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        }
+      ]
+    },
+    {
+      "route_name": "Chỉ Đoàn Thị",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:120",
+          "name": "Mật tịch Chỉ Đoàn Thị (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "71",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "08a2c8b602910d23d8e056c641eeb2f854f3abd81e3ab6dfa8cdf6b2c1d9a226",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:120",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:24",
+          "name": "Mật tịch Chỉ Đoàn Thị (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "23",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "a7af2fc7d0b48ff491fc3f8681bc0c946f5740a09d1aa8927e647aa607e9c16e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:24",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:48",
+          "name": "Mật tịch Chỉ Đoàn Thị (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "23",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "75c472f510480e195128755422af96f4308be68f7c38ff9dd8b0b7b105798cf6",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:48",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:72",
+          "name": "Mật tịch Chỉ Đoàn Thị (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "23",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "3942be86ee07dd795e426cfa9878787cc3176f748acf27e3f71b93ded49305c6",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:72",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:96",
+          "name": "Mật tịch Chỉ Đoàn Thị (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "47",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "61277c92fbf6b631657976056c88d841dead802882d660c03f169eb665959e01",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:96",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Côn Cái Bang",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:111",
+          "name": "Mật tịch Côn Cái Bang (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "62",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "899299e5e99b2a0e13ea8394ea3e13b0d5a6d1272965a3d065152a6a81dc9df8",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:111",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:15",
+          "name": "Mật tịch Côn Cái Bang (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "14",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "180544fd9ecb50bcbff2d960f4519b644857499c9ada27978b4a4d23f55ff09f",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:15",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:39",
+          "name": "Mật tịch Côn Cái Bang (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "14",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "6fd2ccb43227e07ecefeb805747657b66bce3b57f95ace723755f7bc05a48613",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:39",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:63",
+          "name": "Mật tịch Côn Cái Bang (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "14",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "02c691c30cf66e32f2ccaa59ff88025d4748249baa0ab8ff21cf5aa05bcdfaaf",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:63",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:87",
+          "name": "Mật tịch Côn Cái Bang (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "38",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "5f093c09994af9e5c289b59ba5c4f00727e607df5931e0cfdb4026e0f6126b9c",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:87",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Côn Thiếu Lâm",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:27",
+          "name": "Mật tịch Côn Thiếu Lâm (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "2",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "4c9a7605876d26c091f185ebaedc9fd1182f4361fbcae3d42f972bb88663df3c",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:27",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:3",
+          "name": "Mật tịch Côn Thiếu Lâm (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "2",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "59aff4ed852b585bf13c3cef88ec67b04a5f852d1157943afc89ea3e54805c3f",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:3",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:51",
+          "name": "Mật tịch Côn Thiếu Lâm (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "2",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "e43fec6db6e20462776bd55c12d931326782dd64955710cb4a2e7c97f1479e70",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:51",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:75",
+          "name": "Mật tịch Côn Thiếu Lâm (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "26",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "45f8a8119d6a14f65e4c1deb39e4879dbaf374d93df92a19366c7fd73a9b8efc",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:75",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:99",
+          "name": "Mật tịch Côn Thiếu Lâm (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "50",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "0ced8bc7dd9397adc6cf773be2daddab7d2b3ee94d68dea09059a8ebf2f67cc9",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:99",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        }
+      ]
+    },
+    {
+      "route_name": "Hãm Tĩnh Đường Môn",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:102",
+          "name": "Mật tịch Hãm Tĩnh Đường Môn (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "53",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "578f4470463df522f31010635aa4be38fa88eea086db124793556bdf3af7e9f5",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:102",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:30",
+          "name": "Mật tịch Hãm Tĩnh Đường Môn (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "5",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "8eb773b182e71582d61e51e1576f86f7b14a174d829184f504943d523987dc93",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:30",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:54",
+          "name": "Mật tịch Hãm Tĩnh Đường Môn (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "5",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "da06f3177613eb4973e5ae31d554323ed44a89e5450d82ecbebbd769a2705af7",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:54",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:6",
+          "name": "Mật tịch Hãm Tĩnh Đường Môn (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "5",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "93c6c88952926d58d2510e10492e87f2c6debb649a3cdf27e66c6bd84c51a2a4",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:6",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:78",
+          "name": "Mật tịch Hãm Tĩnh Đường Môn (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "29",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "59f14f28b031dbe7c846164f747fd5267feea48c5a8dd1998af474ca960a458e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:78",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Khí Võ Đang",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:114",
+          "name": "Mật tịch Khí Võ Đang (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "65",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "a5b3fce14d5771b43163f46941ad744b467d94b7baed3bd1dad154f4f6c929df",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:114",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:18",
+          "name": "Mật tịch Khí Võ Đang (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "17",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "ca5d1508c1cf5b0c64a2fa56347af64640c9f06d7f665304dce6343b8133bdcc",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:18",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:42",
+          "name": "Mật tịch Khí Võ Đang (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "17",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "ce54976accf772596b6cf19a94ec9ed84e077971d75e9f0b213cf5bda4325b62",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:42",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:66",
+          "name": "Mật tịch Khí Võ Đang (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "17",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "4cb33d55a3918f6704bce87be46c253358c40b9195c58f1dbdee45d00ce9ecc4",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:66",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:90",
+          "name": "Mật tịch Khí Võ Đang (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "41",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "cf41c37df63b5efad55ebc596eea10472579413bb7e5b556832322043e2e6e42",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:90",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Khí Đoàn Thị",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:121",
+          "name": "Mật tịch Khí Đoàn Thị (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "72",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "cb6dbb0dafc9a6f3cb101ec0c617a2b6cc40e588c401ca6b612d3111855a0fbc",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:121",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:25",
+          "name": "Mật tịch Khí Đoàn Thị (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "24",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "90944cf14ecffe283e7a692292e0a7e1bbb16aae9ccd7a0e1f7cc687ba0351f5",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:25",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:49",
+          "name": "Mật tịch Khí Đoàn Thị (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "24",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "71f22d2a3a6918624eebfefcb6705b8e2cc0a390450f6a653c2aa1bba621ef64",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:49",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:73",
+          "name": "Mật tịch Khí Đoàn Thị (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "24",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "e1b0a6ecd7080b018ee7f876a46940e4d9e92957bf35e2df0d4a925ae0bdfaab",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:73",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:97",
+          "name": "Mật tịch Khí Đoàn Thị (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "48",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "c9a6f80dd3059962f8472e44cbdc6482a7049499c9e178468755d7c2e885ccb9",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:97",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Kiếm Côn Lôn",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:117",
+          "name": "Mật tịch Kiếm Côn Lôn (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "68",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "39411cd6a4bfe885699f7fd6e77332da0dcb1de64a522aa6a0362f1f8d5ff7a2",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:117",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:21",
+          "name": "Mật tịch Kiếm Côn Lôn (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "20",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "b23e4d31b6f6230f1db3d0fe49d029242cd702042a74d070af974ae105b4576d",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:21",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:45",
+          "name": "Mật tịch Kiếm Côn Lôn (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "20",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "b1b5e52a215a428b50fef37dc624489447c221470bc2a682a3e51a5f7b3008d2",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:45",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:69",
+          "name": "Mật tịch Kiếm Côn Lôn (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "20",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "e7935e1726aa3a841fd937c829a346f814780acb9ebc8226483c8bee6d835c02",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:69",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:93",
+          "name": "Mật tịch Kiếm Côn Lôn (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "44",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "a5b16e08d7de99cfe371c44bd781df9808cd88bdac435c0b98b86ee058bcc82a",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:93",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Kiếm Minh Giáo",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:119",
+          "name": "Mật tịch Kiếm Minh Giáo (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "70",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "26c708ea7bcd0aae621979c261225cced9671e9f54bc3ae3c45d17ff5adcdf88",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:119",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:23",
+          "name": "Mật tịch Kiếm Minh Giáo (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "22",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "d17df37d809d349e60fe21e06fae0770170caa5662517b17ff095b4dfe7a0695",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:23",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:47",
+          "name": "Mật tịch Kiếm Minh Giáo (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "22",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "b059058002673189315692f93c4d3f5280843a3cb29fd4d109db030aafb755f9",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:47",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:71",
+          "name": "Mật tịch Kiếm Minh Giáo (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "22",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "017b1a09d9e5e4d5acb70e72f943225133625e263b48832ba4f539543eb61ab3",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:71",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:95",
+          "name": "Mật tịch Kiếm Minh Giáo (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "46",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "f2b878a41c447030a10ce641f477d7e3fd5e9735c84a3ea7e933933e6035472d",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:95",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Kiếm Thúy Yên",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:108",
+          "name": "Mật tịch Kiếm Thúy Yên (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "59",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "9a52f861ffe67bdefcf50760f9183a1c955d796ec087769797d2116d1edd4748",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:108",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:12",
+          "name": "Mật tịch Kiếm Thúy Yên (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "11",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "d003cf88712ae98a82e85617102bff58d59c8fb890496f146cc4d9c889dc29f4",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:12",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:36",
+          "name": "Mật tịch Kiếm Thúy Yên (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "11",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "0ab9947903d8d139004654f77c18446d215079c492cf3b99c5b852866b9ddca6",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:36",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:60",
+          "name": "Mật tịch Kiếm Thúy Yên (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "11",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "5a99aa115a340b6c553a440384c9b987dd159a8a7e4ee3318befeed1f8a2d448",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:60",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:84",
+          "name": "Mật tịch Kiếm Thúy Yên (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "35",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "3d22fd205e4dd5f43b8e9645bb8f2ebf9ec38fb2cfe474a4ad1aacdc2b8ba740",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:84",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Kiếm Võ Đang",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:115",
+          "name": "Mật tịch Kiếm Võ Đang (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "66",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "6306433011432fc6115d4d0922e5b1570bb8855fd97560a67876f16034c5e6d0",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:115",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:19",
+          "name": "Mật tịch Kiếm Võ Đang (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "18",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "e1c87b5a3070f10b50aaa3e3c9051be7a04674872229316033e9efa7dafa5b8b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:19",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:43",
+          "name": "Mật tịch Kiếm Võ Đang (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "18",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "fdbe974d9ba892a63d6002c01114568f68836b2f84ff26e09b626bc32157ea27",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:43",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:67",
+          "name": "Mật tịch Kiếm Võ Đang (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "18",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "271e7c7165fd4b4642a0abc54918905a3df5c24e63b5a8a0f5b75586e1deffc6",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:67",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:91",
+          "name": "Mật tịch Kiếm Võ Đang (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "42",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "9528f7a26a6ec116fea221255c5a635d2e886f5a84b052bda321c346def0b7be",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:91",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Ma Nhẫn",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:113",
+          "name": "Mật tịch Ma Nhẫn (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "64",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "e747d279e46dca7471f08860ba1201162628509432fc9649fb92779440142575",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:113",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:17",
+          "name": "Mật tịch Ma Nhẫn (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "16",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "42ca504e4e9dc6d19583cacd826385790c931350a19a4c1665cac151a10d511e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:17",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:41",
+          "name": "Mật tịch Ma Nhẫn (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "16",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "454a479a6644c3c524bb2db9b8205d205b88b0cb2ae25f902705021f447bcb11",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:41",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:65",
+          "name": "Mật tịch Ma Nhẫn (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "16",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "970da82b472db0c9f28963f59e5a33b83ee5d5fc65c1a392009627c04d424ec7",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:65",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:89",
+          "name": "Mật tịch Ma Nhẫn (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "40",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "8503545536587d877854c92c3262389bc7965903398dcd56d37759d3ea3dc9c2",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:89",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Phụ Trợ Nga My",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:107",
+          "name": "Mật tịch Phụ Trợ Nga My (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "58",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "1b1f633ff5df29f75f8aac96f3fa49053bde46f2da632d71048efbac8f6ae8b8",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:107",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:11",
+          "name": "Mật tịch Phụ Trợ Nga My (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "10",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "8d357d9d9d5d75ddcef3ecd1378af99565218cdd66ff3de1fec27bc2c2dad703",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:11",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:35",
+          "name": "Mật tịch Phụ Trợ Nga My (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "10",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "45ef2be3401030d9a5d0cab7879619c632ae344b8ffdb509b9aa3e910421f41b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:35",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:59",
+          "name": "Mật tịch Phụ Trợ Nga My (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "10",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "c520df092b41dd20ee3391337b120c7daa2a1e04c358272fdaebb6359c0221c4",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:59",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:83",
+          "name": "Mật tịch Phụ Trợ Nga My (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "34",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "914476ea5fffc3af5765dcfd690ab5ebb16d44075befef6499ed4cd8b1fff6ee",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:83",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Thương Thiên Vương",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:100",
+          "name": "Mật tịch Thương Thiên Vương (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "51",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "0538f1810049805b89d4b0ed060ca452b81a4dc42e4e4fc98378927fc33dfca6",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:100",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:28",
+          "name": "Mật tịch Thương Thiên Vương (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "3",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "d3d9c710c83f6c4138946f6d2b9eea5d73b00d131ee029f229ddec937e7f7460",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:28",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:4",
+          "name": "Mật tịch Thương Thiên Vương (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "3",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "8a69c76d0f7929f637177ffa8347a64d18d163b41c7a6877ef178909b39e4f97",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:4",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:52",
+          "name": "Mật tịch Thương Thiên Vương (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "3",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "5845321c09cef4a89d095aa34d74611afa0c34811163d17b442fb93901438f39",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:52",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:76",
+          "name": "Mật tịch Thương Thiên Vương (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "27",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "0aac58b7e7e90fa2b419a305701ae0cc8721e4bd6d099acbefc892549dced3ec",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:76",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Tụ Tiễn Đường Môn",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:103",
+          "name": "Mật tịch Tụ Tiễn Đường Môn (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "54",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "f49e290bbe08632b0464557eca530d22990b2a1db1d8dc5699f55e9e18898fe9",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:103",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:31",
+          "name": "Mật tịch Tụ Tiễn Đường Môn (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "6",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "2b62458051eed39105c6d6dec97082ef687f6f7150948cbec3485285c23b2bc3",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:31",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:55",
+          "name": "Mật tịch Tụ Tiễn Đường Môn (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "6",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "2a6e0c97a8e1066d6b8fb17a3395ca3de63f43a731fc12dda98ea836e5d96a7f",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:55",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:7",
+          "name": "Mật tịch Tụ Tiễn Đường Môn (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "6",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "579f3f234f49c0e9c9e05962623a3d6f7ca242371a269ed38b7ab0256852e007",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:7",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:79",
+          "name": "Mật tịch Tụ Tiễn Đường Môn (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "30",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "ad55096df9e2a5945b2e741bbeb0801c66dceb35c83e1317ce48b4790b46133a",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:79",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Đao Côn Lôn",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:116",
+          "name": "Mật tịch Đao Côn Lôn (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "67",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "7a87d36e64c272f94f5e6fedc860500d7b57963ed2b32d5e0034fd7419cdf18f",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:116",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:20",
+          "name": "Mật tịch Đao Côn Lôn (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "19",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "186917b6330b5be7d7371d7abe39569565caed296c6cf55dab197cb2e3fba25e",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:20",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:44",
+          "name": "Mật tịch Đao Côn Lôn (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "19",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "5c50877376369ba5331f8d4efaaf95cfa79b78101f65d3b3407086fb7d492e22",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:44",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:68",
+          "name": "Mật tịch Đao Côn Lôn (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "19",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "931ea88ed0ef0acdb77a5265295d269e36eada909bca4895994ea58c4c7868db",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:68",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:92",
+          "name": "Mật tịch Đao Côn Lôn (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "43",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "484436613042bf49665ffa643281d31e4a99d8c60aca769de6ecd43f2b9be140",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:92",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Đao Ngũ Độc",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:104",
+          "name": "Mật tịch Đao Ngũ Độc (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "55",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "b53aaf9b00d5bf2ffeae74c7b5a3014a0ada504c8844bfaefdea0983da338cf1",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:104",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:32",
+          "name": "Mật tịch Đao Ngũ Độc (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "7",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "4153ba78fa295430a7f714ef4273dab979c854ae75991a8f5c25c1d268321c82",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:32",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:56",
+          "name": "Mật tịch Đao Ngũ Độc (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "7",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "8805311efaa5d78ba75acd6d9d59acf49e137ae81c2b09467e2af213c6e3e172",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:56",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:8",
+          "name": "Mật tịch Đao Ngũ Độc (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "7",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "7ffa1d334e75b5139bb3c5ccb3ba30e2596382112c877cf6b5e4153bb8ee6876",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:8",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:80",
+          "name": "Mật tịch Đao Ngũ Độc (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "31",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "0e3c683b6d332d84aa4f787871f3a853e0e2a1c67230a9cb2c9753c05eda1a02",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:80",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    },
+    {
+      "route_name": "Đao Thiếu Lâm",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:2",
+          "name": "Mật tịch Đao Thiếu Lâm (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "1",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "3dd561747a9f1d3b4b7110cad7a8250b2ce49ce6a87fa65b1aef0cccbf0cd8cd",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:2",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:26",
+          "name": "Mật tịch Đao Thiếu Lâm (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "1",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "7c1cb6e263b2b3a515cb4c15ccd330db4b01e1d9dd1d84d96488f276236ff9ab",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:26",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:50",
+          "name": "Mật tịch Đao Thiếu Lâm (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "1",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "0e27b6babe879a8a6537101a8e6b4939651c400e52e625b7c095fee4e597f25b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:50",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:74",
+          "name": "Mật tịch Đao Thiếu Lâm (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "25",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "55f7fba51e035032b5ab35d03e4e31e3c812ceca36616e732ab616389eedd367",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:74",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:98",
+          "name": "Mật tịch Đao Thiếu Lâm (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "49",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "3162d38b70129aa0ea2f47d763371f2eb8e8abfcd7d379305565b84f6c929533",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:98",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        }
+      ]
+    },
+    {
+      "route_name": "Đao Thúy Yên",
+      "source_status": "VERIFIED_DIRECT_RAW_SERVER",
+      "physical_manual_catalog_presence": true,
+      "transmission_or_owner_status": "UNKNOWN",
+      "narrative_power_status": "UNKNOWN",
+      "variants": [
+        {
+          "record_key": "item:equip/general/book.txt:line:109",
+          "name": "Mật tịch Đao Thúy Yên (180)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "60",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "f5905814810d0f0f26630d7070524249944be1d2ce7e3abd3fb49f39cc96dd5c",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:109",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "180"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:13",
+          "name": "Mật tịch Đao Thúy Yên (sơ)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "12",
+            "Level": "1"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "93fbc6761a691ead2d3a990a339cf538037ec2380231dffab84ef0e62a80aa5b",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:13",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "sơ"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:37",
+          "name": "Mật tịch Đao Thúy Yên (trung)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "12",
+            "Level": "2"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "01d55eef8886518491f2cca9f4f52386e76dbc7451ef2683ae054f30dcd002dc",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:37",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "trung"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:61",
+          "name": "Mật tịch Đao Thúy Yên (cao)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "12",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "955e7f59c9ca48774f376a73d392e8225b64a716aa0a6874385f57aba0c4fcdc",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:61",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "cao"
+        },
+        {
+          "record_key": "item:equip/general/book.txt:line:85",
+          "name": "Mật tịch Đao Thúy Yên (150)",
+          "description": "",
+          "item_id": {
+            "Genre": "1",
+            "DetailType": "14",
+            "ParticularType": "36",
+            "Level": "3"
+          },
+          "family": "equip/general/book.txt",
+          "class_name": "book",
+          "source_row_sha256": "43a66040adbe8f15be36874bb5381667702b95d380a52034792a7bea74244e41",
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/item/001/equip/general/book.txt",
+              "sha256": "64c758e549bc0b53122f951dc94473a669141e3fd1a2ed3900fa4b8d0baefa3c",
+              "edition": null,
+              "encoding": "utf-8-sig",
+              "locator": "line:85",
+              "notes": ""
+            }
+          ],
+          "catalog_stage": "150"
+        }
+      ]
+    }
+  ]
+}
