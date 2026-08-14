@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:48:39.134962+00:00",
+  "entity_id": "character:han-thac-tru",
+  "latest_source_backed_state": "Political leader committed to Northern Expedition in the promoted source chronology.",
+  "unresolved_question_ids": [
+    "post-lingbi-continuation"
+  ],
+  "stages": [
+    {
+      "arc_id": "arc-07",
+      "source_state": "Political figure in the Khanh Nguyen purge and northern-war preparation context.",
+      "actions": [],
+      "knowledge_changes": [],
+      "relationship_changes": [],
+      "claim_ids": [
+        "IR009"
+      ]
+    },
+    {
+      "arc_id": "arc-11",
+      "source_state": "Decision-maker under political pressure.",
+      "actions": [
+        "Chooses Northern Expedition."
+      ],
+      "knowledge_changes": [],
+      "relationship_changes": [
+        "Directs Southern Song toward the northern campaign."
+      ],
+      "claim_ids": [
+        "IR009"
+      ]
+    }
+  ],
+  "canonical_name": "Hàn Thác Trụ",
+  "affiliations": [
+    "Nam Tống"
+  ],
+  "related_plot_thread_ids": [
+    "thread:northern-war",
+    "thread:southern-song-war"
+  ],
+  "related_mystery_reveal_ids": [],
+  "claim_evidence": [
+    {
+      "claim_id": "IR009",
+      "claim": "Hàn Thác Trụ chooses Northern Expedition amid political pressure, while the Lab independently preserves the Khánh Nguyên purge and northern-war preparation.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "CORE_HIGH_LEVEL_ARC",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/evidence/evidence-ledger.md",
+          "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+          "locator": "line 17",
+          "citation_id": "KX-130-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/show-3416-8139-1.html",
+          "response_sha256": "26af8e24acd558b33d74d28d1f9ee0a097a85455609ca91c69a5dc5397890120",
+          "locator": "韩侂胄; 北伐金国; 钱象祖",
+          "citation_id": "KX-130-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:232;id:33e6124d;offset:1424209;stored:3040;expanded:21289;output_sha256:f24855e09eac96de2d6b79796560be511551ee480157a8a102b3beb1dabcfa1b",
+          "record_key": "sub:000000000000019F:start"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:783;id:b7f23b33;offset:935915;stored:2185;expanded:10980;output_sha256:9d5f9955ef62e6efea0fa081a6ab8e211176c13130750551f5c2d60def174102",
+          "record_key": "sub:000000000000024F:start"
+        }
+      ]
+    }
+  ],
+  "source_trajectory_boundary": "No inferred inner psychology, romance, redemption or novel-only arc."
+}

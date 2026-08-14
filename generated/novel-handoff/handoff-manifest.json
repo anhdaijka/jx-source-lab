@@ -1,10 +1,11 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "generator": "scripts/build_novel_handoff.py",
-  "generated_at_utc": "2026-08-14T09:22:45.860009+00:00",
+  "generated_at_utc": "2026-08-14T09:48:39.175459+00:00",
   "handoff_status": "NOVEL_HANDOFF_READY",
   "source_repository": "anhdaijka/jx-source-lab",
   "source_lab_commit": "8d7645a4d659d0baac86c9eafc7fc0ef18c90254",
+  "handoff_generation_base_commit": "68f69b655d7bfdac1d4386101cfa7897651903ac",
   "canon_target": "LATEST_COHERENT_KIEM_THE_LORE",
   "promotion_status": "NOVEL_PROMOTION_READY",
   "promotion_gates": {
@@ -22,6 +23,14 @@
     }
   },
   "promoted_main_story_arc_count": 14,
+  "promoted_important_character_count": 18,
+  "promoted_character_trajectory_count": 7,
+  "promoted_important_faction_count": 10,
+  "promoted_faction_trajectory_count": 6,
+  "promoted_plot_thread_count": 9,
+  "promoted_mystery_payoff_count": 5,
+  "source_relationship_count": 11,
+  "source_knowledge_event_count": 8,
   "unresolved_counts": {
     "CENTRAL_BLOCKER": 0,
     "CENTRAL_TOLERABLE": 8,
@@ -33,158 +42,243 @@
   "runtime_dependency_on_lab": false,
   "files": [
     {
-      "path": "characters/index.json",
-      "sha256": "a775e004e0553ea56f49ed974f26fd200571bb6377ce01010525f42c9d882000",
-      "bytes": 115824
+      "path": "characters/character-index.json",
+      "sha256": "c3a5c6ccafe7a4542e69e16166702d0df4e4310473942ef88d618dce0c13bf1a",
+      "bytes": 122295
+    },
+    {
+      "path": "characters/trajectories/bach-thu-lam.json",
+      "sha256": "7e697390b491ec9a45cf2cd7adca96c39ddd4b6d2114244029f26657e5761311",
+      "bytes": 8093
+    },
+    {
+      "path": "characters/trajectories/biological-parents.json",
+      "sha256": "855d6c7ceb6f7b02c9d13a81f491247e85245c673926d1e76b94464009bceca9",
+      "bytes": 5807
+    },
+    {
+      "path": "characters/trajectories/game-player.json",
+      "sha256": "22cea36c79da35f856740e5be6df901aef9e70fe6a01f354cd183ebdfb9cdb90",
+      "bytes": 25623
+    },
+    {
+      "path": "characters/trajectories/han-thac-tru.json",
+      "sha256": "be7c3ea52878b430652e000d16c4b96927bdcdd420f57adec1f3f6be519d5c12",
+      "bytes": 3655
+    },
+    {
+      "path": "characters/trajectories/hoan-nhan-tuong.json",
+      "sha256": "85313fc1b1438299d8f9b4f0a4b433e900cca33519e00b5acffda269f932e19f",
+      "bytes": 6594
+    },
+    {
+      "path": "characters/trajectories/la-tuyet.json",
+      "sha256": "a0730fb2ea79a703a7632ff28e95703fc7046daa1319de9e7d673a12cf164114",
+      "bytes": 6073
+    },
+    {
+      "path": "characters/trajectories/ngo-hi.json",
+      "sha256": "e2487319be58df20d1622196ea8fda9bb2202626ecd81712fc58cbef6c760efc",
+      "bytes": 7882
     },
     {
       "path": "concordance/cn-vi-names.json",
-      "sha256": "191b88627368cbedc68157f71040fd67df1bff540766920b7c2458db2fe9041c",
-      "bytes": 10699
+      "sha256": "2ae9080512332403bba29a5302041d0b699ede242fcf0ca76b8c8b1e17177815",
+      "bytes": 11378
     },
     {
       "path": "concordance/entity-aliases.json",
-      "sha256": "022c73a2f463f0c4c50b8b74fa403106d39650d942b3c468a301e37f3c7b774d",
-      "bytes": 9512
+      "sha256": "fd9868ed5676f1766b3c6b2a55cc73b5c5ee9453b2f8d82e7b32965f1c349126",
+      "bytes": 9864
     },
     {
       "path": "concordance/task-story-map.json",
-      "sha256": "19c2f5888cfa413f201a644e2d383eafa1750f11a5952457eab8003daf86ec75",
-      "bytes": 22981
+      "sha256": "a16a85bbfbe0a0cca6ded3711a8204be629a61e7d96f4ab41d57373f05550163",
+      "bytes": 25250
     },
     {
       "path": "confidence-summary.json",
-      "sha256": "cffa0cb8eaae34b82406a68ab60c209f48cc44267f9e0eae09a8224cbbb99e87",
+      "sha256": "c53b52a15a93db5f6185b7de84e1e34aa054c70747ca688fcef56058ae145cff",
       "bytes": 1165
     },
     {
-      "path": "factions/index.json",
-      "sha256": "8da20bca6070d1d4936630105ca03b5c9af494f7f87a8978c6e32597390ffdef",
-      "bytes": 59731
+      "path": "factions/faction-index.json",
+      "sha256": "1af2326702c52ea9c7e483aa41a759264018e14fdc576384dd187779471386d6",
+      "bytes": 63261
+    },
+    {
+      "path": "factions/trajectories/duong-mon.json",
+      "sha256": "504aeda2945fc9e7c640a22e459730f929ddaaa26a2ad881e190594b6fe52dbf",
+      "bytes": 6034
+    },
+    {
+      "path": "factions/trajectories/kim.json",
+      "sha256": "d79e871ea0a3ff5ae3c86b4934fc146c9307e0519e907e54960861331401ec40",
+      "bytes": 10271
+    },
+    {
+      "path": "factions/trajectories/nam-tong.json",
+      "sha256": "ca3e7f092fc5d9680ecc3253358fe00e7d5713bfd3369bf86bf42e32c1e6747c",
+      "bytes": 7285
+    },
+    {
+      "path": "factions/trajectories/nghia-quan.json",
+      "sha256": "8c03a4888670023b0219217f4fec2f267d37479ec188d5cb44dadbff395d945e",
+      "bytes": 11707
+    },
+    {
+      "path": "factions/trajectories/nhat-pham-duong.json",
+      "sha256": "3f10d8008a7240d724814f2c914e75d66a3c9745fcee37355413ae673d899f0d",
+      "bytes": 6338
+    },
+    {
+      "path": "factions/trajectories/thuy-yen.json",
+      "sha256": "33862dea1c3902576628e91bf1b0f2c0907324fc4e8220809dc6f7ebcde378fd",
+      "bytes": 7951
     },
     {
       "path": "game-story/arc-index.json",
-      "sha256": "e2ec3438221e814e1e871e3881365aac22c253106232506e2b10e851859f6339",
-      "bytes": 9555
+      "sha256": "2f099cb97b4baa0fcc9d5bfa1f78a06b2a9a070345fcaa1e9a206430e1c848ed",
+      "bytes": 15143
     },
     {
       "path": "game-story/causal-spine.json",
-      "sha256": "c7e3a0e21777fb954f66f98d5454253b35e417b8ed537a2d326cd98ecb7591db",
-      "bytes": 60274
+      "sha256": "3e59cd407101814c3db4d1e4606463fe3e77366bcc2ea5800927a5884348308b",
+      "bytes": 63180
     },
     {
       "path": "game-story/dossiers/arc-00.json",
-      "sha256": "3eb2ac9d5fd3fc3ca14d040d1297a5fa8633489725d7bc79b6b4f657d57a3183",
-      "bytes": 5108
+      "sha256": "2357798c0db7cbfb2a5759ac00d41b1f9f5f8f87e0c4333862a3c95fb448d15c",
+      "bytes": 33631
     },
     {
       "path": "game-story/dossiers/arc-01.json",
-      "sha256": "d117a79888c750d457f69c682baa8b14122b626809b7eb462e9c410b2876f6e9",
-      "bytes": 8445
+      "sha256": "8430fdfa73352aa3d5b7e1906d30c749d17e3d998605b4393f1a3399b50b1cac",
+      "bytes": 57545
     },
     {
       "path": "game-story/dossiers/arc-02.json",
-      "sha256": "5e4dc5a9b4bb4fafec7cf58c7ea78e4498b900cd10c98a7c4041d2f81880f0db",
-      "bytes": 6684
+      "sha256": "0f6e4261c69962c1eed10305edf75d50408c60171a2ce7346907c33990338182",
+      "bytes": 47187
     },
     {
       "path": "game-story/dossiers/arc-03.json",
-      "sha256": "f94f0dad74e68e5ca1e3b6ace5c10499bf04f2ae190a73c0bb089803c56f780c",
-      "bytes": 6945
+      "sha256": "d0c90da973068dcef5fd2f9c07d076525007933c29ffd34098f16d271d11809e",
+      "bytes": 49445
     },
     {
       "path": "game-story/dossiers/arc-04.json",
-      "sha256": "97fcca50c5585732d6f14f30f85dd1f267eab16b716da5f0fc459fa475f71e2d",
-      "bytes": 6962
+      "sha256": "511879197ae30b3129c0333637a40721a8f63d17eb9553dbc7e440ec01db65ce",
+      "bytes": 49134
     },
     {
       "path": "game-story/dossiers/arc-05.json",
-      "sha256": "ef55a246f83b3e6040c6bc171c6ab98be5b5c2d13f2ef41187d2ae13e410df23",
-      "bytes": 3147
+      "sha256": "6cade11a81ef3850a906fc464ff9b911526da569c91cd849a372293a8df687c0",
+      "bytes": 20515
     },
     {
       "path": "game-story/dossiers/arc-06.json",
-      "sha256": "a1f32bc57ccbe12648aa560ec5df885f2ee1e8379d417200426efcb01735c9fd",
-      "bytes": 22894
+      "sha256": "1fb2d8d3889a694c37e78c75c75c42294ae127f651c261308a2ebdcfcd36103e",
+      "bytes": 165971
     },
     {
       "path": "game-story/dossiers/arc-07.json",
-      "sha256": "b6609816b784e25f1524d74591cb57ff795addee81adef4dc36d08901d9158bf",
-      "bytes": 5657
+      "sha256": "ce1720e6c337045fb0673441ea8f41960deba4c47d1bfdd70073ccb4536f8234",
+      "bytes": 38191
     },
     {
       "path": "game-story/dossiers/arc-08.json",
-      "sha256": "aaf125e6151ca330f2a1e8ad39ce3d7d6833656d60af8481a11f2fb7189046dc",
-      "bytes": 3817
+      "sha256": "dd6d3260ff5683e68a5334f34126f88ce18410a56a841b2cbfbadd879f896ee4",
+      "bytes": 27080
     },
     {
       "path": "game-story/dossiers/arc-09.json",
-      "sha256": "5cdc916eb1de166e12d717f575c3c61292cc1be0801e55bcad4c2b629aeca58c",
-      "bytes": 3751
+      "sha256": "993ce1c4818d0b80d9d9edee670b45f700f637f8b101e799efe7dee33451914f",
+      "bytes": 26524
     },
     {
       "path": "game-story/dossiers/arc-10.json",
-      "sha256": "48226251b0ebaad43d88b86874f923ed9580b1692d7bdee48ac9055a08ffc55b",
-      "bytes": 8224
+      "sha256": "42c09d142b8da803125c88f103d9dd8e3ce804693495b3abbe61938d3e8985cf",
+      "bytes": 57840
     },
     {
       "path": "game-story/dossiers/arc-11.json",
-      "sha256": "c20a0f6862dabd12470fc23ae6c8681cd3723a4ee432f5144330495c8c532b2d",
-      "bytes": 3662
+      "sha256": "90e795f204d1208dd483296032add6464aaa19b1c75252ad428d8379e6fe6bfe",
+      "bytes": 25747
     },
     {
       "path": "game-story/dossiers/arc-12.json",
-      "sha256": "b0b2fd7c12110e80f476fde1c1619c77295e6b9420c8335211deb3bf6ab5b8cb",
-      "bytes": 11595
+      "sha256": "0ec7c52c407f3b1a40996801a92006777fe545d177de97594958e1656ef363b2",
+      "bytes": 75790
     },
     {
       "path": "game-story/dossiers/endpoint.json",
-      "sha256": "1fd630b653d41882d7c40f3784014d35533ed3d2caaec0685cbc4ef8f5599115",
-      "bytes": 3674
+      "sha256": "11069c9a0f6fd8a011cbf553823aaf91d5fc99f8ccf49a6430320db6af7d2040",
+      "bytes": 20829
     },
     {
       "path": "game-story/master-chronology.md",
-      "sha256": "ae37f36a5a42bbdb0eb980765d734afdca3c380de759d41731f78c2379dc217e",
-      "bytes": 9146
+      "sha256": "3bd5b4d8806f567f5917f0f7c302a341785008c745a1cad555a0f1f9b94a7ebc",
+      "bytes": 13231
+    },
+    {
+      "path": "game-story/mystery-payoff-map.json",
+      "sha256": "6dac8afcf07e5a2d287b3d5beae44250c1e96b0f1344c3e864368c25504b211b",
+      "bytes": 53324
+    },
+    {
+      "path": "game-story/plot-thread-index.json",
+      "sha256": "0d1eb82be29c0caf5bc66a7ff7cc67339e916c208365f77f193802257befbc22",
+      "bytes": 111894
     },
     {
       "path": "important-items/index.json",
-      "sha256": "77742a4e6fe84a8d307dd9f25b5e446e8b16cb4ab0c66ee087a276061ccc394b",
+      "sha256": "ed7f005d97cec99ec2b4fa31f98fff286cd6452acb291e29592b112b04eef2f5",
       "bytes": 9596
     },
     {
       "path": "important-locations/index.json",
-      "sha256": "d154f88ff4e0f5897b9c465a924b07ec198f2f002dbd13ab37be360864477077",
+      "sha256": "5c063441b3e2afb97b87436b9d65e96d3d5674565baa1e30d968762fe5e8de0b",
       "bytes": 57038
     },
     {
+      "path": "knowledge/source-knowledge-timeline.json",
+      "sha256": "e57a2f29c2aa816b8fe774411227737c23a5ed3e20b4d407c0b3a6e10bc83b0e",
+      "bytes": 23686
+    },
+    {
       "path": "martial-arts/index.json",
-      "sha256": "24541e8023dc14d2fa5d0ee2deb5ce7e32adb82597c9d6b0e404bbfa8529f5fb",
+      "sha256": "8408e6edb22ca72f060b71e6866cc1feb45720d9b25a7b4f9ab7cdd27df3b3fd",
       "bytes": 163192
     },
     {
       "path": "provenance.json",
-      "sha256": "97ee6f683ffe1669079f622e701580464c247ffe8eb585b8bb1fac6e2cd9b651",
-      "bytes": 2806
+      "sha256": "4981849dfb9194deba29866cd2e890a1ac3d3155d8366cd390b46a08add2c853",
+      "bytes": 3290
+    },
+    {
+      "path": "relationships/source-relationship-map.json",
+      "sha256": "7d6e94c12953e3b061944655c49425011151d8d762ef26e11788e1751df80bfc",
+      "bytes": 50051
     },
     {
       "path": "sects/index.json",
-      "sha256": "8027d53a8c7b42653297e82ba2b06564ac435733837defa715452cf0df9616e3",
+      "sha256": "9003f7327a16945a900434a88cada8e2af6a75d91abdf75966fb390c367ba9dd",
       "bytes": 25166
     },
     {
       "path": "unresolved/central-tolerable.json",
-      "sha256": "30ecdcc5de97972695c0acca8ade9511b850dd660194c3a8a70aecc7ff93c211",
+      "sha256": "ab06e009961d1f9a10b8d47b1caaf985f802f9319eeaa75ff485e84080d434c1",
       "bytes": 4153
     },
     {
       "path": "unresolved/material-conflicts.json",
-      "sha256": "a8805d958f441dee2dda76511b7fc19a3d3dec08ba2280d4f863eb55ab345d0f",
+      "sha256": "851d87e4b018ccb9e9f6385bf93c30af7bbb18704978affe9ca6c20d51fe30b0",
       "bytes": 266
     },
     {
       "path": "unresolved/non-central.json",
-      "sha256": "895568f629def4ffab2f344e94e3be78cd5160453b26037a76fc76590e6eca5c",
+      "sha256": "0f4e010f9966e646ef10df06615b661d57f180a2f617f88d7eaad5d7ec2cd961",
       "bytes": 1907
     }
   ],

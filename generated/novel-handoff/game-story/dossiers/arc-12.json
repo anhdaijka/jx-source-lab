@@ -86,7 +86,7 @@
     "wu-xi-early-death"
   ],
   "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS",
-  "handoff_projection_version": "1.0",
+  "handoff_projection_version": "2.0",
   "source_dossier": {
     "path": "research/reconstruction/game-story-dossiers/arc-12.json",
     "sha256": "317a2417337f7e2f018b5eba18b7461dfda448109f8de6450f7682b20451d900"
@@ -273,12 +273,1259 @@
       ]
     }
   ],
+  "story_bible_sections": {
+    "premise": [
+      {
+        "claim_id": "IR010",
+        "claim": "The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_ENDPOINT_ARC",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 18-19",
+            "citation_id": "KX-140-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      }
+    ],
+    "characters_and_factions": [
+      {
+        "claim_id": "IR010",
+        "claim": "The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_ENDPOINT_ARC",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 18-19",
+            "citation_id": "KX-140-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR011",
+        "claim": "The live Xoyo dream page shows child Bạch Thu Lâm and states that the player meets biological parents in an illusion; names and lineage are not supplied.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 20-21",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index2.shtml",
+            "response_sha256": "e0751c0d3d57a107567231c699e4de9f6be903e1e51d26b9581da7b7b2921dc5",
+            "locator": "白家大小姐白秋琳; 身世迷踪; 亲生父母",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR012",
+        "claim": "The same release is marketed as level 140 while the live task page gives a level-135 gate and opening task Như Hỏa Như Đồ/如火如荼.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "RELEASE_METADATA",
+        "narrative_impact": "NONE",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "line 22",
+            "citation_id": "KX-140-03"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index3.shtml",
+            "response_sha256": "e343db5335138de0feb4d637fcc7ec6b883a29f171d634b8465b9f933a6a0bbc",
+            "locator": "135级; 白秋琳; 如火如荼",
+            "citation_id": "KX-140-03"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR020",
+        "claim": "The raw Tây Nam route preserves task families 10–12 around Ngô Hi, Đường Môn, Thúy Yên, La Tuyết and Du Long Giác; an early literal death of Ngô Hi cannot override the later official 1205 treason arc.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1071;id:ff098513;offset:1177103;stored:7852;expanded:36340;output_sha256:f88a29cb0e53b31af7e852ef8e81bfad15e49a12b7e27bcc1ed46de98ee4088c",
+            "record_key": "task:000000000000000A:entry:ff098513"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1051;id:f873dc20;offset:2226175;stored:7827;expanded:35013;output_sha256:fe4e6305a36eabe46cbe64768ce84971f5f1003081cbc2ab04d7aa4986d902c2",
+            "record_key": "task:000000000000000B:entry:f873dc20"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+            "record_key": "task:000000000000000C:entry:f565173d"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR021",
+        "claim": "The raw Thân Thế Chi Mê family says Bạch Thu Lâm withheld complicated information about the player’s parents and later refers to their spirits; it does not name them or prove the player’s guardian lineage.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:477;id:6e419b6c;offset:655811;stored:1640;expanded:6694;output_sha256:bd81fccb5dde1c9d2d390b59a5003174935b45eb1627ef6151958db106370aef",
+            "record_key": "sub:0000000000000186:start"
+          }
+        ]
+      }
+    ],
+    "evidenced_goals_and_motives": [
+      {
+        "claim_id": "IR010",
+        "claim": "The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_ENDPOINT_ARC",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 18-19",
+            "citation_id": "KX-140-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR011",
+        "claim": "The live Xoyo dream page shows child Bạch Thu Lâm and states that the player meets biological parents in an illusion; names and lineage are not supplied.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 20-21",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index2.shtml",
+            "response_sha256": "e0751c0d3d57a107567231c699e4de9f6be903e1e51d26b9581da7b7b2921dc5",
+            "locator": "白家大小姐白秋琳; 身世迷踪; 亲生父母",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR012",
+        "claim": "The same release is marketed as level 140 while the live task page gives a level-135 gate and opening task Như Hỏa Như Đồ/如火如荼.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "RELEASE_METADATA",
+        "narrative_impact": "NONE",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "line 22",
+            "citation_id": "KX-140-03"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index3.shtml",
+            "response_sha256": "e343db5335138de0feb4d637fcc7ec6b883a29f171d634b8465b9f933a6a0bbc",
+            "locator": "135级; 白秋琳; 如火如荼",
+            "citation_id": "KX-140-03"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR020",
+        "claim": "The raw Tây Nam route preserves task families 10–12 around Ngô Hi, Đường Môn, Thúy Yên, La Tuyết and Du Long Giác; an early literal death of Ngô Hi cannot override the later official 1205 treason arc.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1071;id:ff098513;offset:1177103;stored:7852;expanded:36340;output_sha256:f88a29cb0e53b31af7e852ef8e81bfad15e49a12b7e27bcc1ed46de98ee4088c",
+            "record_key": "task:000000000000000A:entry:ff098513"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1051;id:f873dc20;offset:2226175;stored:7827;expanded:35013;output_sha256:fe4e6305a36eabe46cbe64768ce84971f5f1003081cbc2ab04d7aa4986d902c2",
+            "record_key": "task:000000000000000B:entry:f873dc20"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+            "record_key": "task:000000000000000C:entry:f565173d"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR021",
+        "claim": "The raw Thân Thế Chi Mê family says Bạch Thu Lâm withheld complicated information about the player’s parents and later refers to their spirits; it does not name them or prove the player’s guardian lineage.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:477;id:6e419b6c;offset:655811;stored:1640;expanded:6694;output_sha256:bd81fccb5dde1c9d2d390b59a5003174935b45eb1627ef6151958db106370aef",
+            "record_key": "sub:0000000000000186:start"
+          }
+        ]
+      }
+    ],
+    "player_learns": [
+      {
+        "claim_id": "IR010",
+        "claim": "The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_ENDPOINT_ARC",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 18-19",
+            "citation_id": "KX-140-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR011",
+        "claim": "The live Xoyo dream page shows child Bạch Thu Lâm and states that the player meets biological parents in an illusion; names and lineage are not supplied.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 20-21",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index2.shtml",
+            "response_sha256": "e0751c0d3d57a107567231c699e4de9f6be903e1e51d26b9581da7b7b2921dc5",
+            "locator": "白家大小姐白秋琳; 身世迷踪; 亲生父母",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR012",
+        "claim": "The same release is marketed as level 140 while the live task page gives a level-135 gate and opening task Như Hỏa Như Đồ/如火如荼.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "RELEASE_METADATA",
+        "narrative_impact": "NONE",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "line 22",
+            "citation_id": "KX-140-03"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index3.shtml",
+            "response_sha256": "e343db5335138de0feb4d637fcc7ec6b883a29f171d634b8465b9f933a6a0bbc",
+            "locator": "135级; 白秋琳; 如火如荼",
+            "citation_id": "KX-140-03"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR020",
+        "claim": "The raw Tây Nam route preserves task families 10–12 around Ngô Hi, Đường Môn, Thúy Yên, La Tuyết and Du Long Giác; an early literal death of Ngô Hi cannot override the later official 1205 treason arc.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1071;id:ff098513;offset:1177103;stored:7852;expanded:36340;output_sha256:f88a29cb0e53b31af7e852ef8e81bfad15e49a12b7e27bcc1ed46de98ee4088c",
+            "record_key": "task:000000000000000A:entry:ff098513"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1051;id:f873dc20;offset:2226175;stored:7827;expanded:35013;output_sha256:fe4e6305a36eabe46cbe64768ce84971f5f1003081cbc2ab04d7aa4986d902c2",
+            "record_key": "task:000000000000000B:entry:f873dc20"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+            "record_key": "task:000000000000000C:entry:f565173d"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR021",
+        "claim": "The raw Thân Thế Chi Mê family says Bạch Thu Lâm withheld complicated information about the player’s parents and later refers to their spirits; it does not name them or prove the player’s guardian lineage.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:477;id:6e419b6c;offset:655811;stored:1640;expanded:6694;output_sha256:bd81fccb5dde1c9d2d390b59a5003174935b45eb1627ef6151958db106370aef",
+            "record_key": "sub:0000000000000186:start"
+          }
+        ]
+      }
+    ],
+    "reveals": [
+      {
+        "claim_id": "IR010",
+        "claim": "The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_ENDPOINT_ARC",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 18-19",
+            "citation_id": "KX-140-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR011",
+        "claim": "The live Xoyo dream page shows child Bạch Thu Lâm and states that the player meets biological parents in an illusion; names and lineage are not supplied.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 20-21",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index2.shtml",
+            "response_sha256": "e0751c0d3d57a107567231c699e4de9f6be903e1e51d26b9581da7b7b2921dc5",
+            "locator": "白家大小姐白秋琳; 身世迷踪; 亲生父母",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR012",
+        "claim": "The same release is marketed as level 140 while the live task page gives a level-135 gate and opening task Như Hỏa Như Đồ/如火如荼.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "RELEASE_METADATA",
+        "narrative_impact": "NONE",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "line 22",
+            "citation_id": "KX-140-03"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index3.shtml",
+            "response_sha256": "e343db5335138de0feb4d637fcc7ec6b883a29f171d634b8465b9f933a6a0bbc",
+            "locator": "135级; 白秋琳; 如火如荼",
+            "citation_id": "KX-140-03"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR020",
+        "claim": "The raw Tây Nam route preserves task families 10–12 around Ngô Hi, Đường Môn, Thúy Yên, La Tuyết and Du Long Giác; an early literal death of Ngô Hi cannot override the later official 1205 treason arc.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1071;id:ff098513;offset:1177103;stored:7852;expanded:36340;output_sha256:f88a29cb0e53b31af7e852ef8e81bfad15e49a12b7e27bcc1ed46de98ee4088c",
+            "record_key": "task:000000000000000A:entry:ff098513"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1051;id:f873dc20;offset:2226175;stored:7827;expanded:35013;output_sha256:fe4e6305a36eabe46cbe64768ce84971f5f1003081cbc2ab04d7aa4986d902c2",
+            "record_key": "task:000000000000000B:entry:f873dc20"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+            "record_key": "task:000000000000000C:entry:f565173d"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR021",
+        "claim": "The raw Thân Thế Chi Mê family says Bạch Thu Lâm withheld complicated information about the player’s parents and later refers to their spirits; it does not name them or prove the player’s guardian lineage.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:477;id:6e419b6c;offset:655811;stored:1640;expanded:6694;output_sha256:bd81fccb5dde1c9d2d390b59a5003174935b45eb1627ef6151958db106370aef",
+            "record_key": "sub:0000000000000186:start"
+          }
+        ]
+      }
+    ],
+    "climax_and_resolution": [
+      {
+        "claim_id": "IR021",
+        "claim": "The raw Thân Thế Chi Mê family says Bạch Thu Lâm withheld complicated information about the player’s parents and later refers to their spirits; it does not name them or prove the player’s guardian lineage.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:477;id:6e419b6c;offset:655811;stored:1640;expanded:6694;output_sha256:bd81fccb5dde1c9d2d390b59a5003174935b45eb1627ef6151958db106370aef",
+            "record_key": "sub:0000000000000186:start"
+          }
+        ]
+      }
+    ],
+    "political_and_wulin_consequences": [
+      {
+        "claim_id": "IR021",
+        "claim": "The raw Thân Thế Chi Mê family says Bạch Thu Lâm withheld complicated information about the player’s parents and later refers to their spirits; it does not name them or prove the player’s guardian lineage.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:477;id:6e419b6c;offset:655811;stored:1640;expanded:6694;output_sha256:bd81fccb5dde1c9d2d390b59a5003174935b45eb1627ef6151958db106370aef",
+            "record_key": "sub:0000000000000186:start"
+          }
+        ]
+      }
+    ],
+    "important_named_references": [
+      {
+        "claim_id": "IR010",
+        "claim": "The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_ENDPOINT_ARC",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 18-19",
+            "citation_id": "KX-140-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR011",
+        "claim": "The live Xoyo dream page shows child Bạch Thu Lâm and states that the player meets biological parents in an illusion; names and lineage are not supplied.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 20-21",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index2.shtml",
+            "response_sha256": "e0751c0d3d57a107567231c699e4de9f6be903e1e51d26b9581da7b7b2921dc5",
+            "locator": "白家大小姐白秋琳; 身世迷踪; 亲生父母",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR012",
+        "claim": "The same release is marketed as level 140 while the live task page gives a level-135 gate and opening task Như Hỏa Như Đồ/如火如荼.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "RELEASE_METADATA",
+        "narrative_impact": "NONE",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "line 22",
+            "citation_id": "KX-140-03"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index3.shtml",
+            "response_sha256": "e343db5335138de0feb4d637fcc7ec6b883a29f171d634b8465b9f933a6a0bbc",
+            "locator": "135级; 白秋琳; 如火如荼",
+            "citation_id": "KX-140-03"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR020",
+        "claim": "The raw Tây Nam route preserves task families 10–12 around Ngô Hi, Đường Môn, Thúy Yên, La Tuyết and Du Long Giác; an early literal death of Ngô Hi cannot override the later official 1205 treason arc.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1071;id:ff098513;offset:1177103;stored:7852;expanded:36340;output_sha256:f88a29cb0e53b31af7e852ef8e81bfad15e49a12b7e27bcc1ed46de98ee4088c",
+            "record_key": "task:000000000000000A:entry:ff098513"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1051;id:f873dc20;offset:2226175;stored:7827;expanded:35013;output_sha256:fe4e6305a36eabe46cbe64768ce84971f5f1003081cbc2ab04d7aa4986d902c2",
+            "record_key": "task:000000000000000B:entry:f873dc20"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+            "record_key": "task:000000000000000C:entry:f565173d"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR021",
+        "claim": "The raw Thân Thế Chi Mê family says Bạch Thu Lâm withheld complicated information about the player’s parents and later refers to their spirits; it does not name them or prove the player’s guardian lineage.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:477;id:6e419b6c;offset:655811;stored:1640;expanded:6694;output_sha256:bd81fccb5dde1c9d2d390b59a5003174935b45eb1627ef6151958db106370aef",
+            "record_key": "sub:0000000000000186:start"
+          }
+        ]
+      }
+    ],
+    "evidence_limits": []
+  },
+  "ordered_source_events": [
+    {
+      "order": 1,
+      "claim_id": "IR010",
+      "ordering_basis": "evidence grouping; no missing bridge inferred",
+      "resolved_claim": {
+        "claim_id": "IR010",
+        "claim": "The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_ENDPOINT_ARC",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 18-19",
+            "citation_id": "KX-140-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "claim_id": "IR011",
+      "ordering_basis": "evidence grouping; no missing bridge inferred",
+      "resolved_claim": {
+        "claim_id": "IR011",
+        "claim": "The live Xoyo dream page shows child Bạch Thu Lâm and states that the player meets biological parents in an illusion; names and lineage are not supplied.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "lines 20-21",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index2.shtml",
+            "response_sha256": "e0751c0d3d57a107567231c699e4de9f6be903e1e51d26b9581da7b7b2921dc5",
+            "locator": "白家大小姐白秋琳; 身世迷踪; 亲生父母",
+            "citation_id": "KX-140-02"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          }
+        ]
+      }
+    },
+    {
+      "order": 3,
+      "claim_id": "IR012",
+      "ordering_basis": "evidence grouping; no missing bridge inferred",
+      "resolved_claim": {
+        "claim_id": "IR012",
+        "claim": "The same release is marketed as level 140 while the live task page gives a level-135 gate and opening task Như Hỏa Như Đồ/如火如荼.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "RELEASE_METADATA",
+        "narrative_impact": "NONE",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/evidence/evidence-ledger.md",
+            "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+            "locator": "line 22",
+            "citation_id": "KX-140-03"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index3.shtml",
+            "response_sha256": "e343db5335138de0feb4d637fcc7ec6b883a29f171d634b8465b9f933a6a0bbc",
+            "locator": "135级; 白秋琳; 如火如荼",
+            "citation_id": "KX-140-03"
+          }
+        ]
+      }
+    },
+    {
+      "order": 4,
+      "claim_id": "IR020",
+      "ordering_basis": "evidence grouping; no missing bridge inferred",
+      "resolved_claim": {
+        "claim_id": "IR020",
+        "claim": "The raw Tây Nam route preserves task families 10–12 around Ngô Hi, Đường Môn, Thúy Yên, La Tuyết and Du Long Giác; an early literal death of Ngô Hi cannot override the later official 1205 treason arc.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1071;id:ff098513;offset:1177103;stored:7852;expanded:36340;output_sha256:f88a29cb0e53b31af7e852ef8e81bfad15e49a12b7e27bcc1ed46de98ee4088c",
+            "record_key": "task:000000000000000A:entry:ff098513"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1051;id:f873dc20;offset:2226175;stored:7827;expanded:35013;output_sha256:fe4e6305a36eabe46cbe64768ce84971f5f1003081cbc2ab04d7aa4986d902c2",
+            "record_key": "task:000000000000000B:entry:f873dc20"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+            "record_key": "task:000000000000000C:entry:f565173d"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+            "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+            "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+            "citation_id": "KX-140-01"
+          }
+        ]
+      }
+    },
+    {
+      "order": 5,
+      "claim_id": "IR021",
+      "ordering_basis": "evidence grouping; no missing bridge inferred",
+      "resolved_claim": {
+        "claim_id": "IR021",
+        "claim": "The raw Thân Thế Chi Mê family says Bạch Thu Lâm withheld complicated information about the player’s parents and later refers to their spirits; it does not name them or prove the player’s guardian lineage.",
+        "status": "VERIFIED_DIRECT",
+        "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+            "record_key": "task:000000000000009D:entry:8ead8c5c"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+            "record_key": "sub:0000000000000132:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:477;id:6e419b6c;offset:655811;stored:1640;expanded:6694;output_sha256:bd81fccb5dde1c9d2d390b59a5003174935b45eb1627ef6151958db106370aef",
+            "record_key": "sub:0000000000000186:start"
+          }
+        ]
+      }
+    }
+  ],
   "principal_entity_ids": [
     "character:game-player",
     "character:bach-thu-lam",
     "character:biological-parents",
     "character:ngo-hi",
-    "faction:thien-nhan",
+    "sect:8",
     "faction:nhat-pham-duong"
-  ]
+  ],
+  "important_item_ids": [],
+  "important_location_ids": [
+    "map:569"
+  ],
+  "important_sect_ids": [
+    "sect:6",
+    "sect:8"
+  ],
+  "important_martial_ids": [],
+  "active_plot_thread_ids": [
+    "thread:ngo-hi-status",
+    "thread:northern-war",
+    "thread:player-origin",
+    "thread:southern-song-war"
+  ],
+  "mystery_payoff_ids": [
+    "mystery:ngo-hi-status",
+    "mystery:player-parents",
+    "mystery:returning-woman"
+  ],
+  "material_contradiction_status": "NONE_UNRESOLVED",
+  "source_story_bible_boundary": "Source-only reconstruction; no novel adaptation, scene, episode or protagonist decision."
 }

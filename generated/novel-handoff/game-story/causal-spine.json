@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "generator": "scripts/build_novel_handoff.py",
-  "generated_at_utc": "2026-08-14T09:22:45.829988+00:00",
+  "generated_at_utc": "2026-08-14T09:48:39.128057+00:00",
   "promotion_status": "NOVEL_PROMOTION_READY",
   "scope": "Only promoted claim nodes and explicitly curated evidence-supported transitions; absent bridges remain absent.",
   "nodes": [
@@ -1176,6 +1176,19 @@
       "target_claim_id": "IR002",
       "relationship": "relic background to documented reappearance/crisis",
       "status": "STRONG",
+      "edge_basis": "DIRECT_OR_CROSS_SOURCE_PROMOTED_RECONSTRUCTION",
+      "source_arc_ids": [
+        "arc-00"
+      ],
+      "target_arc_ids": [
+        "arc-00"
+      ],
+      "related_plot_thread_ids": [
+        "thread:du-long-relic"
+      ],
+      "dossier_paths": [
+        "game-story/dossiers/arc-00.json"
+      ],
       "evidence_claim_ids": [
         "IR001",
         "IR002"
@@ -1187,6 +1200,28 @@
       "target_claim_id": "IR005",
       "relationship": "regional-mainline architecture to pre-50 convergence prerequisite",
       "status": "STRONG",
+      "edge_basis": "DIRECT_OR_CROSS_SOURCE_PROMOTED_RECONSTRUCTION",
+      "source_arc_ids": [
+        "arc-01",
+        "arc-02",
+        "arc-03",
+        "arc-04",
+        "arc-06"
+      ],
+      "target_arc_ids": [
+        "arc-05"
+      ],
+      "related_plot_thread_ids": [
+        "thread:regional-branches"
+      ],
+      "dossier_paths": [
+        "game-story/dossiers/arc-01.json",
+        "game-story/dossiers/arc-02.json",
+        "game-story/dossiers/arc-03.json",
+        "game-story/dossiers/arc-04.json",
+        "game-story/dossiers/arc-05.json",
+        "game-story/dossiers/arc-06.json"
+      ],
       "evidence_claim_ids": [
         "IR003",
         "IR005"
@@ -1198,6 +1233,18 @@
       "target_claim_id": "IR022",
       "relationship": "pre-50 completion/convergence to shared post-50 chain",
       "status": "STRONG",
+      "edge_basis": "DIRECT_OR_CROSS_SOURCE_PROMOTED_RECONSTRUCTION",
+      "source_arc_ids": [
+        "arc-05"
+      ],
+      "target_arc_ids": [
+        "arc-06"
+      ],
+      "related_plot_thread_ids": [],
+      "dossier_paths": [
+        "game-story/dossiers/arc-05.json",
+        "game-story/dossiers/arc-06.json"
+      ],
       "evidence_claim_ids": [
         "IR005",
         "IR022"
@@ -1209,6 +1256,19 @@
       "target_claim_id": "IR023",
       "relationship": "succession chain to Du Long diagram investigation",
       "status": "VERIFIED_DIRECT",
+      "edge_basis": "DIRECT_OR_CROSS_SOURCE_PROMOTED_RECONSTRUCTION",
+      "source_arc_ids": [
+        "arc-06"
+      ],
+      "target_arc_ids": [
+        "arc-06"
+      ],
+      "related_plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
+      "dossier_paths": [
+        "game-story/dossiers/arc-06.json"
+      ],
       "evidence_claim_ids": [
         "IR022",
         "IR023"
@@ -1220,6 +1280,20 @@
       "target_claim_id": "IR024",
       "relationship": "Du Long theft to leak investigation and pursuit",
       "status": "VERIFIED_DIRECT",
+      "edge_basis": "DIRECT_OR_CROSS_SOURCE_PROMOTED_RECONSTRUCTION",
+      "source_arc_ids": [
+        "arc-06"
+      ],
+      "target_arc_ids": [
+        "arc-06"
+      ],
+      "related_plot_thread_ids": [
+        "thread:du-long-relic",
+        "thread:post50-cross-narrative"
+      ],
+      "dossier_paths": [
+        "game-story/dossiers/arc-06.json"
+      ],
       "evidence_claim_ids": [
         "IR023",
         "IR024"
@@ -1231,6 +1305,20 @@
       "target_claim_id": "IR025",
       "relationship": "Tây Hạ pursuit to recovery/treasure conflict",
       "status": "VERIFIED_DIRECT",
+      "edge_basis": "DIRECT_OR_CROSS_SOURCE_PROMOTED_RECONSTRUCTION",
+      "source_arc_ids": [
+        "arc-06"
+      ],
+      "target_arc_ids": [
+        "arc-06"
+      ],
+      "related_plot_thread_ids": [
+        "thread:du-long-relic",
+        "thread:post50-cross-narrative"
+      ],
+      "dossier_paths": [
+        "game-story/dossiers/arc-06.json"
+      ],
       "evidence_claim_ids": [
         "IR024",
         "IR025"
@@ -1242,6 +1330,23 @@
       "target_claim_id": "IR010",
       "relationship": "Northern Expedition decision context to the 1205 campaign arc",
       "status": "VERIFIED_CROSS_SOURCE",
+      "edge_basis": "DIRECT_OR_CROSS_SOURCE_PROMOTED_RECONSTRUCTION",
+      "source_arc_ids": [
+        "arc-07",
+        "arc-11"
+      ],
+      "target_arc_ids": [
+        "arc-12"
+      ],
+      "related_plot_thread_ids": [
+        "thread:northern-war",
+        "thread:southern-song-war"
+      ],
+      "dossier_paths": [
+        "game-story/dossiers/arc-07.json",
+        "game-story/dossiers/arc-11.json",
+        "game-story/dossiers/arc-12.json"
+      ],
       "evidence_claim_ids": [
         "IR009",
         "IR010"

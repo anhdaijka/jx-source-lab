@@ -1,9 +1,10 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "generator": "scripts/build_novel_handoff.py",
-  "generated_at_utc": "2026-08-14T09:22:45.853849+00:00",
+  "generated_at_utc": "2026-08-14T09:48:39.165374+00:00",
   "source_repository": "anhdaijka/jx-source-lab",
   "source_lab_commit": "8d7645a4d659d0baac86c9eafc7fc0ef18c90254",
+  "handoff_generation_base_commit": "68f69b655d7bfdac1d4386101cfa7897651903ac",
   "research_release": {
     "version": "1.1",
     "status": "COMPLETE_WITH_DOCUMENTED_UNKNOWNS",
@@ -55,5 +56,7 @@
   ],
   "persisted_user_canon_decisions": [],
   "build_version_policy": "Exact client/server build/version identity is metadata only and is not a promotion requirement unless it changes a MATERIAL story interpretation.",
+  "lookup_convention": "Resolve IR claim IDs in research/reconciliation/internet-research-claims.jsonl; arc IDs in research/reconstruction/game-story-dossiers/; entity and source record keys in generated/records/. Thread, mystery, relationship and knowledge IDs are source-side handoff projections whose claim_evidence points back to those artifacts.",
+  "new_broad_source_research_performed": false,
   "raw_payload_policy": "Raw client/server files, PAKs, binaries, archives, private-input packages and bulk extracted payloads are excluded; provenance references remain textual."
 }

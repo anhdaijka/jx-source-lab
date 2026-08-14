@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "generator": "scripts/build_novel_handoff.py",
-  "generated_at_utc": "2026-08-14T09:22:45.827826+00:00",
+  "generated_at_utc": "2026-08-14T09:48:39.125669+00:00",
   "promotion_status": "NOVEL_PROMOTION_READY",
   "arc_count": 14,
   "arcs": [
@@ -11,6 +11,7 @@
       "title": "Du Long Giác prologue and world crisis",
       "aliases": [],
       "chronology_or_level_range": "pre-opening/1189",
+      "branch_or_convergence_role": "LINEAR_OR_CONTEXT",
       "dossier_path": "game-story/dossiers/arc-00.json",
       "principal_entity_ids": [
         "character:game-player",
@@ -23,10 +24,24 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 0,
-      "important_martial_item_location_references": [
-        "IR001",
-        "IR002"
-      ]
+      "active_plot_thread_ids": [
+        "thread:du-long-relic",
+        "thread:thuy-yen-dali"
+      ],
+      "mystery_reveal_ids": [
+        "mystery:du-long-secret"
+      ],
+      "important_item_ids": [
+        "item:other/taskquest.txt:line:201",
+        "item:other/taskquest.txt:line:665"
+      ],
+      "important_location_ids": [
+        "location:nam-chieu"
+      ],
+      "important_sect_ids": [
+        "sect:6"
+      ],
+      "important_martial_ids": []
     },
     {
       "order": 2,
@@ -34,6 +49,7 @@
       "title": "Player opening and Bạch Thu Lâm",
       "aliases": [],
       "chronology_or_level_range": "opening",
+      "branch_or_convergence_role": "LINEAR_OR_CONTEXT",
       "dossier_path": "game-story/dossiers/arc-01.json",
       "principal_entity_ids": [
         "character:game-player",
@@ -48,7 +64,22 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 2,
-      "important_martial_item_location_references": []
+      "active_plot_thread_ids": [
+        "thread:nghia-quan-service",
+        "thread:player-origin",
+        "thread:regional-branches"
+      ],
+      "mystery_reveal_ids": [
+        "mystery:player-parents"
+      ],
+      "important_item_ids": [],
+      "important_location_ids": [
+        "map:12",
+        "map:16",
+        "map:22"
+      ],
+      "important_sect_ids": [],
+      "important_martial_ids": []
     },
     {
       "order": 3,
@@ -56,6 +87,7 @@
       "title": "Yên Vũ Giang Nam",
       "aliases": [],
       "chronology_or_level_range": "pre-50 regional",
+      "branch_or_convergence_role": "BRANCH",
       "dossier_path": "game-story/dossiers/arc-02.json",
       "principal_entity_ids": [
         "character:game-player",
@@ -68,7 +100,20 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 0,
-      "important_martial_item_location_references": []
+      "active_plot_thread_ids": [
+        "thread:regional-branches"
+      ],
+      "mystery_reveal_ids": [
+        "mystery:returning-woman"
+      ],
+      "important_item_ids": [],
+      "important_location_ids": [
+        "map:12",
+        "map:16",
+        "map:22"
+      ],
+      "important_sect_ids": [],
+      "important_martial_ids": []
     },
     {
       "order": 4,
@@ -76,6 +121,7 @@
       "title": "Binh Qua Trung Nguyên",
       "aliases": [],
       "chronology_or_level_range": "pre-50 regional",
+      "branch_or_convergence_role": "BRANCH",
       "dossier_path": "game-story/dossiers/arc-03.json",
       "principal_entity_ids": [
         "character:game-player"
@@ -87,7 +133,18 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 1,
-      "important_martial_item_location_references": []
+      "active_plot_thread_ids": [
+        "thread:regional-branches"
+      ],
+      "mystery_reveal_ids": [],
+      "important_item_ids": [],
+      "important_location_ids": [
+        "map:12",
+        "map:16",
+        "map:22"
+      ],
+      "important_sect_ids": [],
+      "important_martial_ids": []
     },
     {
       "order": 5,
@@ -95,12 +152,13 @@
       "title": "Tây Nam Mê Cảnh",
       "aliases": [],
       "chronology_or_level_range": "pre-50 regional",
+      "branch_or_convergence_role": "BRANCH",
       "dossier_path": "game-story/dossiers/arc-04.json",
       "principal_entity_ids": [
         "character:game-player",
         "character:ngo-hi",
         "character:la-tuyet",
-        "faction:thuy-yen"
+        "sect:6"
       ],
       "claim_ids": [
         "IR003",
@@ -109,7 +167,25 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 0,
-      "important_martial_item_location_references": []
+      "active_plot_thread_ids": [
+        "thread:du-long-relic",
+        "thread:ngo-hi-status",
+        "thread:regional-branches",
+        "thread:thuy-yen-dali"
+      ],
+      "mystery_reveal_ids": [
+        "mystery:ngo-hi-status"
+      ],
+      "important_item_ids": [],
+      "important_location_ids": [
+        "map:12",
+        "map:16",
+        "map:22"
+      ],
+      "important_sect_ids": [
+        "sect:6"
+      ],
+      "important_martial_ids": []
     },
     {
       "order": 6,
@@ -117,6 +193,7 @@
       "title": "Chuyện Cũ Thần Châu convergence",
       "aliases": [],
       "chronology_or_level_range": "pre-50 convergence",
+      "branch_or_convergence_role": "CONVERGENCE",
       "dossier_path": "game-story/dossiers/arc-05.json",
       "principal_entity_ids": [
         "character:game-player"
@@ -127,7 +204,14 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 0,
-      "important_martial_item_location_references": []
+      "active_plot_thread_ids": [
+        "thread:regional-branches"
+      ],
+      "mystery_reveal_ids": [],
+      "important_item_ids": [],
+      "important_location_ids": [],
+      "important_sect_ids": [],
+      "important_martial_ids": []
     },
     {
       "order": 7,
@@ -135,6 +219,7 @@
       "title": "Post-50 cross-narrative",
       "aliases": [],
       "chronology_or_level_range": "level gates 49-89",
+      "branch_or_convergence_role": "CONVERGENCE",
       "dossier_path": "game-story/dossiers/arc-06.json",
       "principal_entity_ids": [
         "character:game-player",
@@ -161,12 +246,47 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 1,
-      "important_martial_item_location_references": [
-        "IR022",
-        "IR023",
-        "IR024",
-        "IR025"
-      ]
+      "active_plot_thread_ids": [
+        "thread:du-long-relic",
+        "thread:nghia-quan-service",
+        "thread:ngo-hi-status",
+        "thread:post50-cross-narrative",
+        "thread:southern-song-war"
+      ],
+      "mystery_reveal_ids": [
+        "mystery:du-long-diagram-theft",
+        "mystery:du-long-secret",
+        "mystery:ngo-hi-status"
+      ],
+      "important_item_ids": [
+        "item:other/taskquest.txt:line:319",
+        "item:other/taskquest.txt:line:326",
+        "item:other/taskquest.txt:line:351",
+        "item:other/taskquest.txt:line:440",
+        "item:other/taskquest.txt:line:453",
+        "item:other/taskquest.txt:line:454",
+        "item:other/taskquest.txt:line:455",
+        "item:other/taskquest.txt:line:456",
+        "item:other/taskquest.txt:line:561"
+      ],
+      "important_location_ids": [
+        "map:12",
+        "map:13",
+        "map:16",
+        "map:22",
+        "map:25",
+        "map:511",
+        "map:513",
+        "map:530",
+        "map:88",
+        "map:98"
+      ],
+      "important_sect_ids": [
+        "sect:3",
+        "sect:4",
+        "sect:7"
+      ],
+      "important_martial_ids": []
     },
     {
       "order": 8,
@@ -174,6 +294,7 @@
       "title": "Khánh Nguyên and Nghĩa Quân",
       "aliases": [],
       "chronology_or_level_range": "level 90",
+      "branch_or_convergence_role": "LINEAR_OR_CONTEXT",
       "dossier_path": "game-story/dossiers/arc-07.json",
       "principal_entity_ids": [
         "character:game-player",
@@ -188,7 +309,16 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 0,
-      "important_martial_item_location_references": []
+      "active_plot_thread_ids": [
+        "thread:nghia-quan-service",
+        "thread:northern-war",
+        "thread:southern-song-war"
+      ],
+      "mystery_reveal_ids": [],
+      "important_item_ids": [],
+      "important_location_ids": [],
+      "important_sect_ids": [],
+      "important_martial_ids": []
     },
     {
       "order": 9,
@@ -196,6 +326,7 @@
       "title": "Man Thiên Quá Hải",
       "aliases": [],
       "chronology_or_level_range": "level 100",
+      "branch_or_convergence_role": "LINEAR_OR_CONTEXT",
       "dossier_path": "game-story/dossiers/arc-08.json",
       "principal_entity_ids": [
         "character:game-player",
@@ -207,9 +338,14 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 1,
-      "important_martial_item_location_references": [
-        "IR015"
-      ]
+      "active_plot_thread_ids": [],
+      "mystery_reveal_ids": [],
+      "important_item_ids": [],
+      "important_location_ids": [
+        "map:29"
+      ],
+      "important_sect_ids": [],
+      "important_martial_ids": []
     },
     {
       "order": 10,
@@ -217,6 +353,7 @@
       "title": "Đại Lý crisis",
       "aliases": [],
       "chronology_or_level_range": "level 110",
+      "branch_or_convergence_role": "LINEAR_OR_CONTEXT",
       "dossier_path": "game-story/dossiers/arc-09.json",
       "principal_entity_ids": [
         "character:game-player",
@@ -229,9 +366,20 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 0,
-      "important_martial_item_location_references": [
-        "IR006"
-      ]
+      "active_plot_thread_ids": [
+        "thread:du-long-relic",
+        "thread:thuy-yen-dali"
+      ],
+      "mystery_reveal_ids": [],
+      "important_item_ids": [],
+      "important_location_ids": [
+        "map:28",
+        "map:819"
+      ],
+      "important_sect_ids": [
+        "sect:6"
+      ],
+      "important_martial_ids": []
     },
     {
       "order": 11,
@@ -239,6 +387,7 @@
       "title": "Northern intelligence and Vọng Long Sơn",
       "aliases": [],
       "chronology_or_level_range": "level 120",
+      "branch_or_convergence_role": "LINEAR_OR_CONTEXT",
       "dossier_path": "game-story/dossiers/arc-10.json",
       "principal_entity_ids": [
         "character:game-player",
@@ -256,9 +405,17 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 0,
-      "important_martial_item_location_references": [
-        "IR007"
-      ]
+      "active_plot_thread_ids": [
+        "thread:nghia-quan-service",
+        "thread:northern-war"
+      ],
+      "mystery_reveal_ids": [],
+      "important_item_ids": [],
+      "important_location_ids": [
+        "map:561"
+      ],
+      "important_sect_ids": [],
+      "important_martial_ids": []
     },
     {
       "order": 12,
@@ -266,6 +423,7 @@
       "title": "Decision for Northern Expedition",
       "aliases": [],
       "chronology_or_level_range": "level 130",
+      "branch_or_convergence_role": "LINEAR_OR_CONTEXT",
       "dossier_path": "game-story/dossiers/arc-11.json",
       "principal_entity_ids": [
         "character:han-thac-tru",
@@ -277,7 +435,15 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 0,
-      "important_martial_item_location_references": []
+      "active_plot_thread_ids": [
+        "thread:northern-war",
+        "thread:southern-song-war"
+      ],
+      "mystery_reveal_ids": [],
+      "important_item_ids": [],
+      "important_location_ids": [],
+      "important_sect_ids": [],
+      "important_martial_ids": []
     },
     {
       "order": 13,
@@ -285,13 +451,14 @@
       "title": "Linh Bích and player-origin reveal",
       "aliases": [],
       "chronology_or_level_range": "level 135/140",
+      "branch_or_convergence_role": "LINEAR_OR_CONTEXT",
       "dossier_path": "game-story/dossiers/arc-12.json",
       "principal_entity_ids": [
         "character:game-player",
         "character:bach-thu-lam",
         "character:biological-parents",
         "character:ngo-hi",
-        "faction:thien-nhan",
+        "sect:8",
         "faction:nhat-pham-duong"
       ],
       "claim_ids": [
@@ -304,9 +471,26 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 2,
-      "important_martial_item_location_references": [
-        "IR010"
-      ]
+      "active_plot_thread_ids": [
+        "thread:ngo-hi-status",
+        "thread:northern-war",
+        "thread:player-origin",
+        "thread:southern-song-war"
+      ],
+      "mystery_reveal_ids": [
+        "mystery:ngo-hi-status",
+        "mystery:player-parents",
+        "mystery:returning-woman"
+      ],
+      "important_item_ids": [],
+      "important_location_ids": [
+        "map:569"
+      ],
+      "important_sect_ids": [
+        "sect:6",
+        "sect:8"
+      ],
+      "important_martial_ids": []
     },
     {
       "order": 14,
@@ -314,6 +498,7 @@
       "title": "Verified publication endpoint",
       "aliases": [],
       "chronology_or_level_range": "post-135/140 boundary",
+      "branch_or_convergence_role": "LINEAR_OR_CONTEXT",
       "dossier_path": "game-story/dossiers/endpoint.json",
       "principal_entity_ids": [
         "faction:nam-tong"
@@ -325,7 +510,15 @@
       "status": "PROMOTED_SOURCE_CANON",
       "confidence": "MIXED_PROMOTABLE",
       "central_unresolved_count": 2,
-      "important_martial_item_location_references": []
+      "active_plot_thread_ids": [],
+      "mystery_reveal_ids": [
+        "mystery:du-long-secret",
+        "mystery:player-parents"
+      ],
+      "important_item_ids": [],
+      "important_location_ids": [],
+      "important_sect_ids": [],
+      "important_martial_ids": []
     }
   ]
 }

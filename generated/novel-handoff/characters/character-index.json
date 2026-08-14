@@ -1,9 +1,10 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "generator": "scripts/build_novel_handoff.py",
-  "generated_at_utc": "2026-08-14T09:22:45.832821+00:00",
+  "generated_at_utc": "2026-08-14T09:48:39.139280+00:00",
   "selection_policy": "Only recurring or load-bearing promoted-story characters; traits are not inferred.",
   "count": 18,
+  "trajectory_count": 7,
   "characters": [
     {
       "entity_id": "character:game-player",
@@ -26,24 +27,31 @@
         "arc-07",
         "arc-12"
       ],
-      "relationships": [
-        {
-          "target": "character:bach-thu-lam",
-          "relation": "mission authority and source of withheld parentage information",
-          "claim_ids": [
-            "IR004",
-            "IR021"
-          ]
-        },
-        {
-          "target": "character:biological-parents",
-          "relation": "biological child",
-          "claim_ids": [
-            "IR011",
-            "IR021"
-          ]
-        }
+      "first_relevant_arc_id": "arc-01",
+      "major_relevant_arc_ids": [
+        "arc-01",
+        "arc-07",
+        "arc-12"
       ],
+      "latest_relevant_arc_id": "arc-12",
+      "trajectory_path": "characters/trajectories/game-player.json",
+      "related_plot_thread_ids": [
+        "thread:du-long-relic",
+        "thread:nghia-quan-service",
+        "thread:ngo-hi-status",
+        "thread:northern-war",
+        "thread:player-origin",
+        "thread:post50-cross-narrative",
+        "thread:regional-branches"
+      ],
+      "related_mystery_reveal_ids": [
+        "mystery:du-long-diagram-theft",
+        "mystery:du-long-secret",
+        "mystery:ngo-hi-status",
+        "mystery:player-parents",
+        "mystery:returning-woman"
+      ],
+      "known_martial_associations": [],
       "source_record_keys": [],
       "source_records": [],
       "claim_evidence": [
@@ -189,16 +197,23 @@
         "arc-07",
         "arc-12"
       ],
-      "relationships": [
-        {
-          "target": "character:game-player",
-          "relation": "caretaker/mission authority; exact kinship is not established",
-          "claim_ids": [
-            "IR004",
-            "IR021"
-          ]
-        }
+      "first_relevant_arc_id": "arc-01",
+      "major_relevant_arc_ids": [
+        "arc-01",
+        "arc-07",
+        "arc-12"
       ],
+      "latest_relevant_arc_id": "arc-12",
+      "trajectory_path": "characters/trajectories/bach-thu-lam.json",
+      "related_plot_thread_ids": [
+        "thread:nghia-quan-service",
+        "thread:player-origin"
+      ],
+      "related_mystery_reveal_ids": [
+        "mystery:player-parents",
+        "mystery:returning-woman"
+      ],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:1111",
         "npc:3570",
@@ -499,16 +514,21 @@
         "arc-01",
         "arc-12"
       ],
-      "relationships": [
-        {
-          "target": "character:game-player",
-          "relation": "biological parents; names and exact fate remain UNKNOWN",
-          "claim_ids": [
-            "IR011",
-            "IR021"
-          ]
-        }
+      "first_relevant_arc_id": "arc-01",
+      "major_relevant_arc_ids": [
+        "arc-01",
+        "arc-12"
       ],
+      "latest_relevant_arc_id": "arc-12",
+      "trajectory_path": "characters/trajectories/biological-parents.json",
+      "related_plot_thread_ids": [
+        "thread:player-origin"
+      ],
+      "related_mystery_reveal_ids": [
+        "mystery:player-parents",
+        "mystery:returning-woman"
+      ],
+      "known_martial_associations": [],
       "source_record_keys": [],
       "source_records": [],
       "claim_evidence": [
@@ -610,7 +630,20 @@
       "arc_ids": [
         "arc-06"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-06",
+      "major_relevant_arc_ids": [
+        "arc-06"
+      ],
+      "latest_relevant_arc_id": "arc-06",
+      "trajectory_path": null,
+      "related_plot_thread_ids": [
+        "thread:post50-cross-narrative",
+        "thread:southern-song-war"
+      ],
+      "related_mystery_reveal_ids": [
+        "mystery:du-long-diagram-theft"
+      ],
+      "known_martial_associations": [],
       "source_record_keys": [],
       "source_records": [],
       "claim_evidence": [
@@ -674,7 +707,20 @@
       "arc_ids": [
         "arc-06"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-06",
+      "major_relevant_arc_ids": [
+        "arc-06"
+      ],
+      "latest_relevant_arc_id": "arc-06",
+      "trajectory_path": null,
+      "related_plot_thread_ids": [
+        "thread:post50-cross-narrative",
+        "thread:southern-song-war"
+      ],
+      "related_mystery_reveal_ids": [
+        "mystery:du-long-diagram-theft"
+      ],
+      "known_martial_associations": [],
       "source_record_keys": [],
       "source_records": [],
       "claim_evidence": [
@@ -739,7 +785,19 @@
         "arc-07",
         "arc-11"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-07",
+      "major_relevant_arc_ids": [
+        "arc-07",
+        "arc-11"
+      ],
+      "latest_relevant_arc_id": "arc-11",
+      "trajectory_path": "characters/trajectories/han-thac-tru.json",
+      "related_plot_thread_ids": [
+        "thread:northern-war",
+        "thread:southern-song-war"
+      ],
+      "related_mystery_reveal_ids": [],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:17",
         "npc:20",
@@ -909,7 +967,24 @@
         "arc-06",
         "arc-12"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-04",
+      "major_relevant_arc_ids": [
+        "arc-04",
+        "arc-06",
+        "arc-12"
+      ],
+      "latest_relevant_arc_id": "arc-12",
+      "trajectory_path": "characters/trajectories/ngo-hi.json",
+      "related_plot_thread_ids": [
+        "thread:ngo-hi-status",
+        "thread:post50-cross-narrative",
+        "thread:southern-song-war"
+      ],
+      "related_mystery_reveal_ids": [
+        "mystery:du-long-diagram-theft",
+        "mystery:ngo-hi-status"
+      ],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:1107"
       ],
@@ -1056,7 +1131,17 @@
       "arc_ids": [
         "arc-09"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-09",
+      "major_relevant_arc_ids": [
+        "arc-09"
+      ],
+      "latest_relevant_arc_id": "arc-09",
+      "trajectory_path": null,
+      "related_plot_thread_ids": [
+        "thread:thuy-yen-dali"
+      ],
+      "related_mystery_reveal_ids": [],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:782",
         "npc:784",
@@ -1204,7 +1289,18 @@
         "arc-04",
         "arc-09"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-04",
+      "major_relevant_arc_ids": [
+        "arc-04",
+        "arc-09"
+      ],
+      "latest_relevant_arc_id": "arc-09",
+      "trajectory_path": "characters/trajectories/la-tuyet.json",
+      "related_plot_thread_ids": [
+        "thread:thuy-yen-dali"
+      ],
+      "related_mystery_reveal_ids": [],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:775",
         "npc:776",
@@ -1406,7 +1502,18 @@
       "arc_ids": [
         "arc-10"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-10",
+      "major_relevant_arc_ids": [
+        "arc-10"
+      ],
+      "latest_relevant_arc_id": "arc-10",
+      "trajectory_path": null,
+      "related_plot_thread_ids": [
+        "thread:nghia-quan-service",
+        "thread:northern-war"
+      ],
+      "related_mystery_reveal_ids": [],
+      "known_martial_associations": [],
       "source_record_keys": [],
       "source_records": [],
       "claim_evidence": [
@@ -1534,7 +1641,17 @@
       "arc_ids": [
         "arc-10"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-10",
+      "major_relevant_arc_ids": [
+        "arc-10"
+      ],
+      "latest_relevant_arc_id": "arc-10",
+      "trajectory_path": null,
+      "related_plot_thread_ids": [
+        "thread:northern-war"
+      ],
+      "related_mystery_reveal_ids": [],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:441",
         "npc:4502",
@@ -1707,7 +1824,21 @@
         "arc-06",
         "arc-10"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-06",
+      "major_relevant_arc_ids": [
+        "arc-06",
+        "arc-10"
+      ],
+      "latest_relevant_arc_id": "arc-10",
+      "trajectory_path": "characters/trajectories/hoan-nhan-tuong.json",
+      "related_plot_thread_ids": [
+        "thread:northern-war",
+        "thread:post50-cross-narrative"
+      ],
+      "related_mystery_reveal_ids": [
+        "mystery:du-long-diagram-theft"
+      ],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:255",
         "npc:451",
@@ -1889,7 +2020,15 @@
       "arc_ids": [
         "arc-02"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-02",
+      "major_relevant_arc_ids": [
+        "arc-02"
+      ],
+      "latest_relevant_arc_id": "arc-02",
+      "trajectory_path": null,
+      "related_plot_thread_ids": [],
+      "related_mystery_reveal_ids": [],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:81",
         "npc:88",
@@ -2043,7 +2182,19 @@
       "arc_ids": [
         "arc-06"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-06",
+      "major_relevant_arc_ids": [
+        "arc-06"
+      ],
+      "latest_relevant_arc_id": "arc-06",
+      "trajectory_path": null,
+      "related_plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
+      "related_mystery_reveal_ids": [
+        "mystery:du-long-diagram-theft"
+      ],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:969",
         "npc:970"
@@ -2125,7 +2276,19 @@
       "arc_ids": [
         "arc-06"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-06",
+      "major_relevant_arc_ids": [
+        "arc-06"
+      ],
+      "latest_relevant_arc_id": "arc-06",
+      "trajectory_path": null,
+      "related_plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
+      "related_mystery_reveal_ids": [
+        "mystery:du-long-diagram-theft"
+      ],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:481",
         "npc:690",
@@ -2269,7 +2432,19 @@
       "arc_ids": [
         "arc-06"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-06",
+      "major_relevant_arc_ids": [
+        "arc-06"
+      ],
+      "latest_relevant_arc_id": "arc-06",
+      "trajectory_path": null,
+      "related_plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
+      "related_mystery_reveal_ids": [
+        "mystery:du-long-diagram-theft"
+      ],
+      "known_martial_associations": [],
       "source_record_keys": [],
       "source_records": [],
       "claim_evidence": [
@@ -2332,7 +2507,21 @@
         "arc-01",
         "arc-12"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-01",
+      "major_relevant_arc_ids": [
+        "arc-01",
+        "arc-12"
+      ],
+      "latest_relevant_arc_id": "arc-12",
+      "trajectory_path": null,
+      "related_plot_thread_ids": [
+        "thread:player-origin"
+      ],
+      "related_mystery_reveal_ids": [
+        "mystery:player-parents",
+        "mystery:returning-woman"
+      ],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:3585"
       ],
@@ -2399,7 +2588,15 @@
       "arc_ids": [
         "arc-08"
       ],
-      "relationships": [],
+      "first_relevant_arc_id": "arc-08",
+      "major_relevant_arc_ids": [
+        "arc-08"
+      ],
+      "latest_relevant_arc_id": "arc-08",
+      "trajectory_path": null,
+      "related_plot_thread_ids": [],
+      "related_mystery_reveal_ids": [],
+      "known_martial_associations": [],
       "source_record_keys": [
         "npc:1831",
         "npc:1875",

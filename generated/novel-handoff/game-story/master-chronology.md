@@ -6,6 +6,12 @@ This is a source-only chronology for forensic import. It is not a novel outline,
 - Stable arc ID: `arc-00`
 - Chronology/level: pre-opening/1189
 - Source dossier: `game-story/dossiers/arc-00.json`
+- Premise claims: `IR001`
+- Player-learning claims: `IR001`, `IR002`
+- Reveal/climax claims: `IR001`, `IR002`, `IR002`
+- Outcome/consequence claims: `IR002`
+- Plot threads: `thread:du-long-relic`, `thread:thuy-yen-dali`
+- Mystery/payoff records: `mystery:du-long-secret`
 - `IR001` [VERIFIED_CROSS_SOURCE]: Du Long Giác is tied to Tống Thái Tổ, more than twenty recruited masters, and a complementary secret retained by their descendants.
 - `IR002` [STRONG]: Xoyo dates the relic reappearance to spring 1189 at the former Nam Chiếu palace; the local task corpus independently preserves the relic-triggered Thúy Yên disaster.
 
@@ -13,6 +19,12 @@ This is a source-only chronology for forensic import. It is not a novel outline,
 - Stable arc ID: `arc-01`
 - Chronology/level: opening
 - Source dossier: `game-story/dossiers/arc-01.json`
+- Premise claims: `IR003`
+- Player-learning claims: `IR003`, `IR004`, `IR021`
+- Reveal/climax claims: `IR003`, `IR004`, `IR021`, `IR021`
+- Outcome/consequence claims: `IR021`
+- Plot threads: `thread:nghia-quan-service`, `thread:player-origin`, `thread:regional-branches`
+- Mystery/payoff records: `mystery:player-parents`
 - `IR003` [VERIFIED_CROSS_SOURCE]: The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.
 - `IR004` [VERIFIED_CROSS_SOURCE]: Bạch Thu Lâm/Thu Di onboards the player into Nghĩa Quân and remains the player’s principal mission authority.
 - `IR021` [VERIFIED_DIRECT]: The raw Thân Thế Chi Mê family says Bạch Thu Lâm withheld complicated information about the player’s parents and later refers to their spirits; it does not name them or prove the player’s guardian lineage.
@@ -22,6 +34,12 @@ This is a source-only chronology for forensic import. It is not a novel outline,
 - Stable arc ID: `arc-02`
 - Chronology/level: pre-50 regional
 - Source dossier: `game-story/dossiers/arc-02.json`
+- Premise claims: `IR003`
+- Player-learning claims: `IR003`, `IR014`
+- Reveal/climax claims: `IR003`, `IR014`, `IR014`
+- Outcome/consequence claims: `IR014`
+- Plot threads: `thread:regional-branches`
+- Mystery/payoff records: `mystery:returning-woman`
 - `IR003` [VERIFIED_CROSS_SOURCE]: The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.
 - `IR014` [VERIFIED_CROSS_SOURCE]: The Yên Vũ route uses the Mộc Nhất Lâu cover identity and contact with Ân Đồng; a contemporary retelling and raw dialogue independently preserve these beats.
 
@@ -29,6 +47,12 @@ This is a source-only chronology for forensic import. It is not a novel outline,
 - Stable arc ID: `arc-03`
 - Chronology/level: pre-50 regional
 - Source dossier: `game-story/dossiers/arc-03.json`
+- Premise claims: `IR003`
+- Player-learning claims: `IR003`, `IR019`
+- Reveal/climax claims: `IR003`, `IR019`, `IR019`
+- Outcome/consequence claims: `IR019`
+- Plot threads: `thread:regional-branches`
+- Mystery/payoff records: none
 - `IR003` [VERIFIED_CROSS_SOURCE]: The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.
 - `IR019` [VERIFIED_DIRECT]: The raw Binh Qua route is not title-only: main task families 6–9 preserve Tây Hạ/Nhất Phẩm Đường, Võ Đang and northern political threads, though a complete cross-family causal order remains uncertain.
 - Tolerated unknowns: `bingge-full-order`
@@ -37,6 +61,12 @@ This is a source-only chronology for forensic import. It is not a novel outline,
 - Stable arc ID: `arc-04`
 - Chronology/level: pre-50 regional
 - Source dossier: `game-story/dossiers/arc-04.json`
+- Premise claims: `IR003`
+- Player-learning claims: `IR003`, `IR020`
+- Reveal/climax claims: `IR003`, `IR020`, `IR020`
+- Outcome/consequence claims: `IR020`
+- Plot threads: `thread:du-long-relic`, `thread:ngo-hi-status`, `thread:regional-branches`, `thread:thuy-yen-dali`
+- Mystery/payoff records: `mystery:ngo-hi-status`
 - `IR003` [VERIFIED_CROSS_SOURCE]: The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.
 - `IR020` [VERIFIED_CROSS_SOURCE]: The raw Tây Nam route preserves task families 10–12 around Ngô Hi, Đường Môn, Thúy Yên, La Tuyết and Du Long Giác; an early literal death of Ngô Hi cannot override the later official 1205 treason arc.
 
@@ -44,12 +74,24 @@ This is a source-only chronology for forensic import. It is not a novel outline,
 - Stable arc ID: `arc-05`
 - Chronology/level: pre-50 convergence
 - Source dossier: `game-story/dossiers/arc-05.json`
+- Premise claims: `IR005`
+- Player-learning claims: `IR005`
+- Reveal/climax claims: `IR005`, `IR005`
+- Outcome/consequence claims: `IR005`
+- Plot threads: `thread:regional-branches`
+- Mystery/payoff records: none
 - `IR005` [STRONG]: The recovered pre-50 convergence gate is Chuyện Cũ Thần Châu/神州往事 and the contemporary patch mirror states that pre-50 mainline completion is required.
 
 ## 7. Post-50 cross-narrative
 - Stable arc ID: `arc-06`
 - Chronology/level: level gates 49-89
 - Source dossier: `game-story/dossiers/arc-06.json`
+- Premise claims: `IR003`
+- Player-learning claims: `IR003`, `IR022`, `IR023`, `IR024`, `IR025`, `IR018`
+- Reveal/climax claims: `IR003`, `IR022`, `IR023`, `IR024`, `IR025`, `IR018`, `IR018`
+- Outcome/consequence claims: `IR018`
+- Plot threads: `thread:du-long-relic`, `thread:nghia-quan-service`, `thread:ngo-hi-status`, `thread:post50-cross-narrative`, `thread:southern-song-war`
+- Mystery/payoff records: `mystery:du-long-diagram-theft`, `mystery:du-long-secret`, `mystery:ngo-hi-status`
 - `IR022` [VERIFIED_DIRECT]: The level-gated wrapper sequence 13→14→15 (49–58) sends the player to locate and protect Gia Vương, counters Lý Hậu’s intervention and ends with Gia Vương taking the throne.
 - `IR023` [VERIFIED_DIRECT]: The wrapper sequence 17→16→18 (58–69) investigates a Đường Môn insider and a Du Long diagram through Lý Nguyên Triết, Đường Khuyết, Nạp Tư and Hắc Long Đàm, then records the relic theft at Điểm Thương.
 - `IR024` [VERIFIED_DIRECT]: The wrapper sequence 21→19→20 (69–79) follows an Ngô Hi information leak into a cross-faction pursuit involving Cái Bang, Ngũ Độc, Jin-linked actors, Tây Hạ and Nhất Phẩm Đường.
@@ -60,6 +102,12 @@ This is a source-only chronology for forensic import. It is not a novel outline,
 - Stable arc ID: `arc-07`
 - Chronology/level: level 90
 - Source dossier: `game-story/dossiers/arc-07.json`
+- Premise claims: `IR004`
+- Player-learning claims: `IR004`, `IR009`
+- Reveal/climax claims: `IR004`, `IR009`, `IR009`
+- Outcome/consequence claims: `IR009`
+- Plot threads: `thread:nghia-quan-service`, `thread:northern-war`, `thread:southern-song-war`
+- Mystery/payoff records: none
 - `IR004` [VERIFIED_CROSS_SOURCE]: Bạch Thu Lâm/Thu Di onboards the player into Nghĩa Quân and remains the player’s principal mission authority.
 - `IR009` [VERIFIED_CROSS_SOURCE]: Hàn Thác Trụ chooses Northern Expedition amid political pressure, while the Lab independently preserves the Khánh Nguyên purge and northern-war preparation.
 
@@ -67,6 +115,12 @@ This is a source-only chronology for forensic import. It is not a novel outline,
 - Stable arc ID: `arc-08`
 - Chronology/level: level 100
 - Source dossier: `game-story/dossiers/arc-08.json`
+- Premise claims: `IR015`
+- Player-learning claims: `IR015`
+- Reveal/climax claims: `IR015`, `IR015`
+- Outcome/consequence claims: `IR015`
+- Plot threads: none
+- Mystery/payoff records: none
 - `IR015` [VERIFIED_DIRECT]: The Lab contains a main-class Man Thiên Quá Hải task and direct dialogue about covertly returning Chu lão tiên sinh to Lâm An; this resolves more than the web title alone but not the complete level-100 chain.
 - Tolerated unknowns: `level100-full-chain`
 
@@ -74,12 +128,24 @@ This is a source-only chronology for forensic import. It is not a novel outline,
 - Stable arc ID: `arc-09`
 - Chronology/level: level 110
 - Source dossier: `game-story/dossiers/arc-09.json`
+- Premise claims: `IR006`
+- Player-learning claims: `IR006`
+- Reveal/climax claims: `IR006`, `IR006`
+- Outcome/consequence claims: `IR006`
+- Plot threads: `thread:du-long-relic`, `thread:thuy-yen-dali`
+- Mystery/payoff records: none
 - `IR006` [STRONG]: The Đại Lý story binds Du Long Giác, the Thúy Yên disaster, La Tuyết, Đoàn Trí Hưng and later Ô Man/war pressure; the detailed official-special claim remains partly image-only online.
 
 ## 11. Northern intelligence and Vọng Long Sơn
 - Stable arc ID: `arc-10`
 - Chronology/level: level 120
 - Source dossier: `game-story/dossiers/arc-10.json`
+- Premise claims: `IR007`
+- Player-learning claims: `IR007`, `IR008`, `IR016`
+- Reveal/climax claims: `IR007`, `IR008`, `IR016`, `IR016`
+- Outcome/consequence claims: `IR016`
+- Plot threads: `thread:nghia-quan-service`, `thread:northern-war`
+- Mystery/payoff records: none
 - `IR007` [STRONG]: The northern mission arc involves Nghĩa Quân intelligence, Doãn Tiểu Vũ, Gia Luật Sở Tài and Hoàn Nhan Tương; its official special is live but detailed text is image-only.
 - `IR008` [INFERENCE]: A contemporary quest record says a Jin defense map is returned to Bạch Thu Lâm at the end of the northern arc.
 - `IR016` [VERIFIED_CROSS_SOURCE]: VNG uses Doãn Tiểu Vũ and Bạch Thu Lâm/Nghĩa Quân naming, matching names in the raw Vietnamese task corpus; the 2012 newbie material is later-edition drift only.
@@ -88,12 +154,24 @@ This is a source-only chronology for forensic import. It is not a novel outline,
 - Stable arc ID: `arc-11`
 - Chronology/level: level 130
 - Source dossier: `game-story/dossiers/arc-11.json`
+- Premise claims: `IR009`
+- Player-learning claims: `IR009`
+- Reveal/climax claims: `IR009`, `IR009`
+- Outcome/consequence claims: `IR009`
+- Plot threads: `thread:northern-war`, `thread:southern-song-war`
+- Mystery/payoff records: none
 - `IR009` [VERIFIED_CROSS_SOURCE]: Hàn Thác Trụ chooses Northern Expedition amid political pressure, while the Lab independently preserves the Khánh Nguyên purge and northern-war preparation.
 
 ## 13. Linh Bích and player-origin reveal
 - Stable arc ID: `arc-12`
 - Chronology/level: level 135/140
 - Source dossier: `game-story/dossiers/arc-12.json`
+- Premise claims: `IR010`
+- Player-learning claims: `IR010`, `IR011`, `IR012`, `IR020`, `IR021`
+- Reveal/climax claims: `IR010`, `IR011`, `IR012`, `IR020`, `IR021`, `IR021`
+- Outcome/consequence claims: `IR021`
+- Plot threads: `thread:ngo-hi-status`, `thread:northern-war`, `thread:player-origin`, `thread:southern-song-war`
+- Mystery/payoff records: `mystery:ngo-hi-status`, `mystery:player-parents`, `mystery:returning-woman`
 - `IR010` [VERIFIED_DIRECT]: The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.
 - `IR011` [VERIFIED_DIRECT]: The live Xoyo dream page shows child Bạch Thu Lâm and states that the player meets biological parents in an illusion; names and lineage are not supplied.
 - `IR012` [VERIFIED_DIRECT]: The same release is marketed as level 140 while the live task page gives a level-135 gate and opening task Như Hỏa Như Đồ/如火如荼.
@@ -105,6 +183,12 @@ This is a source-only chronology for forensic import. It is not a novel outline,
 - Stable arc ID: `endpoint`
 - Chronology/level: post-135/140 boundary
 - Source dossier: `game-story/dossiers/endpoint.json`
+- Premise claims: `IR013`
+- Player-learning claims: `IR013`, `IR017`
+- Reveal/climax claims: `IR013`, `IR017`, `IR017`
+- Outcome/consequence claims: `IR017`
+- Plot threads: none
+- Mystery/payoff records: `mystery:du-long-secret`, `mystery:player-parents`
 - `IR013` [STRONG]: The Xoyo chronicle is supporting chronology and roadmap evidence, not proof that every 1194–1212 event shipped as a player quest.
 - `IR017` [STRONG]: Linh Bích is the latest original-era official story release located by this research package; this is a source-constrained endpoint, not proof of final closure.
 - Tolerated unknowns: `du-long-final-secret`, `post-lingbi-continuation`

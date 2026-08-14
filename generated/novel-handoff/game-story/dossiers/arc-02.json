@@ -51,7 +51,7 @@
   "central_unknown_ids": [],
   "material_conflict_ids": [],
   "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS",
-  "handoff_projection_version": "1.0",
+  "handoff_projection_version": "2.0",
   "source_dossier": {
     "path": "research/reconstruction/game-story-dossiers/arc-02.json",
     "sha256": "15553da2c59c4019892ec59d9408d923aff889dae66ec54dc60a975ab5dfe5da"
@@ -157,8 +157,793 @@
       ]
     }
   ],
+  "story_bible_sections": {
+    "premise": [
+      {
+        "claim_id": "IR003",
+        "claim": "The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "CORE_STORY_ARCHITECTURE",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 17-21",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/show-3415-6173-1.html",
+            "response_sha256": "278b09f4fa3b46606facee255e1c510e7de0ec5e5828f4c07f82a64892339442",
+            "locator": "三条区域主线; 江南区; 中原区; 西南区; 50级之后; 交叉叙事",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:8;id:0163ae81;offset:1191157;stored:1004;expanded:4877;output_sha256:5f9d57491ac33b6a08d7abc21ea5c7bc2a11f770a2d1d0dc9f4b418e7a1ed679",
+            "record_key": "sub:000000000000013A"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:14;id:02430c4f;offset:275211;stored:998;expanded:4870;output_sha256:5ef652dfe7d251a25dde4c6f09d7195e8f9f08f3e4025912ab5bd2047f937a26",
+            "record_key": "sub:000000000000013B"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:147;id:1fa2ed0d;offset:384867;stored:995;expanded:4862;output_sha256:110b6735cb18086399f5794b283cb8b2cc66905e2527f1cf64d0f6cdb22898a6",
+            "record_key": "sub:000000000000013C"
+          }
+        ]
+      }
+    ],
+    "characters_and_factions": [
+      {
+        "claim_id": "IR003",
+        "claim": "The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "CORE_STORY_ARCHITECTURE",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 17-21",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/show-3415-6173-1.html",
+            "response_sha256": "278b09f4fa3b46606facee255e1c510e7de0ec5e5828f4c07f82a64892339442",
+            "locator": "三条区域主线; 江南区; 中原区; 西南区; 50级之后; 交叉叙事",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:8;id:0163ae81;offset:1191157;stored:1004;expanded:4877;output_sha256:5f9d57491ac33b6a08d7abc21ea5c7bc2a11f770a2d1d0dc9f4b418e7a1ed679",
+            "record_key": "sub:000000000000013A"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:14;id:02430c4f;offset:275211;stored:998;expanded:4870;output_sha256:5ef652dfe7d251a25dde4c6f09d7195e8f9f08f3e4025912ab5bd2047f937a26",
+            "record_key": "sub:000000000000013B"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:147;id:1fa2ed0d;offset:384867;stored:995;expanded:4862;output_sha256:110b6735cb18086399f5794b283cb8b2cc66905e2527f1cf64d0f6cdb22898a6",
+            "record_key": "sub:000000000000013C"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR014",
+        "claim": "The Yên Vũ route uses the Mộc Nhất Lâu cover identity and contact with Ân Đồng; a contemporary retelling and raw dialogue independently preserve these beats.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 113-117",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "contemporary_partner_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_ARCHIVE",
+            "url": "https://jxsj.17173.com/content/2008-11-24/1227491402.shtml",
+            "response_sha256": "cc9cb52b3c9b27bcaa9a342499b46bb9567e9dde023107424d964bed38179cd9",
+            "locator": "木一楼; 殷童; 靡靡香",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:518;id:79542114;offset:1694900;stored:3503;expanded:19497;output_sha256:923ab9b35d1dd5d86481052ebd5bcfb58151937748c2848e52cc828698f312a6",
+            "record_key": "sub:0000000000000027:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:474;id:6db098c2;offset:646796;stored:3872;expanded:20308;output_sha256:c62a8b00bc27d41b440f6b5ff891cb89b4f474f68ed16349b0b18a27233e5587",
+            "record_key": "sub:0000000000000020:start"
+          }
+        ]
+      }
+    ],
+    "evidenced_goals_and_motives": [
+      {
+        "claim_id": "IR003",
+        "claim": "The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "CORE_STORY_ARCHITECTURE",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 17-21",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/show-3415-6173-1.html",
+            "response_sha256": "278b09f4fa3b46606facee255e1c510e7de0ec5e5828f4c07f82a64892339442",
+            "locator": "三条区域主线; 江南区; 中原区; 西南区; 50级之后; 交叉叙事",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:8;id:0163ae81;offset:1191157;stored:1004;expanded:4877;output_sha256:5f9d57491ac33b6a08d7abc21ea5c7bc2a11f770a2d1d0dc9f4b418e7a1ed679",
+            "record_key": "sub:000000000000013A"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:14;id:02430c4f;offset:275211;stored:998;expanded:4870;output_sha256:5ef652dfe7d251a25dde4c6f09d7195e8f9f08f3e4025912ab5bd2047f937a26",
+            "record_key": "sub:000000000000013B"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:147;id:1fa2ed0d;offset:384867;stored:995;expanded:4862;output_sha256:110b6735cb18086399f5794b283cb8b2cc66905e2527f1cf64d0f6cdb22898a6",
+            "record_key": "sub:000000000000013C"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR014",
+        "claim": "The Yên Vũ route uses the Mộc Nhất Lâu cover identity and contact with Ân Đồng; a contemporary retelling and raw dialogue independently preserve these beats.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 113-117",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "contemporary_partner_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_ARCHIVE",
+            "url": "https://jxsj.17173.com/content/2008-11-24/1227491402.shtml",
+            "response_sha256": "cc9cb52b3c9b27bcaa9a342499b46bb9567e9dde023107424d964bed38179cd9",
+            "locator": "木一楼; 殷童; 靡靡香",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:518;id:79542114;offset:1694900;stored:3503;expanded:19497;output_sha256:923ab9b35d1dd5d86481052ebd5bcfb58151937748c2848e52cc828698f312a6",
+            "record_key": "sub:0000000000000027:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:474;id:6db098c2;offset:646796;stored:3872;expanded:20308;output_sha256:c62a8b00bc27d41b440f6b5ff891cb89b4f474f68ed16349b0b18a27233e5587",
+            "record_key": "sub:0000000000000020:start"
+          }
+        ]
+      }
+    ],
+    "player_learns": [
+      {
+        "claim_id": "IR003",
+        "claim": "The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "CORE_STORY_ARCHITECTURE",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 17-21",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/show-3415-6173-1.html",
+            "response_sha256": "278b09f4fa3b46606facee255e1c510e7de0ec5e5828f4c07f82a64892339442",
+            "locator": "三条区域主线; 江南区; 中原区; 西南区; 50级之后; 交叉叙事",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:8;id:0163ae81;offset:1191157;stored:1004;expanded:4877;output_sha256:5f9d57491ac33b6a08d7abc21ea5c7bc2a11f770a2d1d0dc9f4b418e7a1ed679",
+            "record_key": "sub:000000000000013A"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:14;id:02430c4f;offset:275211;stored:998;expanded:4870;output_sha256:5ef652dfe7d251a25dde4c6f09d7195e8f9f08f3e4025912ab5bd2047f937a26",
+            "record_key": "sub:000000000000013B"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:147;id:1fa2ed0d;offset:384867;stored:995;expanded:4862;output_sha256:110b6735cb18086399f5794b283cb8b2cc66905e2527f1cf64d0f6cdb22898a6",
+            "record_key": "sub:000000000000013C"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR014",
+        "claim": "The Yên Vũ route uses the Mộc Nhất Lâu cover identity and contact with Ân Đồng; a contemporary retelling and raw dialogue independently preserve these beats.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 113-117",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "contemporary_partner_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_ARCHIVE",
+            "url": "https://jxsj.17173.com/content/2008-11-24/1227491402.shtml",
+            "response_sha256": "cc9cb52b3c9b27bcaa9a342499b46bb9567e9dde023107424d964bed38179cd9",
+            "locator": "木一楼; 殷童; 靡靡香",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:518;id:79542114;offset:1694900;stored:3503;expanded:19497;output_sha256:923ab9b35d1dd5d86481052ebd5bcfb58151937748c2848e52cc828698f312a6",
+            "record_key": "sub:0000000000000027:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:474;id:6db098c2;offset:646796;stored:3872;expanded:20308;output_sha256:c62a8b00bc27d41b440f6b5ff891cb89b4f474f68ed16349b0b18a27233e5587",
+            "record_key": "sub:0000000000000020:start"
+          }
+        ]
+      }
+    ],
+    "reveals": [
+      {
+        "claim_id": "IR003",
+        "claim": "The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "CORE_STORY_ARCHITECTURE",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 17-21",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/show-3415-6173-1.html",
+            "response_sha256": "278b09f4fa3b46606facee255e1c510e7de0ec5e5828f4c07f82a64892339442",
+            "locator": "三条区域主线; 江南区; 中原区; 西南区; 50级之后; 交叉叙事",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:8;id:0163ae81;offset:1191157;stored:1004;expanded:4877;output_sha256:5f9d57491ac33b6a08d7abc21ea5c7bc2a11f770a2d1d0dc9f4b418e7a1ed679",
+            "record_key": "sub:000000000000013A"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:14;id:02430c4f;offset:275211;stored:998;expanded:4870;output_sha256:5ef652dfe7d251a25dde4c6f09d7195e8f9f08f3e4025912ab5bd2047f937a26",
+            "record_key": "sub:000000000000013B"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:147;id:1fa2ed0d;offset:384867;stored:995;expanded:4862;output_sha256:110b6735cb18086399f5794b283cb8b2cc66905e2527f1cf64d0f6cdb22898a6",
+            "record_key": "sub:000000000000013C"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR014",
+        "claim": "The Yên Vũ route uses the Mộc Nhất Lâu cover identity and contact with Ân Đồng; a contemporary retelling and raw dialogue independently preserve these beats.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 113-117",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "contemporary_partner_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_ARCHIVE",
+            "url": "https://jxsj.17173.com/content/2008-11-24/1227491402.shtml",
+            "response_sha256": "cc9cb52b3c9b27bcaa9a342499b46bb9567e9dde023107424d964bed38179cd9",
+            "locator": "木一楼; 殷童; 靡靡香",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:518;id:79542114;offset:1694900;stored:3503;expanded:19497;output_sha256:923ab9b35d1dd5d86481052ebd5bcfb58151937748c2848e52cc828698f312a6",
+            "record_key": "sub:0000000000000027:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:474;id:6db098c2;offset:646796;stored:3872;expanded:20308;output_sha256:c62a8b00bc27d41b440f6b5ff891cb89b4f474f68ed16349b0b18a27233e5587",
+            "record_key": "sub:0000000000000020:start"
+          }
+        ]
+      }
+    ],
+    "climax_and_resolution": [
+      {
+        "claim_id": "IR014",
+        "claim": "The Yên Vũ route uses the Mộc Nhất Lâu cover identity and contact with Ân Đồng; a contemporary retelling and raw dialogue independently preserve these beats.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 113-117",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "contemporary_partner_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_ARCHIVE",
+            "url": "https://jxsj.17173.com/content/2008-11-24/1227491402.shtml",
+            "response_sha256": "cc9cb52b3c9b27bcaa9a342499b46bb9567e9dde023107424d964bed38179cd9",
+            "locator": "木一楼; 殷童; 靡靡香",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:518;id:79542114;offset:1694900;stored:3503;expanded:19497;output_sha256:923ab9b35d1dd5d86481052ebd5bcfb58151937748c2848e52cc828698f312a6",
+            "record_key": "sub:0000000000000027:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:474;id:6db098c2;offset:646796;stored:3872;expanded:20308;output_sha256:c62a8b00bc27d41b440f6b5ff891cb89b4f474f68ed16349b0b18a27233e5587",
+            "record_key": "sub:0000000000000020:start"
+          }
+        ]
+      }
+    ],
+    "political_and_wulin_consequences": [
+      {
+        "claim_id": "IR014",
+        "claim": "The Yên Vũ route uses the Mộc Nhất Lâu cover identity and contact with Ân Đồng; a contemporary retelling and raw dialogue independently preserve these beats.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 113-117",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "contemporary_partner_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_ARCHIVE",
+            "url": "https://jxsj.17173.com/content/2008-11-24/1227491402.shtml",
+            "response_sha256": "cc9cb52b3c9b27bcaa9a342499b46bb9567e9dde023107424d964bed38179cd9",
+            "locator": "木一楼; 殷童; 靡靡香",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:518;id:79542114;offset:1694900;stored:3503;expanded:19497;output_sha256:923ab9b35d1dd5d86481052ebd5bcfb58151937748c2848e52cc828698f312a6",
+            "record_key": "sub:0000000000000027:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:474;id:6db098c2;offset:646796;stored:3872;expanded:20308;output_sha256:c62a8b00bc27d41b440f6b5ff891cb89b4f474f68ed16349b0b18a27233e5587",
+            "record_key": "sub:0000000000000020:start"
+          }
+        ]
+      }
+    ],
+    "important_named_references": [
+      {
+        "claim_id": "IR003",
+        "claim": "The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "CORE_STORY_ARCHITECTURE",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 17-21",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/show-3415-6173-1.html",
+            "response_sha256": "278b09f4fa3b46606facee255e1c510e7de0ec5e5828f4c07f82a64892339442",
+            "locator": "三条区域主线; 江南区; 中原区; 西南区; 50级之后; 交叉叙事",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:8;id:0163ae81;offset:1191157;stored:1004;expanded:4877;output_sha256:5f9d57491ac33b6a08d7abc21ea5c7bc2a11f770a2d1d0dc9f4b418e7a1ed679",
+            "record_key": "sub:000000000000013A"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:14;id:02430c4f;offset:275211;stored:998;expanded:4870;output_sha256:5ef652dfe7d251a25dde4c6f09d7195e8f9f08f3e4025912ab5bd2047f937a26",
+            "record_key": "sub:000000000000013B"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:147;id:1fa2ed0d;offset:384867;stored:995;expanded:4862;output_sha256:110b6735cb18086399f5794b283cb8b2cc66905e2527f1cf64d0f6cdb22898a6",
+            "record_key": "sub:000000000000013C"
+          }
+        ]
+      },
+      {
+        "claim_id": "IR014",
+        "claim": "The Yên Vũ route uses the Mộc Nhất Lâu cover identity and contact with Ân Đồng; a contemporary retelling and raw dialogue independently preserve these beats.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 113-117",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "contemporary_partner_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_ARCHIVE",
+            "url": "https://jxsj.17173.com/content/2008-11-24/1227491402.shtml",
+            "response_sha256": "cc9cb52b3c9b27bcaa9a342499b46bb9567e9dde023107424d964bed38179cd9",
+            "locator": "木一楼; 殷童; 靡靡香",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:518;id:79542114;offset:1694900;stored:3503;expanded:19497;output_sha256:923ab9b35d1dd5d86481052ebd5bcfb58151937748c2848e52cc828698f312a6",
+            "record_key": "sub:0000000000000027:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:474;id:6db098c2;offset:646796;stored:3872;expanded:20308;output_sha256:c62a8b00bc27d41b440f6b5ff891cb89b4f474f68ed16349b0b18a27233e5587",
+            "record_key": "sub:0000000000000020:start"
+          }
+        ]
+      }
+    ],
+    "evidence_limits": []
+  },
+  "ordered_source_events": [
+    {
+      "order": 1,
+      "claim_id": "IR003",
+      "ordering_basis": "evidence grouping; no missing bridge inferred",
+      "resolved_claim": {
+        "claim_id": "IR003",
+        "claim": "The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "CORE_STORY_ARCHITECTURE",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 17-21",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "first_party_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+            "url": "https://jxsj.xoyo.com/show-3415-6173-1.html",
+            "response_sha256": "278b09f4fa3b46606facee255e1c510e7de0ec5e5828f4c07f82a64892339442",
+            "locator": "三条区域主线; 江南区; 中原区; 西南区; 50级之后; 交叉叙事",
+            "citation_id": "KX-ARCH-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:8;id:0163ae81;offset:1191157;stored:1004;expanded:4877;output_sha256:5f9d57491ac33b6a08d7abc21ea5c7bc2a11f770a2d1d0dc9f4b418e7a1ed679",
+            "record_key": "sub:000000000000013A"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:14;id:02430c4f;offset:275211;stored:998;expanded:4870;output_sha256:5ef652dfe7d251a25dde4c6f09d7195e8f9f08f3e4025912ab5bd2047f937a26",
+            "record_key": "sub:000000000000013B"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_record",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:147;id:1fa2ed0d;offset:384867;stored:995;expanded:4862;output_sha256:110b6735cb18086399f5794b283cb8b2cc66905e2527f1cf64d0f6cdb22898a6",
+            "record_key": "sub:000000000000013C"
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "claim_id": "IR014",
+      "ordering_basis": "evidence grouping; no missing bridge inferred",
+      "resolved_claim": {
+        "claim_id": "IR014",
+        "claim": "The Yên Vũ route uses the Mộc Nhất Lâu cover identity and contact with Ân Đồng; a contemporary retelling and raw dialogue independently preserve these beats.",
+        "status": "VERIFIED_CROSS_SOURCE",
+        "centrality": "IMPORTANT_PRE50_RECOVERY",
+        "narrative_impact": "MATERIAL",
+        "evidence": [
+          {
+            "source_family": "internet_research_package",
+            "support_type": "claim_summary",
+            "evidence_class": "LEGACY_LEAD",
+            "path": "private-input/internet-research/13-bibliography.md",
+            "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+            "locator": "lines 113-117",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "contemporary_partner_web",
+            "support_type": "direct_content",
+            "evidence_class": "OFFICIAL_ARCHIVE",
+            "url": "https://jxsj.17173.com/content/2008-11-24/1227491402.shtml",
+            "response_sha256": "cc9cb52b3c9b27bcaa9a342499b46bb9567e9dde023107424d964bed38179cd9",
+            "locator": "木一楼; 殷童; 靡靡香",
+            "citation_id": "KX-YANYU-01"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:518;id:79542114;offset:1694900;stored:3503;expanded:19497;output_sha256:923ab9b35d1dd5d86481052ebd5bcfb58151937748c2848e52cc828698f312a6",
+            "record_key": "sub:0000000000000027:start"
+          },
+          {
+            "source_family": "lab_raw_story",
+            "support_type": "direct_dialogue",
+            "evidence_class": "RAW_CLIENT",
+            "path": "client/pak/task_publish.pak",
+            "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+            "locator": "index:474;id:6db098c2;offset:646796;stored:3872;expanded:20308;output_sha256:c62a8b00bc27d41b440f6b5ff891cb89b4f474f68ed16349b0b18a27233e5587",
+            "record_key": "sub:0000000000000020:start"
+          }
+        ]
+      }
+    }
+  ],
   "principal_entity_ids": [
     "character:game-player",
     "character:an-dong"
-  ]
+  ],
+  "important_item_ids": [],
+  "important_location_ids": [
+    "map:12",
+    "map:16",
+    "map:22"
+  ],
+  "important_sect_ids": [],
+  "important_martial_ids": [],
+  "active_plot_thread_ids": [
+    "thread:regional-branches"
+  ],
+  "mystery_payoff_ids": [
+    "mystery:returning-woman"
+  ],
+  "material_contradiction_status": "NONE_UNRESOLVED",
+  "source_story_bible_boundary": "Source-only reconstruction; no novel adaptation, scene, episode or protagonist decision."
 }

@@ -1,9 +1,10 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "generator": "scripts/build_novel_handoff.py",
-  "generated_at_utc": "2026-08-14T09:22:45.852241+00:00",
-  "warning": "Task identifiers support forensic lookup; they do not define novel structure.",
+  "generated_at_utc": "2026-08-14T09:48:39.163393+00:00",
+  "warning": "Task identifiers support forensic lookup; they do not define novel structure. ID_REUSE_VARIANT entries retain wrapper-inline evidence and exclude unrelated standalone semantics.",
   "count": 24,
+  "id_reuse_variant_count": 12,
   "entries": [
     {
       "source_record_key": "sub:000000000000013A",
@@ -254,11 +255,16 @@
       "beat_claim_ids": [
         "IR022"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 1,
       "level_gate_range": [
         49,
         52
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {
@@ -282,11 +288,16 @@
       "beat_claim_ids": [
         "IR022"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 2,
       "level_gate_range": [
         53,
         57
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {
@@ -310,11 +321,16 @@
       "beat_claim_ids": [
         "IR022"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 3,
       "level_gate_range": [
         57,
         58
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {
@@ -338,11 +354,16 @@
       "beat_claim_ids": [
         "IR023"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 4,
       "level_gate_range": [
         58,
         63
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {
@@ -366,11 +387,16 @@
       "beat_claim_ids": [
         "IR023"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 5,
       "level_gate_range": [
         63,
         65
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {
@@ -394,11 +420,16 @@
       "beat_claim_ids": [
         "IR023"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 6,
       "level_gate_range": [
         65,
         69
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {
@@ -422,11 +453,16 @@
       "beat_claim_ids": [
         "IR024"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 7,
       "level_gate_range": [
         69,
         73
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {
@@ -450,11 +486,16 @@
       "beat_claim_ids": [
         "IR024"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 8,
       "level_gate_range": [
         74,
         76
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {
@@ -478,11 +519,16 @@
       "beat_claim_ids": [
         "IR024"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 9,
       "level_gate_range": [
         77,
         79
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {
@@ -506,11 +552,16 @@
       "beat_claim_ids": [
         "IR025"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 10,
       "level_gate_range": [
         79,
         82
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {
@@ -534,11 +585,16 @@
       "beat_claim_ids": [
         "IR025"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 11,
       "level_gate_range": [
         82,
         85
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {
@@ -562,11 +618,16 @@
       "beat_claim_ids": [
         "IR025"
       ],
+      "plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
       "narrative_order": 12,
       "level_gate_range": [
         86,
         89
       ],
+      "id_reuse_hazard": "ID_REUSE_VARIANT",
+      "standalone_semantic_content_excluded": true,
       "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
       "source_records": [
         {

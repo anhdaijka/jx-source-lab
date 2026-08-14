@@ -1,0 +1,240 @@
+{
+  "schema_version": "2.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:48:39.142694+00:00",
+  "entity_id": "faction:nghia-quan",
+  "latest_source_backed_state": "Active player-aligned intelligence and mission organization at the northern mission stage.",
+  "stages": [
+    {
+      "arc_id": "arc-01",
+      "source_state": "Organization receiving the player through Bach Thu Lam.",
+      "strategic_action": "Establishes player service and mission authority.",
+      "claim_ids": [
+        "IR004"
+      ]
+    },
+    {
+      "arc_id": "arc-06",
+      "source_state": "Target in the relic-recovery conflict.",
+      "strategic_action": "Suffers an attack during the promoted post-50 sequence.",
+      "claim_ids": [
+        "IR025"
+      ]
+    },
+    {
+      "arc_id": "arc-10",
+      "source_state": "Northern intelligence actor.",
+      "strategic_action": "Supports the mission involving Doan Tieu Vu and northern figures.",
+      "claim_ids": [
+        "IR007",
+        "IR016"
+      ]
+    }
+  ],
+  "canonical_name": "Nghĩa Quân",
+  "institutional_role": "Recurring player-aligned organization and mission authority.",
+  "related_plot_thread_ids": [
+    "thread:nghia-quan-service",
+    "thread:northern-war",
+    "thread:post50-cross-narrative"
+  ],
+  "claim_evidence": [
+    {
+      "claim_id": "IR004",
+      "claim": "Bạch Thu Lâm/Thu Di onboards the player into Nghĩa Quân and remains the player’s principal mission authority.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "CORE_PLAYER_POSITION",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/evidence/evidence-ledger.md",
+          "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+          "locator": "line 9",
+          "citation_id": "KX-90-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_VNG",
+          "url": "https://kiemthe.zing.vn/tin-tuc/tinh-nang/tich-luy-tien-nghia-quan-doi-thuong-thang-05-2013.html",
+          "response_sha256": "c96af42fbe9c4f5e8b115849cb0c412e116b3134d788edf37dfbfe8f7c7ada9f",
+          "locator": "Bạch Thu Lâm; Nghĩa Quân",
+          "citation_id": "VNG-BTL-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:65;id:0f9bee8e;offset:1256224;stored:3956;expanded:22289;output_sha256:edf00058c2e957b5ffbf1c613e7ac956005124e475ce97d7764c6a7c4e076b69",
+          "record_key": "sub:0000000000000001:start"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR025",
+      "claim": "The wrapper sequence 22→23→24 (79–89) moves from the Du Long recovery effort through an attack on Nghĩa Quân and a contested treasure cave involving Hoàn Nhan Tương, ending at Đại Nghĩa Nước Nhà; a contemporary Xoyo patch independently names the mainline task 家国大义.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "CORE_POST50_ENDPOINT_CHAIN",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:615;id:8fb2f206;offset:1811233;stored:4864;expanded:26207;output_sha256:f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+          "record_key": "task:0000000000000016:entry:8fb2f206"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:582;id:88a40d13;offset:767013;stored:6595;expanded:32194;output_sha256:7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+          "record_key": "task:0000000000000017:entry:88a40d13"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:568;id:85ae4420;offset:745096;stored:8235;expanded:54698;output_sha256:fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+          "record_key": "task:0000000000000018:entry:85ae4420"
+        },
+        {
+          "source_family": "lab_derived_index",
+          "support_type": "explicit_xml_edges",
+          "path": "generated/records/edges/task-reference-edges.jsonl",
+          "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+          "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 22,23,24"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/kfnotic/296247/",
+          "response_sha256": "07c190981e531aac519d8713d649aa7998b7fce4ac1f1d4c55cfbca9539754dc",
+          "locator": "2008-08-12 maintenance; mainline tasks 别有洞天 and 家国大义",
+          "citation_id": "KX-POST50-PATCH-01"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR007",
+      "claim": "The northern mission arc involves Nghĩa Quân intelligence, Doãn Tiểu Vũ, Gia Luật Sở Tài and Hoàn Nhan Tương; its official special is live but detailed text is image-only.",
+      "status": "STRONG",
+      "centrality": "CORE_HIGH_LEVEL_ARC",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/evidence/evidence-ledger.md",
+          "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+          "locator": "lines 14-15",
+          "citation_id": "KX-120-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "source_identity_only",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/zt/2009/03/20/index2.shtml",
+          "response_sha256": "50c79dee52b825b4ce6ec2acb1ad1c6d9db589b54c2d06b4f337ffdcd6a65a61",
+          "locator": "120 special identity only; detailed text not machine-verified",
+          "citation_id": "KX-120-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:759;id:b3412950;offset:105251;stored:3591;expanded:29428;output_sha256:b9d3e9e4083e28807a1b3a55126853a8f9661a13488fbbe142d28884bced7871",
+          "record_key": "sub:0000000000000216:start"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:784;id:b8230d16;offset:938100;stored:4647;expanded:25830;output_sha256:31d34bb4bfa68e4f778eb6b67ff96f8ff7b9b9e31d60c95782f0894f8d77f2f9",
+          "record_key": "sub:0000000000000213:start"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR016",
+      "claim": "VNG uses Doãn Tiểu Vũ and Bạch Thu Lâm/Nghĩa Quân naming, matching names in the raw Vietnamese task corpus; the 2012 newbie material is later-edition drift only.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "NORMALIZATION_AND_EDITION",
+      "narrative_impact": "NONE",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/13-bibliography.md",
+          "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+          "locator": "lines 89-99",
+          "citation_id": "VNG-NAME-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_VNG",
+          "url": "https://kiemthe.zing.vn/cam-nang/mon-phai/thuy-yen.html",
+          "response_sha256": "81b736e1a56d0da4847988e5dc0b37d3c365ba5abac4e270bd1fc9e7b4395a8d",
+          "locator": "Doãn Tiểu Vũ; Thúy Yên; Gia Luật Sở Tài",
+          "citation_id": "VNG-NAME-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_VNG",
+          "url": "https://kiemthe.zing.vn/tin-tuc/tinh-nang/tich-luy-tien-nghia-quan-doi-thuong-thang-05-2013.html",
+          "response_sha256": "c96af42fbe9c4f5e8b115849cb0c412e116b3134d788edf37dfbfe8f7c7ada9f",
+          "locator": "Bạch Thu Lâm; Nghĩa Quân",
+          "citation_id": "VNG-BTL-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_VNG",
+          "url": "https://kiemthe.zing.vn/tin-tuc/tinh-nang/kham-pha-pho-ban-moi-danh-cho-tan-thu.html",
+          "response_sha256": "92149cfa527469f93e87811e4efdc64e5e201cb5f6ca2a9aad053d9e1fc8ecf3",
+          "locator": "2012 later-new-player content; edition evidence only",
+          "citation_id": "VNG-DRIFT-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+          "record_key": "task:000000000000000C:entry:f565173d"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:65;id:0f9bee8e;offset:1256224;stored:3956;expanded:22289;output_sha256:edf00058c2e957b5ffbf1c613e7ac956005124e475ce97d7764c6a7c4e076b69",
+          "record_key": "sub:0000000000000001:start"
+        }
+      ]
+    }
+  ],
+  "source_trajectory_boundary": "Institutional source trajectory only; no invented strategy or motive."
+}

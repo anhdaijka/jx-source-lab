@@ -1,9 +1,10 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "generator": "scripts/build_novel_handoff.py",
-  "generated_at_utc": "2026-08-14T09:22:45.835816+00:00",
+  "generated_at_utc": "2026-08-14T09:48:39.149507+00:00",
   "selection_policy": "Only organizations or polities with a promoted-story role.",
   "count": 10,
+  "trajectory_count": 6,
   "factions": [
     {
       "entity_id": "faction:nghia-quan",
@@ -17,6 +18,19 @@
         "IR016",
         "IR025"
       ],
+      "trajectory_path": "factions/trajectories/nghia-quan.json",
+      "related_arc_ids": [
+        "arc-01",
+        "arc-06",
+        "arc-07",
+        "arc-10"
+      ],
+      "related_plot_thread_ids": [
+        "thread:nghia-quan-service",
+        "thread:northern-war",
+        "thread:post50-cross-narrative"
+      ],
+      "allies_enemies_rivals": "See relationships/source-relationship-map.json; no relation is inferred from co-occurrence.",
       "claim_evidence": [
         {
           "claim_id": "IR004",
@@ -230,6 +244,19 @@
         "IR022",
         "IR025"
       ],
+      "trajectory_path": "factions/trajectories/nam-tong.json",
+      "related_arc_ids": [
+        "arc-00",
+        "arc-06",
+        "arc-07",
+        "arc-11"
+      ],
+      "related_plot_thread_ids": [
+        "thread:ngo-hi-status",
+        "thread:northern-war",
+        "thread:southern-song-war"
+      ],
+      "allies_enemies_rivals": "See relationships/source-relationship-map.json; no relation is inferred from co-occurrence.",
       "claim_evidence": [
         {
           "claim_id": "IR001",
@@ -423,6 +450,18 @@
         "IR024",
         "IR025"
       ],
+      "trajectory_path": "factions/trajectories/kim.json",
+      "related_arc_ids": [
+        "arc-06",
+        "arc-10",
+        "arc-12"
+      ],
+      "related_plot_thread_ids": [
+        "thread:northern-war",
+        "thread:post50-cross-narrative",
+        "thread:southern-song-war"
+      ],
+      "allies_enemies_rivals": "See relationships/source-relationship-map.json; no relation is inferred from co-occurrence.",
       "claim_evidence": [
         {
           "claim_id": "IR007",
@@ -602,6 +641,14 @@
       "claim_ids": [
         "IR024"
       ],
+      "trajectory_path": null,
+      "related_arc_ids": [
+        "arc-06"
+      ],
+      "related_plot_thread_ids": [
+        "thread:post50-cross-narrative"
+      ],
+      "allies_enemies_rivals": "See relationships/source-relationship-map.json; no relation is inferred from co-occurrence.",
       "claim_evidence": [
         {
           "claim_id": "IR024",
@@ -659,6 +706,16 @@
         "IR024",
         "IR025"
       ],
+      "trajectory_path": "factions/trajectories/nhat-pham-duong.json",
+      "related_arc_ids": [
+        "arc-06",
+        "arc-12"
+      ],
+      "related_plot_thread_ids": [
+        "thread:nghia-quan-service",
+        "thread:post50-cross-narrative"
+      ],
+      "allies_enemies_rivals": "See relationships/source-relationship-map.json; no relation is inferred from co-occurrence.",
       "claim_evidence": [
         {
           "claim_id": "IR010",
@@ -785,7 +842,7 @@
       ]
     },
     {
-      "entity_id": "faction:duong-mon",
+      "entity_id": "sect:3",
       "vi": "Đường Môn",
       "cn": "唐门",
       "aliases": [],
@@ -793,6 +850,14 @@
       "claim_ids": [
         "IR023"
       ],
+      "trajectory_path": "factions/trajectories/duong-mon.json",
+      "related_arc_ids": [
+        "arc-06"
+      ],
+      "related_plot_thread_ids": [
+        "thread:du-long-relic"
+      ],
+      "allies_enemies_rivals": "See relationships/source-relationship-map.json; no relation is inferred from co-occurrence.",
       "claim_evidence": [
         {
           "claim_id": "IR023",
@@ -840,7 +905,7 @@
       ]
     },
     {
-      "entity_id": "faction:cai-bang",
+      "entity_id": "sect:7",
       "vi": "Cái Bang",
       "cn": "丐帮",
       "aliases": [],
@@ -848,6 +913,12 @@
       "claim_ids": [
         "IR024"
       ],
+      "trajectory_path": null,
+      "related_arc_ids": [
+        "arc-06"
+      ],
+      "related_plot_thread_ids": [],
+      "allies_enemies_rivals": "See relationships/source-relationship-map.json; no relation is inferred from co-occurrence.",
       "claim_evidence": [
         {
           "claim_id": "IR024",
@@ -895,7 +966,7 @@
       ]
     },
     {
-      "entity_id": "faction:ngu-doc",
+      "entity_id": "sect:4",
       "vi": "Ngũ Độc",
       "cn": "五毒",
       "aliases": [],
@@ -903,6 +974,12 @@
       "claim_ids": [
         "IR024"
       ],
+      "trajectory_path": null,
+      "related_arc_ids": [
+        "arc-06"
+      ],
+      "related_plot_thread_ids": [],
+      "allies_enemies_rivals": "See relationships/source-relationship-map.json; no relation is inferred from co-occurrence.",
       "claim_evidence": [
         {
           "claim_id": "IR024",
@@ -950,7 +1027,7 @@
       ]
     },
     {
-      "entity_id": "faction:thuy-yen",
+      "entity_id": "sect:6",
       "vi": "Thúy Yên",
       "cn": "翠烟",
       "aliases": [],
@@ -960,6 +1037,18 @@
         "IR006",
         "IR020"
       ],
+      "trajectory_path": "factions/trajectories/thuy-yen.json",
+      "related_arc_ids": [
+        "arc-00",
+        "arc-04",
+        "arc-09",
+        "arc-12"
+      ],
+      "related_plot_thread_ids": [
+        "thread:du-long-relic",
+        "thread:thuy-yen-dali"
+      ],
+      "allies_enemies_rivals": "See relationships/source-relationship-map.json; no relation is inferred from co-occurrence.",
       "claim_evidence": [
         {
           "claim_id": "IR002",
@@ -1090,7 +1179,7 @@
       ]
     },
     {
-      "entity_id": "faction:thien-nhan",
+      "entity_id": "sect:8",
       "vi": "Thiên Nhẫn",
       "cn": "天忍",
       "aliases": [],
@@ -1098,6 +1187,12 @@
       "claim_ids": [
         "IR010"
       ],
+      "trajectory_path": null,
+      "related_arc_ids": [
+        "arc-12"
+      ],
+      "related_plot_thread_ids": [],
+      "allies_enemies_rivals": "See relationships/source-relationship-map.json; no relation is inferred from co-occurrence.",
       "claim_evidence": [
         {
           "claim_id": "IR010",

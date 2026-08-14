@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "generator": "scripts/build_novel_handoff.py",
-  "generated_at_utc": "2026-08-14T09:22:45.841007+00:00",
+  "generated_at_utc": "2026-08-14T09:48:39.156142+00:00",
   "selection_policy": "Twelve configured sects and their route identities; no power ranking is inferred.",
   "count": 12,
   "sects": [

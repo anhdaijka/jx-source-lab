@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "generator": "scripts/build_novel_handoff.py",
-  "generated_at_utc": "2026-08-14T09:22:45.854675+00:00",
+  "generated_at_utc": "2026-08-14T09:48:39.167816+00:00",
   "promotion_status": "NOVEL_PROMOTION_READY",
   "promotion_gates": {
     "S3": {

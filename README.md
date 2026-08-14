@@ -64,6 +64,8 @@ search ledger separate from raw wrapper evidence.
 After `NOVEL_PROMOTION_READY`, `generated/novel-handoff/` is the compact,
 source-only, one-way import contract for `kiem-the-novel/source-canon/`. It does
 not contain novel adaptation, episode planning, prose, raw PAKs or binaries.
+The handoff includes the promoted chronology and dossiers plus source-side plot
+threads, mystery/payoff records, trajectories, relationships and knowledge timing.
 
 ## First run
 ```powershell

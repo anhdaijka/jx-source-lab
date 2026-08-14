@@ -1,0 +1,133 @@
+{
+  "schema_version": "2.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:48:39.136320+00:00",
+  "entity_id": "character:la-tuyet",
+  "latest_source_backed_state": "Named link between the southwest/Thuy Yen material and the Dali crisis.",
+  "unresolved_question_ids": [
+    "du-long-final-secret"
+  ],
+  "stages": [
+    {
+      "arc_id": "arc-04",
+      "source_state": "Named in the southwest route around Thuy Yen and Du Long material.",
+      "actions": [],
+      "knowledge_changes": [],
+      "relationship_changes": [],
+      "claim_ids": [
+        "IR020"
+      ]
+    },
+    {
+      "arc_id": "arc-09",
+      "source_state": "Participant in the Dali crisis chain.",
+      "actions": [],
+      "knowledge_changes": [],
+      "relationship_changes": [
+        "Connects the Dali material to the earlier Thuy Yen disaster context."
+      ],
+      "claim_ids": [
+        "IR006"
+      ]
+    }
+  ],
+  "canonical_name": "La Tuyết",
+  "affiliations": [],
+  "related_plot_thread_ids": [
+    "thread:thuy-yen-dali"
+  ],
+  "related_mystery_reveal_ids": [],
+  "claim_evidence": [
+    {
+      "claim_id": "IR020",
+      "claim": "The raw Tây Nam route preserves task families 10–12 around Ngô Hi, Đường Môn, Thúy Yên, La Tuyết and Du Long Giác; an early literal death of Ngô Hi cannot override the later official 1205 treason arc.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "IMPORTANT_PRE50_RECOVERY",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1071;id:ff098513;offset:1177103;stored:7852;expanded:36340;output_sha256:f88a29cb0e53b31af7e852ef8e81bfad15e49a12b7e27bcc1ed46de98ee4088c",
+          "record_key": "task:000000000000000A:entry:ff098513"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1051;id:f873dc20;offset:2226175;stored:7827;expanded:35013;output_sha256:fe4e6305a36eabe46cbe64768ce84971f5f1003081cbc2ab04d7aa4986d902c2",
+          "record_key": "task:000000000000000B:entry:f873dc20"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+          "record_key": "task:000000000000000C:entry:f565173d"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+          "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+          "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+          "citation_id": "KX-140-01"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR006",
+      "claim": "The Đại Lý story binds Du Long Giác, the Thúy Yên disaster, La Tuyết, Đoàn Trí Hưng and later Ô Man/war pressure; the detailed official-special claim remains partly image-only online.",
+      "status": "STRONG",
+      "centrality": "CORE_HIGH_LEVEL_ARC",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/evidence/evidence-ledger.md",
+          "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+          "locator": "lines 10-13",
+          "citation_id": "KX-110-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "source_identity_only",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/zt/2008/1222/index.shtml",
+          "response_sha256": "d8f359fd514b434f53d5d9f72dbf09fa0bc9dbd4e83ced3004fdeaedb9c2ff48",
+          "locator": "110 special identity only; detailed text not machine-verified",
+          "citation_id": "KX-110-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+          "record_key": "task:000000000000000C:entry:f565173d"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:874;id:cb03ce9e;offset:1026500;stored:5052;expanded:35004;output_sha256:7475e045d3cd2977723e519e8e4363ea82d269d46622194235bb06bb358c3fdc",
+          "record_key": "sub:00000000000001EA:start"
+        }
+      ]
+    }
+  ],
+  "source_trajectory_boundary": "No inferred inner psychology, romance, redemption or novel-only arc."
+}

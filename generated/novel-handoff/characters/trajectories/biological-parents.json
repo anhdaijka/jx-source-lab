@@ -1,0 +1,130 @@
+{
+  "schema_version": "2.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:48:39.132681+00:00",
+  "entity_id": "character:biological-parents",
+  "latest_source_backed_state": "Unnamed biological parents represented in the player illusion; exact identities and fate remain unknown.",
+  "unresolved_question_ids": [
+    "parents-identities",
+    "player-guardian-lineage"
+  ],
+  "stages": [
+    {
+      "arc_id": "arc-01",
+      "source_state": "Absent parents known only through partial recovered testimony.",
+      "actions": [],
+      "knowledge_changes": [],
+      "relationship_changes": [
+        "Biological relation to the player is established; details remain incomplete."
+      ],
+      "claim_ids": [
+        "IR021"
+      ]
+    },
+    {
+      "arc_id": "arc-12",
+      "source_state": "Appear to the player in an illusion.",
+      "actions": [],
+      "knowledge_changes": [],
+      "relationship_changes": [
+        "Biological-parent connection is reaffirmed without names or lineage."
+      ],
+      "claim_ids": [
+        "IR011"
+      ]
+    }
+  ],
+  "canonical_name": "Cha mẹ ruột của người chơi",
+  "affiliations": [],
+  "related_plot_thread_ids": [
+    "thread:player-origin"
+  ],
+  "related_mystery_reveal_ids": [
+    "mystery:player-parents",
+    "mystery:returning-woman"
+  ],
+  "claim_evidence": [
+    {
+      "claim_id": "IR021",
+      "claim": "The raw Thân Thế Chi Mê family says Bạch Thu Lâm withheld complicated information about the player’s parents and later refers to their spirits; it does not name them or prove the player’s guardian lineage.",
+      "status": "VERIFIED_DIRECT",
+      "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+          "record_key": "task:000000000000009D:entry:8ead8c5c"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+          "record_key": "sub:0000000000000132:start"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:477;id:6e419b6c;offset:655811;stored:1640;expanded:6694;output_sha256:bd81fccb5dde1c9d2d390b59a5003174935b45eb1627ef6151958db106370aef",
+          "record_key": "sub:0000000000000186:start"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR011",
+      "claim": "The live Xoyo dream page shows child Bạch Thu Lâm and states that the player meets biological parents in an illusion; names and lineage are not supplied.",
+      "status": "VERIFIED_DIRECT",
+      "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/evidence/evidence-ledger.md",
+          "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+          "locator": "lines 20-21",
+          "citation_id": "KX-140-02"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/zt/2009/09/28/index2.shtml",
+          "response_sha256": "e0751c0d3d57a107567231c699e4de9f6be903e1e51d26b9581da7b7b2921dc5",
+          "locator": "白家大小姐白秋琳; 身世迷踪; 亲生父母",
+          "citation_id": "KX-140-02"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+          "record_key": "task:000000000000009D:entry:8ead8c5c"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+          "record_key": "sub:0000000000000132:start"
+        }
+      ]
+    }
+  ],
+  "source_trajectory_boundary": "No inferred inner psychology, romance, redemption or novel-only arc."
+}

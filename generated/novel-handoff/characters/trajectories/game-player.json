@@ -1,0 +1,527 @@
+{
+  "schema_version": "2.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:48:39.131270+00:00",
+  "entity_id": "character:game-player",
+  "latest_source_backed_state": "Participant in the 1205 Linh Bich campaign and the parent-origin illusion; no novel identity is assigned.",
+  "unresolved_question_ids": [
+    "parents-identities",
+    "player-guardian-lineage",
+    "post-lingbi-continuation"
+  ],
+  "stages": [
+    {
+      "arc_id": "arc-01",
+      "source_state": "Onboarded by Bach Thu Lam and offered three regional mainlines.",
+      "actions": [
+        "Enters the evidenced game-story route structure."
+      ],
+      "knowledge_changes": [
+        "Learns that parent information is being withheld as complicated."
+      ],
+      "relationship_changes": [
+        "Becomes subject to Bach Thu Lam mission authority."
+      ],
+      "claim_ids": [
+        "IR003",
+        "IR004",
+        "IR021"
+      ]
+    },
+    {
+      "arc_id": "arc-06",
+      "source_state": "Operative in the shared post-50 chain.",
+      "actions": [
+        "Protects Gia Vuong; investigates the Du Long diagram; follows the leak and recovery chain."
+      ],
+      "knowledge_changes": [
+        "Acquires source-backed information through the succession, theft and pursuit investigations."
+      ],
+      "relationship_changes": [
+        "Acts with and for Nghia Quan during the promoted chain."
+      ],
+      "claim_ids": [
+        "IR022",
+        "IR023",
+        "IR024",
+        "IR025"
+      ]
+    },
+    {
+      "arc_id": "arc-10",
+      "source_state": "Nghia Quan-linked northern operative.",
+      "actions": [
+        "Participates in the northern intelligence mission."
+      ],
+      "knowledge_changes": [
+        "Receives mission-relevant northern intelligence; exact image-only details remain bounded."
+      ],
+      "relationship_changes": [],
+      "claim_ids": [
+        "IR007"
+      ]
+    },
+    {
+      "arc_id": "arc-12",
+      "source_state": "Campaign participant confronting origin evidence.",
+      "actions": [
+        "Participates in the Linh Bich conflict and encounters biological parents in an illusion."
+      ],
+      "knowledge_changes": [
+        "Biological parentage is presented, while names and lineage remain unknown."
+      ],
+      "relationship_changes": [],
+      "claim_ids": [
+        "IR010",
+        "IR011"
+      ]
+    }
+  ],
+  "canonical_name": "Người chơi",
+  "affiliations": [
+    "Nghĩa Quân"
+  ],
+  "related_plot_thread_ids": [
+    "thread:du-long-relic",
+    "thread:nghia-quan-service",
+    "thread:ngo-hi-status",
+    "thread:northern-war",
+    "thread:player-origin",
+    "thread:post50-cross-narrative",
+    "thread:regional-branches"
+  ],
+  "related_mystery_reveal_ids": [
+    "mystery:du-long-diagram-theft",
+    "mystery:du-long-secret",
+    "mystery:ngo-hi-status",
+    "mystery:player-parents",
+    "mystery:returning-woman"
+  ],
+  "claim_evidence": [
+    {
+      "claim_id": "IR003",
+      "claim": "The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "CORE_STORY_ARCHITECTURE",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/13-bibliography.md",
+          "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+          "locator": "lines 17-21",
+          "citation_id": "KX-ARCH-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/show-3415-6173-1.html",
+          "response_sha256": "278b09f4fa3b46606facee255e1c510e7de0ec5e5828f4c07f82a64892339442",
+          "locator": "三条区域主线; 江南区; 中原区; 西南区; 50级之后; 交叉叙事",
+          "citation_id": "KX-ARCH-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:8;id:0163ae81;offset:1191157;stored:1004;expanded:4877;output_sha256:5f9d57491ac33b6a08d7abc21ea5c7bc2a11f770a2d1d0dc9f4b418e7a1ed679",
+          "record_key": "sub:000000000000013A"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:14;id:02430c4f;offset:275211;stored:998;expanded:4870;output_sha256:5ef652dfe7d251a25dde4c6f09d7195e8f9f08f3e4025912ab5bd2047f937a26",
+          "record_key": "sub:000000000000013B"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:147;id:1fa2ed0d;offset:384867;stored:995;expanded:4862;output_sha256:110b6735cb18086399f5794b283cb8b2cc66905e2527f1cf64d0f6cdb22898a6",
+          "record_key": "sub:000000000000013C"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR004",
+      "claim": "Bạch Thu Lâm/Thu Di onboards the player into Nghĩa Quân and remains the player’s principal mission authority.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "CORE_PLAYER_POSITION",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/evidence/evidence-ledger.md",
+          "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+          "locator": "line 9",
+          "citation_id": "KX-90-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_VNG",
+          "url": "https://kiemthe.zing.vn/tin-tuc/tinh-nang/tich-luy-tien-nghia-quan-doi-thuong-thang-05-2013.html",
+          "response_sha256": "c96af42fbe9c4f5e8b115849cb0c412e116b3134d788edf37dfbfe8f7c7ada9f",
+          "locator": "Bạch Thu Lâm; Nghĩa Quân",
+          "citation_id": "VNG-BTL-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:65;id:0f9bee8e;offset:1256224;stored:3956;expanded:22289;output_sha256:edf00058c2e957b5ffbf1c613e7ac956005124e475ce97d7764c6a7c4e076b69",
+          "record_key": "sub:0000000000000001:start"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR021",
+      "claim": "The raw Thân Thế Chi Mê family says Bạch Thu Lâm withheld complicated information about the player’s parents and later refers to their spirits; it does not name them or prove the player’s guardian lineage.",
+      "status": "VERIFIED_DIRECT",
+      "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+          "record_key": "task:000000000000009D:entry:8ead8c5c"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+          "record_key": "sub:0000000000000132:start"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:477;id:6e419b6c;offset:655811;stored:1640;expanded:6694;output_sha256:bd81fccb5dde1c9d2d390b59a5003174935b45eb1627ef6151958db106370aef",
+          "record_key": "sub:0000000000000186:start"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR022",
+      "claim": "The level-gated wrapper sequence 13→14→15 (49–58) sends the player to locate and protect Gia Vương, counters Lý Hậu’s intervention and ends with Gia Vương taking the throne.",
+      "status": "VERIFIED_DIRECT",
+      "centrality": "CORE_POST50_SUCCESSION_CHAIN",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1045;id:f66eae4a;offset:2217907;stored:4519;expanded:22799;output_sha256:ea39b2c7881e21b4d9b6b847055a6f911c5dd2b3c172cab50950950e257121d9",
+          "record_key": "task:000000000000000D:entry:f66eae4a"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1035;id:f350f967;offset:2197939;stored:5518;expanded:27175;output_sha256:aa664f39a8d3212343457412d1aea317bb88a97b52a7b8ac765ddbab301336e4",
+          "record_key": "task:000000000000000E:entry:f350f967"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:881;id:cc5a3074;offset:2066997;stored:4984;expanded:27483;output_sha256:60b43543cf2e413369e38cdbb02c4cedb39fc7a8d84a627c017abdaf4b5a8d54",
+          "record_key": "task:000000000000000F:entry:cc5a3074"
+        },
+        {
+          "source_family": "lab_derived_index",
+          "support_type": "explicit_xml_edges",
+          "path": "generated/records/edges/task-reference-edges.jsonl",
+          "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+          "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 13,14,15"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR023",
+      "claim": "The wrapper sequence 17→16→18 (58–69) investigates a Đường Môn insider and a Du Long diagram through Lý Nguyên Triết, Đường Khuyết, Nạp Tư and Hắc Long Đàm, then records the relic theft at Điểm Thương.",
+      "status": "VERIFIED_DIRECT",
+      "centrality": "CORE_POST50_RELIC_CHAIN",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:818;id:be6247a5;offset:118770;stored:5685;expanded:29447;output_sha256:7c30e55000fedb7279a0fbaf0ca61d109fa8d645421b59a70fa7ed251894963f",
+          "record_key": "task:0000000000000011:entry:be6247a5"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:813;id:bd780c88;offset:113363;stored:5407;expanded:24863;output_sha256:da034b18384673572b99116b155ca23b6339f4356a50dbb59a0640f36b07c830",
+          "record_key": "task:0000000000000010:entry:bd780c88"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:804;id:bb6b9eb2;offset:961857;stored:5864;expanded:37180;output_sha256:5fdfe487d797cc1accd0d1632cd8bb7af992cc6c80e3709cc18ea44b17a37822",
+          "record_key": "task:0000000000000012:entry:bb6b9eb2"
+        },
+        {
+          "source_family": "lab_derived_index",
+          "support_type": "explicit_xml_edges",
+          "path": "generated/records/edges/task-reference-edges.jsonl",
+          "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+          "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 17,16,18"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR024",
+      "claim": "The wrapper sequence 21→19→20 (69–79) follows an Ngô Hi information leak into a cross-faction pursuit involving Cái Bang, Ngũ Độc, Jin-linked actors, Tây Hạ and Nhất Phẩm Đường.",
+      "status": "VERIFIED_DIRECT",
+      "centrality": "CORE_POST50_PURSUIT_CHAIN",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:754;id:b248bbe9;offset:1956159;stored:5360;expanded:29669;output_sha256:c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+          "record_key": "task:0000000000000015:entry:b248bbe9"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:766;id:b45d29cf;offset:1970109;stored:5492;expanded:34085;output_sha256:1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+          "record_key": "task:0000000000000013:entry:b45d29cf"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:747;id:b14760dc;offset:1948646;stored:5449;expanded:34731;output_sha256:070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+          "record_key": "task:0000000000000014:entry:b14760dc"
+        },
+        {
+          "source_family": "lab_derived_index",
+          "support_type": "explicit_xml_edges",
+          "path": "generated/records/edges/task-reference-edges.jsonl",
+          "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+          "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 21,19,20"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR025",
+      "claim": "The wrapper sequence 22→23→24 (79–89) moves from the Du Long recovery effort through an attack on Nghĩa Quân and a contested treasure cave involving Hoàn Nhan Tương, ending at Đại Nghĩa Nước Nhà; a contemporary Xoyo patch independently names the mainline task 家国大义.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "CORE_POST50_ENDPOINT_CHAIN",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:615;id:8fb2f206;offset:1811233;stored:4864;expanded:26207;output_sha256:f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+          "record_key": "task:0000000000000016:entry:8fb2f206"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:582;id:88a40d13;offset:767013;stored:6595;expanded:32194;output_sha256:7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+          "record_key": "task:0000000000000017:entry:88a40d13"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:568;id:85ae4420;offset:745096;stored:8235;expanded:54698;output_sha256:fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+          "record_key": "task:0000000000000018:entry:85ae4420"
+        },
+        {
+          "source_family": "lab_derived_index",
+          "support_type": "explicit_xml_edges",
+          "path": "generated/records/edges/task-reference-edges.jsonl",
+          "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+          "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 22,23,24"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/kfnotic/296247/",
+          "response_sha256": "07c190981e531aac519d8713d649aa7998b7fce4ac1f1d4c55cfbca9539754dc",
+          "locator": "2008-08-12 maintenance; mainline tasks 别有洞天 and 家国大义",
+          "citation_id": "KX-POST50-PATCH-01"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR007",
+      "claim": "The northern mission arc involves Nghĩa Quân intelligence, Doãn Tiểu Vũ, Gia Luật Sở Tài and Hoàn Nhan Tương; its official special is live but detailed text is image-only.",
+      "status": "STRONG",
+      "centrality": "CORE_HIGH_LEVEL_ARC",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/evidence/evidence-ledger.md",
+          "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+          "locator": "lines 14-15",
+          "citation_id": "KX-120-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "source_identity_only",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/zt/2009/03/20/index2.shtml",
+          "response_sha256": "50c79dee52b825b4ce6ec2acb1ad1c6d9db589b54c2d06b4f337ffdcd6a65a61",
+          "locator": "120 special identity only; detailed text not machine-verified",
+          "citation_id": "KX-120-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:759;id:b3412950;offset:105251;stored:3591;expanded:29428;output_sha256:b9d3e9e4083e28807a1b3a55126853a8f9661a13488fbbe142d28884bced7871",
+          "record_key": "sub:0000000000000216:start"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:784;id:b8230d16;offset:938100;stored:4647;expanded:25830;output_sha256:31d34bb4bfa68e4f778eb6b67ff96f8ff7b9b9e31d60c95782f0894f8d77f2f9",
+          "record_key": "sub:0000000000000213:start"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR010",
+      "claim": "The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.",
+      "status": "VERIFIED_DIRECT",
+      "centrality": "CORE_ENDPOINT_ARC",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/evidence/evidence-ledger.md",
+          "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+          "locator": "lines 18-19",
+          "citation_id": "KX-140-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+          "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+          "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+          "citation_id": "KX-140-01"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR011",
+      "claim": "The live Xoyo dream page shows child Bạch Thu Lâm and states that the player meets biological parents in an illusion; names and lineage are not supplied.",
+      "status": "VERIFIED_DIRECT",
+      "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/evidence/evidence-ledger.md",
+          "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+          "locator": "lines 20-21",
+          "citation_id": "KX-140-02"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/zt/2009/09/28/index2.shtml",
+          "response_sha256": "e0751c0d3d57a107567231c699e4de9f6be903e1e51d26b9581da7b7b2921dc5",
+          "locator": "白家大小姐白秋琳; 身世迷踪; 亲生父母",
+          "citation_id": "KX-140-02"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+          "record_key": "task:000000000000009D:entry:8ead8c5c"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:581;id:88a148ef;offset:41098;stored:2968;expanded:14776;output_sha256:c4d10de47a9db823a55a0ceb64bfc20b7bbe20576c5da6d273c587da23475948",
+          "record_key": "sub:0000000000000132:start"
+        }
+      ]
+    }
+  ],
+  "source_trajectory_boundary": "No inferred inner psychology, romance, redemption or novel-only arc."
+}
