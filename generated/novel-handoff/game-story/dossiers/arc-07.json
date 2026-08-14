@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.558900+00:00",
+  "dossier_id": "dossier-arc-07",
+  "arc_id": "arc-07",
+  "title": "Khánh Nguyên and Nghĩa Quân",
+  "chronology_or_level_range": "level 90",
+  "premise_claim_ids": [
+    "IR004"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR004",
+    "IR009"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR004",
+    "IR009"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR004",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    },
+    {
+      "order": 2,
+      "claim_id": "IR009",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR004",
+    "IR009"
+  ],
+  "reveal_claim_ids": [
+    "IR004",
+    "IR009"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR009"
+  ],
+  "consequence_claim_ids": [
+    "IR009"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR004",
+    "IR009"
+  ],
+  "central_unknown_ids": [],
+  "material_conflict_ids": [],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS",
+  "handoff_projection_version": "1.0",
+  "source_dossier": {
+    "path": "research/reconstruction/game-story-dossiers/arc-07.json",
+    "sha256": "d81502eb907145e554eb2d668f59a304fd54e14137f18f3def9256800edb7aaf"
+  },
+  "resolved_claims": [
+    {
+      "claim_id": "IR004",
+      "claim": "Bạch Thu Lâm/Thu Di onboards the player into Nghĩa Quân and remains the player’s principal mission authority.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "CORE_PLAYER_POSITION",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/evidence/evidence-ledger.md",
+          "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+          "locator": "line 9",
+          "citation_id": "KX-90-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_VNG",
+          "url": "https://kiemthe.zing.vn/tin-tuc/tinh-nang/tich-luy-tien-nghia-quan-doi-thuong-thang-05-2013.html",
+          "response_sha256": "c96af42fbe9c4f5e8b115849cb0c412e116b3134d788edf37dfbfe8f7c7ada9f",
+          "locator": "Bạch Thu Lâm; Nghĩa Quân",
+          "citation_id": "VNG-BTL-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:65;id:0f9bee8e;offset:1256224;stored:3956;expanded:22289;output_sha256:edf00058c2e957b5ffbf1c613e7ac956005124e475ce97d7764c6a7c4e076b69",
+          "record_key": "sub:0000000000000001:start"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR009",
+      "claim": "Hàn Thác Trụ chooses Northern Expedition amid political pressure, while the Lab independently preserves the Khánh Nguyên purge and northern-war preparation.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "CORE_HIGH_LEVEL_ARC",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/evidence/evidence-ledger.md",
+          "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+          "locator": "line 17",
+          "citation_id": "KX-130-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/show-3416-8139-1.html",
+          "response_sha256": "26af8e24acd558b33d74d28d1f9ee0a097a85455609ca91c69a5dc5397890120",
+          "locator": "韩侂胄; 北伐金国; 钱象祖",
+          "citation_id": "KX-130-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:232;id:33e6124d;offset:1424209;stored:3040;expanded:21289;output_sha256:f24855e09eac96de2d6b79796560be511551ee480157a8a102b3beb1dabcfa1b",
+          "record_key": "sub:000000000000019F:start"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_dialogue",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:783;id:b7f23b33;offset:935915;stored:2185;expanded:10980;output_sha256:9d5f9955ef62e6efea0fa081a6ab8e211176c13130750551f5c2d60def174102",
+          "record_key": "sub:000000000000024F:start"
+        }
+      ]
+    }
+  ],
+  "principal_entity_ids": [
+    "character:game-player",
+    "character:bach-thu-lam",
+    "character:han-thac-tru",
+    "faction:nghia-quan"
+  ]
+}

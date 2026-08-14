@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.854675+00:00",
+  "promotion_status": "NOVEL_PROMOTION_READY",
+  "promotion_gates": {
+    "S3": {
+      "status": "PASS",
+      "basis": "All declared main arcs have claim-linked source-only dossiers; central unknowns are explicit."
+    },
+    "S4": {
+      "status": "PASS",
+      "basis": "All load-bearing research claims are reconciled; no unresolved MATERIAL narrative conflict remains."
+    },
+    "S5": {
+      "status": "PASS",
+      "basis": "Curated claims, concordance, dossiers, unresolved ledger and confidence inputs are complete for release validation."
+    }
+  },
+  "claim_status_counts": {
+    "VERIFIED_CROSS_SOURCE": 8,
+    "STRONG": 6,
+    "INFERENCE": 1,
+    "VERIFIED_DIRECT": 10
+  },
+  "promoted_story_dossiers": 14,
+  "unresolved_counts": {
+    "CENTRAL_BLOCKER": 0,
+    "CENTRAL_TOLERABLE": 8,
+    "NON_CENTRAL": 5,
+    "UNRESOLVED_MATERIAL_CONFLICT": 0
+  },
+  "interpretation_boundary": "Promotable source-canon only; no adaptation, episode structure or prose decision is included."
+}

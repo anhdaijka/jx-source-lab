@@ -1,0 +1,458 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.851575+00:00",
+  "count": 56,
+  "entries": [
+    {
+      "entity_id": "character:game-player",
+      "canonical": "Người chơi",
+      "aliases": [
+        "game player"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:bach-thu-lam",
+      "canonical": "Bạch Thu Lâm",
+      "aliases": [
+        "白秋琳",
+        "Thu Di",
+        "秋姨"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:biological-parents",
+      "canonical": "Cha mẹ ruột của người chơi",
+      "aliases": [
+        "biological parents"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:gia-vuong",
+      "canonical": "Gia Vương",
+      "aliases": [
+        "嘉王"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:ly-hau",
+      "canonical": "Lý Hậu",
+      "aliases": [
+        "李后"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:han-thac-tru",
+      "canonical": "Hàn Thác Trụ",
+      "aliases": [
+        "韩侂胄"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:ngo-hi",
+      "canonical": "Ngô Hi",
+      "aliases": [
+        "吴曦",
+        "Ngô Hỉ"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:doan-tri-hung",
+      "canonical": "Đoàn Trí Hưng",
+      "aliases": [
+        "段智兴"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:la-tuyet",
+      "canonical": "La Tuyết",
+      "aliases": [
+        "罗雪"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:doan-tieu-vu",
+      "canonical": "Doãn Tiểu Vũ",
+      "aliases": [
+        "尹筱雨"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:gia-luat-so-tai",
+      "canonical": "Gia Luật Sở Tài",
+      "aliases": [
+        "耶律楚材"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:hoan-nhan-tuong",
+      "canonical": "Hoàn Nhan Tương",
+      "aliases": [
+        "完颜襄"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:an-dong",
+      "canonical": "Ân Đồng",
+      "aliases": [
+        "殷童"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:ly-nguyen-triet",
+      "canonical": "Lý Nguyên Triết",
+      "aliases": [
+        "李元哲"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:duong-khuyet",
+      "canonical": "Đường Khuyết",
+      "aliases": [
+        "唐缺"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:nap-tu",
+      "canonical": "Nạp Tư",
+      "aliases": [],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:bach-cuong",
+      "canonical": "Bạch Cương",
+      "aliases": [],
+      "type": "character"
+    },
+    {
+      "entity_id": "character:chu-hy",
+      "canonical": "Chu Hy",
+      "aliases": [
+        "朱熹",
+        "Chu lão tiên sinh"
+      ],
+      "type": "character"
+    },
+    {
+      "entity_id": "faction:nghia-quan",
+      "canonical": "Nghĩa Quân",
+      "aliases": [
+        "义军"
+      ],
+      "type": "faction"
+    },
+    {
+      "entity_id": "faction:nam-tong",
+      "canonical": "Nam Tống",
+      "aliases": [
+        "南宋",
+        "Đại Tống"
+      ],
+      "type": "faction"
+    },
+    {
+      "entity_id": "faction:kim",
+      "canonical": "Kim",
+      "aliases": [
+        "金",
+        "Jin"
+      ],
+      "type": "faction"
+    },
+    {
+      "entity_id": "faction:tay-ha",
+      "canonical": "Tây Hạ",
+      "aliases": [
+        "西夏"
+      ],
+      "type": "faction"
+    },
+    {
+      "entity_id": "faction:nhat-pham-duong",
+      "canonical": "Nhất Phẩm Đường",
+      "aliases": [
+        "一品堂"
+      ],
+      "type": "faction"
+    },
+    {
+      "entity_id": "faction:duong-mon",
+      "canonical": "Đường Môn",
+      "aliases": [
+        "唐门"
+      ],
+      "type": "faction"
+    },
+    {
+      "entity_id": "faction:cai-bang",
+      "canonical": "Cái Bang",
+      "aliases": [
+        "丐帮"
+      ],
+      "type": "faction"
+    },
+    {
+      "entity_id": "faction:ngu-doc",
+      "canonical": "Ngũ Độc",
+      "aliases": [
+        "五毒"
+      ],
+      "type": "faction"
+    },
+    {
+      "entity_id": "faction:thuy-yen",
+      "canonical": "Thúy Yên",
+      "aliases": [
+        "翠烟"
+      ],
+      "type": "faction"
+    },
+    {
+      "entity_id": "faction:thien-nhan",
+      "canonical": "Thiên Nhẫn",
+      "aliases": [
+        "天忍"
+      ],
+      "type": "faction"
+    },
+    {
+      "entity_id": "sect:1",
+      "canonical": "Thiếu Lâm",
+      "aliases": [
+        "少林"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "sect:2",
+      "canonical": "Thiên Vương",
+      "aliases": [
+        "天王"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "sect:3",
+      "canonical": "Đường Môn",
+      "aliases": [
+        "唐门"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "sect:4",
+      "canonical": "Ngũ Độc",
+      "aliases": [
+        "五毒"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "sect:5",
+      "canonical": "Nga My",
+      "aliases": [
+        "峨眉"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "sect:6",
+      "canonical": "Thúy Yên",
+      "aliases": [
+        "翠烟"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "sect:7",
+      "canonical": "Cái Bang",
+      "aliases": [
+        "丐帮"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "sect:8",
+      "canonical": "Thiên Nhẫn",
+      "aliases": [
+        "天忍"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "sect:9",
+      "canonical": "Võ Đang",
+      "aliases": [
+        "武当"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "sect:10",
+      "canonical": "Côn Lôn",
+      "aliases": [
+        "昆仑"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "sect:11",
+      "canonical": "Minh Giáo",
+      "aliases": [
+        "明教"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "sect:12",
+      "canonical": "Đoàn Thị",
+      "aliases": [
+        "段氏"
+      ],
+      "type": "sect"
+    },
+    {
+      "entity_id": "location:nam-chieu",
+      "canonical": "Nam Chiếu",
+      "aliases": [
+        "南诏"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:12",
+      "canonical": "Côn Lôn Phái",
+      "aliases": [
+        "昆仑派"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:16",
+      "canonical": "Nga My Phái",
+      "aliases": [
+        "峨眉派"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:22",
+      "canonical": "Thiên Vương Bang",
+      "aliases": [
+        "天王帮"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:25",
+      "canonical": "Tương Dương Phủ",
+      "aliases": [
+        "襄阳府"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:29",
+      "canonical": "Lâm An Phủ",
+      "aliases": [
+        "临安府"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:88",
+      "canonical": "Hán Thủy Cổ Độ",
+      "aliases": [
+        "汉水古渡"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:98",
+      "canonical": "Điểm Thương Sơn",
+      "aliases": [
+        "点苍山"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:13",
+      "canonical": "Tây Hạ Nhất Phẩm Đường",
+      "aliases": [
+        "西夏一品堂"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:511",
+      "canonical": "Phi Long Cốc",
+      "aliases": [
+        "飞龙谷"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:513",
+      "canonical": "Thiên Quỳnh Cung",
+      "aliases": [
+        "千琼宫"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:530",
+      "canonical": "Hắc Long Đàm",
+      "aliases": [
+        "黑龙潭"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:561",
+      "canonical": "Vọng Long Sơn",
+      "aliases": [
+        "望龙山"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:569",
+      "canonical": "Linh Bích Bạc",
+      "aliases": [
+        "灵壁泊"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:28",
+      "canonical": "Đại Lý Phủ",
+      "aliases": [
+        "大理府"
+      ],
+      "type": "location"
+    },
+    {
+      "entity_id": "map:819",
+      "canonical": "Hoàng Cung Đại Lý",
+      "aliases": [
+        "大理皇宫"
+      ],
+      "type": "location"
+    }
+  ]
+}

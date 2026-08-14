@@ -1,0 +1,512 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.850020+00:00",
+  "scope": "Important promoted-story entities and the twelve configured sects only.",
+  "count": 52,
+  "entries": [
+    {
+      "entity_id": "character:bach-thu-lam",
+      "cn": "白秋琳",
+      "vi": "Bạch Thu Lâm",
+      "variants": [
+        "Thu Di",
+        "秋姨"
+      ],
+      "claim_ids": [
+        "IR004",
+        "IR011",
+        "IR016",
+        "IR021"
+      ]
+    },
+    {
+      "entity_id": "character:gia-vuong",
+      "cn": "嘉王",
+      "vi": "Gia Vương",
+      "variants": [],
+      "claim_ids": [
+        "IR022"
+      ]
+    },
+    {
+      "entity_id": "character:ly-hau",
+      "cn": "李后",
+      "vi": "Lý Hậu",
+      "variants": [],
+      "claim_ids": [
+        "IR022"
+      ]
+    },
+    {
+      "entity_id": "character:han-thac-tru",
+      "cn": "韩侂胄",
+      "vi": "Hàn Thác Trụ",
+      "variants": [],
+      "claim_ids": [
+        "IR009"
+      ]
+    },
+    {
+      "entity_id": "character:ngo-hi",
+      "cn": "吴曦",
+      "vi": "Ngô Hi",
+      "variants": [
+        "Ngô Hỉ"
+      ],
+      "claim_ids": [
+        "IR010",
+        "IR020",
+        "IR024"
+      ]
+    },
+    {
+      "entity_id": "character:doan-tri-hung",
+      "cn": "段智兴",
+      "vi": "Đoàn Trí Hưng",
+      "variants": [],
+      "claim_ids": [
+        "IR006"
+      ]
+    },
+    {
+      "entity_id": "character:la-tuyet",
+      "cn": "罗雪",
+      "vi": "La Tuyết",
+      "variants": [],
+      "claim_ids": [
+        "IR006",
+        "IR020"
+      ]
+    },
+    {
+      "entity_id": "character:doan-tieu-vu",
+      "cn": "尹筱雨",
+      "vi": "Doãn Tiểu Vũ",
+      "variants": [],
+      "claim_ids": [
+        "IR007",
+        "IR016"
+      ]
+    },
+    {
+      "entity_id": "character:gia-luat-so-tai",
+      "cn": "耶律楚材",
+      "vi": "Gia Luật Sở Tài",
+      "variants": [],
+      "claim_ids": [
+        "IR007",
+        "IR016"
+      ]
+    },
+    {
+      "entity_id": "character:hoan-nhan-tuong",
+      "cn": "完颜襄",
+      "vi": "Hoàn Nhan Tương",
+      "variants": [],
+      "claim_ids": [
+        "IR007",
+        "IR025"
+      ]
+    },
+    {
+      "entity_id": "character:an-dong",
+      "cn": "殷童",
+      "vi": "Ân Đồng",
+      "variants": [],
+      "claim_ids": [
+        "IR014"
+      ]
+    },
+    {
+      "entity_id": "character:ly-nguyen-triet",
+      "cn": "李元哲",
+      "vi": "Lý Nguyên Triết",
+      "variants": [],
+      "claim_ids": [
+        "IR023"
+      ]
+    },
+    {
+      "entity_id": "character:duong-khuyet",
+      "cn": "唐缺",
+      "vi": "Đường Khuyết",
+      "variants": [],
+      "claim_ids": [
+        "IR023"
+      ]
+    },
+    {
+      "entity_id": "character:chu-hy",
+      "cn": "朱熹",
+      "vi": "Chu Hy",
+      "variants": [
+        "Chu lão tiên sinh"
+      ],
+      "claim_ids": [
+        "IR015"
+      ]
+    },
+    {
+      "entity_id": "faction:nghia-quan",
+      "cn": "义军",
+      "vi": "Nghĩa Quân",
+      "variants": [],
+      "claim_ids": [
+        "IR004",
+        "IR007",
+        "IR016",
+        "IR025"
+      ]
+    },
+    {
+      "entity_id": "faction:nam-tong",
+      "cn": "南宋",
+      "vi": "Nam Tống",
+      "variants": [
+        "Đại Tống"
+      ],
+      "claim_ids": [
+        "IR001",
+        "IR009",
+        "IR022",
+        "IR025"
+      ]
+    },
+    {
+      "entity_id": "faction:kim",
+      "cn": "金",
+      "vi": "Kim",
+      "variants": [
+        "Jin"
+      ],
+      "claim_ids": [
+        "IR007",
+        "IR010",
+        "IR024",
+        "IR025"
+      ]
+    },
+    {
+      "entity_id": "faction:tay-ha",
+      "cn": "西夏",
+      "vi": "Tây Hạ",
+      "variants": [],
+      "claim_ids": [
+        "IR024"
+      ]
+    },
+    {
+      "entity_id": "faction:nhat-pham-duong",
+      "cn": "一品堂",
+      "vi": "Nhất Phẩm Đường",
+      "variants": [],
+      "claim_ids": [
+        "IR010",
+        "IR024",
+        "IR025"
+      ]
+    },
+    {
+      "entity_id": "faction:duong-mon",
+      "cn": "唐门",
+      "vi": "Đường Môn",
+      "variants": [],
+      "claim_ids": [
+        "IR023"
+      ]
+    },
+    {
+      "entity_id": "faction:cai-bang",
+      "cn": "丐帮",
+      "vi": "Cái Bang",
+      "variants": [],
+      "claim_ids": [
+        "IR024"
+      ]
+    },
+    {
+      "entity_id": "faction:ngu-doc",
+      "cn": "五毒",
+      "vi": "Ngũ Độc",
+      "variants": [],
+      "claim_ids": [
+        "IR024"
+      ]
+    },
+    {
+      "entity_id": "faction:thuy-yen",
+      "cn": "翠烟",
+      "vi": "Thúy Yên",
+      "variants": [],
+      "claim_ids": [
+        "IR002",
+        "IR006",
+        "IR020"
+      ]
+    },
+    {
+      "entity_id": "faction:thien-nhan",
+      "cn": "天忍",
+      "vi": "Thiên Nhẫn",
+      "variants": [],
+      "claim_ids": [
+        "IR010"
+      ]
+    },
+    {
+      "entity_id": "sect:1",
+      "cn": "少林",
+      "vi": "Thiếu Lâm",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "sect:2",
+      "cn": "天王",
+      "vi": "Thiên Vương",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "sect:3",
+      "cn": "唐门",
+      "vi": "Đường Môn",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "sect:4",
+      "cn": "五毒",
+      "vi": "Ngũ Độc",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "sect:5",
+      "cn": "峨眉",
+      "vi": "Nga My",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "sect:6",
+      "cn": "翠烟",
+      "vi": "Thúy Yên",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "sect:7",
+      "cn": "丐帮",
+      "vi": "Cái Bang",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "sect:8",
+      "cn": "天忍",
+      "vi": "Thiên Nhẫn",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "sect:9",
+      "cn": "武当",
+      "vi": "Võ Đang",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "sect:10",
+      "cn": "昆仑",
+      "vi": "Côn Lôn",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "sect:11",
+      "cn": "明教",
+      "vi": "Minh Giáo",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "sect:12",
+      "cn": "段氏",
+      "vi": "Đoàn Thị",
+      "variants": [],
+      "source_record_keys": [
+        "server/gameserver/setting/faction/faction.xml"
+      ]
+    },
+    {
+      "entity_id": "location:nam-chieu",
+      "cn": "南诏",
+      "vi": "Nam Chiếu",
+      "variants": [],
+      "claim_ids": [
+        "IR002"
+      ]
+    },
+    {
+      "entity_id": "map:12",
+      "cn": "昆仑派",
+      "vi": "Côn Lôn Phái",
+      "variants": [],
+      "claim_ids": [
+        "IR003"
+      ]
+    },
+    {
+      "entity_id": "map:16",
+      "cn": "峨眉派",
+      "vi": "Nga My Phái",
+      "variants": [],
+      "claim_ids": [
+        "IR003"
+      ]
+    },
+    {
+      "entity_id": "map:22",
+      "cn": "天王帮",
+      "vi": "Thiên Vương Bang",
+      "variants": [],
+      "claim_ids": [
+        "IR003"
+      ]
+    },
+    {
+      "entity_id": "map:25",
+      "cn": "襄阳府",
+      "vi": "Tương Dương Phủ",
+      "variants": [],
+      "claim_ids": [
+        "IR022"
+      ]
+    },
+    {
+      "entity_id": "map:29",
+      "cn": "临安府",
+      "vi": "Lâm An Phủ",
+      "variants": [],
+      "claim_ids": [
+        "IR015"
+      ]
+    },
+    {
+      "entity_id": "map:88",
+      "cn": "汉水古渡",
+      "vi": "Hán Thủy Cổ Độ",
+      "variants": [],
+      "claim_ids": [
+        "IR022"
+      ]
+    },
+    {
+      "entity_id": "map:98",
+      "cn": "点苍山",
+      "vi": "Điểm Thương Sơn",
+      "variants": [],
+      "claim_ids": [
+        "IR023"
+      ]
+    },
+    {
+      "entity_id": "map:13",
+      "cn": "西夏一品堂",
+      "vi": "Tây Hạ Nhất Phẩm Đường",
+      "variants": [],
+      "claim_ids": [
+        "IR024",
+        "IR025"
+      ]
+    },
+    {
+      "entity_id": "map:511",
+      "cn": "飞龙谷",
+      "vi": "Phi Long Cốc",
+      "variants": [],
+      "claim_ids": [
+        "IR022"
+      ]
+    },
+    {
+      "entity_id": "map:513",
+      "cn": "千琼宫",
+      "vi": "Thiên Quỳnh Cung",
+      "variants": [],
+      "claim_ids": [
+        "IR022"
+      ]
+    },
+    {
+      "entity_id": "map:530",
+      "cn": "黑龙潭",
+      "vi": "Hắc Long Đàm",
+      "variants": [],
+      "claim_ids": [
+        "IR023"
+      ]
+    },
+    {
+      "entity_id": "map:561",
+      "cn": "望龙山",
+      "vi": "Vọng Long Sơn",
+      "variants": [],
+      "claim_ids": [
+        "IR007"
+      ]
+    },
+    {
+      "entity_id": "map:569",
+      "cn": "灵壁泊",
+      "vi": "Linh Bích Bạc",
+      "variants": [],
+      "claim_ids": [
+        "IR010",
+        "IR011"
+      ]
+    },
+    {
+      "entity_id": "map:28",
+      "cn": "大理府",
+      "vi": "Đại Lý Phủ",
+      "variants": [],
+      "claim_ids": [
+        "IR006"
+      ]
+    },
+    {
+      "entity_id": "map:819",
+      "cn": "大理皇宫",
+      "vi": "Hoàng Cung Đại Lý",
+      "variants": [],
+      "claim_ids": [
+        "IR006"
+      ]
+    }
+  ]
+}

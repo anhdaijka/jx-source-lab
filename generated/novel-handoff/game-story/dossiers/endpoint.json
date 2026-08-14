@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.564579+00:00",
+  "dossier_id": "dossier-endpoint",
+  "arc_id": "endpoint",
+  "title": "Verified publication endpoint",
+  "chronology_or_level_range": "post-135/140 boundary",
+  "premise_claim_ids": [
+    "IR013"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR013",
+    "IR017"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR013",
+    "IR017"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR013",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    },
+    {
+      "order": 2,
+      "claim_id": "IR017",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR013",
+    "IR017"
+  ],
+  "reveal_claim_ids": [
+    "IR013",
+    "IR017"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR017"
+  ],
+  "consequence_claim_ids": [
+    "IR017"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR013",
+    "IR017"
+  ],
+  "central_unknown_ids": [
+    "du-long-final-secret",
+    "post-lingbi-continuation"
+  ],
+  "material_conflict_ids": [],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS",
+  "handoff_projection_version": "1.0",
+  "source_dossier": {
+    "path": "research/reconstruction/game-story-dossiers/endpoint.json",
+    "sha256": "2543f4586634c0b6f140be61676d4f1a8b377430b5202552c7fff7ee82eff919"
+  },
+  "resolved_claims": [
+    {
+      "claim_id": "IR013",
+      "claim": "The Xoyo chronicle is supporting chronology and roadmap evidence, not proof that every 1194–1212 event shipped as a player quest.",
+      "status": "STRONG",
+      "centrality": "SUPPORTING_CHRONOLOGY",
+      "narrative_impact": "POSSIBLE",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/04-complete-chronological-timeline.md",
+          "sha256": "861199b979b6d9392e4e8f0b5ed9cb66bad7d564c3b1fba776137aaa6af1559a",
+          "locator": "lines 13,20,24,32",
+          "citation_id": "KX-CHRON-01"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR017",
+      "claim": "Linh Bích is the latest original-era official story release located by this research package; this is a source-constrained endpoint, not proof of final closure.",
+      "status": "STRONG",
+      "centrality": "RELEASE_AUDIT_CONCLUSION",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/03-main-story/ending-and-endpoint.md",
+          "sha256": "eef21fb78765b991a2366467cc7753466d9497f5c68ad14ebf93cb3ec42cf375",
+          "locator": "lines 3-9",
+          "citation_id": "KX-140-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+          "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+          "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+          "citation_id": "KX-140-01"
+        }
+      ]
+    }
+  ],
+  "principal_entity_ids": [
+    "faction:nam-tong"
+  ]
+}

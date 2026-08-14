@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.827826+00:00",
+  "promotion_status": "NOVEL_PROMOTION_READY",
+  "arc_count": 14,
+  "arcs": [
+    {
+      "order": 1,
+      "arc_id": "arc-00",
+      "title": "Du Long Giác prologue and world crisis",
+      "aliases": [],
+      "chronology_or_level_range": "pre-opening/1189",
+      "dossier_path": "game-story/dossiers/arc-00.json",
+      "principal_entity_ids": [
+        "character:game-player",
+        "faction:nam-tong"
+      ],
+      "claim_ids": [
+        "IR001",
+        "IR002"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 0,
+      "important_martial_item_location_references": [
+        "IR001",
+        "IR002"
+      ]
+    },
+    {
+      "order": 2,
+      "arc_id": "arc-01",
+      "title": "Player opening and Bạch Thu Lâm",
+      "aliases": [],
+      "chronology_or_level_range": "opening",
+      "dossier_path": "game-story/dossiers/arc-01.json",
+      "principal_entity_ids": [
+        "character:game-player",
+        "character:bach-thu-lam",
+        "character:biological-parents"
+      ],
+      "claim_ids": [
+        "IR003",
+        "IR004",
+        "IR021"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 2,
+      "important_martial_item_location_references": []
+    },
+    {
+      "order": 3,
+      "arc_id": "arc-02",
+      "title": "Yên Vũ Giang Nam",
+      "aliases": [],
+      "chronology_or_level_range": "pre-50 regional",
+      "dossier_path": "game-story/dossiers/arc-02.json",
+      "principal_entity_ids": [
+        "character:game-player",
+        "character:an-dong"
+      ],
+      "claim_ids": [
+        "IR003",
+        "IR014"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 0,
+      "important_martial_item_location_references": []
+    },
+    {
+      "order": 4,
+      "arc_id": "arc-03",
+      "title": "Binh Qua Trung Nguyên",
+      "aliases": [],
+      "chronology_or_level_range": "pre-50 regional",
+      "dossier_path": "game-story/dossiers/arc-03.json",
+      "principal_entity_ids": [
+        "character:game-player"
+      ],
+      "claim_ids": [
+        "IR003",
+        "IR019"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 1,
+      "important_martial_item_location_references": []
+    },
+    {
+      "order": 5,
+      "arc_id": "arc-04",
+      "title": "Tây Nam Mê Cảnh",
+      "aliases": [],
+      "chronology_or_level_range": "pre-50 regional",
+      "dossier_path": "game-story/dossiers/arc-04.json",
+      "principal_entity_ids": [
+        "character:game-player",
+        "character:ngo-hi",
+        "character:la-tuyet",
+        "faction:thuy-yen"
+      ],
+      "claim_ids": [
+        "IR003",
+        "IR020"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 0,
+      "important_martial_item_location_references": []
+    },
+    {
+      "order": 6,
+      "arc_id": "arc-05",
+      "title": "Chuyện Cũ Thần Châu convergence",
+      "aliases": [],
+      "chronology_or_level_range": "pre-50 convergence",
+      "dossier_path": "game-story/dossiers/arc-05.json",
+      "principal_entity_ids": [
+        "character:game-player"
+      ],
+      "claim_ids": [
+        "IR005"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 0,
+      "important_martial_item_location_references": []
+    },
+    {
+      "order": 7,
+      "arc_id": "arc-06",
+      "title": "Post-50 cross-narrative",
+      "aliases": [],
+      "chronology_or_level_range": "level gates 49-89",
+      "dossier_path": "game-story/dossiers/arc-06.json",
+      "principal_entity_ids": [
+        "character:game-player",
+        "character:gia-vuong",
+        "character:ly-hau",
+        "character:ly-nguyen-triet",
+        "character:duong-khuyet",
+        "character:nap-tu",
+        "character:ngo-hi",
+        "character:hoan-nhan-tuong",
+        "faction:nghia-quan",
+        "faction:kim",
+        "faction:tay-ha",
+        "faction:nhat-pham-duong"
+      ],
+      "claim_ids": [
+        "IR003",
+        "IR022",
+        "IR023",
+        "IR024",
+        "IR025",
+        "IR018"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 1,
+      "important_martial_item_location_references": [
+        "IR022",
+        "IR023",
+        "IR024",
+        "IR025"
+      ]
+    },
+    {
+      "order": 8,
+      "arc_id": "arc-07",
+      "title": "Khánh Nguyên and Nghĩa Quân",
+      "aliases": [],
+      "chronology_or_level_range": "level 90",
+      "dossier_path": "game-story/dossiers/arc-07.json",
+      "principal_entity_ids": [
+        "character:game-player",
+        "character:bach-thu-lam",
+        "character:han-thac-tru",
+        "faction:nghia-quan"
+      ],
+      "claim_ids": [
+        "IR004",
+        "IR009"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 0,
+      "important_martial_item_location_references": []
+    },
+    {
+      "order": 9,
+      "arc_id": "arc-08",
+      "title": "Man Thiên Quá Hải",
+      "aliases": [],
+      "chronology_or_level_range": "level 100",
+      "dossier_path": "game-story/dossiers/arc-08.json",
+      "principal_entity_ids": [
+        "character:game-player",
+        "character:chu-hy"
+      ],
+      "claim_ids": [
+        "IR015"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 1,
+      "important_martial_item_location_references": [
+        "IR015"
+      ]
+    },
+    {
+      "order": 10,
+      "arc_id": "arc-09",
+      "title": "Đại Lý crisis",
+      "aliases": [],
+      "chronology_or_level_range": "level 110",
+      "dossier_path": "game-story/dossiers/arc-09.json",
+      "principal_entity_ids": [
+        "character:game-player",
+        "character:doan-tri-hung",
+        "character:la-tuyet"
+      ],
+      "claim_ids": [
+        "IR006"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 0,
+      "important_martial_item_location_references": [
+        "IR006"
+      ]
+    },
+    {
+      "order": 11,
+      "arc_id": "arc-10",
+      "title": "Northern intelligence and Vọng Long Sơn",
+      "aliases": [],
+      "chronology_or_level_range": "level 120",
+      "dossier_path": "game-story/dossiers/arc-10.json",
+      "principal_entity_ids": [
+        "character:game-player",
+        "character:doan-tieu-vu",
+        "character:gia-luat-so-tai",
+        "character:hoan-nhan-tuong",
+        "faction:kim",
+        "faction:nghia-quan"
+      ],
+      "claim_ids": [
+        "IR007",
+        "IR008",
+        "IR016"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 0,
+      "important_martial_item_location_references": [
+        "IR007"
+      ]
+    },
+    {
+      "order": 12,
+      "arc_id": "arc-11",
+      "title": "Decision for Northern Expedition",
+      "aliases": [],
+      "chronology_or_level_range": "level 130",
+      "dossier_path": "game-story/dossiers/arc-11.json",
+      "principal_entity_ids": [
+        "character:han-thac-tru",
+        "faction:nam-tong"
+      ],
+      "claim_ids": [
+        "IR009"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 0,
+      "important_martial_item_location_references": []
+    },
+    {
+      "order": 13,
+      "arc_id": "arc-12",
+      "title": "Linh Bích and player-origin reveal",
+      "aliases": [],
+      "chronology_or_level_range": "level 135/140",
+      "dossier_path": "game-story/dossiers/arc-12.json",
+      "principal_entity_ids": [
+        "character:game-player",
+        "character:bach-thu-lam",
+        "character:biological-parents",
+        "character:ngo-hi",
+        "faction:thien-nhan",
+        "faction:nhat-pham-duong"
+      ],
+      "claim_ids": [
+        "IR010",
+        "IR011",
+        "IR012",
+        "IR020",
+        "IR021"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 2,
+      "important_martial_item_location_references": [
+        "IR010"
+      ]
+    },
+    {
+      "order": 14,
+      "arc_id": "endpoint",
+      "title": "Verified publication endpoint",
+      "aliases": [],
+      "chronology_or_level_range": "post-135/140 boundary",
+      "dossier_path": "game-story/dossiers/endpoint.json",
+      "principal_entity_ids": [
+        "faction:nam-tong"
+      ],
+      "claim_ids": [
+        "IR013",
+        "IR017"
+      ],
+      "status": "PROMOTED_SOURCE_CANON",
+      "confidence": "MIXED_PROMOTABLE",
+      "central_unresolved_count": 2,
+      "important_martial_item_location_references": []
+    }
+  ]
+}

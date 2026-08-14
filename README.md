@@ -40,6 +40,8 @@ python .\scripts\reconcile_internet_research.py
 python .\scripts\build_research.py
 python .\scripts\build_release.py
 python .\scripts\validate_release.py --verify-source-hashes
+python .\scripts\build_novel_handoff.py
+python .\scripts\validate_novel_handoff.py
 python -m unittest discover -s tests -v
 ```
 
@@ -58,6 +60,10 @@ The dedicated `research/reconstruction/level-50-89-mainline.json` artifact
 records the validated 12-family/77-inline-subtask post-50 order. It explicitly
 blocks all 77 unrelated same-ID standalone joins and keeps the bounded Internet
 search ledger separate from raw wrapper evidence.
+
+After `NOVEL_PROMOTION_READY`, `generated/novel-handoff/` is the compact,
+source-only, one-way import contract for `kiem-the-novel/source-canon/`. It does
+not contain novel adaptation, episode planning, prose, raw PAKs or binaries.
 
 ## First run
 ```powershell

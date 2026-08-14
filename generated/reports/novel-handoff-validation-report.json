@@ -1,0 +1,21 @@
+{
+  "status": "NOVEL_HANDOFF_READY",
+  "checks": {
+    "manifest_parsed": 1,
+    "payload_hashes_checked": 31,
+    "json_files_parsed": 30,
+    "claim_references_checked": 25,
+    "dossiers_checked": 14,
+    "causal_edges_checked": 7
+  },
+  "metrics": {
+    "handoff_bytes": 670188,
+    "research_release_bytes": 31812050,
+    "curated_ratio": 0.021067,
+    "files": 32,
+    "dossiers": 14,
+    "central_tolerable": 8,
+    "non_central": 5
+  },
+  "errors": []
+}

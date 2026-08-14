@@ -1,0 +1,1132 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.835816+00:00",
+  "selection_policy": "Only organizations or polities with a promoted-story role.",
+  "count": 10,
+  "factions": [
+    {
+      "entity_id": "faction:nghia-quan",
+      "vi": "Nghĩa Quân",
+      "cn": "义军",
+      "aliases": [],
+      "role": "Recurring player-aligned organization and mission authority.",
+      "claim_ids": [
+        "IR004",
+        "IR007",
+        "IR016",
+        "IR025"
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "IR004",
+          "claim": "Bạch Thu Lâm/Thu Di onboards the player into Nghĩa Quân and remains the player’s principal mission authority.",
+          "status": "VERIFIED_CROSS_SOURCE",
+          "centrality": "CORE_PLAYER_POSITION",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "internet_research_package",
+              "support_type": "claim_summary",
+              "evidence_class": "LEGACY_LEAD",
+              "path": "private-input/internet-research/evidence/evidence-ledger.md",
+              "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+              "locator": "line 9",
+              "citation_id": "KX-90-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_VNG",
+              "url": "https://kiemthe.zing.vn/tin-tuc/tinh-nang/tich-luy-tien-nghia-quan-doi-thuong-thang-05-2013.html",
+              "response_sha256": "c96af42fbe9c4f5e8b115849cb0c412e116b3134d788edf37dfbfe8f7c7ada9f",
+              "locator": "Bạch Thu Lâm; Nghĩa Quân",
+              "citation_id": "VNG-BTL-01"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_dialogue",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:65;id:0f9bee8e;offset:1256224;stored:3956;expanded:22289;output_sha256:edf00058c2e957b5ffbf1c613e7ac956005124e475ce97d7764c6a7c4e076b69",
+              "record_key": "sub:0000000000000001:start"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR007",
+          "claim": "The northern mission arc involves Nghĩa Quân intelligence, Doãn Tiểu Vũ, Gia Luật Sở Tài and Hoàn Nhan Tương; its official special is live but detailed text is image-only.",
+          "status": "STRONG",
+          "centrality": "CORE_HIGH_LEVEL_ARC",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "internet_research_package",
+              "support_type": "claim_summary",
+              "evidence_class": "LEGACY_LEAD",
+              "path": "private-input/internet-research/evidence/evidence-ledger.md",
+              "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+              "locator": "lines 14-15",
+              "citation_id": "KX-120-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "source_identity_only",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/zt/2009/03/20/index2.shtml",
+              "response_sha256": "50c79dee52b825b4ce6ec2acb1ad1c6d9db589b54c2d06b4f337ffdcd6a65a61",
+              "locator": "120 special identity only; detailed text not machine-verified",
+              "citation_id": "KX-120-01"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_dialogue",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:759;id:b3412950;offset:105251;stored:3591;expanded:29428;output_sha256:b9d3e9e4083e28807a1b3a55126853a8f9661a13488fbbe142d28884bced7871",
+              "record_key": "sub:0000000000000216:start"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_dialogue",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:784;id:b8230d16;offset:938100;stored:4647;expanded:25830;output_sha256:31d34bb4bfa68e4f778eb6b67ff96f8ff7b9b9e31d60c95782f0894f8d77f2f9",
+              "record_key": "sub:0000000000000213:start"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR016",
+          "claim": "VNG uses Doãn Tiểu Vũ and Bạch Thu Lâm/Nghĩa Quân naming, matching names in the raw Vietnamese task corpus; the 2012 newbie material is later-edition drift only.",
+          "status": "VERIFIED_CROSS_SOURCE",
+          "centrality": "NORMALIZATION_AND_EDITION",
+          "narrative_impact": "NONE",
+          "evidence": [
+            {
+              "source_family": "internet_research_package",
+              "support_type": "claim_summary",
+              "evidence_class": "LEGACY_LEAD",
+              "path": "private-input/internet-research/13-bibliography.md",
+              "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+              "locator": "lines 89-99",
+              "citation_id": "VNG-NAME-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_VNG",
+              "url": "https://kiemthe.zing.vn/cam-nang/mon-phai/thuy-yen.html",
+              "response_sha256": "81b736e1a56d0da4847988e5dc0b37d3c365ba5abac4e270bd1fc9e7b4395a8d",
+              "locator": "Doãn Tiểu Vũ; Thúy Yên; Gia Luật Sở Tài",
+              "citation_id": "VNG-NAME-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_VNG",
+              "url": "https://kiemthe.zing.vn/tin-tuc/tinh-nang/tich-luy-tien-nghia-quan-doi-thuong-thang-05-2013.html",
+              "response_sha256": "c96af42fbe9c4f5e8b115849cb0c412e116b3134d788edf37dfbfe8f7c7ada9f",
+              "locator": "Bạch Thu Lâm; Nghĩa Quân",
+              "citation_id": "VNG-BTL-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_VNG",
+              "url": "https://kiemthe.zing.vn/tin-tuc/tinh-nang/kham-pha-pho-ban-moi-danh-cho-tan-thu.html",
+              "response_sha256": "92149cfa527469f93e87811e4efdc64e5e201cb5f6ca2a9aad053d9e1fc8ecf3",
+              "locator": "2012 later-new-player content; edition evidence only",
+              "citation_id": "VNG-DRIFT-01"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+              "record_key": "task:000000000000000C:entry:f565173d"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_dialogue",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:65;id:0f9bee8e;offset:1256224;stored:3956;expanded:22289;output_sha256:edf00058c2e957b5ffbf1c613e7ac956005124e475ce97d7764c6a7c4e076b69",
+              "record_key": "sub:0000000000000001:start"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR025",
+          "claim": "The wrapper sequence 22→23→24 (79–89) moves from the Du Long recovery effort through an attack on Nghĩa Quân and a contested treasure cave involving Hoàn Nhan Tương, ending at Đại Nghĩa Nước Nhà; a contemporary Xoyo patch independently names the mainline task 家国大义.",
+          "status": "VERIFIED_CROSS_SOURCE",
+          "centrality": "CORE_POST50_ENDPOINT_CHAIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:615;id:8fb2f206;offset:1811233;stored:4864;expanded:26207;output_sha256:f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+              "record_key": "task:0000000000000016:entry:8fb2f206"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:582;id:88a40d13;offset:767013;stored:6595;expanded:32194;output_sha256:7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+              "record_key": "task:0000000000000017:entry:88a40d13"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:568;id:85ae4420;offset:745096;stored:8235;expanded:54698;output_sha256:fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+              "record_key": "task:0000000000000018:entry:85ae4420"
+            },
+            {
+              "source_family": "lab_derived_index",
+              "support_type": "explicit_xml_edges",
+              "path": "generated/records/edges/task-reference-edges.jsonl",
+              "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+              "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 22,23,24"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/kfnotic/296247/",
+              "response_sha256": "07c190981e531aac519d8713d649aa7998b7fce4ac1f1d4c55cfbca9539754dc",
+              "locator": "2008-08-12 maintenance; mainline tasks 别有洞天 and 家国大义",
+              "citation_id": "KX-POST50-PATCH-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_id": "faction:nam-tong",
+      "vi": "Nam Tống",
+      "cn": "南宋",
+      "aliases": [
+        "Đại Tống"
+      ],
+      "role": "Primary political state whose succession, defense and Northern Expedition frame the main story.",
+      "claim_ids": [
+        "IR001",
+        "IR009",
+        "IR022",
+        "IR025"
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "IR001",
+          "claim": "Du Long Giác is tied to Tống Thái Tổ, more than twenty recruited masters, and a complementary secret retained by their descendants.",
+          "status": "VERIFIED_CROSS_SOURCE",
+          "centrality": "CORE_WORLD_MACGUFFIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "internet_research_package",
+              "support_type": "claim_summary",
+              "evidence_class": "LEGACY_LEAD",
+              "path": "private-input/internet-research/evidence/evidence-ledger.md",
+              "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+              "locator": "lines 5-6",
+              "citation_id": "KX-BG-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/show-3431-9765-1.html",
+              "response_sha256": "a03040f55994afd10641d951214d60cac87c04d676d68b7d1a5fd06df07bbd31",
+              "locator": "1189年春; 二十余名高手; 游龙珏",
+              "citation_id": "KX-BG-01"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_dialogue",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:10;id:01a9db37;offset:1192161;stored:5171;expanded:30167;output_sha256:48b3b9aa245be9dc304fb0ce039d3f82f9d0fb1b4fefd633448e4f0e1a3e5041",
+              "record_key": "sub:000000000000003F:start"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR009",
+          "claim": "Hàn Thác Trụ chooses Northern Expedition amid political pressure, while the Lab independently preserves the Khánh Nguyên purge and northern-war preparation.",
+          "status": "VERIFIED_CROSS_SOURCE",
+          "centrality": "CORE_HIGH_LEVEL_ARC",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "internet_research_package",
+              "support_type": "claim_summary",
+              "evidence_class": "LEGACY_LEAD",
+              "path": "private-input/internet-research/evidence/evidence-ledger.md",
+              "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+              "locator": "line 17",
+              "citation_id": "KX-130-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/show-3416-8139-1.html",
+              "response_sha256": "26af8e24acd558b33d74d28d1f9ee0a097a85455609ca91c69a5dc5397890120",
+              "locator": "韩侂胄; 北伐金国; 钱象祖",
+              "citation_id": "KX-130-01"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_dialogue",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:232;id:33e6124d;offset:1424209;stored:3040;expanded:21289;output_sha256:f24855e09eac96de2d6b79796560be511551ee480157a8a102b3beb1dabcfa1b",
+              "record_key": "sub:000000000000019F:start"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_dialogue",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:783;id:b7f23b33;offset:935915;stored:2185;expanded:10980;output_sha256:9d5f9955ef62e6efea0fa081a6ab8e211176c13130750551f5c2d60def174102",
+              "record_key": "sub:000000000000024F:start"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR022",
+          "claim": "The level-gated wrapper sequence 13→14→15 (49–58) sends the player to locate and protect Gia Vương, counters Lý Hậu’s intervention and ends with Gia Vương taking the throne.",
+          "status": "VERIFIED_DIRECT",
+          "centrality": "CORE_POST50_SUCCESSION_CHAIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:1045;id:f66eae4a;offset:2217907;stored:4519;expanded:22799;output_sha256:ea39b2c7881e21b4d9b6b847055a6f911c5dd2b3c172cab50950950e257121d9",
+              "record_key": "task:000000000000000D:entry:f66eae4a"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:1035;id:f350f967;offset:2197939;stored:5518;expanded:27175;output_sha256:aa664f39a8d3212343457412d1aea317bb88a97b52a7b8ac765ddbab301336e4",
+              "record_key": "task:000000000000000E:entry:f350f967"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:881;id:cc5a3074;offset:2066997;stored:4984;expanded:27483;output_sha256:60b43543cf2e413369e38cdbb02c4cedb39fc7a8d84a627c017abdaf4b5a8d54",
+              "record_key": "task:000000000000000F:entry:cc5a3074"
+            },
+            {
+              "source_family": "lab_derived_index",
+              "support_type": "explicit_xml_edges",
+              "path": "generated/records/edges/task-reference-edges.jsonl",
+              "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+              "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 13,14,15"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR025",
+          "claim": "The wrapper sequence 22→23→24 (79–89) moves from the Du Long recovery effort through an attack on Nghĩa Quân and a contested treasure cave involving Hoàn Nhan Tương, ending at Đại Nghĩa Nước Nhà; a contemporary Xoyo patch independently names the mainline task 家国大义.",
+          "status": "VERIFIED_CROSS_SOURCE",
+          "centrality": "CORE_POST50_ENDPOINT_CHAIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:615;id:8fb2f206;offset:1811233;stored:4864;expanded:26207;output_sha256:f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+              "record_key": "task:0000000000000016:entry:8fb2f206"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:582;id:88a40d13;offset:767013;stored:6595;expanded:32194;output_sha256:7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+              "record_key": "task:0000000000000017:entry:88a40d13"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:568;id:85ae4420;offset:745096;stored:8235;expanded:54698;output_sha256:fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+              "record_key": "task:0000000000000018:entry:85ae4420"
+            },
+            {
+              "source_family": "lab_derived_index",
+              "support_type": "explicit_xml_edges",
+              "path": "generated/records/edges/task-reference-edges.jsonl",
+              "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+              "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 22,23,24"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/kfnotic/296247/",
+              "response_sha256": "07c190981e531aac519d8713d649aa7998b7fce4ac1f1d4c55cfbca9539754dc",
+              "locator": "2008-08-12 maintenance; mainline tasks 别有洞天 and 家国大义",
+              "citation_id": "KX-POST50-PATCH-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_id": "faction:kim",
+      "vi": "Kim",
+      "cn": "金",
+      "aliases": [
+        "Jin"
+      ],
+      "role": "Northern state and intelligence/war antagonist context.",
+      "claim_ids": [
+        "IR007",
+        "IR010",
+        "IR024",
+        "IR025"
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "IR007",
+          "claim": "The northern mission arc involves Nghĩa Quân intelligence, Doãn Tiểu Vũ, Gia Luật Sở Tài and Hoàn Nhan Tương; its official special is live but detailed text is image-only.",
+          "status": "STRONG",
+          "centrality": "CORE_HIGH_LEVEL_ARC",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "internet_research_package",
+              "support_type": "claim_summary",
+              "evidence_class": "LEGACY_LEAD",
+              "path": "private-input/internet-research/evidence/evidence-ledger.md",
+              "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+              "locator": "lines 14-15",
+              "citation_id": "KX-120-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "source_identity_only",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/zt/2009/03/20/index2.shtml",
+              "response_sha256": "50c79dee52b825b4ce6ec2acb1ad1c6d9db589b54c2d06b4f337ffdcd6a65a61",
+              "locator": "120 special identity only; detailed text not machine-verified",
+              "citation_id": "KX-120-01"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_dialogue",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:759;id:b3412950;offset:105251;stored:3591;expanded:29428;output_sha256:b9d3e9e4083e28807a1b3a55126853a8f9661a13488fbbe142d28884bced7871",
+              "record_key": "sub:0000000000000216:start"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_dialogue",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:784;id:b8230d16;offset:938100;stored:4647;expanded:25830;output_sha256:31d34bb4bfa68e4f778eb6b67ff96f8ff7b9b9e31d60c95782f0894f8d77f2f9",
+              "record_key": "sub:0000000000000213:start"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR010",
+          "claim": "The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.",
+          "status": "VERIFIED_DIRECT",
+          "centrality": "CORE_ENDPOINT_ARC",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "internet_research_package",
+              "support_type": "claim_summary",
+              "evidence_class": "LEGACY_LEAD",
+              "path": "private-input/internet-research/evidence/evidence-ledger.md",
+              "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+              "locator": "lines 18-19",
+              "citation_id": "KX-140-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+              "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+              "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+              "citation_id": "KX-140-01"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR024",
+          "claim": "The wrapper sequence 21→19→20 (69–79) follows an Ngô Hi information leak into a cross-faction pursuit involving Cái Bang, Ngũ Độc, Jin-linked actors, Tây Hạ and Nhất Phẩm Đường.",
+          "status": "VERIFIED_DIRECT",
+          "centrality": "CORE_POST50_PURSUIT_CHAIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:754;id:b248bbe9;offset:1956159;stored:5360;expanded:29669;output_sha256:c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+              "record_key": "task:0000000000000015:entry:b248bbe9"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:766;id:b45d29cf;offset:1970109;stored:5492;expanded:34085;output_sha256:1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+              "record_key": "task:0000000000000013:entry:b45d29cf"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:747;id:b14760dc;offset:1948646;stored:5449;expanded:34731;output_sha256:070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+              "record_key": "task:0000000000000014:entry:b14760dc"
+            },
+            {
+              "source_family": "lab_derived_index",
+              "support_type": "explicit_xml_edges",
+              "path": "generated/records/edges/task-reference-edges.jsonl",
+              "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+              "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 21,19,20"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR025",
+          "claim": "The wrapper sequence 22→23→24 (79–89) moves from the Du Long recovery effort through an attack on Nghĩa Quân and a contested treasure cave involving Hoàn Nhan Tương, ending at Đại Nghĩa Nước Nhà; a contemporary Xoyo patch independently names the mainline task 家国大义.",
+          "status": "VERIFIED_CROSS_SOURCE",
+          "centrality": "CORE_POST50_ENDPOINT_CHAIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:615;id:8fb2f206;offset:1811233;stored:4864;expanded:26207;output_sha256:f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+              "record_key": "task:0000000000000016:entry:8fb2f206"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:582;id:88a40d13;offset:767013;stored:6595;expanded:32194;output_sha256:7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+              "record_key": "task:0000000000000017:entry:88a40d13"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:568;id:85ae4420;offset:745096;stored:8235;expanded:54698;output_sha256:fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+              "record_key": "task:0000000000000018:entry:85ae4420"
+            },
+            {
+              "source_family": "lab_derived_index",
+              "support_type": "explicit_xml_edges",
+              "path": "generated/records/edges/task-reference-edges.jsonl",
+              "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+              "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 22,23,24"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/kfnotic/296247/",
+              "response_sha256": "07c190981e531aac519d8713d649aa7998b7fce4ac1f1d4c55cfbca9539754dc",
+              "locator": "2008-08-12 maintenance; mainline tasks 别有洞天 and 家国大义",
+              "citation_id": "KX-POST50-PATCH-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_id": "faction:tay-ha",
+      "vi": "Tây Hạ",
+      "cn": "西夏",
+      "aliases": [],
+      "role": "Regional power and location context in the post-50 pursuit.",
+      "claim_ids": [
+        "IR024"
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "IR024",
+          "claim": "The wrapper sequence 21→19→20 (69–79) follows an Ngô Hi information leak into a cross-faction pursuit involving Cái Bang, Ngũ Độc, Jin-linked actors, Tây Hạ and Nhất Phẩm Đường.",
+          "status": "VERIFIED_DIRECT",
+          "centrality": "CORE_POST50_PURSUIT_CHAIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:754;id:b248bbe9;offset:1956159;stored:5360;expanded:29669;output_sha256:c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+              "record_key": "task:0000000000000015:entry:b248bbe9"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:766;id:b45d29cf;offset:1970109;stored:5492;expanded:34085;output_sha256:1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+              "record_key": "task:0000000000000013:entry:b45d29cf"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:747;id:b14760dc;offset:1948646;stored:5449;expanded:34731;output_sha256:070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+              "record_key": "task:0000000000000014:entry:b14760dc"
+            },
+            {
+              "source_family": "lab_derived_index",
+              "support_type": "explicit_xml_edges",
+              "path": "generated/records/edges/task-reference-edges.jsonl",
+              "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+              "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 21,19,20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_id": "faction:nhat-pham-duong",
+      "vi": "Nhất Phẩm Đường",
+      "cn": "一品堂",
+      "aliases": [],
+      "role": "Organization involved in the Tây Hạ pursuit and later attack on Nghĩa Quân.",
+      "claim_ids": [
+        "IR010",
+        "IR024",
+        "IR025"
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "IR010",
+          "claim": "The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.",
+          "status": "VERIFIED_DIRECT",
+          "centrality": "CORE_ENDPOINT_ARC",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "internet_research_package",
+              "support_type": "claim_summary",
+              "evidence_class": "LEGACY_LEAD",
+              "path": "private-input/internet-research/evidence/evidence-ledger.md",
+              "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+              "locator": "lines 18-19",
+              "citation_id": "KX-140-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+              "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+              "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+              "citation_id": "KX-140-01"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR024",
+          "claim": "The wrapper sequence 21→19→20 (69–79) follows an Ngô Hi information leak into a cross-faction pursuit involving Cái Bang, Ngũ Độc, Jin-linked actors, Tây Hạ and Nhất Phẩm Đường.",
+          "status": "VERIFIED_DIRECT",
+          "centrality": "CORE_POST50_PURSUIT_CHAIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:754;id:b248bbe9;offset:1956159;stored:5360;expanded:29669;output_sha256:c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+              "record_key": "task:0000000000000015:entry:b248bbe9"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:766;id:b45d29cf;offset:1970109;stored:5492;expanded:34085;output_sha256:1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+              "record_key": "task:0000000000000013:entry:b45d29cf"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:747;id:b14760dc;offset:1948646;stored:5449;expanded:34731;output_sha256:070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+              "record_key": "task:0000000000000014:entry:b14760dc"
+            },
+            {
+              "source_family": "lab_derived_index",
+              "support_type": "explicit_xml_edges",
+              "path": "generated/records/edges/task-reference-edges.jsonl",
+              "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+              "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 21,19,20"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR025",
+          "claim": "The wrapper sequence 22→23→24 (79–89) moves from the Du Long recovery effort through an attack on Nghĩa Quân and a contested treasure cave involving Hoàn Nhan Tương, ending at Đại Nghĩa Nước Nhà; a contemporary Xoyo patch independently names the mainline task 家国大义.",
+          "status": "VERIFIED_CROSS_SOURCE",
+          "centrality": "CORE_POST50_ENDPOINT_CHAIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:615;id:8fb2f206;offset:1811233;stored:4864;expanded:26207;output_sha256:f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+              "record_key": "task:0000000000000016:entry:8fb2f206"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:582;id:88a40d13;offset:767013;stored:6595;expanded:32194;output_sha256:7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+              "record_key": "task:0000000000000017:entry:88a40d13"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:568;id:85ae4420;offset:745096;stored:8235;expanded:54698;output_sha256:fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+              "record_key": "task:0000000000000018:entry:85ae4420"
+            },
+            {
+              "source_family": "lab_derived_index",
+              "support_type": "explicit_xml_edges",
+              "path": "generated/records/edges/task-reference-edges.jsonl",
+              "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+              "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 22,23,24"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/kfnotic/296247/",
+              "response_sha256": "07c190981e531aac519d8713d649aa7998b7fce4ac1f1d4c55cfbca9539754dc",
+              "locator": "2008-08-12 maintenance; mainline tasks 别有洞天 and 家国大义",
+              "citation_id": "KX-POST50-PATCH-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_id": "faction:duong-mon",
+      "vi": "Đường Môn",
+      "cn": "唐门",
+      "aliases": [],
+      "role": "Sect/institution central to the insider and Du Long diagram investigation.",
+      "claim_ids": [
+        "IR023"
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "IR023",
+          "claim": "The wrapper sequence 17→16→18 (58–69) investigates a Đường Môn insider and a Du Long diagram through Lý Nguyên Triết, Đường Khuyết, Nạp Tư and Hắc Long Đàm, then records the relic theft at Điểm Thương.",
+          "status": "VERIFIED_DIRECT",
+          "centrality": "CORE_POST50_RELIC_CHAIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:818;id:be6247a5;offset:118770;stored:5685;expanded:29447;output_sha256:7c30e55000fedb7279a0fbaf0ca61d109fa8d645421b59a70fa7ed251894963f",
+              "record_key": "task:0000000000000011:entry:be6247a5"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:813;id:bd780c88;offset:113363;stored:5407;expanded:24863;output_sha256:da034b18384673572b99116b155ca23b6339f4356a50dbb59a0640f36b07c830",
+              "record_key": "task:0000000000000010:entry:bd780c88"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:804;id:bb6b9eb2;offset:961857;stored:5864;expanded:37180;output_sha256:5fdfe487d797cc1accd0d1632cd8bb7af992cc6c80e3709cc18ea44b17a37822",
+              "record_key": "task:0000000000000012:entry:bb6b9eb2"
+            },
+            {
+              "source_family": "lab_derived_index",
+              "support_type": "explicit_xml_edges",
+              "path": "generated/records/edges/task-reference-edges.jsonl",
+              "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+              "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 17,16,18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_id": "faction:cai-bang",
+      "vi": "Cái Bang",
+      "cn": "丐帮",
+      "aliases": [],
+      "role": "Wulin faction involved in the cross-faction pursuit.",
+      "claim_ids": [
+        "IR024"
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "IR024",
+          "claim": "The wrapper sequence 21→19→20 (69–79) follows an Ngô Hi information leak into a cross-faction pursuit involving Cái Bang, Ngũ Độc, Jin-linked actors, Tây Hạ and Nhất Phẩm Đường.",
+          "status": "VERIFIED_DIRECT",
+          "centrality": "CORE_POST50_PURSUIT_CHAIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:754;id:b248bbe9;offset:1956159;stored:5360;expanded:29669;output_sha256:c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+              "record_key": "task:0000000000000015:entry:b248bbe9"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:766;id:b45d29cf;offset:1970109;stored:5492;expanded:34085;output_sha256:1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+              "record_key": "task:0000000000000013:entry:b45d29cf"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:747;id:b14760dc;offset:1948646;stored:5449;expanded:34731;output_sha256:070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+              "record_key": "task:0000000000000014:entry:b14760dc"
+            },
+            {
+              "source_family": "lab_derived_index",
+              "support_type": "explicit_xml_edges",
+              "path": "generated/records/edges/task-reference-edges.jsonl",
+              "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+              "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 21,19,20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_id": "faction:ngu-doc",
+      "vi": "Ngũ Độc",
+      "cn": "五毒",
+      "aliases": [],
+      "role": "Wulin faction involved in the cross-faction pursuit.",
+      "claim_ids": [
+        "IR024"
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "IR024",
+          "claim": "The wrapper sequence 21→19→20 (69–79) follows an Ngô Hi information leak into a cross-faction pursuit involving Cái Bang, Ngũ Độc, Jin-linked actors, Tây Hạ and Nhất Phẩm Đường.",
+          "status": "VERIFIED_DIRECT",
+          "centrality": "CORE_POST50_PURSUIT_CHAIN",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:754;id:b248bbe9;offset:1956159;stored:5360;expanded:29669;output_sha256:c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+              "record_key": "task:0000000000000015:entry:b248bbe9"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:766;id:b45d29cf;offset:1970109;stored:5492;expanded:34085;output_sha256:1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+              "record_key": "task:0000000000000013:entry:b45d29cf"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:747;id:b14760dc;offset:1948646;stored:5449;expanded:34731;output_sha256:070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+              "record_key": "task:0000000000000014:entry:b14760dc"
+            },
+            {
+              "source_family": "lab_derived_index",
+              "support_type": "explicit_xml_edges",
+              "path": "generated/records/edges/task-reference-edges.jsonl",
+              "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
+              "locator": "wrapper-inline names, descriptions and TaskCond:IsLevelAE gates for task IDs 21,19,20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_id": "faction:thuy-yen",
+      "vi": "Thúy Yên",
+      "cn": "翠烟",
+      "aliases": [],
+      "role": "Sect tied to the relic-triggered opening disaster and Đại Lý thread.",
+      "claim_ids": [
+        "IR002",
+        "IR006",
+        "IR020"
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "IR002",
+          "claim": "Xoyo dates the relic reappearance to spring 1189 at the former Nam Chiếu palace; the local task corpus independently preserves the relic-triggered Thúy Yên disaster.",
+          "status": "STRONG",
+          "centrality": "CORE_OPENING_CHRONOLOGY",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "internet_research_package",
+              "support_type": "claim_summary",
+              "evidence_class": "LEGACY_LEAD",
+              "path": "private-input/internet-research/04-complete-chronological-timeline.md",
+              "sha256": "861199b979b6d9392e4e8f0b5ed9cb66bad7d564c3b1fba776137aaa6af1559a",
+              "locator": "lines 10-11",
+              "citation_id": "KX-BG-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/show-3431-9765-1.html",
+              "response_sha256": "a03040f55994afd10641d951214d60cac87c04d676d68b7d1a5fd06df07bbd31",
+              "locator": "1189年春; 二十余名高手; 游龙珏",
+              "citation_id": "KX-BG-01"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+              "record_key": "task:000000000000000C:entry:f565173d"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR006",
+          "claim": "The Đại Lý story binds Du Long Giác, the Thúy Yên disaster, La Tuyết, Đoàn Trí Hưng and later Ô Man/war pressure; the detailed official-special claim remains partly image-only online.",
+          "status": "STRONG",
+          "centrality": "CORE_HIGH_LEVEL_ARC",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "internet_research_package",
+              "support_type": "claim_summary",
+              "evidence_class": "LEGACY_LEAD",
+              "path": "private-input/internet-research/evidence/evidence-ledger.md",
+              "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+              "locator": "lines 10-13",
+              "citation_id": "KX-110-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "source_identity_only",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/zt/2008/1222/index.shtml",
+              "response_sha256": "d8f359fd514b434f53d5d9f72dbf09fa0bc9dbd4e83ced3004fdeaedb9c2ff48",
+              "locator": "110 special identity only; detailed text not machine-verified",
+              "citation_id": "KX-110-01"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+              "record_key": "task:000000000000000C:entry:f565173d"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_dialogue",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:874;id:cb03ce9e;offset:1026500;stored:5052;expanded:35004;output_sha256:7475e045d3cd2977723e519e8e4363ea82d269d46622194235bb06bb358c3fdc",
+              "record_key": "sub:00000000000001EA:start"
+            }
+          ]
+        },
+        {
+          "claim_id": "IR020",
+          "claim": "The raw Tây Nam route preserves task families 10–12 around Ngô Hi, Đường Môn, Thúy Yên, La Tuyết and Du Long Giác; an early literal death of Ngô Hi cannot override the later official 1205 treason arc.",
+          "status": "VERIFIED_CROSS_SOURCE",
+          "centrality": "IMPORTANT_PRE50_RECOVERY",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:1071;id:ff098513;offset:1177103;stored:7852;expanded:36340;output_sha256:f88a29cb0e53b31af7e852ef8e81bfad15e49a12b7e27bcc1ed46de98ee4088c",
+              "record_key": "task:000000000000000A:entry:ff098513"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:1051;id:f873dc20;offset:2226175;stored:7827;expanded:35013;output_sha256:fe4e6305a36eabe46cbe64768ce84971f5f1003081cbc2ab04d7aa4986d902c2",
+              "record_key": "task:000000000000000B:entry:f873dc20"
+            },
+            {
+              "source_family": "lab_raw_story",
+              "support_type": "direct_record",
+              "evidence_class": "RAW_CLIENT",
+              "path": "client/pak/task_publish.pak",
+              "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+              "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+              "record_key": "task:000000000000000C:entry:f565173d"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+              "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+              "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+              "citation_id": "KX-140-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entity_id": "faction:thien-nhan",
+      "vi": "Thiên Nhẫn",
+      "cn": "天忍",
+      "aliases": [],
+      "role": "Sect involved in the 1205 Linh Bích conflict.",
+      "claim_ids": [
+        "IR010"
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "IR010",
+          "claim": "The live Xoyo 135/140 special places Linh Bích, Ngô Hi treason and the sect conflict in the 1205 Northern Expedition.",
+          "status": "VERIFIED_DIRECT",
+          "centrality": "CORE_ENDPOINT_ARC",
+          "narrative_impact": "MATERIAL",
+          "evidence": [
+            {
+              "source_family": "internet_research_package",
+              "support_type": "claim_summary",
+              "evidence_class": "LEGACY_LEAD",
+              "path": "private-input/internet-research/evidence/evidence-ledger.md",
+              "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61",
+              "locator": "lines 18-19",
+              "citation_id": "KX-140-01"
+            },
+            {
+              "source_family": "first_party_web",
+              "support_type": "direct_content",
+              "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+              "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+              "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+              "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+              "citation_id": "KX-140-01"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

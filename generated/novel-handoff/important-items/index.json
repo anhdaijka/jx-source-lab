@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.844478+00:00",
+  "selection_policy": "Quest-critical relics, tokens, maps and fragments tied to promoted claims only.",
+  "count": 11,
+  "items": [
+    {
+      "entity_id": "item:other/taskquest.txt:line:201",
+      "name": "Du Long Giác",
+      "story_role": "Central relic/macguffin record.",
+      "description": "Truyền rằng có ngọc giác thần bí ẩn chứa bí mật của trời đất",
+      "item_id": {
+        "Genre": "20",
+        "DetailType": "1",
+        "ParticularType": "200",
+        "Level": "1"
+      },
+      "family": "other/taskquest.txt",
+      "claim_ids": [
+        "IR001",
+        "IR002"
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/other/taskquest.txt",
+          "sha256": "0f60f503ed47a44737aece6a16ece02fd214cae850acce97d5c6547994aeb154",
+          "locator": "line:201"
+        }
+      ]
+    },
+    {
+      "entity_id": "item:other/taskquest.txt:line:319",
+      "name": "Túi ướt",
+      "story_role": "Wet bag explicitly described as containing a Du Long Giác secret.",
+      "description": "Túi do Tiểu Anh ném xuống hồ trong đó chứa bí mật của Du Long Giác",
+      "item_id": {
+        "Genre": "20",
+        "DetailType": "1",
+        "ParticularType": "318",
+        "Level": "1"
+      },
+      "family": "other/taskquest.txt",
+      "claim_ids": [
+        "IR023"
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/other/taskquest.txt",
+          "sha256": "0f60f503ed47a44737aece6a16ece02fd214cae850acce97d5c6547994aeb154",
+          "locator": "line:319"
+        }
+      ]
+    },
+    {
+      "entity_id": "item:other/taskquest.txt:line:326",
+      "name": "Du Long Giác",
+      "story_role": "Quest-instance Du Long Giác record.",
+      "description": "Đây là Du Long Giác trong truyền thuyết? Nhưng sao tỏa ra mùi kì lạ…",
+      "item_id": {
+        "Genre": "20",
+        "DetailType": "1",
+        "ParticularType": "325",
+        "Level": "1"
+      },
+      "family": "other/taskquest.txt",
+      "claim_ids": [
+        "IR023"
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/other/taskquest.txt",
+          "sha256": "0f60f503ed47a44737aece6a16ece02fd214cae850acce97d5c6547994aeb154",
+          "locator": "line:326"
+        }
+      ]
+    },
+    {
+      "entity_id": "item:other/taskquest.txt:line:351",
+      "name": "Ngô Hỉ Binh Phù",
+      "story_role": "Ngô Hỉ military tally used to command troops.",
+      "description": "Có vật này có thể hiệu lệnh quân đội",
+      "item_id": {
+        "Genre": "20",
+        "DetailType": "1",
+        "ParticularType": "350",
+        "Level": "1"
+      },
+      "family": "other/taskquest.txt",
+      "claim_ids": [
+        "IR024"
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/other/taskquest.txt",
+          "sha256": "0f60f503ed47a44737aece6a16ece02fd214cae850acce97d5c6547994aeb154",
+          "locator": "line:351"
+        }
+      ]
+    },
+    {
+      "entity_id": "item:other/taskquest.txt:line:440",
+      "name": "Ngọc Bút Lệnh",
+      "story_role": "Ngọc Bút Lệnh command token.",
+      "description": "Tín Phù Trường Ca Môn, có được nó sẽ có thể ra lệnh cho người của Trường Ca Môn làm việc.",
+      "item_id": {
+        "Genre": "20",
+        "DetailType": "1",
+        "ParticularType": "440",
+        "Level": "1"
+      },
+      "family": "other/taskquest.txt",
+      "claim_ids": [
+        "IR022"
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/other/taskquest.txt",
+          "sha256": "0f60f503ed47a44737aece6a16ece02fd214cae850acce97d5c6547994aeb154",
+          "locator": "line:440"
+        }
+      ]
+    },
+    {
+      "entity_id": "item:other/taskquest.txt:line:453",
+      "name": "Mảnh trục cuốn 1",
+      "story_role": "First fragment of the mysterious scroll.",
+      "description": "Mảnh 1 của trục cuốn thần bí",
+      "item_id": {
+        "Genre": "20",
+        "DetailType": "1",
+        "ParticularType": "453",
+        "Level": "1"
+      },
+      "family": "other/taskquest.txt",
+      "claim_ids": [
+        "IR023"
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/other/taskquest.txt",
+          "sha256": "0f60f503ed47a44737aece6a16ece02fd214cae850acce97d5c6547994aeb154",
+          "locator": "line:453"
+        }
+      ]
+    },
+    {
+      "entity_id": "item:other/taskquest.txt:line:454",
+      "name": "Mảnh trục cuốn 2",
+      "story_role": "Second fragment of the mysterious scroll.",
+      "description": "Mảnh 2 của trục cuốn thần bí",
+      "item_id": {
+        "Genre": "20",
+        "DetailType": "1",
+        "ParticularType": "454",
+        "Level": "1"
+      },
+      "family": "other/taskquest.txt",
+      "claim_ids": [
+        "IR023"
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/other/taskquest.txt",
+          "sha256": "0f60f503ed47a44737aece6a16ece02fd214cae850acce97d5c6547994aeb154",
+          "locator": "line:454"
+        }
+      ]
+    },
+    {
+      "entity_id": "item:other/taskquest.txt:line:455",
+      "name": "Mảnh trục cuốn 3",
+      "story_role": "Third fragment of the mysterious scroll.",
+      "description": "Mảnh 3 của trục cuốn thần bí",
+      "item_id": {
+        "Genre": "20",
+        "DetailType": "1",
+        "ParticularType": "455",
+        "Level": "1"
+      },
+      "family": "other/taskquest.txt",
+      "claim_ids": [
+        "IR023"
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/other/taskquest.txt",
+          "sha256": "0f60f503ed47a44737aece6a16ece02fd214cae850acce97d5c6547994aeb154",
+          "locator": "line:455"
+        }
+      ]
+    },
+    {
+      "entity_id": "item:other/taskquest.txt:line:456",
+      "name": "Mảnh trục cuốn 4",
+      "story_role": "Fourth fragment of the mysterious scroll.",
+      "description": "Mảnh 4 của trục cuốn thần bí",
+      "item_id": {
+        "Genre": "20",
+        "DetailType": "1",
+        "ParticularType": "456",
+        "Level": "1"
+      },
+      "family": "other/taskquest.txt",
+      "claim_ids": [
+        "IR023"
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/other/taskquest.txt",
+          "sha256": "0f60f503ed47a44737aece6a16ece02fd214cae850acce97d5c6547994aeb154",
+          "locator": "line:456"
+        }
+      ]
+    },
+    {
+      "entity_id": "item:other/taskquest.txt:line:561",
+      "name": "Bản đồ Vương Phủ",
+      "story_role": "Map of Hoàn Nhan Tương’s residence.",
+      "description": "Bản đồ Vương Phủ của Hoàn Nhan Tương",
+      "item_id": {
+        "Genre": "20",
+        "DetailType": "1",
+        "ParticularType": "560",
+        "Level": "1"
+      },
+      "family": "other/taskquest.txt",
+      "claim_ids": [
+        "IR025"
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/other/taskquest.txt",
+          "sha256": "0f60f503ed47a44737aece6a16ece02fd214cae850acce97d5c6547994aeb154",
+          "locator": "line:561"
+        }
+      ]
+    },
+    {
+      "entity_id": "item:other/taskquest.txt:line:665",
+      "name": "Du Long Giác-Hùng",
+      "story_role": "Du Long Giác-Hùng record that references combination with Du Long Thư Giác.",
+      "description": "Ngọc giác chứa đựng bí mật to lớn, có thể ghép với Du Long Thư Giác là vật xoay chuyển càn khôn cho Đại Tống.",
+      "item_id": {
+        "Genre": "20",
+        "DetailType": "1",
+        "ParticularType": "859",
+        "Level": "1"
+      },
+      "family": "other/taskquest.txt",
+      "claim_ids": [
+        "IR001"
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/item/001/other/taskquest.txt",
+          "sha256": "0f60f503ed47a44737aece6a16ece02fd214cae850acce97d5c6547994aeb154",
+          "locator": "line:665"
+        }
+      ]
+    }
+  ]
+}

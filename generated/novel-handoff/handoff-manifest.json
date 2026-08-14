@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.860009+00:00",
+  "handoff_status": "NOVEL_HANDOFF_READY",
+  "source_repository": "anhdaijka/jx-source-lab",
+  "source_lab_commit": "8d7645a4d659d0baac86c9eafc7fc0ef18c90254",
+  "canon_target": "LATEST_COHERENT_KIEM_THE_LORE",
+  "promotion_status": "NOVEL_PROMOTION_READY",
+  "promotion_gates": {
+    "S3": {
+      "status": "PASS",
+      "basis": "All declared main arcs have claim-linked source-only dossiers; central unknowns are explicit."
+    },
+    "S4": {
+      "status": "PASS",
+      "basis": "All load-bearing research claims are reconciled; no unresolved MATERIAL narrative conflict remains."
+    },
+    "S5": {
+      "status": "PASS",
+      "basis": "Curated claims, concordance, dossiers, unresolved ledger and confidence inputs are complete for release validation."
+    }
+  },
+  "promoted_main_story_arc_count": 14,
+  "unresolved_counts": {
+    "CENTRAL_BLOCKER": 0,
+    "CENTRAL_TOLERABLE": 8,
+    "NON_CENTRAL": 5,
+    "UNRESOLVED_MATERIAL_CONFLICT": 0
+  },
+  "raw_proprietary_payloads_excluded": true,
+  "one_way_import_contract": true,
+  "runtime_dependency_on_lab": false,
+  "files": [
+    {
+      "path": "characters/index.json",
+      "sha256": "a775e004e0553ea56f49ed974f26fd200571bb6377ce01010525f42c9d882000",
+      "bytes": 115824
+    },
+    {
+      "path": "concordance/cn-vi-names.json",
+      "sha256": "191b88627368cbedc68157f71040fd67df1bff540766920b7c2458db2fe9041c",
+      "bytes": 10699
+    },
+    {
+      "path": "concordance/entity-aliases.json",
+      "sha256": "022c73a2f463f0c4c50b8b74fa403106d39650d942b3c468a301e37f3c7b774d",
+      "bytes": 9512
+    },
+    {
+      "path": "concordance/task-story-map.json",
+      "sha256": "19c2f5888cfa413f201a644e2d383eafa1750f11a5952457eab8003daf86ec75",
+      "bytes": 22981
+    },
+    {
+      "path": "confidence-summary.json",
+      "sha256": "cffa0cb8eaae34b82406a68ab60c209f48cc44267f9e0eae09a8224cbbb99e87",
+      "bytes": 1165
+    },
+    {
+      "path": "factions/index.json",
+      "sha256": "8da20bca6070d1d4936630105ca03b5c9af494f7f87a8978c6e32597390ffdef",
+      "bytes": 59731
+    },
+    {
+      "path": "game-story/arc-index.json",
+      "sha256": "e2ec3438221e814e1e871e3881365aac22c253106232506e2b10e851859f6339",
+      "bytes": 9555
+    },
+    {
+      "path": "game-story/causal-spine.json",
+      "sha256": "c7e3a0e21777fb954f66f98d5454253b35e417b8ed537a2d326cd98ecb7591db",
+      "bytes": 60274
+    },
+    {
+      "path": "game-story/dossiers/arc-00.json",
+      "sha256": "3eb2ac9d5fd3fc3ca14d040d1297a5fa8633489725d7bc79b6b4f657d57a3183",
+      "bytes": 5108
+    },
+    {
+      "path": "game-story/dossiers/arc-01.json",
+      "sha256": "d117a79888c750d457f69c682baa8b14122b626809b7eb462e9c410b2876f6e9",
+      "bytes": 8445
+    },
+    {
+      "path": "game-story/dossiers/arc-02.json",
+      "sha256": "5e4dc5a9b4bb4fafec7cf58c7ea78e4498b900cd10c98a7c4041d2f81880f0db",
+      "bytes": 6684
+    },
+    {
+      "path": "game-story/dossiers/arc-03.json",
+      "sha256": "f94f0dad74e68e5ca1e3b6ace5c10499bf04f2ae190a73c0bb089803c56f780c",
+      "bytes": 6945
+    },
+    {
+      "path": "game-story/dossiers/arc-04.json",
+      "sha256": "97fcca50c5585732d6f14f30f85dd1f267eab16b716da5f0fc459fa475f71e2d",
+      "bytes": 6962
+    },
+    {
+      "path": "game-story/dossiers/arc-05.json",
+      "sha256": "ef55a246f83b3e6040c6bc171c6ab98be5b5c2d13f2ef41187d2ae13e410df23",
+      "bytes": 3147
+    },
+    {
+      "path": "game-story/dossiers/arc-06.json",
+      "sha256": "a1f32bc57ccbe12648aa560ec5df885f2ee1e8379d417200426efcb01735c9fd",
+      "bytes": 22894
+    },
+    {
+      "path": "game-story/dossiers/arc-07.json",
+      "sha256": "b6609816b784e25f1524d74591cb57ff795addee81adef4dc36d08901d9158bf",
+      "bytes": 5657
+    },
+    {
+      "path": "game-story/dossiers/arc-08.json",
+      "sha256": "aaf125e6151ca330f2a1e8ad39ce3d7d6833656d60af8481a11f2fb7189046dc",
+      "bytes": 3817
+    },
+    {
+      "path": "game-story/dossiers/arc-09.json",
+      "sha256": "5cdc916eb1de166e12d717f575c3c61292cc1be0801e55bcad4c2b629aeca58c",
+      "bytes": 3751
+    },
+    {
+      "path": "game-story/dossiers/arc-10.json",
+      "sha256": "48226251b0ebaad43d88b86874f923ed9580b1692d7bdee48ac9055a08ffc55b",
+      "bytes": 8224
+    },
+    {
+      "path": "game-story/dossiers/arc-11.json",
+      "sha256": "c20a0f6862dabd12470fc23ae6c8681cd3723a4ee432f5144330495c8c532b2d",
+      "bytes": 3662
+    },
+    {
+      "path": "game-story/dossiers/arc-12.json",
+      "sha256": "b0b2fd7c12110e80f476fde1c1619c77295e6b9420c8335211deb3bf6ab5b8cb",
+      "bytes": 11595
+    },
+    {
+      "path": "game-story/dossiers/endpoint.json",
+      "sha256": "1fd630b653d41882d7c40f3784014d35533ed3d2caaec0685cbc4ef8f5599115",
+      "bytes": 3674
+    },
+    {
+      "path": "game-story/master-chronology.md",
+      "sha256": "ae37f36a5a42bbdb0eb980765d734afdca3c380de759d41731f78c2379dc217e",
+      "bytes": 9146
+    },
+    {
+      "path": "important-items/index.json",
+      "sha256": "77742a4e6fe84a8d307dd9f25b5e446e8b16cb4ab0c66ee087a276061ccc394b",
+      "bytes": 9596
+    },
+    {
+      "path": "important-locations/index.json",
+      "sha256": "d154f88ff4e0f5897b9c465a924b07ec198f2f002dbd13ab37be360864477077",
+      "bytes": 57038
+    },
+    {
+      "path": "martial-arts/index.json",
+      "sha256": "24541e8023dc14d2fa5d0ee2deb5ce7e32adb82597c9d6b0e404bbfa8529f5fb",
+      "bytes": 163192
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "97ee6f683ffe1669079f622e701580464c247ffe8eb585b8bb1fac6e2cd9b651",
+      "bytes": 2806
+    },
+    {
+      "path": "sects/index.json",
+      "sha256": "8027d53a8c7b42653297e82ba2b06564ac435733837defa715452cf0df9616e3",
+      "bytes": 25166
+    },
+    {
+      "path": "unresolved/central-tolerable.json",
+      "sha256": "30ecdcc5de97972695c0acca8ade9511b850dd660194c3a8a70aecc7ff93c211",
+      "bytes": 4153
+    },
+    {
+      "path": "unresolved/material-conflicts.json",
+      "sha256": "a8805d958f441dee2dda76511b7fc19a3d3dec08ba2280d4f863eb55ab345d0f",
+      "bytes": 266
+    },
+    {
+      "path": "unresolved/non-central.json",
+      "sha256": "895568f629def4ffab2f344e94e3be78cd5160453b26037a76fc76590e6eca5c",
+      "bytes": 1907
+    }
+  ],
+  "manifest_self_hash_note": "The manifest cannot recursively hash itself; every payload artifact is hashed above."
+}

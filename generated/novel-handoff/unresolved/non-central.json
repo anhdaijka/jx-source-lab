@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.853133+00:00",
+  "count": 5,
+  "entries": [
+    {
+      "question_id": "pak-fragment-format",
+      "status": "UNKNOWN",
+      "centrality": "NON_CENTRAL",
+      "question": "What is the fragment payload subformat for flag 0x10000000?",
+      "impact": "27,519 client entries remain structurally indexed but not decoded.",
+      "next_evidence": "XPackFile fragment-read evidence and copied-sample validation."
+    },
+    {
+      "question_id": "pak-variant-layouts",
+      "status": "UNKNOWN",
+      "centrality": "NON_CENTRAL",
+      "question": "What layouts are used by image21168.pak and update2021.pak?",
+      "impact": "Two archives are recorded but not entry-indexed.",
+      "next_evidence": "Loader branch evidence for these variants."
+    },
+    {
+      "question_id": "pack-path-hash",
+      "status": "UNKNOWN",
+      "centrality": "NON_CENTRAL",
+      "question": "How are internal paths mapped to PACK entry IDs?",
+      "impact": "Most client asset internal paths remain UNKNOWN.",
+      "next_evidence": "Hash routine/source or binary-exact companion listings."
+    },
+    {
+      "question_id": "ambiguous-references",
+      "status": "UNKNOWN",
+      "centrality": "NON_CENTRAL",
+      "question": "Which additional keys disambiguate class/name-only joins?",
+      "impact": "5,600 edges remain ambiguous.",
+      "next_evidence": "Runtime loader keys or additional composite fields."
+    },
+    {
+      "question_id": "unresolved-references",
+      "status": "UNKNOWN",
+      "centrality": "NON_CENTRAL",
+      "question": "What sources resolve currently absent target IDs?",
+      "impact": "600 edges remain unresolved.",
+      "next_evidence": "Edition-matched NPC/map/item tables or loader behavior."
+    }
+  ]
+}

@@ -1,0 +1,705 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.841007+00:00",
+  "selection_policy": "Twelve configured sects and their route identities; no power ranking is inferred.",
+  "count": 12,
+  "sects": [
+    {
+      "entity_id": "sect:1",
+      "faction_id": "1",
+      "name_vi": "Thiếu Lâm",
+      "name_cn": "少林",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [],
+      "routes": [
+        {
+          "record_key": "faction:1:route:1",
+          "route_id": {
+            "faction_id": "1",
+            "route_id": "1"
+          },
+          "name": "Đao Thiếu",
+          "description": "Đao Thiếu",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='1']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:1:route:2",
+          "route_id": {
+            "faction_id": "1",
+            "route_id": "2"
+          },
+          "name": "Tử Dương Bá Đao",
+          "description": "Tử Dương Bá Đao",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='1']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='1']"
+        }
+      ]
+    },
+    {
+      "entity_id": "sect:2",
+      "faction_id": "2",
+      "name_vi": "Thiên Vương",
+      "name_cn": "天王",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [],
+      "routes": [
+        {
+          "record_key": "faction:2:route:1",
+          "route_id": {
+            "faction_id": "2",
+            "route_id": "1"
+          },
+          "name": "Thương Thiên",
+          "description": "Thương Thiên",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='2']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:2:route:2",
+          "route_id": {
+            "faction_id": "2",
+            "route_id": "2"
+          },
+          "name": "Chùy Thiên",
+          "description": "Chùy Thiên",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='2']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='2']"
+        }
+      ]
+    },
+    {
+      "entity_id": "sect:3",
+      "faction_id": "3",
+      "name_vi": "Đường Môn",
+      "name_cn": "唐门",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [
+        "IR023"
+      ],
+      "routes": [
+        {
+          "record_key": "faction:3:route:1",
+          "route_id": {
+            "faction_id": "3",
+            "route_id": "1"
+          },
+          "name": "Hãm Tĩnh",
+          "description": "Hãm Tĩnh",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='3']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:3:route:2",
+          "route_id": {
+            "faction_id": "3",
+            "route_id": "2"
+          },
+          "name": "Tụ Tiễn",
+          "description": "Tụ Tiễn",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='3']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='3']"
+        }
+      ]
+    },
+    {
+      "entity_id": "sect:4",
+      "faction_id": "4",
+      "name_vi": "Ngũ Độc",
+      "name_cn": "五毒",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [
+        "IR024"
+      ],
+      "routes": [
+        {
+          "record_key": "faction:4:route:1",
+          "route_id": {
+            "faction_id": "4",
+            "route_id": "1"
+          },
+          "name": "Đao Độc",
+          "description": "Đao Độc",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='4']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:4:route:2",
+          "route_id": {
+            "faction_id": "4",
+            "route_id": "2"
+          },
+          "name": "Chưởng Độc",
+          "description": "Chưởng Độc",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='4']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='4']"
+        }
+      ]
+    },
+    {
+      "entity_id": "sect:5",
+      "faction_id": "5",
+      "name_vi": "Nga My",
+      "name_cn": "峨眉",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [],
+      "routes": [
+        {
+          "record_key": "faction:5:route:1",
+          "route_id": {
+            "faction_id": "5",
+            "route_id": "1"
+          },
+          "name": "Chưởng Nga",
+          "description": "Chưởng Nga",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='5']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:5:route:2",
+          "route_id": {
+            "faction_id": "5",
+            "route_id": "2"
+          },
+          "name": "Phụ Trợ",
+          "description": "Phụ Trợ",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='5']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='5']"
+        }
+      ]
+    },
+    {
+      "entity_id": "sect:6",
+      "faction_id": "6",
+      "name_vi": "Thúy Yên",
+      "name_cn": "翠烟",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [
+        "IR002",
+        "IR006",
+        "IR020"
+      ],
+      "routes": [
+        {
+          "record_key": "faction:6:route:1",
+          "route_id": {
+            "faction_id": "6",
+            "route_id": "1"
+          },
+          "name": "Kiếm Thúy",
+          "description": "Kiếm Thúy",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='6']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:6:route:2",
+          "route_id": {
+            "faction_id": "6",
+            "route_id": "2"
+          },
+          "name": "Đao Thúy",
+          "description": "Đao Thúy",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='6']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='6']"
+        }
+      ]
+    },
+    {
+      "entity_id": "sect:7",
+      "faction_id": "7",
+      "name_vi": "Cái Bang",
+      "name_cn": "丐帮",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [
+        "IR024"
+      ],
+      "routes": [
+        {
+          "record_key": "faction:7:route:1",
+          "route_id": {
+            "faction_id": "7",
+            "route_id": "1"
+          },
+          "name": "Chưởng Cái",
+          "description": "Chưởng Cái",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='7']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:7:route:2",
+          "route_id": {
+            "faction_id": "7",
+            "route_id": "2"
+          },
+          "name": "Côn Cái",
+          "description": "Côn Cái",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='7']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='7']"
+        }
+      ]
+    },
+    {
+      "entity_id": "sect:8",
+      "faction_id": "8",
+      "name_vi": "Thiên Nhẫn",
+      "name_cn": "天忍",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [
+        "IR010"
+      ],
+      "routes": [
+        {
+          "record_key": "faction:8:route:1",
+          "route_id": {
+            "faction_id": "8",
+            "route_id": "1"
+          },
+          "name": "Chiến Nhẫn",
+          "description": "Chiến Nhẫn",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='8']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:8:route:2",
+          "route_id": {
+            "faction_id": "8",
+            "route_id": "2"
+          },
+          "name": "Ma Nhẫn",
+          "description": "Ma Nhẫn",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='8']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='8']"
+        }
+      ]
+    },
+    {
+      "entity_id": "sect:9",
+      "faction_id": "9",
+      "name_vi": "Võ Đang",
+      "name_cn": "武当",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [],
+      "routes": [
+        {
+          "record_key": "faction:9:route:1",
+          "route_id": {
+            "faction_id": "9",
+            "route_id": "1"
+          },
+          "name": "Khí Võ",
+          "description": "Khí Võ",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='9']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:9:route:2",
+          "route_id": {
+            "faction_id": "9",
+            "route_id": "2"
+          },
+          "name": "Kiếm Võ",
+          "description": "Kiếm Võ",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='9']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='9']"
+        }
+      ]
+    },
+    {
+      "entity_id": "sect:10",
+      "faction_id": "10",
+      "name_vi": "Côn Lôn",
+      "name_cn": "昆仑",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [],
+      "routes": [
+        {
+          "record_key": "faction:10:route:1",
+          "route_id": {
+            "faction_id": "10",
+            "route_id": "1"
+          },
+          "name": "Đao Côn",
+          "description": "Đao Côn",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='10']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:10:route:2",
+          "route_id": {
+            "faction_id": "10",
+            "route_id": "2"
+          },
+          "name": "Kiếm Côn",
+          "description": "Kiếm Côn",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='10']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='10']"
+        }
+      ]
+    },
+    {
+      "entity_id": "sect:11",
+      "faction_id": "11",
+      "name_vi": "Minh Giáo",
+      "name_cn": "明教",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [],
+      "routes": [
+        {
+          "record_key": "faction:11:route:1",
+          "route_id": {
+            "faction_id": "11",
+            "route_id": "1"
+          },
+          "name": "Chùy Minh",
+          "description": "Chùy Minh",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='11']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:11:route:2",
+          "route_id": {
+            "faction_id": "11",
+            "route_id": "2"
+          },
+          "name": "Kiếm Minh",
+          "description": "Kiếm Minh",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='11']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='11']"
+        }
+      ]
+    },
+    {
+      "entity_id": "sect:12",
+      "faction_id": "12",
+      "name_vi": "Đoàn Thị",
+      "name_cn": "段氏",
+      "institutional_role": "One of the twelve configured sects; story role is stated only when claim evidence exists.",
+      "story_claim_ids": [],
+      "routes": [
+        {
+          "record_key": "faction:12:route:1",
+          "route_id": {
+            "faction_id": "12",
+            "route_id": "1"
+          },
+          "name": "Chỉ Đoàn",
+          "description": "Chỉ Đoàn",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='12']/route[@id='1']"
+            }
+          ]
+        },
+        {
+          "record_key": "faction:12:route:2",
+          "route_id": {
+            "faction_id": "12",
+            "route_id": "2"
+          },
+          "name": "Khí Đoàn",
+          "description": "Khí Đoàn",
+          "referenced_skill_count": 13,
+          "source_records": [
+            {
+              "source_id": "server-primary",
+              "evidence_class": "RAW_SERVER",
+              "path": "server/gameserver/setting/faction/faction.xml",
+              "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+              "locator": "xpath:/factions/faction[@id='12']/route[@id='2']"
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "server-primary",
+          "evidence_class": "RAW_SERVER",
+          "path": "server/gameserver/setting/faction/faction.xml",
+          "sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+          "locator": "xpath:/factions/faction[@id='12']"
+        }
+      ]
+    }
+  ]
+}

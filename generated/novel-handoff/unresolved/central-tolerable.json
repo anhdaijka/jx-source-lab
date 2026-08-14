@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.852764+00:00",
+  "count": 8,
+  "entries": [
+    {
+      "question_id": "parents-identities",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "What are the names, affiliations and exact fate of the player’s biological parents?",
+      "impact": "Identity details cannot be fixed in future canon; the evidenced reveal still functions.",
+      "promotion_safety": "Coherent adaptation remains possible because the uncertainty is explicitly bounded and no promoted claim depends on an invented answer."
+    },
+    {
+      "question_id": "player-guardian-lineage",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "Is the player demonstrably one of the guardian-descendant lines?",
+      "impact": "Do not equate the player with a specific lineage.",
+      "promotion_safety": "Coherent adaptation remains possible because the uncertainty is explicitly bounded and no promoted claim depends on an invented answer."
+    },
+    {
+      "question_id": "du-long-final-secret",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "What is the final combined meaning and outcome of Du Long Giác and the descendants’ secret?",
+      "impact": "The macguffin can be promoted only as an unresolved long mystery.",
+      "promotion_safety": "Coherent adaptation remains possible because the uncertainty is explicitly bounded and no promoted claim depends on an invented answer."
+    },
+    {
+      "question_id": "bingge-full-order",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "What is the complete cross-family causal order of Binh Qua Trung Nguyên?",
+      "impact": "Raw families are usable; uncertain bridges remain excluded.",
+      "promotion_safety": "Coherent adaptation remains possible because the uncertainty is explicitly bounded and no promoted claim depends on an invented answer."
+    },
+    {
+      "question_id": "post50-micro-dialogue-recovery",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "Can the exact objectives and dialogue for all 77 post-50 wrapper-inline subtasks be recovered without joining unrelated same-ID standalone records?",
+      "impact": "The macro causality and level-gated order are usable; standalone dialogue and objectives remain excluded unless separately reconciled.",
+      "promotion_safety": "Coherent adaptation remains possible because the uncertainty is explicitly bounded and no promoted claim depends on an invented answer."
+    },
+    {
+      "question_id": "level100-full-chain",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "What is the complete Man Thiên Quá Hải chain beyond the recovered local task node?",
+      "impact": "Use the recovered covert-return beat only.",
+      "promotion_safety": "Coherent adaptation remains possible because the uncertainty is explicitly bounded and no promoted claim depends on an invented answer."
+    },
+    {
+      "question_id": "returning-woman-identity",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "Is the unnamed returning woman at Linh Bích definitely Ân Đồng?",
+      "impact": "Keep the identity as inference, not canon fact.",
+      "promotion_safety": "Coherent adaptation remains possible because the uncertainty is explicitly bounded and no promoted claim depends on an invented answer."
+    },
+    {
+      "question_id": "post-lingbi-continuation",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "Which later coherent edition, if any, resolves the post-Linh-Bích story and Du Long Giác?",
+      "impact": "The promoted corpus ends at a continuation point.",
+      "promotion_safety": "Coherent adaptation remains possible because the uncertainty is explicitly bounded and no promoted claim depends on an invented answer."
+    }
+  ]
+}

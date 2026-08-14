@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JX Source Lab Novel Handoff Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generator",
+    "handoff_status",
+    "source_repository",
+    "source_lab_commit",
+    "canon_target",
+    "promotion_status",
+    "promotion_gates",
+    "promoted_main_story_arc_count",
+    "unresolved_counts",
+    "raw_proprietary_payloads_excluded",
+    "files"
+  ],
+  "properties": {
+    "handoff_status": {"const": "NOVEL_HANDOFF_READY"},
+    "canon_target": {"const": "LATEST_COHERENT_KIEM_THE_LORE"},
+    "promotion_status": {"const": "NOVEL_PROMOTION_READY"},
+    "source_lab_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "promoted_main_story_arc_count": {"type": "integer", "minimum": 1},
+    "raw_proprietary_payloads_excluded": {"const": true},
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256", "bytes"],
+        "properties": {
+          "path": {"type": "string"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "bytes": {"type": "integer", "minimum": 0}
+        }
+      }
+    }
+  }
+}

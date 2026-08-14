@@ -1,0 +1,3705 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.841760+00:00",
+  "selection_policy": "Up to eight named, non-basic representative skills per configured route; numerical mechanics are retained only as source fields, not interpreted as power rankings.",
+  "sect_count": 12,
+  "sects": [
+    {
+      "sect_id": "sect:1",
+      "sect_name": "Thiếu Lâm",
+      "routes": [
+        {
+          "route_record_key": "faction:1:route:1",
+          "route_name": "Đao Thiếu",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "21",
+              "record_key": "skill:21:line:18",
+              "name": "Phục Ma Đao Pháp",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Đao pháp sơ cấp Thiếu Lâm, chiêu thức tấn công một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:18"
+                }
+              ]
+            },
+            {
+              "skill_id": "22",
+              "record_key": "skill:22:line:19",
+              "name": "Thiếu Lâm Đao Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Đao pháp nhập môn Thiếu Lâm, tăng sát thương đao.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:19"
+                }
+              ]
+            },
+            {
+              "skill_id": "23",
+              "record_key": "skill:23:line:20",
+              "name": "Dịch Cân Kinh",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt kỹ nội công Thiếu Lâm, tăng sinh lực tối đa.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:20"
+                }
+              ]
+            },
+            {
+              "skill_id": "25",
+              "record_key": "skill:25:line:22",
+              "name": "A La Hán Thần Công",
+              "property": "Vòng sáng hỗ trợ tấn công",
+              "description": "Nội công Thiếu Lâm, phản đòn cho mình và đồng đội trong vòng sáng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:22"
+                }
+              ]
+            },
+            {
+              "skill_id": "24",
+              "record_key": "skill:24:line:21",
+              "name": "Phá Giới Đao Pháp",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Đao pháp trung cấp Thiếu Lâm, tấn công 2 lần.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:21"
+                }
+              ]
+            },
+            {
+              "skill_id": "250",
+              "record_key": "skill:250:line:247",
+              "name": "Hàng Long Phục Hổ",
+              "property": "Hỗ trợ bị động",
+              "description": "Phản đòn độc sát, khi bị đánh có tỷ lệ khiến đối thủ xung quanh bị chậm",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:247"
+                }
+              ]
+            },
+            {
+              "skill_id": "26",
+              "record_key": "skill:26:line:23",
+              "name": "Bồ Đề Tâm Pháp",
+              "property": "Chủ động hỗ trợ phòng thủ",
+              "description": "Rút ngắn thời gian thọ thương, suy yếu, làm chậm, choáng, bất động",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:23"
+                }
+              ]
+            },
+            {
+              "skill_id": "28",
+              "record_key": "skill:28:line:25",
+              "name": "Hỗn Nguyên Nhất Khí",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:1:route:2",
+          "route_name": "Tử Dương Bá Đao",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "29",
+              "record_key": "skill:29:line:26",
+              "name": "Phổ Độ Côn Pháp",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Côn pháp sơ cấp Thiếu Lâm, tấn công cận chiến một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:26"
+                }
+              ]
+            },
+            {
+              "skill_id": "30",
+              "record_key": "skill:30:line:27",
+              "name": "Thiếu Lâm Côn Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Côn pháp nhập môn Thiếu Lâm, tăng sát thương côn.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:27"
+                }
+              ]
+            },
+            {
+              "skill_id": "31",
+              "record_key": "skill:31:line:28",
+              "name": "Sư Tử Hống",
+              "property": "Chủ động hạn chế",
+              "description": "Nội công trung cấp Thiếu Lâm, dùng nội lực thâm hậu làm đối thủ bất động.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:28"
+                }
+              ]
+            },
+            {
+              "skill_id": "1800",
+              "record_key": "skill:1800:line:1796",
+              "name": "Thỏ Tinh",
+              "property": "kĩ năng",
+              "description": "",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:1796"
+                }
+              ]
+            },
+            {
+              "skill_id": "33",
+              "record_key": "skill:33:line:30",
+              "name": "Phục Ma Côn Pháp",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Côn pháp trung cấp Thiếu Lâm, tấn công đối thủ trong phạm vi nhỏ phía trước.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:30"
+                }
+              ]
+            },
+            {
+              "skill_id": "34",
+              "record_key": "skill:34:line:31",
+              "name": "Bất Động Minh Vương",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng phòng, có tỷ lệ phản kích khi bị đánh làm giảm né tránh, tốc độ chạy địch",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:31"
+                }
+              ]
+            },
+            {
+              "skill_id": "254",
+              "record_key": "skill:254:line:251",
+              "name": "Dịch Cốt Kinh",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt kỹ nội công Thiếu Lâm, cường hóa toàn diện thể chất bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:251"
+                }
+              ]
+            },
+            {
+              "skill_id": "37",
+              "record_key": "skill:37:line:34",
+              "name": "Đạt Ma Vũ Kinh",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:34"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sect_id": "sect:2",
+      "sect_name": "Thiên Vương",
+      "routes": [
+        {
+          "route_record_key": "faction:2:route:1",
+          "route_name": "Thương Thiên",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "38",
+              "record_key": "skill:38:line:35",
+              "name": "Hồi Phong Lạc Nhạn",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Thương pháp sơ cấp Thiên Vương, tấn công liên tục 2 chiêu với tốc độ nhanh.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:35"
+                }
+              ]
+            },
+            {
+              "skill_id": "40",
+              "record_key": "skill:40:line:37",
+              "name": "Thiên Vương Thương Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Thương pháp nhập môn Thiên Vương, tăng sát thương thương.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:37"
+                }
+              ]
+            },
+            {
+              "skill_id": "41",
+              "record_key": "skill:41:line:38",
+              "name": "Đoạn Hồn Thích",
+              "property": "Chủ động hạn chế",
+              "description": "Võ công trung cấp Thiên Vương, xung kích đối thủ gây bất động.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:38"
+                }
+              ]
+            },
+            {
+              "skill_id": "45",
+              "record_key": "skill:45:line:42",
+              "name": "Tĩnh Tâm Quyết",
+              "property": "Hỗ trợ bị động",
+              "description": "Tâm pháp Thiên Vương, tăng sinh lực tối đa, rút ngắn thời gian trúng độc",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:42"
+                }
+              ]
+            },
+            {
+              "skill_id": "43",
+              "record_key": "skill:43:line:40",
+              "name": "Dương Quan Tam Điệp",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Thương pháp Thiên Vương, tấn công liên tục 3 chiêu với tốc độ nhanh.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:40"
+                }
+              ]
+            },
+            {
+              "skill_id": "256",
+              "record_key": "skill:256:line:253",
+              "name": "Kinh Lôi Phá Thiên",
+              "property": "Hỗ trợ bị động",
+              "description": "Khi sinh lực còn 25% sẽ 0 chịu sát thương trong tức khắc, tăng lực tấn công",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:253"
+                }
+              ]
+            },
+            {
+              "skill_id": "46",
+              "record_key": "skill:46:line:43",
+              "name": "Thiên Vương Chiến Ý",
+              "property": "Chủ động hỗ trợ tấn công",
+              "description": "Tâm pháp cao cấp Thiên Vương, tăng hiệu quả và lực tấn công phe ta.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:43"
+                }
+              ]
+            },
+            {
+              "skill_id": "49",
+              "record_key": "skill:49:line:46",
+              "name": "Thiên Canh Chiến Khí",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng xác suất hiệu quả tấn công và hiệu suất hồi phục sinh lực",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:46"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:2:route:2",
+          "route_name": "Chùy Thiên",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "50",
+              "record_key": "skill:50:line:47",
+              "name": "Hành Vân Quyết",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Chùy pháp sơ cấp Thiên Vương, chiêu tấn công một đối thủ",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:47"
+                }
+              ]
+            },
+            {
+              "skill_id": "52",
+              "record_key": "skill:52:line:49",
+              "name": "Thiên Vương Chùy Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Chùy pháp nhập môn Thiên Vương, tăng sát thương chùy.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:49"
+                }
+              ]
+            },
+            {
+              "skill_id": "41",
+              "record_key": "skill:41:line:38",
+              "name": "Đoạn Hồn Thích",
+              "property": "Chủ động hạn chế",
+              "description": "Võ công trung cấp Thiên Vương, xung kích đối thủ gây bất động.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:38"
+                }
+              ]
+            },
+            {
+              "skill_id": "781",
+              "record_key": "skill:781:line:778",
+              "name": "Tĩnh Tâm Thuật",
+              "property": "Hỗ trợ bị động",
+              "description": "Tâm pháp Thiên Vương, tăng sinh lực tối đa, rút ngắn thời gian trúng độc",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:778"
+                }
+              ]
+            },
+            {
+              "skill_id": "53",
+              "record_key": "skill:53:line:50",
+              "name": "Truy Phong Quyết",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Chùy pháp trung cấp Thiên Vương, tấn công một đối thủ với tốc độ nhanh.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:50"
+                }
+              ]
+            },
+            {
+              "skill_id": "260",
+              "record_key": "skill:260:line:257",
+              "name": "Thiên Vương Bản Sinh",
+              "property": "Hỗ trợ bị động",
+              "description": "Khi sinh lực còn 25% sẽ không chịu sát thương nào trong thời gian ngắn",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:257"
+                }
+              ]
+            },
+            {
+              "skill_id": "55",
+              "record_key": "skill:55:line:52",
+              "name": "Kim Chung Tráo",
+              "property": "Chủ động hỗ trợ phòng thủ",
+              "description": "Nội công cao cấp Thiên Vương, tăng kháng cho phe ta.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:52"
+                }
+              ]
+            },
+            {
+              "skill_id": "58",
+              "record_key": "skill:58:line:55",
+              "name": "Đảo Hư Thiên",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng xác suất hiệu quả tấn công và hiệu suất hồi phục sinh lực",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:55"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sect_id": "sect:3",
+      "sect_name": "Đường Môn",
+      "routes": [
+        {
+          "route_record_key": "faction:3:route:1",
+          "route_name": "Hãm Tĩnh",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "69",
+              "record_key": "skill:69:line:66",
+              "name": "Độc Thích Cốt",
+              "property": "Cạm bẫy",
+              "description": "Cạm bẫy sơ cấp Đường Môn, gây trúng độc trong phạm vi nhỏ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:66"
+                }
+              ]
+            },
+            {
+              "skill_id": "70",
+              "record_key": "skill:70:line:67",
+              "name": "Đường Môn Hãm Tĩnh",
+              "property": "Hỗ trợ bị động",
+              "description": "Võ công nhập môn Đường Môn, tăng sát thương bẫy.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:67"
+                }
+              ]
+            },
+            {
+              "skill_id": "64",
+              "record_key": "skill:64:line:61",
+              "name": "Mê Ảnh Tung",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Khinh công Đường Môn, di chuyển nhanh đến địa điểm chỉ định.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:61"
+                }
+              ]
+            },
+            {
+              "skill_id": "71",
+              "record_key": "skill:71:line:68",
+              "name": "Câu Hồn Tĩnh",
+              "property": "Cạm bẫy",
+              "description": "Cạm bẫy trung cấp Đường Môn, làm chậm trong phạm vi lớn.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:68"
+                }
+              ]
+            },
+            {
+              "skill_id": "72",
+              "record_key": "skill:72:line:69",
+              "name": "Tiểu Lý Phi Đao",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Võ công trung cấp Đường Môn, dùng phi đao tấn công tầm xa một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:69"
+                }
+              ]
+            },
+            {
+              "skill_id": "263",
+              "record_key": "skill:263:line:260",
+              "name": "Hấp Tinh Trận",
+              "property": "Cạm bẫy",
+              "description": "Khiến địch phạm vi lớn hao nội lực, giảm hiệu suất hồi phục nội lực",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:260"
+                }
+              ]
+            },
+            {
+              "skill_id": "73",
+              "record_key": "skill:73:line:70",
+              "name": "Triền Thân Thích",
+              "property": "Cạm bẫy",
+              "description": "Cạm bẫy trung cấp Đường Môn, gây bất động trong phạm vi nhỏ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:70"
+                }
+              ]
+            },
+            {
+              "skill_id": "75",
+              "record_key": "skill:75:line:72",
+              "name": "Tâm Phách",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:72"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:3:route:2",
+          "route_name": "Tụ Tiễn",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "59",
+              "record_key": "skill:59:line:56",
+              "name": "Truy Tâm Tiễn",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Võ công sơ cấp Đường Môn, tấn công tầm xa bằng tụ tiễn.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:56"
+                }
+              ]
+            },
+            {
+              "skill_id": "60",
+              "record_key": "skill:60:line:57",
+              "name": "Đường Môn Tụ Tiễn",
+              "property": "Hỗ trợ bị động",
+              "description": "Võ công nhập môn Đường Môn, tăng sát thương tụ tiễn.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:57"
+                }
+              ]
+            },
+            {
+              "skill_id": "64",
+              "record_key": "skill:64:line:61",
+              "name": "Mê Ảnh Tung",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Khinh công Đường Môn, di chuyển nhanh đến địa điểm chỉ định.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:61"
+                }
+              ]
+            },
+            {
+              "skill_id": "61",
+              "record_key": "skill:61:line:58",
+              "name": "Tôi Độc Thuật",
+              "property": "Vòng sáng hỗ trợ tấn công",
+              "description": "Tăng sát thương chí mạng cho mình và đồng đội trong vòng sáng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:58"
+                }
+              ]
+            },
+            {
+              "skill_id": "62",
+              "record_key": "skill:62:line:59",
+              "name": "Thiên La Địa Võng",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Sau khi bắn trúng đối thủ có thể phát ra thêm nhiều mũi tên.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:59"
+                }
+              ]
+            },
+            {
+              "skill_id": "266",
+              "record_key": "skill:266:line:263",
+              "name": "Đoạn Cân Nhẫn",
+              "property": "Chủ động hạn chế",
+              "description": "Địch bị đánh sẽ có tỷ lệ bất động, và vẫn bị bất động khi có chí mạng",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:263"
+                }
+              ]
+            },
+            {
+              "skill_id": "65",
+              "record_key": "skill:65:line:62",
+              "name": "Ngự Độc Thuật",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng độc công và xác suất chí mạng, giảm thời gian choáng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:62"
+                }
+              ]
+            },
+            {
+              "skill_id": "68",
+              "record_key": "skill:68:line:65",
+              "name": "Tâm Ma",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:65"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sect_id": "sect:4",
+      "sect_name": "Ngũ Độc",
+      "routes": [
+        {
+          "route_record_key": "faction:4:route:1",
+          "route_name": "Đao Độc",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "76",
+              "record_key": "skill:76:line:73",
+              "name": "Huyết Đao Độc Sát",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Đao pháp sơ cấp Ngũ Độc, tấn công độc một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:73"
+                }
+              ]
+            },
+            {
+              "skill_id": "77",
+              "record_key": "skill:77:line:74",
+              "name": "Ngũ Độc Đao Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Đao pháp nhập môn Ngũ Độc, tăng sát thương đao.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:74"
+                }
+              ]
+            },
+            {
+              "skill_id": "78",
+              "record_key": "skill:78:line:75",
+              "name": "Vô Hình Cổ",
+              "property": "Vòng sáng tấn công hệ ngoại công",
+              "description": "Độc môn dùng sâu Ngũ Độc, độc công trong phạm vi vòng sáng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:75"
+                }
+              ]
+            },
+            {
+              "skill_id": "81",
+              "record_key": "skill:81:line:78",
+              "name": "Thí Độc Thuật",
+              "property": "Hỗ trợ bị động",
+              "description": "Độc thuật trung cấp Ngũ Độc, tăng chính xác và xác suất chí mạng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:78"
+                }
+              ]
+            },
+            {
+              "skill_id": "80",
+              "record_key": "skill:80:line:77",
+              "name": "Bách Độc Xuyên Tâm",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Đao pháp trung cấp Ngũ Độc, tấn công 2 lần tầm xa trong phạm vi nhỏ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:77"
+                }
+              ]
+            },
+            {
+              "skill_id": "269",
+              "record_key": "skill:269:line:266",
+              "name": "Ôn Cổ Chi Khí",
+              "property": "Bùa chú (bị động)",
+              "description": "Tự động thi triển khiến sinh lực địch còn 25% sẽ tung sương độc cự ly nhỏ",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:266"
+                }
+              ]
+            },
+            {
+              "skill_id": "82",
+              "record_key": "skill:82:line:79",
+              "name": "Vạn Cổ Thực Tâm",
+              "property": "Bùa chú (bị động)",
+              "description": "Tự động thi triển bùa chú, giảm kháng đối thủ trong phạm vi nhỏ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:79"
+                }
+              ]
+            },
+            {
+              "skill_id": "85",
+              "record_key": "skill:85:line:82",
+              "name": "Ngũ Độc Kỳ Kinh",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Ngũ Độc, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:82"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:4:route:2",
+          "route_name": "Chưởng Độc",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "86",
+              "record_key": "skill:86:line:83",
+              "name": "Độc Sa Chưởng",
+              "property": "Chủ động tấn công nội công",
+              "description": "Chưởng pháp sơ cấp Ngũ Độc, tấn công tầm xa một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:83"
+                }
+              ]
+            },
+            {
+              "skill_id": "87",
+              "record_key": "skill:87:line:84",
+              "name": "Ngũ Độc Chưởng Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Chưởng pháp nhập môn Ngũ Độc, tăng sát thương quyền.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:84"
+                }
+              ]
+            },
+            {
+              "skill_id": "92",
+              "record_key": "skill:92:line:89",
+              "name": "Xuyên Tâm Độc Thích",
+              "property": "Hỗ trợ bị động",
+              "description": "Tâm pháp sơ cấp Ngũ Độc, kéo dài thời gian trúng độc.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:89"
+                }
+              ]
+            },
+            {
+              "skill_id": "91",
+              "record_key": "skill:91:line:88",
+              "name": "Ngân Ti Phi Thù",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt kỹ khinh công Ngũ Độc, tăng tốc độ chạy.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:88"
+                }
+              ]
+            },
+            {
+              "skill_id": "90",
+              "record_key": "skill:90:line:87",
+              "name": "Thiên Canh Địa Sát",
+              "property": "Chủ động tấn công nội công",
+              "description": "Chưởng pháp trung cấp Ngũ Độc, tấn công tầm xa trong phạm vi nhỏ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:87"
+                }
+              ]
+            },
+            {
+              "skill_id": "272",
+              "record_key": "skill:272:line:269",
+              "name": "Khu Độc Thuật",
+              "property": "Hỗ trợ bị động",
+              "description": "Sinh lực còn 25% thì bản thân sẽ phóng thích sương độc trong phạm vi lớn",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:269"
+                }
+              ]
+            },
+            {
+              "skill_id": "88",
+              "record_key": "skill:88:line:85",
+              "name": "Bi Ma Huyết Quang",
+              "property": "Bùa chú (bị động)",
+              "description": "Tự động tung bùa, kéo dài kháng ngũ hành, kháng độc công và tỷ lệ chí mạng",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:85"
+                }
+              ]
+            },
+            {
+              "skill_id": "95",
+              "record_key": "skill:95:line:92",
+              "name": "Bách Cổ Độc Kinh",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Ngũ Độc, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:92"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sect_id": "sect:5",
+      "sect_name": "Nga My",
+      "routes": [
+        {
+          "route_record_key": "faction:5:route:1",
+          "route_name": "Chưởng Nga",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "96",
+              "record_key": "skill:96:line:93",
+              "name": "Phiêu Tuyết Xuyên Vân",
+              "property": "Chủ động tấn công nội công",
+              "description": "Chưởng pháp sơ cấp Nga My, tấn công tầm xa một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:93"
+                }
+              ]
+            },
+            {
+              "skill_id": "97",
+              "record_key": "skill:97:line:94",
+              "name": "Nga My Chưởng Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Chưởng pháp nhập môn Nga My, tăng sát thương quyền.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:94"
+                }
+              ]
+            },
+            {
+              "skill_id": "98",
+              "record_key": "skill:98:line:95",
+              "name": "Từ Hàng Phổ Độ",
+              "property": "Chủ động hỗ trợ hồi phục",
+              "description": "Phật pháp sơ cấp Nga My, hồi phục sinh lực đồng đội xung quanh.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:95"
+                }
+              ]
+            },
+            {
+              "skill_id": "101",
+              "record_key": "skill:101:line:98",
+              "name": "Phật Tâm Từ Hựu",
+              "property": "Vòng sáng hỗ trợ phòng thủ",
+              "description": "Tăng sinh lực nội lực tối đa cho mình và đồng đội trong vòng sáng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:98"
+                }
+              ]
+            },
+            {
+              "skill_id": "99",
+              "record_key": "skill:99:line:96",
+              "name": "Tứ Tượng Đồng Quy",
+              "property": "Chủ động tấn công nội công",
+              "description": "Tấn công phạm vi nhỏ, đồng thời bắn ra băng tấn công đối thủ lân cận.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:96"
+                }
+              ]
+            },
+            {
+              "skill_id": "479",
+              "record_key": "skill:479:line:476",
+              "name": "Bất Diệt Bất Tuyệt",
+              "property": "Hỗ trợ bị động",
+              "description": "Sinh lực còn 25% sẽ xuất skill hồi phục, giúp đồng đội ở gần hồi sinh lực",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:476"
+                }
+              ]
+            },
+            {
+              "skill_id": "782",
+              "record_key": "skill:782:line:779",
+              "name": "Lưu Thủy Tâm Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Phật pháp cao cấp Nga My, tăng tốc dộ chạy cho bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:779"
+                }
+              ]
+            },
+            {
+              "skill_id": "105",
+              "record_key": "skill:105:line:102",
+              "name": "Phật Pháp Vô Biên",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Nga My, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:102"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:5:route:2",
+          "route_name": "Phụ Trợ",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "107",
+              "record_key": "skill:107:line:104",
+              "name": "Phật Âm Chiến Ý",
+              "property": "Chủ động tấn công nội công",
+              "description": "Nội công sơ cấp Nga My, tấn công xuyên tầm xa.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:104"
+                }
+              ]
+            },
+            {
+              "skill_id": "106",
+              "record_key": "skill:106:line:103",
+              "name": "Mộng Điệp",
+              "property": "Vòng sáng hỗ trợ hồi phục",
+              "description": "Hồi sinh lực nội lực cho mình, đồng đội trong vòng sáng, và giảm suy yếu",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:103"
+                }
+              ]
+            },
+            {
+              "skill_id": "98",
+              "record_key": "skill:98:line:95",
+              "name": "Từ Hàng Phổ Độ",
+              "property": "Chủ động hỗ trợ hồi phục",
+              "description": "Phật pháp sơ cấp Nga My, hồi phục sinh lực đồng đội xung quanh.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:95"
+                }
+              ]
+            },
+            {
+              "skill_id": "101",
+              "record_key": "skill:101:line:98",
+              "name": "Phật Tâm Từ Hựu",
+              "property": "Vòng sáng hỗ trợ phòng thủ",
+              "description": "Tăng sinh lực nội lực tối đa cho mình và đồng đội trong vòng sáng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:98"
+                }
+              ]
+            },
+            {
+              "skill_id": "109",
+              "record_key": "skill:109:line:106",
+              "name": "Thiên Phật Thiên Diệp",
+              "property": "Vòng sáng hỗ trợ chiến đấu",
+              "description": "Phật pháp trung cấp Nga My, tập hợp nhiều hỗ trợ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:106"
+                }
+              ]
+            },
+            {
+              "skill_id": "110",
+              "record_key": "skill:110:line:107",
+              "name": "Phật Quang Phổ Chiếu",
+              "property": "Chủ động hỗ trợ hồi phục",
+              "description": "Trị thương và hồi phục sinh lực, nội lực, thể lực cho đồng đội.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:107"
+                }
+              ]
+            },
+            {
+              "skill_id": "102",
+              "record_key": "skill:102:line:99",
+              "name": "Lưu Thủy Quyết",
+              "property": "Vòng sáng hỗ trợ chiến đấu",
+              "description": "Tăng tốc độ di chuyển cho mình và đồng đội trong vòng sáng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:99"
+                }
+              ]
+            },
+            {
+              "skill_id": "481",
+              "record_key": "skill:481:line:478",
+              "name": "Ba La Tâm Kinh",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng hiệu quả công, cự ly vòng sáng, trọng thương sẽ xuất skill hồi sinh lực",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:478"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sect_id": "sect:6",
+      "sect_name": "Thúy Yên",
+      "routes": [
+        {
+          "route_record_key": "faction:6:route:1",
+          "route_name": "Kiếm Thúy",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "111",
+              "record_key": "skill:111:line:108",
+              "name": "Phong Quyển Tàn Tuyết",
+              "property": "Chủ động tấn công nội công",
+              "description": "Kiếm pháp sơ cấp Thúy Yên, tấn công xuyên theo đường thẳng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:108"
+                }
+              ]
+            },
+            {
+              "skill_id": "112",
+              "record_key": "skill:112:line:109",
+              "name": "Thúy Yên Kiếm Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Kiếm pháp nhập môn Thúy Yên, tăng sát thương kiếm.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:109"
+                }
+              ]
+            },
+            {
+              "skill_id": "113",
+              "record_key": "skill:113:line:110",
+              "name": "Hộ Thể Hàn Băng",
+              "property": "Hỗ trợ bị động",
+              "description": "Tâm pháp Thúy Yên, có thể phản đòn tầm xa và tăng khả năng né tránh.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:110"
+                }
+              ]
+            },
+            {
+              "skill_id": "115",
+              "record_key": "skill:115:line:112",
+              "name": "Tuyết Ảnh",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Tâm pháp sơ cấp Thúy Yên, tăng tốc độ chạy bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:112"
+                }
+              ]
+            },
+            {
+              "skill_id": "114",
+              "record_key": "skill:114:line:111",
+              "name": "Bích Hải Triều Sinh",
+              "property": "Chủ động tấn công nội công",
+              "description": "Kiếm pháp Thúy Yên, tấn công xuyên trong phạm vi nhỏ theo đường thẳng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:111"
+                }
+              ]
+            },
+            {
+              "skill_id": "483",
+              "record_key": "skill:483:line:480",
+              "name": "Huyền Băng Vô Tức",
+              "property": "Hỗ trợ bị động",
+              "description": "Sinh lực còn 25% sẽ đóng băng địch trong phạm vi nhỏ, tăng kháng bản thân",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:480"
+                }
+              ]
+            },
+            {
+              "skill_id": "116",
+              "record_key": "skill:116:line:113",
+              "name": "Tuyết Ánh Hồng Trần",
+              "property": "Vòng sáng hỗ trợ chiến đấu",
+              "description": "Tăng hiệu suất hồi sinh lực và nội lực cho mình, đồng đội trong vòng sáng",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:113"
+                }
+              ]
+            },
+            {
+              "skill_id": "119",
+              "record_key": "skill:119:line:116",
+              "name": "Băng Cốt Tuyết Tâm",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Thúy Yên, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:116"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:6:route:2",
+          "route_name": "Đao Thúy",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "120",
+              "record_key": "skill:120:line:117",
+              "name": "Phong Hoa Tuyết Nguyệt",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Đao pháp sơ cấp Thúy Yên, tấn công băng tầm xa một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:117"
+                }
+              ]
+            },
+            {
+              "skill_id": "121",
+              "record_key": "skill:121:line:118",
+              "name": "Thúy Yên Đao Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Đao pháp nhập môn Thúy Yên, tăng sát thương đao.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:118"
+                }
+              ]
+            },
+            {
+              "skill_id": "122",
+              "record_key": "skill:122:line:119",
+              "name": "Ngự Tuyết Ẩn",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Tâm pháp cao cấp Thúy Yên, ẩn thân trong màn tuyết trắng bí ẩn.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:119"
+                }
+              ]
+            },
+            {
+              "skill_id": "115",
+              "record_key": "skill:115:line:112",
+              "name": "Tuyết Ảnh",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Tâm pháp sơ cấp Thúy Yên, tăng tốc độ chạy bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:112"
+                }
+              ]
+            },
+            {
+              "skill_id": "123",
+              "record_key": "skill:123:line:120",
+              "name": "Mục Dã Lưu Tinh",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Đao pháp trung cấp Thúy Yên, phóng ra ba trụ băng tấn công băng tầm xa.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:120"
+                }
+              ]
+            },
+            {
+              "skill_id": "483",
+              "record_key": "skill:483:line:480",
+              "name": "Huyền Băng Vô Tức",
+              "property": "Hỗ trợ bị động",
+              "description": "Sinh lực còn 25% sẽ đóng băng địch trong phạm vi nhỏ, tăng kháng bản thân",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:480"
+                }
+              ]
+            },
+            {
+              "skill_id": "124",
+              "record_key": "skill:124:line:121",
+              "name": "Băng Tâm Thiến Ảnh",
+              "property": "Hỗ trợ bị động",
+              "description": "Tâm pháp trung cấp Thúy Yên, tăng chính xác, né tránh và kháng cho bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:121"
+                }
+              ]
+            },
+            {
+              "skill_id": "127",
+              "record_key": "skill:127:line:124",
+              "name": "Băng Cơ Ngọc Cốt",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Thúy Yên, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:124"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sect_id": "sect:7",
+      "sect_name": "Cái Bang",
+      "routes": [
+        {
+          "route_record_key": "faction:7:route:1",
+          "route_name": "Chưởng Cái",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "128",
+              "record_key": "skill:128:line:125",
+              "name": "Kiến Nhân Thân Thủ",
+              "property": "Chủ động tấn công nội công",
+              "description": "Chưởng pháp sơ cấp Cái Bang, tấn công tầm xa một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:125"
+                }
+              ]
+            },
+            {
+              "skill_id": "129",
+              "record_key": "skill:129:line:126",
+              "name": "Cái Bang Chưởng Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Chưởng pháp nhập môn Cái Bang, tăng sát thương quyền.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:126"
+                }
+              ]
+            },
+            {
+              "skill_id": "130",
+              "record_key": "skill:130:line:127",
+              "name": "Hóa Hiểm Vi Di",
+              "property": "Hỗ trợ bị động",
+              "description": "Nội công Cái Bang, có thể phản đòn cận chiến và tăng khả năng né tránh.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:127"
+                }
+              ]
+            },
+            {
+              "skill_id": "132",
+              "record_key": "skill:132:line:129",
+              "name": "Hoạt Bất Lưu Thủ",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Tâm pháp trung cấp Cái Bang, tăng tốc độ chạy của bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:129"
+                }
+              ]
+            },
+            {
+              "skill_id": "131",
+              "record_key": "skill:131:line:128",
+              "name": "Hàng Long Hữu Hối",
+              "property": "Chủ động tấn công nội công",
+              "description": "Xuất nhiều chiêu tấn công đối thủ trong phạm vi nhỏ phía trước.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:128"
+                }
+              ]
+            },
+            {
+              "skill_id": "489",
+              "record_key": "skill:489:line:486",
+              "name": "Thời Thừa Lục Long",
+              "property": "Chủ động hỗ trợ tấn công",
+              "description": "Sau khi vận công tăng uy lực những lần đánh trúng kế tiếp.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:486"
+                }
+              ]
+            },
+            {
+              "skill_id": "133",
+              "record_key": "skill:133:line:130",
+              "name": "Túy Điệp Cuồng Vũ",
+              "property": "Hỗ trợ bị động",
+              "description": "Nội công cao cấp Cái Bang, tăng kháng cho bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:130"
+                }
+              ]
+            },
+            {
+              "skill_id": "136",
+              "record_key": "skill:136:line:133",
+              "name": "Tiềm Long Tại Uyên",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Cái Bang, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:133"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:7:route:2",
+          "route_name": "Côn Cái",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "137",
+              "record_key": "skill:137:line:134",
+              "name": "Duyên Môn Thác Bát",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Bổng pháp sơ cấp Cái Bang, tấn công hỏa tầm xa một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:134"
+                }
+              ]
+            },
+            {
+              "skill_id": "138",
+              "record_key": "skill:138:line:135",
+              "name": "Cái Bang Bổng Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Bổng pháp nhập môn Cái Bang, tăng sát thương bổng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:135"
+                }
+              ]
+            },
+            {
+              "skill_id": "139",
+              "record_key": "skill:139:line:136",
+              "name": "Tiêu Dao Công",
+              "property": "Hỗ trợ bị động",
+              "description": "Nội công sơ cấp Cái Bang, tăng chính xác và khả năng né tránh của bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:136"
+                }
+              ]
+            },
+            {
+              "skill_id": "132",
+              "record_key": "skill:132:line:129",
+              "name": "Hoạt Bất Lưu Thủ",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Tâm pháp trung cấp Cái Bang, tăng tốc độ chạy của bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:129"
+                }
+              ]
+            },
+            {
+              "skill_id": "140",
+              "record_key": "skill:140:line:137",
+              "name": "Bổng Đả Ác Cẩu",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Bổng pháp Cái Bang, xuất nhiều chiêu tấn công hỏa đối thủ trong phạm vi nhỏ",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:137"
+                }
+              ]
+            },
+            {
+              "skill_id": "491",
+              "record_key": "skill:491:line:488",
+              "name": "Ác Cẩu Lan Lộ",
+              "property": "Chủ động hạn chế",
+              "description": "Bổng pháp trung cấp Cái Bang, có xác suất đánh lùi đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:488"
+                }
+              ]
+            },
+            {
+              "skill_id": "238",
+              "record_key": "skill:238:line:235",
+              "name": "Hỗn Thiên Khí Công",
+              "property": "Hỗ trợ bị động",
+              "description": "Nội công cao cấp Cái Bang, tăng né tránh, tốc độ chạy và kháng của bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:235"
+                }
+              ]
+            },
+            {
+              "skill_id": "142",
+              "record_key": "skill:142:line:139",
+              "name": "Bôn Lưu Đáo Hải",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Cái Bang, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:139"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sect_id": "sect:8",
+      "sect_name": "Thiên Nhẫn",
+      "routes": [
+        {
+          "route_record_key": "faction:8:route:1",
+          "route_name": "Chiến Nhẫn",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "143",
+              "record_key": "skill:143:line:140",
+              "name": "Tàn Dương Như Huyết",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Mâu pháp sơ cấp Thiên Nhẫn, tấn công hỏa cận chiến.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:140"
+                }
+              ]
+            },
+            {
+              "skill_id": "144",
+              "record_key": "skill:144:line:141",
+              "name": "Thiên Nhẫn Mâu Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Mâu pháp nhập môn Thiên Nhẫn, tăng sát thương mâu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:141"
+                }
+              ]
+            },
+            {
+              "skill_id": "492",
+              "record_key": "skill:492:line:489",
+              "name": "Huyễn Ảnh Truy Hồn Thương",
+              "property": "Chủ động hạn chế",
+              "description": "Thương thuật Thiên Nhẫn, hút đối phương và gây giảm tốc",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:489"
+                }
+              ]
+            },
+            {
+              "skill_id": "145",
+              "record_key": "skill:145:line:142",
+              "name": "Kim Thiền Thoát Xác",
+              "property": "Hỗ trợ bị động",
+              "description": "Rút ngắn thời gian thọ thương và tăng khả năng né tránh.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:142"
+                }
+              ]
+            },
+            {
+              "skill_id": "146",
+              "record_key": "skill:146:line:143",
+              "name": "Liệt Hỏa Tình Thiên",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Mâu pháp trung cấp Thiên Nhẫn, tấn công hỏa cận chiến.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:143"
+                }
+              ]
+            },
+            {
+              "skill_id": "147",
+              "record_key": "skill:147:line:144",
+              "name": "Bi Tô Thanh Phong",
+              "property": "Bùa chú (bị động)",
+              "description": "Tự động ra chiêu, khiến địch kéo dài thọ thương, giảm chí mạng , né tránh",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:144"
+                }
+              ]
+            },
+            {
+              "skill_id": "148",
+              "record_key": "skill:148:line:145",
+              "name": "Ma Âm Phệ Phách",
+              "property": "Bùa chú",
+              "description": "Bùa chú Thiên Nhẫn, khiến đối thủ xung quanh rơi vào trạng thái hoảng loạn.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:145"
+                }
+              ]
+            },
+            {
+              "skill_id": "150",
+              "record_key": "skill:150:line:147",
+              "name": "Thiên Ma Giải Thể",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:147"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:8:route:2",
+          "route_name": "Ma Nhẫn",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "151",
+              "record_key": "skill:151:line:148",
+              "name": "Đạn Chỉ Liệt Diệm",
+              "property": "Chủ động tấn công nội công",
+              "description": "Dị thuật Thiên Nhẫn, tạo thành bức tường lửa nhỏ tấn công trực tiếp đối thủ",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:148"
+                }
+              ]
+            },
+            {
+              "skill_id": "152",
+              "record_key": "skill:152:line:149",
+              "name": "Thiên Nhẫn Đao Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Đao pháp nhập môn Thiên Nhẫn, tăng sát thương đao.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:149"
+                }
+              ]
+            },
+            {
+              "skill_id": "154",
+              "record_key": "skill:154:line:151",
+              "name": "Lệ Ma Đoạt Hồn",
+              "property": "Bùa chú",
+              "description": "Bùa chú Thiên Nhẫn, giảm vật công ngoại của đối thủ trong phạm vi nhỏ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:151"
+                }
+              ]
+            },
+            {
+              "skill_id": "145",
+              "record_key": "skill:145:line:142",
+              "name": "Kim Thiền Thoát Xác",
+              "property": "Hỗ trợ bị động",
+              "description": "Rút ngắn thời gian thọ thương và tăng khả năng né tránh.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:142"
+                }
+              ]
+            },
+            {
+              "skill_id": "153",
+              "record_key": "skill:153:line:150",
+              "name": "Thôi Sơn Điền Hải",
+              "property": "Chủ động tấn công nội công",
+              "description": "Tạo thành một loạt tường lửa tấn công đối thủ trong phạm vi lớn.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:150"
+                }
+              ]
+            },
+            {
+              "skill_id": "494",
+              "record_key": "skill:494:line:491",
+              "name": "Hỏa Liên Phần Hoa",
+              "property": "Chủ động hạn chế",
+              "description": "Phóng ra hỏa trận, hút đối thủ vào khu trung tâm và khiến họ bị bỏng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:491"
+                }
+              ]
+            },
+            {
+              "skill_id": "155",
+              "record_key": "skill:155:line:152",
+              "name": "Nhiếp Hồn Loạn Tâm",
+              "property": "Bùa chú",
+              "description": "Bùa chú Thiên Nhẫn, khiến đối thủ tê liệt, không thể di chuyển và xuất chiêu",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:152"
+                }
+              ]
+            },
+            {
+              "skill_id": "158",
+              "record_key": "skill:158:line:155",
+              "name": "Xí Không Ma Diệm",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:155"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sect_id": "sect:9",
+      "sect_name": "Võ Đang",
+      "routes": [
+        {
+          "route_record_key": "faction:9:route:1",
+          "route_name": "Khí Võ",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "159",
+              "record_key": "skill:159:line:156",
+              "name": "Bác Cập Nhi Phục",
+              "property": "Chủ động tấn công nội công",
+              "description": "Công phu nội gia sơ cấp Võ Đang, tấn công tầm xa một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:156"
+                }
+              ]
+            },
+            {
+              "skill_id": "160",
+              "record_key": "skill:160:line:157",
+              "name": "Võ Đang Khí Công",
+              "property": "Hỗ trợ bị động",
+              "description": "Công phu sơ cấp Võ Đang, tăng tấn công khí.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:157"
+                }
+              ]
+            },
+            {
+              "skill_id": "161",
+              "record_key": "skill:161:line:158",
+              "name": "Tọa Vọng Vô Ngã",
+              "property": "Chủ động hỗ trợ đặc biệt",
+              "description": "Có thể dùng nội lực trung hòa sát thương sinh lực trong thời gian ngắn.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:158"
+                }
+              ]
+            },
+            {
+              "skill_id": "163",
+              "record_key": "skill:163:line:160",
+              "name": "Thê Vân Tung",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt kỹ khinh công Võ Đang, tăng tốc độ chạy của bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:160"
+                }
+              ]
+            },
+            {
+              "skill_id": "162",
+              "record_key": "skill:162:line:159",
+              "name": "Vô Ngã Vô Kiếm",
+              "property": "Chủ động tấn công nội công",
+              "description": "Kiếm khí trung cấp Võ Đang, tấn công khí tầm xa đối thủ trong phạm vi nhỏ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:159"
+                }
+              ]
+            },
+            {
+              "skill_id": "497",
+              "record_key": "skill:497:line:494",
+              "name": "Thuần Dương Vô Cực",
+              "property": "Chủ động hỗ trợ phòng thủ",
+              "description": "Tiêu hao nội lực tạo lá chắn cho mình hoặc đồng đội, chống lại sát thương",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:494"
+                }
+              ]
+            },
+            {
+              "skill_id": "164",
+              "record_key": "skill:164:line:161",
+              "name": "Chân Vũ Thất Tiệt",
+              "property": "Vòng sáng hỗ trợ tấn công",
+              "description": "Tăng sát thương vật lý nội công cho mình và đồng đội trong vòng sáng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:161"
+                }
+              ]
+            },
+            {
+              "skill_id": "166",
+              "record_key": "skill:166:line:163",
+              "name": "Thái Cực Vô Ý",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Võ Đang, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:163"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:9:route:2",
+          "route_name": "Kiếm Võ",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "167",
+              "record_key": "skill:167:line:164",
+              "name": "Kiếm Phi Kinh Thiên",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Kiếm pháp sơ cấp Võ Đang, tấn công lôi cận chiến.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:164"
+                }
+              ]
+            },
+            {
+              "skill_id": "168",
+              "record_key": "skill:168:line:165",
+              "name": "Võ Đang Kiếm Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Kiếm pháp nhập môn Võ Đang, tăng sát thương kiếm.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:165"
+                }
+              ]
+            },
+            {
+              "skill_id": "783",
+              "record_key": "skill:783:line:780",
+              "name": "Vô Ngã Tâm Pháp",
+              "property": "Chủ động hỗ trợ đặc biệt",
+              "description": "Dùng nội lực trung hòa sát thương và giảm xác suất bị đóng băng",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:780"
+                }
+              ]
+            },
+            {
+              "skill_id": "163",
+              "record_key": "skill:163:line:160",
+              "name": "Thê Vân Tung",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt kỹ khinh công Võ Đang, tăng tốc độ chạy của bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:160"
+                }
+              ]
+            },
+            {
+              "skill_id": "169",
+              "record_key": "skill:169:line:166",
+              "name": "Tam Hoàn Sáo Nguyệt",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Kiếm pháp trung cấp Võ Đang, xuất một loạt 3 chiêu tấn công đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:166"
+                }
+              ]
+            },
+            {
+              "skill_id": "499",
+              "record_key": "skill:499:line:496",
+              "name": "Thái Nhất Chân Khí",
+              "property": "Hỗ trợ bị động",
+              "description": "Mỗi một giai đoạn có thể bỏ qua tấn công trong vòng nửa giây",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:496"
+                }
+              ]
+            },
+            {
+              "skill_id": "170",
+              "record_key": "skill:170:line:167",
+              "name": "Thất Tinh Quyết",
+              "property": "Vòng sáng hỗ trợ tấn công",
+              "description": "Tăng chính xác và né tránh cho mình và đồng đội trong vòng sáng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:167"
+                }
+              ]
+            },
+            {
+              "skill_id": "174",
+              "record_key": "skill:174:line:171",
+              "name": "Kiếm Khí Tung Hoành",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Võ Đang, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:171"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sect_id": "sect:10",
+      "sect_name": "Côn Lôn",
+      "routes": [
+        {
+          "route_record_key": "faction:10:route:1",
+          "route_name": "Đao Côn",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "175",
+              "record_key": "skill:175:line:172",
+              "name": "Hô Phong Pháp",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Đao pháp sơ cấp Côn Lôn, triệu hồi một trận gió tấn công lôi đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:172"
+                }
+              ]
+            },
+            {
+              "skill_id": "176",
+              "record_key": "skill:176:line:173",
+              "name": "Côn Lôn Đao Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Đao pháp nhập môn Côn Lôn, tăng sát thương đao.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:173"
+                }
+              ]
+            },
+            {
+              "skill_id": "179",
+              "record_key": "skill:179:line:176",
+              "name": "Huyền Thiên Vô Cực",
+              "property": "Hỗ trợ bị động",
+              "description": "Nội công độc môn Côn Lôn, hóa giải sát thương với tỷ lệ nhất định.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:176"
+                }
+              ]
+            },
+            {
+              "skill_id": "177",
+              "record_key": "skill:177:line:174",
+              "name": "Thanh Phong Phù",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Bùa chú sơ cấp Côn Lôn, tăng tốc độ chạy cho mình và đồng đội.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:174"
+                }
+              ]
+            },
+            {
+              "skill_id": "178",
+              "record_key": "skill:178:line:175",
+              "name": "Cuồng Phong Sậu Điện",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Triệu hồi một trận gió xoáy cực mạnh tấn công đối thủ trong phạm vi nhỏ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:175"
+                }
+              ]
+            },
+            {
+              "skill_id": "697",
+              "record_key": "skill:697:line:694",
+              "name": "Khai Thần Thuật",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Pháp thuật độc môn Côn Lôn, phát hiện tàng hình và tăng sinh lực tối đa.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:694"
+                }
+              ]
+            },
+            {
+              "skill_id": "180",
+              "record_key": "skill:180:line:177",
+              "name": "Nhất Khí Tam Thanh",
+              "property": "Chủ động hỗ trợ tấn công",
+              "description": "Tăng sát thương vật lý ngoại công cho mình và đồng đội xung quanh.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:177"
+                }
+              ]
+            },
+            {
+              "skill_id": "183",
+              "record_key": "skill:183:line:180",
+              "name": "Thiên Thanh Địa Trọc",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Côn Lôn, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:180"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:10:route:2",
+          "route_name": "Kiếm Côn",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "188",
+              "record_key": "skill:188:line:185",
+              "name": "Cuồng Lôi Chấn Địa",
+              "property": "Chủ động tấn công nội công",
+              "description": "Đạo thuật Côn Lôn, triệu hồi một tia sét tấn công trực tiếp đối thủ",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:185"
+                }
+              ]
+            },
+            {
+              "skill_id": "189",
+              "record_key": "skill:189:line:186",
+              "name": "Côn Lôn Kiếm Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Kiếm pháp nhập môn Côn Lôn, tăng sát thương kiếm.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:186"
+                }
+              ]
+            },
+            {
+              "skill_id": "179",
+              "record_key": "skill:179:line:176",
+              "name": "Huyền Thiên Vô Cực",
+              "property": "Hỗ trợ bị động",
+              "description": "Nội công độc môn Côn Lôn, hóa giải sát thương với tỷ lệ nhất định.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:176"
+                }
+              ]
+            },
+            {
+              "skill_id": "177",
+              "record_key": "skill:177:line:174",
+              "name": "Thanh Phong Phù",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Bùa chú sơ cấp Côn Lôn, tăng tốc độ chạy cho mình và đồng đội.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:174"
+                }
+              ]
+            },
+            {
+              "skill_id": "190",
+              "record_key": "skill:190:line:187",
+              "name": "Thiên Tế Tấn Lôi",
+              "property": "Chủ động tấn công nội công",
+              "description": "Triệu hồi một trận sét tấn công đối thủ trong phạm vi lớn",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:187"
+                }
+              ]
+            },
+            {
+              "skill_id": "699",
+              "record_key": "skill:699:line:696",
+              "name": "Túy Tiên Thác Cốt",
+              "property": "Chủ động hạn chế",
+              "description": "Đạo thuật trung cấp Côn Lôn, triệu hồi lôi trận, gây choáng xung quanh.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:696"
+                }
+              ]
+            },
+            {
+              "skill_id": "191",
+              "record_key": "skill:191:line:188",
+              "name": "Đạo Cốt Tiên Phong",
+              "property": "Chủ động hỗ trợ phòng thủ",
+              "description": "Bùa chú cao cấp Côn Lôn, tăng kháng cho mình và đồng đội.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:188"
+                }
+              ]
+            },
+            {
+              "skill_id": "193",
+              "record_key": "skill:193:line:190",
+              "name": "Ngũ Lôi Chánh Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Côn Lôn, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:190"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sect_id": "sect:11",
+      "sect_name": "Minh Giáo",
+      "routes": [
+        {
+          "route_record_key": "faction:11:route:1",
+          "route_name": "Chùy Minh",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "194",
+              "record_key": "skill:194:line:191",
+              "name": "Khai Thiên Thức",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Chùy pháp sơ cấp Minh Giáo, chiêu thức tấn công một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:191"
+                }
+              ]
+            },
+            {
+              "skill_id": "196",
+              "record_key": "skill:196:line:193",
+              "name": "Minh Giáo Chùy Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Chùy pháp nhập môn Minh Giáo, tăng sát thương chùy.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:193"
+                }
+              ]
+            },
+            {
+              "skill_id": "199",
+              "record_key": "skill:199:line:196",
+              "name": "Khốn Hổ Vân Tiếu",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Võ công trung cấp Minh Giáo, xông thẳng tới gây sát thương.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:196"
+                }
+              ]
+            },
+            {
+              "skill_id": "768",
+              "record_key": "skill:768:line:765",
+              "name": "Huyền Dương Công",
+              "property": "Hỗ trợ bị động",
+              "description": "Tâm pháp sơ cấp Minh Giáo, tăng sinh lực tối đa.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:765"
+                }
+              ]
+            },
+            {
+              "skill_id": "198",
+              "record_key": "skill:198:line:195",
+              "name": "Phách Địa Thế",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Sát thương tương đối lớn và có xác suất làm đối thủ giảm tốc độ chạy.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:195"
+                }
+              ]
+            },
+            {
+              "skill_id": "201",
+              "record_key": "skill:201:line:198",
+              "name": "Kim Qua Thiết Mã",
+              "property": "Vòng sáng hỗ trợ tấn công",
+              "description": "Tăng tỷ lệ chí mạng và gây thọ thương cho mình và đồng đội trong vòng sáng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:198"
+                }
+              ]
+            },
+            {
+              "skill_id": "197",
+              "record_key": "skill:197:line:194",
+              "name": "Ngự Mã Thuật",
+              "property": "Hỗ trợ bị động",
+              "description": "Kỵ thuật Minh Giáo, có thể rút ngắn thời gian hành động.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:194"
+                }
+              ]
+            },
+            {
+              "skill_id": "204",
+              "record_key": "skill:204:line:201",
+              "name": "Trấn Ngục Phá Thiên Kình",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Minh Giáo, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:201"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:11:route:2",
+          "route_name": "Kiếm Minh",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "205",
+              "record_key": "skill:205:line:202",
+              "name": "Thánh Hỏa Phần Tâm",
+              "property": "Chủ động tấn công nội công",
+              "description": "Dị thuật sơ cấp Minh Giáo, phóng lửa âm lên mục tiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:202"
+                }
+              ]
+            },
+            {
+              "skill_id": "206",
+              "record_key": "skill:206:line:203",
+              "name": "Minh Giáo Kiếm Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Kiếm pháp nhập môn Minh Giáo, tăng sát thương kiếm.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:203"
+                }
+              ]
+            },
+            {
+              "skill_id": "207",
+              "record_key": "skill:207:line:204",
+              "name": "Di Khí Phiêu Tung",
+              "property": "Hỗ trợ bị động",
+              "description": "Có xác suất nhất định né tránh hoàn toàn tấn công hệ nội công.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:204"
+                }
+              ]
+            },
+            {
+              "skill_id": "209",
+              "record_key": "skill:209:line:206",
+              "name": "Phiêu Dực Thân Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Khinh công của Minh Giáo, tăng tốc độ chạy bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:206"
+                }
+              ]
+            },
+            {
+              "skill_id": "208",
+              "record_key": "skill:208:line:205",
+              "name": "Vạn Vật Câu Phần",
+              "property": "Chủ động tấn công nội công",
+              "description": "Dị thuật Minh Giáo, từ trung tâm phát ra một vòng lửa thiêu đốt đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:205"
+                }
+              ]
+            },
+            {
+              "skill_id": "210",
+              "record_key": "skill:210:line:207",
+              "name": "Càn Khôn Đại Na Di",
+              "property": "Bùa chú",
+              "description": "Giải trừ trạng thái hỗ trợ của địch và 1 thời gian 0 thể nhận trạng thái hỗ trợ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:207"
+                }
+              ]
+            },
+            {
+              "skill_id": "770",
+              "record_key": "skill:770:line:767",
+              "name": "Thâu Thiên Hoán Nhật",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Giảm nội lực đối thủ, đồng thời hồi phục sinh lực cho bản thân",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:767"
+                }
+              ]
+            },
+            {
+              "skill_id": "212",
+              "record_key": "skill:212:line:209",
+              "name": "Ly Hỏa Đại Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Tuyệt học Minh Giáo, tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:209"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sect_id": "sect:12",
+      "sect_name": "Đoàn Thị",
+      "routes": [
+        {
+          "route_record_key": "faction:12:route:1",
+          "route_name": "Chỉ Đoàn",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "213",
+              "record_key": "skill:213:line:210",
+              "name": "Thần Chỉ Điểm Huyệt",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Chỉ pháp sơ cấp Đại Lý Đoàn Thị, tấn công cận chiến một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:210"
+                }
+              ]
+            },
+            {
+              "skill_id": "215",
+              "record_key": "skill:215:line:212",
+              "name": "Đoàn Thị Chỉ Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Chỉ pháp nhập môn Đại Lý Đoàn Thị, tăng sát thương quyền.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:212"
+                }
+              ]
+            },
+            {
+              "skill_id": "216",
+              "record_key": "skill:216:line:213",
+              "name": "Nhất Dương Chỉ",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Tụ khí ở đầu ngón tay bắn về phía địch cực nhanh, khiến họ bất động",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:213"
+                }
+              ]
+            },
+            {
+              "skill_id": "219",
+              "record_key": "skill:219:line:216",
+              "name": "Lăng Ba Vi Bộ",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Tăng tốc độ chạy cực nhanh và né tránh hoàn toàn sự tấn công của đối thủ",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:216"
+                }
+              ]
+            },
+            {
+              "skill_id": "217",
+              "record_key": "skill:217:line:214",
+              "name": "Nhất Chỉ Càn Khôn",
+              "property": "Chủ động tấn công ngoại công",
+              "description": "Chỉ pháp trung cấp Đại Lý Đoàn Thị, tấn công cận chiến 2 lần một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:214"
+                }
+              ]
+            },
+            {
+              "skill_id": "773",
+              "record_key": "skill:773:line:770",
+              "name": "Từ Bi Quyết",
+              "property": "Hỗ trợ bị động",
+              "description": "Nội công Đoàn Thị, khi sinh lực giảm xuống 25% sẽ thi triển Lăng Ba Vi Bộ",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:770"
+                }
+              ]
+            },
+            {
+              "skill_id": "220",
+              "record_key": "skill:220:line:217",
+              "name": "Thí Nguyên Quyết",
+              "property": "Hỗ trợ bị động",
+              "description": "Có tỷ lệ phản kích làm địch gần đó bị bất động và giảm chính xác",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:217"
+                }
+              ]
+            },
+            {
+              "skill_id": "225",
+              "record_key": "skill:225:line:222",
+              "name": "Kim Ngọc Chỉ Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng xác suất hiệu quả tấn công và bỏ qua né tránh của đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:222"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "route_record_key": "faction:12:route:2",
+          "route_name": "Khí Đoàn",
+          "referenced_skill_count": 13,
+          "representative_skills": [
+            {
+              "skill_id": "226",
+              "record_key": "skill:226:line:223",
+              "name": "Phong Vân Biến Huyễn",
+              "property": "Chủ động tấn công nội công",
+              "description": "Kiếm khí sơ cấp Đại Lý Đoàn Thị, tấn công tầm xa một đối thủ.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:223"
+                }
+              ]
+            },
+            {
+              "skill_id": "227",
+              "record_key": "skill:227:line:224",
+              "name": "Đoàn Thị Tâm Pháp",
+              "property": "Hỗ trợ bị động",
+              "description": "Tâm pháp nhập môn Đại Lý Đoàn Thị, tăng sát thương kiếm khí.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:224"
+                }
+              ]
+            },
+            {
+              "skill_id": "228",
+              "record_key": "skill:228:line:225",
+              "name": "Bắc Minh Thần Công",
+              "property": "Vòng sáng hỗ trợ phòng thủ",
+              "description": "Hóa giải sát thương nhất định cho mình và đồng đội trong vòng sáng.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:225"
+                }
+              ]
+            },
+            {
+              "skill_id": "230",
+              "record_key": "skill:230:line:227",
+              "name": "Thiên Nam Bộ Pháp",
+              "property": "Chủ động hỗ trợ chiến đấu",
+              "description": "Khinh công Đại Lý Đoàn Thị, tăng tốc độ chạy bản thân.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:227"
+                }
+              ]
+            },
+            {
+              "skill_id": "229",
+              "record_key": "skill:229:line:226",
+              "name": "Kim Ngọc Mãn Đường",
+              "property": "Chủ động tấn công nội công",
+              "description": "Kiếm khí trung cấp Đại Lý Đoàn Thị, phát ra rất nhiều đạo kiếm khí.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:226"
+                }
+              ]
+            },
+            {
+              "skill_id": "776",
+              "record_key": "skill:776:line:773",
+              "name": "Lục Kiếm Tề Phát",
+              "property": "Hỗ trợ bị động",
+              "description": "Khi sinh lực giảm xuống 25%, sẽ tự thi triển 6 đạo kiếm khí",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:773"
+                }
+              ]
+            },
+            {
+              "skill_id": "231",
+              "record_key": "skill:231:line:228",
+              "name": "Khô Vinh Thiền Công",
+              "property": "Hỗ trợ bị động",
+              "description": "Khi sinh lực còn 25% thì giảm khả năng tấn công để tăng khả năng sinh tồn.",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:228"
+                }
+              ]
+            },
+            {
+              "skill_id": "233",
+              "record_key": "skill:233:line:230",
+              "name": "Thiên Long Thần Công",
+              "property": "Hỗ trợ bị động",
+              "description": "Tăng xác suất hiệu quả tấn công và tốc độ xuất chiêu",
+              "faction_limit": "",
+              "route_limit": "",
+              "source_records": [
+                {
+                  "source_id": "server-primary",
+                  "evidence_class": "RAW_SERVER",
+                  "path": "server/gameserver/setting/fightskill/skill.txt",
+                  "sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+                  "locator": "line:230"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

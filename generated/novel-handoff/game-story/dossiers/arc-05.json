@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.556105+00:00",
+  "dossier_id": "dossier-arc-05",
+  "arc_id": "arc-05",
+  "title": "Chuyện Cũ Thần Châu convergence",
+  "chronology_or_level_range": "pre-50 convergence",
+  "premise_claim_ids": [
+    "IR005"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR005"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR005"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR005",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR005"
+  ],
+  "reveal_claim_ids": [
+    "IR005"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR005"
+  ],
+  "consequence_claim_ids": [
+    "IR005"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR005"
+  ],
+  "central_unknown_ids": [],
+  "material_conflict_ids": [],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS",
+  "handoff_projection_version": "1.0",
+  "source_dossier": {
+    "path": "research/reconstruction/game-story-dossiers/arc-05.json",
+    "sha256": "126fbe5f957c14cb1f555d127eae7543552eff15d376ede92e0ad8af0680d435"
+  },
+  "resolved_claims": [
+    {
+      "claim_id": "IR005",
+      "claim": "The recovered pre-50 convergence gate is Chuyện Cũ Thần Châu/神州往事 and the contemporary patch mirror states that pre-50 mainline completion is required.",
+      "status": "STRONG",
+      "centrality": "CORE_CONVERGENCE_GATE",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/13-bibliography.md",
+          "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+          "locator": "lines 28-31",
+          "citation_id": "KX-PRE50-01"
+        },
+        {
+          "source_family": "contemporary_partner_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_ARCHIVE",
+          "url": "https://jxsj.17173.com/content/2008-07-04/1215138256.shtml",
+          "response_sha256": "8c65304f24b1dfc4b9354656083aa1d8b4be2242fdcccd95f590c3d0c3c359b2",
+          "locator": "神州往事接任务以完成50级前主线为前提",
+          "citation_id": "KX-PRE50-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:26;id:05f44ef6;offset:48816;stored:1912;expanded:6484;output_sha256:d218623d48d224c34c0ea4e1ea9a18c6f0026eac14fd19f324612bf0239d6407",
+          "record_key": "sub:0000000000000168"
+        }
+      ]
+    }
+  ],
+  "principal_entity_ids": [
+    "character:game-player"
+  ]
+}

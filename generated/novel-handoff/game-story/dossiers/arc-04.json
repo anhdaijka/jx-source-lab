@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.555207+00:00",
+  "dossier_id": "dossier-arc-04",
+  "arc_id": "arc-04",
+  "title": "Tây Nam Mê Cảnh",
+  "chronology_or_level_range": "pre-50 regional",
+  "premise_claim_ids": [
+    "IR003"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR003",
+    "IR020"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR003",
+    "IR020"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR003",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    },
+    {
+      "order": 2,
+      "claim_id": "IR020",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR003",
+    "IR020"
+  ],
+  "reveal_claim_ids": [
+    "IR003",
+    "IR020"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR020"
+  ],
+  "consequence_claim_ids": [
+    "IR020"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR003",
+    "IR020"
+  ],
+  "central_unknown_ids": [],
+  "material_conflict_ids": [
+    "wu-xi-early-death"
+  ],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS",
+  "handoff_projection_version": "1.0",
+  "source_dossier": {
+    "path": "research/reconstruction/game-story-dossiers/arc-04.json",
+    "sha256": "f66ec46df048d985ee3e37920f4845e6d4fecb5fe3f6644414524f7822506354"
+  },
+  "resolved_claims": [
+    {
+      "claim_id": "IR003",
+      "claim": "The intended architecture has three regional mainlines—Giang Nam, Trung Nguyên and Tây Nam—and post-50 cross-narrative; the Lab contains the three matching route selectors.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "CORE_STORY_ARCHITECTURE",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "internet_research_package",
+          "support_type": "claim_summary",
+          "evidence_class": "LEGACY_LEAD",
+          "path": "private-input/internet-research/13-bibliography.md",
+          "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4",
+          "locator": "lines 17-21",
+          "citation_id": "KX-ARCH-01"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/show-3415-6173-1.html",
+          "response_sha256": "278b09f4fa3b46606facee255e1c510e7de0ec5e5828f4c07f82a64892339442",
+          "locator": "三条区域主线; 江南区; 中原区; 西南区; 50级之后; 交叉叙事",
+          "citation_id": "KX-ARCH-01"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:8;id:0163ae81;offset:1191157;stored:1004;expanded:4877;output_sha256:5f9d57491ac33b6a08d7abc21ea5c7bc2a11f770a2d1d0dc9f4b418e7a1ed679",
+          "record_key": "sub:000000000000013A"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:14;id:02430c4f;offset:275211;stored:998;expanded:4870;output_sha256:5ef652dfe7d251a25dde4c6f09d7195e8f9f08f3e4025912ab5bd2047f937a26",
+          "record_key": "sub:000000000000013B"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:147;id:1fa2ed0d;offset:384867;stored:995;expanded:4862;output_sha256:110b6735cb18086399f5794b283cb8b2cc66905e2527f1cf64d0f6cdb22898a6",
+          "record_key": "sub:000000000000013C"
+        }
+      ]
+    },
+    {
+      "claim_id": "IR020",
+      "claim": "The raw Tây Nam route preserves task families 10–12 around Ngô Hi, Đường Môn, Thúy Yên, La Tuyết and Du Long Giác; an early literal death of Ngô Hi cannot override the later official 1205 treason arc.",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "centrality": "IMPORTANT_PRE50_RECOVERY",
+      "narrative_impact": "MATERIAL",
+      "evidence": [
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1071;id:ff098513;offset:1177103;stored:7852;expanded:36340;output_sha256:f88a29cb0e53b31af7e852ef8e81bfad15e49a12b7e27bcc1ed46de98ee4088c",
+          "record_key": "task:000000000000000A:entry:ff098513"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1051;id:f873dc20;offset:2226175;stored:7827;expanded:35013;output_sha256:fe4e6305a36eabe46cbe64768ce84971f5f1003081cbc2ab04d7aa4986d902c2",
+          "record_key": "task:000000000000000B:entry:f873dc20"
+        },
+        {
+          "source_family": "lab_raw_story",
+          "support_type": "direct_record",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c",
+          "record_key": "task:000000000000000C:entry:f565173d"
+        },
+        {
+          "source_family": "first_party_web",
+          "support_type": "direct_content",
+          "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+          "url": "https://jxsj.xoyo.com/zt/2009/09/28/index.shtml",
+          "response_sha256": "830bf2ef6fd9d373cbaa8cfe9d471f217c8adc78eeb11a0b81a7fce5613b6d78",
+          "locator": "1205; 灵壁泊; 吴曦; 毕再遇; 天忍教; 一品堂",
+          "citation_id": "KX-140-01"
+        }
+      ]
+    }
+  ],
+  "principal_entity_ids": [
+    "character:game-player",
+    "character:ngo-hi",
+    "character:la-tuyet",
+    "faction:thuy-yen"
+  ]
+}

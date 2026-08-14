@@ -1,0 +1,585 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.852241+00:00",
+  "warning": "Task identifiers support forensic lookup; they do not define novel structure.",
+  "count": 24,
+  "entries": [
+    {
+      "source_record_key": "sub:000000000000013A",
+      "source_id_decimal": 314,
+      "source_name": "Yên Vũ Giang Nam",
+      "record_kind": "subtask",
+      "arc_id": "arc-02",
+      "beat_claim_ids": [
+        "IR003"
+      ],
+      "mapping_basis": "explicit route-selector record plus reconciled architecture claim",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:8;id:0163ae81;offset:1191157;stored:1004;expanded:4877;output_sha256:5f9d57491ac33b6a08d7abc21ea5c7bc2a11f770a2d1d0dc9f4b418e7a1ed679"
+        }
+      ]
+    },
+    {
+      "source_record_key": "sub:000000000000013B",
+      "source_id_decimal": 315,
+      "source_name": "Binh Qua Trung Nguyên",
+      "record_kind": "subtask",
+      "arc_id": "arc-03",
+      "beat_claim_ids": [
+        "IR003"
+      ],
+      "mapping_basis": "explicit route-selector record plus reconciled architecture claim",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:14;id:02430c4f;offset:275211;stored:998;expanded:4870;output_sha256:5ef652dfe7d251a25dde4c6f09d7195e8f9f08f3e4025912ab5bd2047f937a26"
+        }
+      ]
+    },
+    {
+      "source_record_key": "sub:000000000000013C",
+      "source_id_decimal": 316,
+      "source_name": "Tây Nam Mê Cảnh",
+      "record_kind": "subtask",
+      "arc_id": "arc-04",
+      "beat_claim_ids": [
+        "IR003"
+      ],
+      "mapping_basis": "explicit route-selector record plus reconciled architecture claim",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:147;id:1fa2ed0d;offset:384867;stored:995;expanded:4862;output_sha256:110b6735cb18086399f5794b283cb8b2cc66905e2527f1cf64d0f6cdb22898a6"
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000006:entry:7ea84fe4",
+      "source_id_decimal": 6,
+      "source_name": "Tuyết Dạ Kinh Biến",
+      "record_kind": "task",
+      "arc_id": "arc-03",
+      "beat_claim_ids": [
+        "IR019"
+      ],
+      "mapping_basis": "claim evidence directly cites this task family",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:540;id:7ea84fe4;offset:1731875;stored:8023;expanded:40317;output_sha256:a7071b77f30e7c9c0ac0b0c2b320ac6134237a70574a5ec8c82f0bc1b504f891"
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000007:entry:7b9186f1",
+      "source_id_decimal": 7,
+      "source_name": "Thật Giả Khó Phân",
+      "record_kind": "task",
+      "arc_id": "arc-03",
+      "beat_claim_ids": [
+        "IR019"
+      ],
+      "mapping_basis": "claim evidence directly cites this task family",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:528;id:7b9186f1;offset:713031;stored:8082;expanded:37426;output_sha256:07b7931e4bff25bb8a691959b3a46d94255d0c7a12daa64d4f318f28139f0989"
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000008:entry:749bd10e",
+      "source_id_decimal": 8,
+      "source_name": "Trạch Tâm Nhân Hậu",
+      "record_kind": "task",
+      "arc_id": "arc-03",
+      "beat_claim_ids": [
+        "IR019"
+      ],
+      "mapping_basis": "claim evidence directly cites this task family",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:501;id:749bd10e;offset:688903;stored:6309;expanded:28818;output_sha256:0e274eddcf52c332e8a7ffb3a26e2c662518d7387399138b859aab257d5634c1"
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000009:entry:718d681b",
+      "source_id_decimal": 9,
+      "source_name": "Thiên Mục Chi Mê",
+      "record_kind": "task",
+      "arc_id": "arc-03",
+      "beat_claim_ids": [
+        "IR019"
+      ],
+      "mapping_basis": "claim evidence directly cites this task family",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:492;id:718d681b;offset:1661148;stored:7179;expanded:39161;output_sha256:4e3ec5c16943c107f5319237a98c3a06fca2fe51c867052085d893399ccce820"
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:000000000000000A:entry:ff098513",
+      "source_id_decimal": 10,
+      "source_name": "Nhân Ái Sinh Hận",
+      "record_kind": "task",
+      "arc_id": "arc-04",
+      "beat_claim_ids": [
+        "IR020"
+      ],
+      "mapping_basis": "claim evidence directly cites this task family",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1071;id:ff098513;offset:1177103;stored:7852;expanded:36340;output_sha256:f88a29cb0e53b31af7e852ef8e81bfad15e49a12b7e27bcc1ed46de98ee4088c"
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:000000000000000B:entry:f873dc20",
+      "source_id_decimal": 11,
+      "source_name": "Thế Sự Khó Lường",
+      "record_kind": "task",
+      "arc_id": "arc-04",
+      "beat_claim_ids": [
+        "IR020"
+      ],
+      "mapping_basis": "claim evidence directly cites this task family",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1051;id:f873dc20;offset:2226175;stored:7827;expanded:35013;output_sha256:fe4e6305a36eabe46cbe64768ce84971f5f1003081cbc2ab04d7aa4986d902c2"
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:000000000000000C:entry:f565173d",
+      "source_id_decimal": 12,
+      "source_name": "Huyết Quang Tai",
+      "record_kind": "task",
+      "arc_id": "arc-04",
+      "beat_claim_ids": [
+        "IR020"
+      ],
+      "mapping_basis": "claim evidence directly cites this task family",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:1040;id:f565173d;offset:1144297;stored:10132;expanded:63954;output_sha256:417c2fd933d3c25c4d80b56b2dd08b704fbe0a75be018a679793f02982a28d7c"
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:000000000000009D:entry:8ead8c5c",
+      "source_id_decimal": 157,
+      "source_name": "Thân Thế Chi Mê",
+      "record_kind": "task",
+      "arc_id": "arc-01",
+      "beat_claim_ids": [
+        "IR021"
+      ],
+      "mapping_basis": "claim evidence directly cites this task family",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6"
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000126:entry:b5676db7",
+      "source_id_decimal": 294,
+      "source_name": "Man Thiên Quá Hải",
+      "record_kind": "task",
+      "arc_id": "arc-08",
+      "beat_claim_ids": [
+        "IR015"
+      ],
+      "mapping_basis": "claim evidence directly cites this task family",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "locator": "index:770;id:b5676db7;offset:1982968;stored:2096;expanded:6135;output_sha256:a486f389661fc8b0e75916a970145c2adad19f20c993db292dd327ccdbf31059"
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:000000000000000D:entry:f66eae4a",
+      "source_id_decimal": 13,
+      "source_name": "Người Kế Vị",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR022"
+      ],
+      "narrative_order": 1,
+      "level_gate_range": [
+        49,
+        52
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:1045;id:f66eae4a;offset:2217907;stored:4519;expanded:22799;output_sha256:ea39b2c7881e21b4d9b6b847055a6f911c5dd2b3c172cab50950950e257121d9",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:000000000000000E:entry:f350f967",
+      "source_id_decimal": 14,
+      "source_name": "Đột Biến",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR022"
+      ],
+      "narrative_order": 2,
+      "level_gate_range": [
+        53,
+        57
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:1035;id:f350f967;offset:2197939;stored:5518;expanded:27175;output_sha256:aa664f39a8d3212343457412d1aea317bb88a97b52a7b8ac765ddbab301336e4",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:000000000000000F:entry:cc5a3074",
+      "source_id_decimal": 15,
+      "source_name": "Tân Triều",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR022"
+      ],
+      "narrative_order": 3,
+      "level_gate_range": [
+        57,
+        58
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:881;id:cc5a3074;offset:2066997;stored:4984;expanded:27483;output_sha256:60b43543cf2e413369e38cdbb02c4cedb39fc7a8d84a627c017abdaf4b5a8d54",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000011:entry:be6247a5",
+      "source_id_decimal": 17,
+      "source_name": "Báo Ân",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR023"
+      ],
+      "narrative_order": 4,
+      "level_gate_range": [
+        58,
+        63
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:818;id:be6247a5;offset:118770;stored:5685;expanded:29447;output_sha256:7c30e55000fedb7279a0fbaf0ca61d109fa8d645421b59a70fa7ed251894963f",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000010:entry:bd780c88",
+      "source_id_decimal": 16,
+      "source_name": "Tìm Ra Lời Đáp",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR023"
+      ],
+      "narrative_order": 5,
+      "level_gate_range": [
+        63,
+        65
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:813;id:bd780c88;offset:113363;stored:5407;expanded:24863;output_sha256:da034b18384673572b99116b155ca23b6339f4356a50dbb59a0640f36b07c830",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000012:entry:bb6b9eb2",
+      "source_id_decimal": 18,
+      "source_name": "Bí Mật Che Giấu",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR023"
+      ],
+      "narrative_order": 6,
+      "level_gate_range": [
+        65,
+        69
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:804;id:bb6b9eb2;offset:961857;stored:5864;expanded:37180;output_sha256:5fdfe487d797cc1accd0d1632cd8bb7af992cc6c80e3709cc18ea44b17a37822",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000015:entry:b248bbe9",
+      "source_id_decimal": 21,
+      "source_name": "Súc Thế Đãi Phát",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR024"
+      ],
+      "narrative_order": 7,
+      "level_gate_range": [
+        69,
+        73
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:754;id:b248bbe9;offset:1956159;stored:5360;expanded:29669;output_sha256:c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000013:entry:b45d29cf",
+      "source_id_decimal": 19,
+      "source_name": "Âm Sai Dương Thác",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR024"
+      ],
+      "narrative_order": 8,
+      "level_gate_range": [
+        74,
+        76
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:766;id:b45d29cf;offset:1970109;stored:5492;expanded:34085;output_sha256:1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000014:entry:b14760dc",
+      "source_id_decimal": 20,
+      "source_name": "Hé Lộ Manh Mối",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR024"
+      ],
+      "narrative_order": 9,
+      "level_gate_range": [
+        77,
+        79
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:747;id:b14760dc;offset:1948646;stored:5449;expanded:34731;output_sha256:070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000016:entry:8fb2f206",
+      "source_id_decimal": 22,
+      "source_name": "Mang Ngọc Mắc Tội",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR025"
+      ],
+      "narrative_order": 10,
+      "level_gate_range": [
+        79,
+        82
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:615;id:8fb2f206;offset:1811233;stored:4864;expanded:26207;output_sha256:f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000017:entry:88a40d13",
+      "source_id_decimal": 23,
+      "source_name": "Bộ Bộ Vi Doanh",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR025"
+      ],
+      "narrative_order": 11,
+      "level_gate_range": [
+        82,
+        85
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:582;id:88a40d13;offset:767013;stored:6595;expanded:32194;output_sha256:7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "source_record_key": "task:0000000000000018:entry:85ae4420",
+      "source_id_decimal": 24,
+      "source_name": "Xua Tan Mây Mù",
+      "record_kind": "task",
+      "arc_id": "arc-06",
+      "beat_claim_ids": [
+        "IR025"
+      ],
+      "narrative_order": 12,
+      "level_gate_range": [
+        86,
+        89
+      ],
+      "mapping_basis": "validated wrapper-inline level gates and managed order; standalone same-ID content excluded",
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:568;id:85ae4420;offset:745096;stored:8235;expanded:54698;output_sha256:fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    }
+  ]
+}

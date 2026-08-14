@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.853553+00:00",
+  "count": 0,
+  "entries": [],
+  "note": "No unresolved MATERIAL narrative conflict exists at handoff generation time."
+}

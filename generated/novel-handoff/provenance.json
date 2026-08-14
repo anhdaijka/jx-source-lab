@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_novel_handoff.py",
+  "generated_at_utc": "2026-08-14T09:22:45.853849+00:00",
+  "source_repository": "anhdaijka/jx-source-lab",
+  "source_lab_commit": "8d7645a4d659d0baac86c9eafc7fc0ef18c90254",
+  "research_release": {
+    "version": "1.1",
+    "status": "COMPLETE_WITH_DOCUMENTED_UNKNOWNS",
+    "promotion": "NOVEL_PROMOTION_READY"
+  },
+  "reconciliation_artifacts": [
+    {
+      "path": "generated/release/release-manifest.json",
+      "sha256": "d89aff26f694a52b530ca2f3b54632aaa798e6c1b828979d8dfd53083f418258"
+    },
+    {
+      "path": "generated/reports/release-validation-report.json",
+      "sha256": "603d1f400e260e74728af092cafdac32bb2b35b52cc19ea38f16b4702da56bf2"
+    },
+    {
+      "path": "research/reconciliation/lore-concordance.json",
+      "sha256": "fd48ec83ee305fd77ded6977422373feb80396dca26622b6bf6b7c62e05c92a0"
+    },
+    {
+      "path": "research/reconstruction/game-story-dossiers/index.json",
+      "sha256": "cd1dbec79f0cd340f564b5b9309f0356409321749e2c566a14cf654da0a62a60"
+    },
+    {
+      "path": "research/confidence-report.json",
+      "sha256": "dfd0534345bf24af6f41207b55791080e75b1658622d57b7490ecdd0af17d8fb"
+    },
+    {
+      "path": "research/unresolved-questions.json",
+      "sha256": "df1a487d572262ff48fe07c190ed0fafe9b82fb35253bf5d299dcc126f1a8c88"
+    }
+  ],
+  "source_classes_represented": [
+    "LEGACY_LEAD",
+    "OFFICIAL_ARCHIVE",
+    "OFFICIAL_KINGSOFT_XOYO",
+    "OFFICIAL_VNG",
+    "RAW_CLIENT",
+    "RAW_SERVER"
+  ],
+  "known_story_relevant_limitations": [
+    "What are the names, affiliations and exact fate of the player’s biological parents?",
+    "Is the player demonstrably one of the guardian-descendant lines?",
+    "What is the final combined meaning and outcome of Du Long Giác and the descendants’ secret?",
+    "What is the complete cross-family causal order of Binh Qua Trung Nguyên?",
+    "Can the exact objectives and dialogue for all 77 post-50 wrapper-inline subtasks be recovered without joining unrelated same-ID standalone records?",
+    "What is the complete Man Thiên Quá Hải chain beyond the recovered local task node?",
+    "Is the unnamed returning woman at Linh Bích definitely Ân Đồng?",
+    "Which later coherent edition, if any, resolves the post-Linh-Bích story and Du Long Giác?"
+  ],
+  "persisted_user_canon_decisions": [],
+  "build_version_policy": "Exact client/server build/version identity is metadata only and is not a promotion requirement unless it changes a MATERIAL story interpretation.",
+  "raw_payload_policy": "Raw client/server files, PAKs, binaries, archives, private-input packages and bulk extracted payloads are excluded; provenance references remain textual."
+}
