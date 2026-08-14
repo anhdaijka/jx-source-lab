@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/validate_release.py",
+  "generated_at_utc": "2026-08-14T07:12:16.901378+00:00",
+  "status": "PASS",
+  "full_source_hash_verification": true,
+  "checks": {
+    "json_files_parsed": 10,
+    "artifact_hashes_checked": 16,
+    "canonical_source_hashes_checked": 20,
+    "release_checksums_checked": 20,
+    "gzip_jsonl_files_parsed": 8,
+    "claims_checked": 6,
+    "sqlite_foreign_key_checks": 1,
+    "json_schemas_parsed": 9,
+    "raw_source_hashes_checked": 15994
+  },
+  "metrics": {
+    "corpora": {
+      "05-dialogue-corpus.jsonl.gz": {
+        "records": 2747,
+        "missing_provenance": 0,
+        "invalid": 0,
+        "status_counts": {
+          "record": 2747
+        }
+      },
+      "06-npc-corpus.jsonl.gz": {
+        "records": 5728,
+        "missing_provenance": 0,
+        "invalid": 0,
+        "status_counts": {
+          "record": 5728
+        }
+      },
+      "07-sect-route-corpus.jsonl.gz": {
+        "records": 38,
+        "missing_provenance": 0,
+        "invalid": 0,
+        "status_counts": {
+          "record": 38
+        }
+      },
+      "08-martial-skill-corpus.jsonl.gz": {
+        "records": 1980,
+        "missing_provenance": 0,
+        "invalid": 0,
+        "status_counts": {
+          "record": 1980
+        }
+      },
+      "09-item-corpus.jsonl.gz": {
+        "records": 28786,
+        "missing_provenance": 0,
+        "invalid": 0,
+        "status_counts": {
+          "record": 28786
+        }
+      },
+      "10-location-map-corpus.jsonl.gz": {
+        "records": 1057,
+        "missing_provenance": 0,
+        "invalid": 0,
+        "status_counts": {
+          "record": 1057
+        }
+      },
+      "11-feature-system-corpus.jsonl.gz": {
+        "records": 10542,
+        "missing_provenance": 0,
+        "invalid": 0,
+        "status_counts": {
+          "record": 10542
+        }
+      },
+      "12-client-asset-index.jsonl.gz": {
+        "records": 399144,
+        "missing_provenance": 0,
+        "invalid": 0,
+        "status_counts": {
+          "decoded_validated": 4853,
+          "unsupported_fragment": 27519,
+          "indexed_not_decoded_protocol_scope": 366772
+        }
+      }
+    },
+    "claim_status_counts": {
+      "VERIFIED_DIRECT": 4,
+      "EDITION_DRIFT": 1,
+      "UNKNOWN": 1
+    },
+    "main_task_graph": {
+      "tasks": 424,
+      "edges": 842,
+      "chains": 544
+    },
+    "database_table_counts": {
+      "corpus_files": 18,
+      "corpus_entities": 52319,
+      "source_records": 51861,
+      "corpus_entity_sources": 53543,
+      "reference_edges": 30776,
+      "reference_edge_sources": 32769,
+      "features": 10542,
+      "assets": 399144,
+      "asset_sources": 399144
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

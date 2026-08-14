@@ -1,0 +1,47 @@
+schema_version: "1.0"
+generated_by: "manual S0 evidence transcription"
+generated_at_utc: "2026-08-14T06:26:08Z"
+sources:
+  - id: server-primary
+    root: server/
+    type: RAW_SERVER
+    origin: UNKNOWN
+    product: UNKNOWN
+    language: UNKNOWN
+    build: UNKNOWN
+    version: UNKNOWN
+    approximate_date: UNKNOWN
+    official_status: UNKNOWN
+    modified_status: UNKNOWN
+    notes: >-
+      Source root contains gameserver/ and Gamecenter/. Inventory evidence is in
+      generated/reports/source-inventory.json; package declarations exist at
+      server/gameserver/package.ini and server/Gamecenter/package.ini.
+  - id: client-primary
+    root: client/
+    type: RAW_CLIENT
+    origin: UNKNOWN
+    product: UNKNOWN
+    language: Vietnamese (configuration labels in client/config.auto)
+    build: UNKNOWN
+    version: "308 (client/version.cfg: [game.exe] Version and CurVersion)"
+    approximate_date: UNKNOWN
+    official_status: UNKNOWN
+    modified_status: UNKNOWN
+    notes: >-
+      client/package.ini declares 64 package entries. Custom update and account
+      endpoints appear in client/config.auto; they are implementation evidence,
+      not proof of official origin or modification status. Archive inventory and
+      SHA-256 values are in generated/reports/pak-reference-report.json.
+edition_drift:
+  - status: UNKNOWN
+    scope: server-primary vs client-primary
+    notes: No matching build identity or authoritative edition statement has been established.
+  - status: EDITION_DRIFT
+    scope: task_publish.pak vs companion task_publish.pak.txt
+    notes: >-
+      The client/server task_publish.pak files are byte-identical to each other,
+      and the two companion listings are byte-identical to each other. However,
+      the binary index contains 1074 unique IDs while the listing contains 1129;
+      their ID sets differ and only three binary records match a listing row on
+      both size fields. Listing paths remain leads, not an exact archive manifest.

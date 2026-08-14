@@ -1,0 +1,478 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_asset_index.py",
+  "parser_version": "jxlab client-asset-index/0.1",
+  "generated_at_utc": "2026-08-14T07:03:19.992542+00:00",
+  "output_path": "generated/records/assets/client-asset-index.jsonl.gz",
+  "output_sha256": "dc08278b436d9e5e0089156bb1d5dad8f79de8a099d98f0985f4690dad5613ea",
+  "record_count": 399144,
+  "archive_count": 56,
+  "status_counts": {
+    "decoded_validated": 4853,
+    "unsupported_fragment": 27519,
+    "indexed_not_decoded_protocol_scope": 366772,
+    "unsupported_archive_layout": 2
+  },
+  "decoded_type_counts": {
+    "text_candidate": 3755,
+    "xml": 1075,
+    "binary": 17,
+    "bmp": 5,
+    "jpeg": 1
+  },
+  "archives": [
+    {
+      "path": "client/pak/aspaksc.pak",
+      "sha256": "0fdfbd63d31dc06679aff12806ed9a0369fab4eb7714b7f52ee926ad3b7b0be1",
+      "size": 8116,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 2,
+      "text_first_scope": true
+    },
+    {
+      "path": "client/pak/aspakst.pak",
+      "sha256": "6f29db0a9d9841d91517e25f1e5679c127d5fb416f4a43fa89061a4f194790ae",
+      "size": 2568266,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 171,
+      "text_first_scope": true
+    },
+    {
+      "path": "client/pak/audio.pak",
+      "sha256": "d3db245c87d096db944a018a3de9df683458fcc8ea1b54e95e7b65d0b3ff5972",
+      "size": 66707693,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 433,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/audio2.pak",
+      "sha256": "c791b72844617327113158e274b0dab4ecd4b45b794e3fca9371ca2a7a8b1ff9",
+      "size": 28526101,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 7,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/audio3.pak",
+      "sha256": "ce7dc1f0555cc514e403fdb2ab7bb8690e7fd7310c8307a18ef131d6e0aaf44d",
+      "size": 885408586,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 6563,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/audio4.pak",
+      "sha256": "0fc97e951f8502daf1a62ee14f758b023db4319eb9128544992c5b8cc8bd2e86",
+      "size": 18740588,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 26,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/audio_01.pak",
+      "sha256": "1d67378e61c4ddb1a6a5c02e6ecb88e028dc9cbe55e7608d90e1831ae20d2527",
+      "size": 31698164,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 61,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/font.pak",
+      "sha256": "900dd20432c24729fccbb059162300e269d17b2d0ac65a0ff67aff3fb080fd2a",
+      "size": 5248935,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 4,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image.pak",
+      "sha256": "78ea014ac6539ae1ea8c642ccbc3025d354f050050d18239cefeeba5d50a5c6f",
+      "size": 352776659,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 2446,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image1168.pak",
+      "sha256": "2f059b19d3451c616d89c9c07f51302d258c3159942c16cbd4546094541e1fc5",
+      "size": 88738442,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 680,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image2016.pak",
+      "sha256": "55f41a8d0f5a6b45a7c3e5b018ca85b1b36c73f3643c0c16cf0e97a6ddf79c01",
+      "size": 242548843,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 649,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image21168.pak",
+      "sha256": "2fb87627c4c6f82439dad0c7e2726e4c55794ca9d90798091be12dd307ff3940",
+      "size": 162213043,
+      "layout_status": "variant_or_trailing_layout",
+      "index_record_count": 92,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image55.pak",
+      "sha256": "c791b72844617327113158e274b0dab4ecd4b45b794e3fca9371ca2a7a8b1ff9",
+      "size": 28526101,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 7,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image56.pak",
+      "sha256": "a7de3ac0fafc6633f2f5e222cc7d6ae316b1437e6b9a07550021cc4d35d36b74",
+      "size": 111637644,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 383,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image57.pak",
+      "sha256": "0fc97e951f8502daf1a62ee14f758b023db4319eb9128544992c5b8cc8bd2e86",
+      "size": 18740588,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 26,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image_1.pak",
+      "sha256": "ab4b0d4e2b4fc6280b5e55ca6628f41121c5e8f6b1c7c71c9bd957a68d9067cf",
+      "size": 842066035,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 2144,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image_2.pak",
+      "sha256": "f0d05515bb3f30ec0d6d54bff11a943c2f438044cc4fc69028db3ca76ebfcdb9",
+      "size": 328668292,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 4264,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image_3.pak",
+      "sha256": "cadfc56615ef143f3713d94fb40cd7389ecad85596a21459c4e4378fe3b56027",
+      "size": 467985249,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 4916,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image_4.pak",
+      "sha256": "a5a79b12f61d49e3470c49fac72fdc59b3b57fb3d4e7e50b268621016a137a42",
+      "size": 125154254,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 545,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image_5.pak",
+      "sha256": "6ac0401de63b492b93b970b79b2795aeab03939875205a48906937d169a40dc5",
+      "size": 29073094,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 2680,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image_6.pak",
+      "sha256": "cf182c6d07fdc7f7025ec671e938786d29b4ed73a85e563738b738beb31b8b69",
+      "size": 122721204,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 8538,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image_7.pak",
+      "sha256": "2ec6300c531fcc06b474c369bfdcff42ea12c6bc03c79e23e00dff09f0b16525",
+      "size": 125910060,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 920,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image_8.pak",
+      "sha256": "cf2fda93b03d2106a78f05876cf493cffd95b63c715a3637eb36ee006210a68f",
+      "size": 53333574,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 208,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image_ktvn.pak",
+      "sha256": "fa357246974da1f95ad1cae69d400d8633e82f8f373f095c4f6d2e83fd544496",
+      "size": 5085313,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 14,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/image_x.pak",
+      "sha256": "9426fc12584536148069768d69fd365e4bc0ff7a3d4001dc36de5d0d268d868d",
+      "size": 692810033,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 4194,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/imageas.pak",
+      "sha256": "b4dbf48ab501a30f32b6a37def31de8db30041c8ce6dd4a02b507ae042d7174d",
+      "size": 43218030,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 894,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/imagebv2.pak",
+      "sha256": "a4eecb7ec445f25fbabebfc7312e2d911e74a88f7f713ea9e3d0699bd79cdbe1",
+      "size": 9544,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 5,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/imageCOPYCLMM.pak",
+      "sha256": "51fca2b333ea253f451f39fb64e959534fbf0925b27325bca8981b44c827559f",
+      "size": 171608320,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 1149,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/imagehp1.pak",
+      "sha256": "588cff6ce71e6382a762cb0ed95819f7f5eacae34e29e1df696ff646c15b0231",
+      "size": 134114297,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 344,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/l10n.pak",
+      "sha256": "a6c5098bf3a3ba3d8fe132061b147f236f31682d8299804df6d32805975ea7ca",
+      "size": 116709,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 13,
+      "text_first_scope": true
+    },
+    {
+      "path": "client/pak/launcher.pak",
+      "sha256": "2f19dd705f7ad3547a9564fa3fd5dd953ce6f737e7798223542ae61d582634ee",
+      "size": 2867742,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 7,
+      "text_first_scope": true
+    },
+    {
+      "path": "client/pak/map_element.pak",
+      "sha256": "5e8f3e78be4d2a055b9177ac54dcbd094d99db2a7a53bb6b08f1c476ca62f278",
+      "size": 770227520,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 9491,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/map_publish_c.pak",
+      "sha256": "a3d9a97f9928b8b76da46c5eaba0987293e36145718cae08a8165f0e8b413a51",
+      "size": 202188981,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 162913,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/misc.pak",
+      "sha256": "3ffe20c9c253dcd8031fc0b4019b0e69c9b6e3f8e3ea2b79363352681b2e7e1c",
+      "size": 4407,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 2,
+      "text_first_scope": true
+    },
+    {
+      "path": "client/pak/script.pak",
+      "sha256": "3e47c94e24b87af9b4a036240656d28ebcdc803f4131cee368a1f632373df0f5",
+      "size": 1001348,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 540,
+      "text_first_scope": true
+    },
+    {
+      "path": "client/pak/setting.pak",
+      "sha256": "9c954912922ba6493d1d4c38a3d99111fcbc6850640b4b8a24558304a6f06556",
+      "size": 2117183,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 1360,
+      "text_first_scope": true
+    },
+    {
+      "path": "client/pak/task_publish.pak",
+      "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+      "size": 2267139,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 1074,
+      "text_first_scope": true
+    },
+    {
+      "path": "client/pak/third.pak",
+      "sha256": "ab30b818a77de300e131f2b54cf352f123ea3ad17c2acdabdccf72009ebcec6c",
+      "size": 32,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 0,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/ui.pak",
+      "sha256": "31512372955f873e12ded20ddf25514e7744fae81678c319cae6740328ebec5f",
+      "size": 865540,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 838,
+      "text_first_scope": true
+    },
+    {
+      "path": "client/pak/update.pak",
+      "sha256": "a5068f2b5b2c4b97ebfa950dbbf30cad50debc84e5ba14ab2855da8f8bf3e8c1",
+      "size": 1558999951,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 33497,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update01.pak",
+      "sha256": "847300a22192d27596fa9c29fc8d74b746c05fbe74d25ae159de0869e92c1581",
+      "size": 220998536,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 34866,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update02.pak",
+      "sha256": "342fe7c1b44d148f8ed169d0dc5d87c31fe18d6661284dd2737f99762e5371c4",
+      "size": 112757753,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 702,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update03.pak",
+      "sha256": "a3268130575715af0e7f4bdd06b3d6db728d42497fe695b181df5bac7d3a5bec",
+      "size": 466254634,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 14560,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update04.pak",
+      "sha256": "c54c2385cbf7818685e1921e94bf5d5c9fcfc5a475ff1361870c686900064e7c",
+      "size": 653083683,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 30630,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update05.pak",
+      "sha256": "72853126aa47b989c807ad6c44666fcd336562d6680488eca35cff55aa169391",
+      "size": 206058260,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 3957,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update06.pak",
+      "sha256": "fe3b6e5b2efaa012b214ce3276f46ecd838d572d49227ebde750cf6a186c565f",
+      "size": 854890095,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 19800,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update07.pak",
+      "sha256": "cf850b9c194f6d8b9b09d4a34de681325d1080f8dfd8e9f1d609e92697c5a442",
+      "size": 521445175,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 7445,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update08.pak",
+      "sha256": "fc6cbd4529d16b13c2dc799e73859e797b927b4271bfebe0f7d53fb117822ead",
+      "size": 392760839,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 2767,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update09.pak",
+      "sha256": "904c3c17b9800c385c37e36c1878f961cdf7024ea4a618e778a3ac459e42a534",
+      "size": 1945987823,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 17484,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update2018.pak",
+      "sha256": "24bfd9a7e4f815a091d5d0c78a94a4542d4784b5403d70c8b47e3077ddbc1536",
+      "size": 358925424,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 3037,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update2018hp.pak",
+      "sha256": "9d40188b9faf3bb38c7fe34ec3f47e61018c4062c551af46b644be4c0e624de3",
+      "size": 485855650,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 3937,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update2021.pak",
+      "sha256": "17184a87ce4b46d4ab702cfe54f8014163d9e1b5063db304d8851cebf3ed6cc5",
+      "size": 299055090,
+      "layout_status": "variant_or_trailing_layout",
+      "index_record_count": 1560,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/update60.pak",
+      "sha256": "0d82871c74d0e3c555c536fe2680da0a200fed5b956cbcde6569adcc32a2d350",
+      "size": 1304939397,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 6573,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/updatehp2019.pak",
+      "sha256": "408d0104aff001dd46354f45084d618f7505593dbdefe66725f51c3f2858963c",
+      "size": 98529159,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 520,
+      "text_first_scope": false
+    },
+    {
+      "path": "client/pak/wind_pak.pak",
+      "sha256": "8d8c9f1777772926530e8006e756639f7d0d08c6bf8329d5e14bb2cabd8dd02f",
+      "size": 3672181,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 20,
+      "text_first_scope": true
+    },
+    {
+      "path": "client/ui/ui.pak",
+      "sha256": "31512372955f873e12ded20ddf25514e7744fae81678c319cae6740328ebec5f",
+      "size": 865540,
+      "layout_status": "standard_index_layout",
+      "index_record_count": 838,
+      "text_first_scope": true
+    }
+  ],
+  "omissions": [
+    "Internal paths remain UNKNOWN unless a binary-exact listing is available; no path-hash algorithm is inferred.",
+    "Image/audio/update payloads are indexed structurally but not decoded in Research Release 1.0 text/config-first scope.",
+    "Fragment entries and two variant archive layouts remain unsupported and are explicitly counted."
+  ]
+}

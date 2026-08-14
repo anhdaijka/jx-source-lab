@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_research.py",
+  "parser_version": "jxlab research-audit/0.1",
+  "generated_at_utc": "2026-08-14T07:07:07.365907+00:00",
+  "entries": [
+    {
+      "question_id": "edition-identity",
+      "status": "UNKNOWN",
+      "question": "What exact producer edition/build lineage do the supplied client and server trees represent?",
+      "impact": "Launch-era or producer-canon claims cannot be promoted.",
+      "next_evidence": "Authoritative build metadata or official archive provenance."
+    },
+    {
+      "question_id": "pak-fragment-format",
+      "status": "UNKNOWN",
+      "question": "What is the fragment payload subformat for flag 0x10000000?",
+      "impact": "27,519 client entries remain structurally indexed but not decoded.",
+      "next_evidence": "XPackFile fragment-read disassembly and copied-sample validation."
+    },
+    {
+      "question_id": "pak-variant-layouts",
+      "status": "UNKNOWN",
+      "question": "What layouts are used by image21168.pak and update2021.pak?",
+      "impact": "Two archives are recorded but not entry-indexed.",
+      "next_evidence": "Loader branch evidence for these variants."
+    },
+    {
+      "question_id": "pack-path-hash",
+      "status": "UNKNOWN",
+      "question": "How are internal paths mapped to PACK entry IDs?",
+      "impact": "Most client asset internal paths remain UNKNOWN.",
+      "next_evidence": "Hash routine/source or binary-exact companion listings."
+    },
+    {
+      "question_id": "official-evidence",
+      "status": "UNKNOWN",
+      "question": "Which raw-build claims are confirmed by official Kingsoft/Xoyo/VNG sources?",
+      "impact": "S4 official cross-source coverage is absent.",
+      "next_evidence": "Saved official pages/archives with URLs, dates, and hashes."
+    },
+    {
+      "question_id": "ambiguous-references",
+      "status": "UNKNOWN",
+      "question": "Which additional keys disambiguate class/name-only joins?",
+      "impact": "5,600 edges remain ambiguous.",
+      "next_evidence": "Runtime loader keys or additional composite fields."
+    },
+    {
+      "question_id": "unresolved-references",
+      "status": "UNKNOWN",
+      "question": "What sources resolve currently absent target IDs?",
+      "impact": "600 edges remain unresolved.",
+      "next_evidence": "Edition-matched NPC/map/item tables or loader behavior."
+    }
+  ]
+}

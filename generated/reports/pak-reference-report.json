@@ -1,0 +1,961 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/jxlab.py",
+  "generated_at_utc": "2026-08-14T07:34:53.765594+00:00",
+  "input_scope": {
+    "client": "client",
+    "server": "server",
+    "official_pages": "official-pages",
+    "private_input": "private-input"
+  },
+  "hashes_included": false,
+  "archives": [
+    {
+      "source_root": "client",
+      "path": "client/pak/aspaksc.pak",
+      "size": 8116,
+      "sha256": null,
+      "header_hex": "5041434b02000000941f0000200000003327b8c43d38a35d0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/aspakst.pak",
+      "size": 2568266,
+      "sha256": null,
+      "header_hex": "5041434bab0000009a25270020000000c1e2290d8ea210600000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/audio.pak",
+      "size": 66707693,
+      "sha256": null,
+      "header_hex": "5041434bb1010000ddc5f90320000000ee421a506baf3e480000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/audio2.pak",
+      "size": 28526101,
+      "sha256": null,
+      "header_hex": "5041434b07000000a545b30120000000d392d4b93451f9560000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/audio3.pak",
+      "size": 885408586,
+      "sha256": null,
+      "header_hex": "5041434ba31900001aa9c434200000000eb6ef809ea1595d0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/audio4.pak",
+      "size": 18740588,
+      "sha256": null,
+      "header_hex": "5041434b1a000000ccf31d0120000000da1dcd8c7f117d570000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/audio_01.pak",
+      "size": 31698164,
+      "sha256": null,
+      "header_hex": "5041434b3d00000024a9e30120000000d4d251938af845570000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/font.pak",
+      "size": 5248935,
+      "sha256": null,
+      "header_hex": "5041434b040000006717500020000000350bdbc6d42f4e4e0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image.pak",
+      "size": 352776659,
+      "sha256": null,
+      "header_hex": "5041434b8e090000f35806152000000099cd66e9fc71675e0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image1168.pak",
+      "size": 88738442,
+      "sha256": null,
+      "header_hex": "5041434ba80200000ae0490520000000520fe1d3e2850e600000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image2016.pak",
+      "size": 242548843,
+      "sha256": null,
+      "header_hex": "5041434b89020000dbd7740e200000007281c3bcb22e79570000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image21168.pak",
+      "size": 162213043,
+      "sha256": null,
+      "header_hex": "5041434b5c000000e526ab0920000000700881841d4fb25f0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image55.pak",
+      "size": 28526101,
+      "sha256": null,
+      "header_hex": "5041434b07000000a545b30120000000d392d4b93451f9560000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image56.pak",
+      "size": 111637644,
+      "sha256": null,
+      "header_hex": "5041434b7f0100009c5ca70620000000b11cb1812d23705c0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image57.pak",
+      "size": 18740588,
+      "sha256": null,
+      "header_hex": "5041434b1a000000ccf31d0120000000da1dcd8c7f117d570000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/imageas.pak",
+      "size": 43218030,
+      "sha256": null,
+      "header_hex": "5041434b7e0300008e3c930220000000a013d1b05932a35d0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/imagebv2.pak",
+      "size": 9544,
+      "sha256": null,
+      "header_hex": "5041434b05000000f824000020000000539981b0ce683e560000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/imageCOPYCLMM.pak",
+      "size": 171608320,
+      "sha256": null,
+      "header_hex": "5041434b7d04000030413a0a200000004b02145a344ba5600000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/imagehp1.pak",
+      "size": 134114297,
+      "sha256": null,
+      "header_hex": "5041434b580100007956fe0720000000c225be5cffc421570000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image_1.pak",
+      "size": 842066035,
+      "sha256": null,
+      "header_hex": "5041434b600800007362303220000000d0f1482ccfc43e480000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image_2.pak",
+      "size": 328668292,
+      "sha256": null,
+      "header_hex": "5041434ba8100000040a961320000000e3cbb203c6c63e480000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image_3.pak",
+      "size": 467985249,
+      "sha256": null,
+      "header_hex": "5041434b3413000021b0e31b2000000052bcf000e2c93e480000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image_4.pak",
+      "size": 125154254,
+      "sha256": null,
+      "header_hex": "5041434b21020000be917507200000007754d2869aca3e480000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image_5.pak",
+      "size": 29073094,
+      "sha256": null,
+      "header_hex": "5041434b780a000046f7ba0120000000d17575dc05cb3e480000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image_6.pak",
+      "size": 122721204,
+      "sha256": null,
+      "header_hex": "5041434b5a210000147e4e0720000000e0b05cb42170d04b0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image_7.pak",
+      "size": 125910060,
+      "sha256": null,
+      "header_hex": "5041434b98030000ac02810720000000cb6f910bdf6f2b490000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image_8.pak",
+      "size": 53333574,
+      "sha256": null,
+      "header_hex": "5041434bd000000046c12d03200000007a9192fe05ba62510000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image_ktvn.pak",
+      "size": 5085313,
+      "sha256": null,
+      "header_hex": "5041434b0e000000a1974d0020000000b37534bd31f3195d0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/image_x.pak",
+      "size": 692810033,
+      "sha256": null,
+      "header_hex": "5041434b62100000116b4a292000000065e4b011cf35e7620000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/l10n.pak",
+      "size": 116709,
+      "sha256": null,
+      "header_hex": "5041434b0d00000015c7010020000000097ba22663c1f8570000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/launcher.pak",
+      "size": 2867742,
+      "sha256": null,
+      "header_hex": "5041434b07000000aec12b00200000002ce16d2905fdd0530000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/map_element.pak",
+      "size": 770227520,
+      "sha256": null,
+      "header_hex": "5041434b13250000106ce62d200000006b2a8d25156ded530000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/map_publish_c.pak",
+      "size": 202188981,
+      "sha256": null,
+      "header_hex": "5041434b617c0200a562e50b2000000066a90ea328ae0f540000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/misc.pak",
+      "size": 4407,
+      "sha256": null,
+      "header_hex": "5041434b0200000017110000200000001fdb462cb1b03e480000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/script.pak",
+      "size": 1001348,
+      "sha256": null,
+      "header_hex": "5041434b1c020000c4250f002000000037584ab31d9a5b4c0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/setting.pak",
+      "size": 2117183,
+      "sha256": null,
+      "header_hex": "5041434b500500003ff91f00200000002509c4d005dc704d0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/task_publish.pak",
+      "size": 2267139,
+      "sha256": null,
+      "header_hex": "5041434b32040000e3542200200000001e7a5c584b8d944a0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/third.pak",
+      "size": 32,
+      "sha256": null,
+      "header_hex": "5041434b00000000200000002000000000000000a0c7294b0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/ui.pak",
+      "size": 865540,
+      "sha256": null,
+      "header_hex": "5041434b46030000a4000d0020000000bdb0897a1d9a5b4c0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update.pak",
+      "size": 1558999951,
+      "sha256": null,
+      "header_hex": "5041434bd9820000ff45e45c200000004c4bcbef192a074c0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update01.pak",
+      "size": 220998536,
+      "sha256": null,
+      "header_hex": "5041434b3288000068a8230d2000000091b47cb0d897754a0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update02.pak",
+      "size": 112757753,
+      "sha256": null,
+      "header_hex": "5041434bbe0200001960b80620000000a4df1a25635dbc500000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update03.pak",
+      "size": 466254634,
+      "sha256": null,
+      "header_hex": "5041434be03800002aedc61b2000000047ac0901bf1412510000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update04.pak",
+      "size": 653083683,
+      "sha256": null,
+      "header_hex": "5041434ba6770000c3c9e52620000000b6a5902cd9492f510000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update05.pak",
+      "size": 206058260,
+      "sha256": null,
+      "header_hex": "5041434b750f0000c43b470c200000009788b1d459c115520000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update06.pak",
+      "size": 854890095,
+      "sha256": null,
+      "header_hex": "5041434b584d0000efc0ef3220000000a25d4e40bc1307540000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update07.pak",
+      "size": 521445175,
+      "sha256": null,
+      "header_hex": "5041434b151d0000e7cd121f20000000124f35f019bb09540000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update08.pak",
+      "size": 392760839,
+      "sha256": null,
+      "header_hex": "5041434bcf0a00001761681720000000423a0242fca130560000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update09.pak",
+      "size": 1945987823,
+      "sha256": null,
+      "header_hex": "5041434b4c4400002f26f97320000000a05577104defaa570000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update2018.pak",
+      "size": 358925424,
+      "sha256": null,
+      "header_hex": "5041434bdd0b0000a0066415200000007018230d1995f75d0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update2018hp.pak",
+      "size": 485855650,
+      "sha256": null,
+      "header_hex": "5041434b610f0000929bf41c200000003acfbbc4c006775a0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update2021.pak",
+      "size": 299055090,
+      "sha256": null,
+      "header_hex": "5041434b18060000add5d211200000005bdd5466cceee95f0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/update60.pak",
+      "size": 1304939397,
+      "sha256": null,
+      "header_hex": "5041434bad190000b530c64d20000000371bfd906f5c4a5f0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/updatehp2019.pak",
+      "size": 98529159,
+      "sha256": null,
+      "header_hex": "5041434b08020000074fdf0520000000e55955927bde365c0000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/pak/wind_pak.pak",
+      "size": 3672181,
+      "sha256": null,
+      "header_hex": "5041434b1400000035073800200000005c2c2951aa6d57500000000000000000"
+    },
+    {
+      "source_root": "client",
+      "path": "client/ui/ui.pak",
+      "size": 865540,
+      "sha256": null,
+      "header_hex": "5041434b46030000a4000d0020000000bdb0897a1d9a5b4c0000000000000000"
+    },
+    {
+      "source_root": "server",
+      "path": "server/Gamecenter/pak/l10n.pak",
+      "size": 80050,
+      "sha256": null,
+      "header_hex": "5041434b0a0000001238010020000000d5eaf924ec70d54b0000000000000000"
+    },
+    {
+      "source_root": "server",
+      "path": "server/Gamecenter/pak/script.pak",
+      "size": 597187,
+      "sha256": null,
+      "header_hex": "5041434b0c010000030c0900200000005bd044a6eb70d54b0000000000000000"
+    },
+    {
+      "source_root": "server",
+      "path": "server/Gamecenter/pak/setting.pak",
+      "size": 176054,
+      "sha256": null,
+      "header_hex": "5041434bc0000000b6a30200200000008a0bd3f4eb70d54b0000000000000000"
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/l10n.pak",
+      "size": 80050,
+      "sha256": null,
+      "header_hex": "5041434b0a0000001238010020000000d5eaf924ec70d54b0000000000000000"
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/map_publish.pak",
+      "size": 32,
+      "sha256": null,
+      "header_hex": "5041434b000000002000000020000000000000003ee457480000000000000000"
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/map_publish1.pak",
+      "size": 165230,
+      "sha256": null,
+      "header_hex": "5041434b950400001e3c0200200000000769a303f73a765c0000000000000000"
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/map_publish_s.pak",
+      "size": 13827849,
+      "sha256": null,
+      "header_hex": "5041434b6e7d01002928bb00200000002d74cf5335c14d500000000000000000"
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/misc.pak",
+      "size": 1524607,
+      "sha256": null,
+      "header_hex": "5041434b030000004f4317002000000064a45a5a131f60490000000000000000"
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/script.pak",
+      "size": 2527051,
+      "sha256": null,
+      "header_hex": "5041434bd20500002b32260020000000b7e77954eb70d54b0000000000000000"
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/setting.pak",
+      "size": 3805312,
+      "sha256": null,
+      "header_hex": "5041434b3c0f0000c01c3900200000009b3d3e41ec70d54b0000000000000000"
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/task_publish.pak",
+      "size": 2267139,
+      "sha256": null,
+      "header_hex": "5041434b32040000e3542200200000001e7a5c584b8d944a0000000000000000"
+    }
+  ],
+  "code_text_references": [
+    {
+      "source_root": "client",
+      "path": "client/game.exe.exe.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        "package",
+        "compress"
+      ],
+      "samples": [
+        {
+          "line": 5,
+          "text": "+  compressed 3313664 -> 1159715 bytes"
+        },
+        {
+          "line": 9,
+          "text": "+  compressed 376832 -> 126955 bytes"
+        },
+        {
+          "line": 13,
+          "text": "+  compressed 49152 -> 30532 bytes"
+        },
+        {
+          "line": 23,
+          "text": "bootstub compressed to 61440 bytes"
+        },
+        {
+          "line": 26,
+          "text": "PACKING DEFAULT PACKAGE"
+        },
+        {
+          "line": 27,
+          "text": "using ZIP compression"
+        },
+        {
+          "line": 28,
+          "text": "setting compression threshold to 95%"
+        }
+      ]
+    },
+    {
+      "source_root": "client",
+      "path": "client/package.ini",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak",
+        "package"
+      ],
+      "samples": [
+        {
+          "line": 1,
+          "text": "[Package]"
+        },
+        {
+          "line": 3,
+          "text": "0=image2016.pak"
+        },
+        {
+          "line": 4,
+          "text": "1=update08.pak"
+        },
+        {
+          "line": 5,
+          "text": "2=update07.pak"
+        },
+        {
+          "line": 6,
+          "text": "3=update06.pak"
+        },
+        {
+          "line": 7,
+          "text": "4=update05.pak"
+        },
+        {
+          "line": 8,
+          "text": "5=mini_image.pak"
+        },
+        {
+          "line": 9,
+          "text": "6=mini_setup.pak"
+        },
+        {
+          "line": 10,
+          "text": "7=tag.pak"
+        },
+        {
+          "line": 11,
+          "text": "8=update04.pak"
+        },
+        {
+          "line": 12,
+          "text": "9=update03.pak"
+        },
+        {
+          "line": 13,
+          "text": "10=update02.pak"
+        }
+      ]
+    },
+    {
+      "source_root": "client",
+      "path": "client/tppackage.ini",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak",
+        "package"
+      ],
+      "samples": [
+        {
+          "line": 1,
+          "text": "[Package]"
+        },
+        {
+          "line": 3,
+          "text": "0=image2016.pak"
+        },
+        {
+          "line": 4,
+          "text": "1=update08.pak"
+        },
+        {
+          "line": 5,
+          "text": "2=update07.pak"
+        },
+        {
+          "line": 6,
+          "text": "3=update06.pak"
+        },
+        {
+          "line": 7,
+          "text": "4=update05.pak"
+        },
+        {
+          "line": 8,
+          "text": "5=mini_image.pak"
+        },
+        {
+          "line": 9,
+          "text": "6=mini_setup.pak"
+        },
+        {
+          "line": 10,
+          "text": "7=tag.pak"
+        },
+        {
+          "line": 11,
+          "text": "8=update04.pak"
+        },
+        {
+          "line": 12,
+          "text": "9=update03.pak"
+        },
+        {
+          "line": 13,
+          "text": "10=update02.pak"
+        }
+      ]
+    },
+    {
+      "source_root": "client",
+      "path": "client/setting/event/fengceprice/account.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        "archive"
+      ],
+      "samples": [
+        {
+          "line": 9860,
+          "text": "xtu_archive"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/Gamecenter/package.ini",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak",
+        "package"
+      ],
+      "samples": [
+        {
+          "line": 1,
+          "text": "[Package]"
+        },
+        {
+          "line": 3,
+          "text": "0=l10n.pak"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/Gamecenter/l10n/l10n.pak.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 4,
+          "text": "1\t20a2d766\t2010-4-26 17:41:19\t\\l10n\\l10n.pak.txt\t973\t579\t4\tcf7eff25"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/Gamecenter/l10n/list.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 4,
+          "text": "1\t20a2d766\t2010-4-26 17:41:19\t\\l10n\\l10n.pak.txt\t973\t579\t4\tcf7eff25"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/Gamecenter/pak/l10n.pak.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 4,
+          "text": "1\t20a2d766\t2010-4-26 18:48:10\t\\l10n\\l10n.pak.txt\t802\t511\t4\t226378c"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/Gamecenter/pak/script.pak.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 215,
+          "text": "212\tc501ffed\t2010-4-26 18:54:32\t\\script\\script.pak.txt\t24885\t11174\t4\t8f0e33fd"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/Gamecenter/pak/setting.pak.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 137,
+          "text": "134\tb033ea2e\t2010-4-26 18:54:33\t\\setting\\setting.pak.txt\t19154\t7023\t4\tac48f35a"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/Gamecenter/script/script.pak.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 215,
+          "text": "212\tc501ffed\t2010-4-26 18:48:8\t\\script\\script.pak.txt\t24886\t11169\t4\t712fa9b"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/Gamecenter/setting/setting.pak.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 137,
+          "text": "134\tb033ea2e\t2010-4-26 18:48:8\t\\setting\\setting.pak.txt\t19154\t7027\t4\t2035d458"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/package.ini",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak",
+        "package"
+      ],
+      "samples": [
+        {
+          "line": 1,
+          "text": "[Package]"
+        },
+        {
+          "line": 3,
+          "text": "0=l10n.pak"
+        },
+        {
+          "line": 4,
+          "text": "1=map_publish_s.pak"
+        },
+        {
+          "line": 5,
+          "text": "2=task_publish.pak"
+        },
+        {
+          "line": 6,
+          "text": "3=misc.pak"
+        },
+        {
+          "line": 7,
+          "text": "4=map_publish_sj.pak"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/l10n.pak.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 4,
+          "text": "1\t20a2d766\t2010-4-26 18:48:11\t\\l10n\\l10n.pak.txt\t974\t578\t4\t944df43a"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/script.pak.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 1135,
+          "text": "1132\tc501ffed\t2010-4-26 18:54:33\t\\script\\script.pak.txt\t142020\t60889\t4\t163abd62"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/l10n/l10n.pak.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 4,
+          "text": "1\t20a2d766\t2010-4-26 17:41:19\t\\l10n\\l10n.pak.txt\t973\t579\t4\tcf7eff25"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/pak/l10n/list.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 4,
+          "text": "1\t20a2d766\t2010-4-26 17:41:19\t\\l10n\\l10n.pak.txt\t973\t579\t4\tcf7eff25"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/script/script.pak.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        ".pak"
+      ],
+      "samples": [
+        {
+          "line": 1135,
+          "text": "1132\tc501ffed\t2010-4-26 18:48:9\t\\script\\script.pak.txt\t142020\t60894\t4\t6177ef50"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/script/misc/c2scall.lua",
+      "encoding": "utf-8-sig",
+      "hits": [
+        "fileindex"
+      ],
+      "samples": [
+        {
+          "line": 330,
+          "text": "\tlocal szName, nFileIndex, nEndFlag, szMsg = unpack(arg);"
+        },
+        {
+          "line": 331,
+          "text": "\tif (type(szName) ~= \"string\" or type(nFileIndex) ~= \"number\" or type(nEndFlag) ~= \"number\" or type(szMsg) ~= \"string\") then"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/script/player/antibot/clientprocessinfo.lua",
+      "encoding": "gb18030",
+      "hits": [
+        ".pak",
+        "fileindex"
+      ],
+      "samples": [
+        {
+          "line": 118,
+          "text": "\t\tszLocalName = szLocalName..\".pak\";"
+        },
+        {
+          "line": 119,
+          "text": "\telseif (string.sub(szLocalName, -4, -1) ~= \".pak\") then"
+        },
+        {
+          "line": 120,
+          "text": "\t\tszLocalName = szLocalName..\".pak\";"
+        },
+        {
+          "line": 147,
+          "text": "function tbCProInfo:RecvData(szName, nFileIndex, nPackCount, szMsg)"
+        },
+        {
+          "line": 167,
+          "text": "\tif (nFileIndex == -1) then"
+        },
+        {
+          "line": 170,
+          "text": "\telseif (nFileIndex == -2) then"
+        },
+        {
+          "line": 175,
+          "text": "\t\t\ttbOne.szFileText[nFileIndex][tbOne.nCount + 1] = szMsg;"
+        },
+        {
+          "line": 180,
+          "text": "\t\t\ttbOne.szFileText[nFileIndex][tbOne.nCount] = szMsg;"
+        },
+        {
+          "line": 212,
+          "text": "\t\tlocal nFileIndex, nPackCount, szMsg = SendClientData(__nBytes__);"
+        },
+        {
+          "line": 213,
+          "text": "\t\tme.CallServerScript({\"RecvCData\", \"RecvData\", me.szName, nFileIndex, nPackCount, szMsg});"
+        }
+      ]
+    },
+    {
+      "source_root": "server",
+      "path": "server/gameserver/setting/event/fengceprice/account.txt",
+      "encoding": "utf-8-sig",
+      "hits": [
+        "archive"
+      ],
+      "samples": [
+        {
+          "line": 9860,
+          "text": "xtu_archive"
+        }
+      ]
+    }
+  ]
+}

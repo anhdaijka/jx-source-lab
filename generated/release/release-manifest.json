@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0",
+  "release_name": "JX Source Lab Research Release",
+  "release_version": "1.0",
+  "generator": "scripts/build_release.py",
+  "generated_at_utc": "2026-08-14T07:09:57.639177+00:00",
+  "release_status": "COMPLETE_WITH_DOCUMENTED_UNKNOWNS",
+  "novel_promotion": "NOT_AUTHORIZED_FOR_NOVEL_PROMOTION",
+  "artifacts": [
+    {
+      "deliverable": "source manifest",
+      "path": "generated/release/01-source-manifest.json",
+      "sha256": "e71ac71ede84f29b036b9d55d31d18c4126c5f44ee307e44a27da5caef954db1",
+      "size": 5640476,
+      "record_count": null,
+      "canonical_sources": [
+        {
+          "path": "generated/reports/source-inventory.json",
+          "sha256": "e71ac71ede84f29b036b9d55d31d18c4126c5f44ee307e44a27da5caef954db1"
+        }
+      ]
+    },
+    {
+      "deliverable": "edition matrix",
+      "path": "generated/release/02-edition-matrix.json",
+      "sha256": "bb1e476cf59e6a9dd76dd31e502d9e7566025698ad1c93fc0c7c1e39198c9ec8",
+      "size": 11567,
+      "record_count": null,
+      "canonical_sources": [
+        {
+          "path": "research/edition-drift-ledger.json",
+          "sha256": "847e9d78959810388df9f95e2e5c67003632f72aabaea3515cfb955ea61f002c"
+        },
+        {
+          "path": "manifests/edition-manifest.local.yml",
+          "sha256": "7463176aa849bc1507f9ccfb0a395496288e55f575c8ab4799b938fcb8ddbb79"
+        }
+      ]
+    },
+    {
+      "deliverable": "main task graph",
+      "path": "generated/release/03-main-task-graph.json",
+      "sha256": "685fa5f2aacc32ff731d06ad79dc8b8beb2409e5f6e118bde47ab6a607ee79df",
+      "size": 1037830,
+      "record_count": null,
+      "canonical_sources": [
+        {
+          "path": "research/reconstruction/main-task-graph.json",
+          "sha256": "685fa5f2aacc32ff731d06ad79dc8b8beb2409e5f6e118bde47ab6a607ee79df"
+        }
+      ]
+    },
+    {
+      "deliverable": "configured non-main task index",
+      "path": "generated/release/04-configured-non-main-task-index.json",
+      "sha256": "72f8fa88365c5c98d032a121970abc91c5933b4ee89b4b762acd8a18fc74b8e1",
+      "size": 6857,
+      "record_count": null,
+      "canonical_sources": [
+        {
+          "path": "research/reconstruction/configured-non-main-task-index.json",
+          "sha256": "72f8fa88365c5c98d032a121970abc91c5933b4ee89b4b762acd8a18fc74b8e1"
+        }
+      ]
+    },
+    {
+      "deliverable": "dialogue corpus",
+      "path": "generated/release/05-dialogue-corpus.jsonl.gz",
+      "sha256": "353993f3f9b56e23f2e7db74e7c266c17da162cfec2cd01180542dfaa3c60ff8",
+      "size": 320609,
+      "record_count": 2747,
+      "canonical_sources": [
+        {
+          "path": "generated/records/dialogue/dialognpc-records.jsonl",
+          "sha256": "40ff4729631a3526ecc62cbda91a9a56c99afaa18eedd5d73ec9b941bf5da668"
+        },
+        {
+          "path": "generated/records/dialogue/task-dialogue-records.jsonl",
+          "sha256": "8d0b4e378e769df130b2bee4e1527ddc298932430c90dba0ddca7f634a3121f2"
+        },
+        {
+          "path": "generated/records/dialogue/localization-records.jsonl",
+          "sha256": "5fa16c8348ba9764d1b1ea4fdcb79ec246144da0318ad3f71e6c3c1677d96713"
+        }
+      ]
+    },
+    {
+      "deliverable": "NPC corpus",
+      "path": "generated/release/06-npc-corpus.jsonl.gz",
+      "sha256": "650142755625a5d12053b190e2ace3089fc5f32a952e1cbd7790e989ff1ac599",
+      "size": 315976,
+      "record_count": 5728,
+      "canonical_sources": [
+        {
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "sha256": "30e00cdd2d2057d2784d2388d9a57f1c87773607c590f36005de033ea5010190"
+        }
+      ]
+    },
+    {
+      "deliverable": "sect and route corpus",
+      "path": "generated/release/07-sect-route-corpus.jsonl.gz",
+      "sha256": "06e91c59e527811a5a8b4c13eedea19beb7b2ec7270e0d64c6dbdbcbbe2112b9",
+      "size": 1606,
+      "record_count": 38,
+      "canonical_sources": [
+        {
+          "path": "generated/records/sects/faction-records.jsonl",
+          "sha256": "ffc3e80be0e4021ca56a01cc6cccc7befec61618e43a95335c4f3f2005d3996f"
+        },
+        {
+          "path": "generated/records/sects/route-records.jsonl",
+          "sha256": "74fa99a18009e0f9d7863ca69aa1b2b2755f14d2596f8f52f302efdbb5188c4b"
+        }
+      ]
+    },
+    {
+      "deliverable": "martial skill corpus",
+      "path": "generated/release/08-martial-skill-corpus.jsonl.gz",
+      "sha256": "61b7cd5f72ff598c803b2cfb170ab6fc6be98ac4d1f9c7fd5b404457d8377401",
+      "size": 182054,
+      "record_count": 1980,
+      "canonical_sources": [
+        {
+          "path": "generated/records/skills/skill-records.jsonl",
+          "sha256": "f9dc058b7f92120bd5795dd3b18d2fedd619fd6e87a22e386e5777be7b5b2610"
+        }
+      ]
+    },
+    {
+      "deliverable": "item corpus",
+      "path": "generated/release/09-item-corpus.jsonl.gz",
+      "sha256": "c1d348a81fc54020dd1c8b45f9d118eb64aa5c289ef530277368fdfc41d1c5cd",
+      "size": 2222475,
+      "record_count": 28786,
+      "canonical_sources": [
+        {
+          "path": "generated/records/items/item-records.jsonl",
+          "sha256": "4a85f59ae4725a24a2a4dddb3e65ddb96a2bc06048fac6e7eb9033cb038a4cfc"
+        }
+      ]
+    },
+    {
+      "deliverable": "location and map corpus",
+      "path": "generated/release/10-location-map-corpus.jsonl.gz",
+      "sha256": "072c824037388408b11bf8109f3b9dcdb9c55cfae0a589508ca4a203c3e4a1e9",
+      "size": 41146,
+      "record_count": 1057,
+      "canonical_sources": [
+        {
+          "path": "generated/records/locations/location-records.jsonl",
+          "sha256": "bf4fa08afb77ed7447def991fc0693118a1dfc225dd50a43d9a96957dcd5b88b"
+        }
+      ]
+    },
+    {
+      "deliverable": "feature and system corpus",
+      "path": "generated/release/11-feature-system-corpus.jsonl.gz",
+      "sha256": "214ee2c08119b714c4c598facbbb025c8a3c2921692a68de0e4168e98dae8e15",
+      "size": 520521,
+      "record_count": 10542,
+      "canonical_sources": [
+        {
+          "path": "generated/records/features/feature-records.jsonl",
+          "sha256": "d5adc8537bebf8fe1c55866178b8717d545b76f50047d89be1b140cbff7f0349"
+        }
+      ]
+    },
+    {
+      "deliverable": "client asset index",
+      "path": "generated/release/12-client-asset-index.jsonl.gz",
+      "sha256": "dc08278b436d9e5e0089156bb1d5dad8f79de8a099d98f0985f4690dad5613ea",
+      "size": 17573698,
+      "record_count": 399144,
+      "canonical_sources": [
+        {
+          "path": "generated/records/assets/client-asset-index.jsonl.gz",
+          "sha256": "dc08278b436d9e5e0089156bb1d5dad8f79de8a099d98f0985f4690dad5613ea"
+        }
+      ]
+    },
+    {
+      "deliverable": "game-story evidence reconstruction",
+      "path": "generated/release/13-game-story-reconstruction.json",
+      "sha256": "359fb0ba6e339b3c2a9bd2a73c533d41f3e7c787bc7dbdea77298a9dee501c69",
+      "size": 1372590,
+      "record_count": null,
+      "canonical_sources": [
+        {
+          "path": "research/reconstruction/game-story-evidence-graph.json",
+          "sha256": "359fb0ba6e339b3c2a9bd2a73c533d41f3e7c787bc7dbdea77298a9dee501c69"
+        }
+      ]
+    },
+    {
+      "deliverable": "unresolved questions",
+      "path": "generated/release/14-unresolved-questions.json",
+      "sha256": "7d7a55c49ac36fb72e929f0a4fb6447a568c37b1d1b10ab79e3af3114ffb6876",
+      "size": 2455,
+      "record_count": null,
+      "canonical_sources": [
+        {
+          "path": "research/unresolved-questions.json",
+          "sha256": "7d7a55c49ac36fb72e929f0a4fb6447a568c37b1d1b10ab79e3af3114ffb6876"
+        }
+      ]
+    },
+    {
+      "deliverable": "edition-drift and contradiction ledger",
+      "path": "generated/release/15-edition-drift-ledger.json",
+      "sha256": "6b88b7c367e77e994a0ddc7fde48f263cd95380676c6dbce3dc2ed6364212e40",
+      "size": 5967,
+      "record_count": null,
+      "canonical_sources": [
+        {
+          "path": "research/contradiction-ledger.json",
+          "sha256": "6b88b7c367e77e994a0ddc7fde48f263cd95380676c6dbce3dc2ed6364212e40"
+        }
+      ]
+    },
+    {
+      "deliverable": "confidence report",
+      "path": "generated/release/16-confidence-report.json",
+      "sha256": "f2faae27fc3b2a5836738f433153f4933715b374c21ae2af83bb3c45859e20a1",
+      "size": 4954,
+      "record_count": null,
+      "canonical_sources": [
+        {
+          "path": "research/confidence-report.json",
+          "sha256": "f2faae27fc3b2a5836738f433153f4933715b374c21ae2af83bb3c45859e20a1"
+        }
+      ]
+    }
+  ],
+  "validation_requirements": [
+    "artifact SHA-256",
+    "gzip JSONL parse",
+    "JSON parse",
+    "source provenance coverage",
+    "SQLite foreign keys",
+    "claim status audit"
+  ]
+}

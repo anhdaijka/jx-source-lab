@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/jxlab.py",
+  "generated_at_utc": "2026-08-14T06:45:20.887047+00:00",
+  "input_scope": {
+    "client": "client",
+    "server": "server",
+    "official_pages": "official-pages",
+    "private_input": "private-input"
+  },
+  "parser_version": "jxlab pak-extractor/0.1",
+  "archive_path": "client/pak/aspaksc.pak",
+  "archive_sha256": "0fdfbd63d31dc06679aff12806ed9a0369fab4eb7714b7f52ee926ad3b7b0be1",
+  "listing": {
+    "status": "not_available",
+    "path": "client/pak/aspaksc.pak.txt"
+  },
+  "payloads_written": false,
+  "selection": {
+    "entry_ids": [],
+    "max_entries": null
+  },
+  "status_counts": {
+    "validated": 2
+  },
+  "records": [
+    {
+      "index": 0,
+      "id_hex": "80e93cfb",
+      "offset": 32,
+      "expanded_size": 49528,
+      "stored_size": 6445,
+      "fragment_flag": false,
+      "method_hex": "0x20000000",
+      "packed_method_and_size_hex": "0x2000192d",
+      "archive_path": "client/pak/aspaksc.pak",
+      "archive_sha256": "0fdfbd63d31dc06679aff12806ed9a0369fab4eb7714b7f52ee926ad3b7b0be1",
+      "archive_locator": "index:0;offset:32;stored:6445",
+      "evidence_class": "RAW_CLIENT",
+      "internal_path": null,
+      "status": "validated",
+      "output_size": 49528,
+      "output_sha256": "599d514db95b8ca62f2364324b27f08a695fbb5a2859803077fdeecfa923099f",
+      "file_type": "binary",
+      "dimensions": null,
+      "encoding_candidate": null,
+      "signature_hex": "6c6f63616c207462203d207b200d0a20"
+    },
+    {
+      "index": 1,
+      "id_hex": "ee1a9540",
+      "offset": 6477,
+      "expanded_size": 4232,
+      "stored_size": 1607,
+      "fragment_flag": false,
+      "method_hex": "0x20000000",
+      "packed_method_and_size_hex": "0x20000647",
+      "archive_path": "client/pak/aspaksc.pak",
+      "archive_sha256": "0fdfbd63d31dc06679aff12806ed9a0369fab4eb7714b7f52ee926ad3b7b0be1",
+      "archive_locator": "index:1;offset:6477;stored:1607",
+      "evidence_class": "RAW_CLIENT",
+      "internal_path": null,
+      "status": "validated",
+      "output_size": 4232,
+      "output_sha256": "602d764a198e6670104e4db135ed7b37a96e13bfa5d0d882043b51056d53da99",
+      "file_type": "binary",
+      "dimensions": null,
+      "encoding_candidate": null,
+      "signature_hex": "5265717569726528225c5c7363726970"
+    }
+  ]
+}

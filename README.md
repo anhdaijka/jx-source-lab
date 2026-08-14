@@ -24,6 +24,30 @@ Raw source folders are ignored by Git by default.
 ## Requirements
 Python 3.11+ recommended. Initial tooling uses only the Python standard library.
 
+## Research Release 1.0 pipeline
+The complete local pipeline remains standard-library only:
+
+```powershell
+python .\scripts\jxlab.py inventory --hash
+python .\scripts\jxlab.py find-pak-refs --hash
+python .\scripts\jxlab.py inspect-pak-structure
+python .\scripts\jxlab.py parse-task-catalog
+python .\scripts\jxlab.py inspect-task-publish-index
+python .\scripts\jxcorpus.py
+python .\scripts\build_asset_index.py
+python .\scripts\build_database.py
+python .\scripts\build_research.py
+python .\scripts\build_release.py
+python .\scripts\validate_release.py --verify-source-hashes
+python -m unittest discover -s tests -v
+```
+
+`generated/release/` contains the 16 release deliverables. Local decoded PAK
+samples are written only below ignored `generated/extracted/`; the release
+contains metadata, hashes, and derived text records rather than proprietary
+binary payloads. Fragment entries and unsupported archive variants remain
+explicitly `UNKNOWN` instead of being guessed.
+
 ## First run
 ```powershell
 python .\scripts\jxlab.py inventory

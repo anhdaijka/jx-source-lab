@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_research.py",
+  "parser_version": "jxlab research-audit/0.1",
+  "generated_at_utc": "2026-08-14T07:07:07.390704+00:00",
+  "task_reconstruction": {
+    "graph": "research/reconstruction/game-story-evidence-graph.json",
+    "main_graph": "research/reconstruction/main-task-graph.json",
+    "non_main_index": "research/reconstruction/configured-non-main-task-index.json",
+    "report": "research/reconstruction/game-story-reconstruction.md",
+    "counts": {
+      "task_nodes": 439,
+      "subtask_nodes": 631,
+      "graph_edges": 861,
+      "main_tasks": 424,
+      "configured_non_main_tasks": 15,
+      "chains": 559
+    }
+  },
+  "ledgers": {
+    "contradiction_ledger": "research/contradiction-ledger.json",
+    "unresolved_questions": "research/unresolved-questions.json",
+    "claims": "research/claims.jsonl",
+    "confidence_report": "research/confidence-report.json"
+  }
+}

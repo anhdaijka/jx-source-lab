@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_database.py",
+  "generated_at_utc": "2026-08-14T07:04:27.731081+00:00",
+  "database_path": "database/work/jx-source-lab.sqlite3",
+  "database_sha256": "5fd71ce5346d03bde4ab3f6d961580af81017cb57cc10bba5ad4eb7b988b1b6f",
+  "table_counts": {
+    "corpus_files": 18,
+    "corpus_entities": 52319,
+    "source_records": 51861,
+    "corpus_entity_sources": 53543,
+    "reference_edges": 30776,
+    "reference_edge_sources": 32769,
+    "features": 10542,
+    "assets": 399144,
+    "asset_sources": 399144
+  },
+  "entities_without_source_records": 0,
+  "edges_without_source_records": 0,
+  "foreign_key_errors": [],
+  "input_files": [
+    {
+      "path": "generated/records/dialogue/dialognpc-records.jsonl",
+      "sha256": "40ff4729631a3526ecc62cbda91a9a56c99afaa18eedd5d73ec9b941bf5da668",
+      "records": 649,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/dialogue/localization-records.jsonl",
+      "sha256": "5fa16c8348ba9764d1b1ea4fdcb79ec246144da0318ad3f71e6c3c1677d96713",
+      "records": 1366,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/dialogue/task-dialogue-records.jsonl",
+      "sha256": "8d0b4e378e769df130b2bee4e1527ddc298932430c90dba0ddca7f634a3121f2",
+      "records": 732,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/edges/dialogue-reference-edges.jsonl",
+      "sha256": "8d537f56b5aa1c85d70dc8840745d135a6b627f793780bf6b1cec2056291b90c",
+      "records": 1931,
+      "parser_versions": [
+        "UNKNOWN"
+      ]
+    },
+    {
+      "path": "generated/records/edges/faction-skill-reference-edges.jsonl",
+      "sha256": "69a1fc88ba525e2f36492a4a57654afec7d3877da1e8793d7d37b96a85ea45ab",
+      "records": 466,
+      "parser_versions": [
+        "UNKNOWN"
+      ]
+    },
+    {
+      "path": "generated/records/edges/map-feature-reference-edges.jsonl",
+      "sha256": "d184f2d09a8ac7c99f1a70ebe047af12512c58e9f5c9605fe163f2d44546b7e7",
+      "records": 22832,
+      "parser_versions": [
+        "UNKNOWN"
+      ]
+    },
+    {
+      "path": "generated/records/edges/task-reference-edges.jsonl",
+      "sha256": "2b345862d3cb1338ec3a2c72985f6fa15f3e604c4ac074a39f29398a2d66a659",
+      "records": 5547,
+      "parser_versions": [
+        "UNKNOWN"
+      ]
+    },
+    {
+      "path": "generated/records/features/feature-records.jsonl",
+      "sha256": "d5adc8537bebf8fe1c55866178b8717d545b76f50047d89be1b140cbff7f0349",
+      "records": 10542,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/items/item-records.jsonl",
+      "sha256": "4a85f59ae4725a24a2a4dddb3e65ddb96a2bc06048fac6e7eb9033cb038a4cfc",
+      "records": 28786,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/locations/location-records.jsonl",
+      "sha256": "bf4fa08afb77ed7447def991fc0693118a1dfc225dd50a43d9a96957dcd5b88b",
+      "records": 1057,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/npcs/npc-records.jsonl",
+      "sha256": "30e00cdd2d2057d2784d2388d9a57f1c87773607c590f36005de033ea5010190",
+      "records": 5728,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/sects/faction-records.jsonl",
+      "sha256": "ffc3e80be0e4021ca56a01cc6cccc7befec61618e43a95335c4f3f2005d3996f",
+      "records": 13,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/sects/route-records.jsonl",
+      "sha256": "74fa99a18009e0f9d7863ca69aa1b2b2755f14d2596f8f52f302efdbb5188c4b",
+      "records": 25,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/skills/skill-records.jsonl",
+      "sha256": "f9dc058b7f92120bd5795dd3b18d2fedd619fd6e87a22e386e5777be7b5b2610",
+      "records": 1980,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/tasks/subtask-archive-records.jsonl",
+      "sha256": "32665525be3ed60284d4724aa25b274bdcf43492e33969237cc480e6f9307dc2",
+      "records": 631,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/tasks/task-archive-records.jsonl",
+      "sha256": "3f82762a2b7bd72467ef5c33c4581a24f18e58d5c9d97ae45145d4f51e783175",
+      "records": 439,
+      "parser_versions": [
+        "jxcorpus/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/tasks/task-source-records.jsonl",
+      "sha256": "0b02257b159b181b64f1fa3caeaa7b5cb6f1dafca496f959512c3751638ce1bd",
+      "records": 371,
+      "parser_versions": [
+        "jxlab task-catalog/0.1"
+      ]
+    },
+    {
+      "path": "generated/records/assets/client-asset-index.jsonl.gz",
+      "sha256": "dc08278b436d9e5e0089156bb1d5dad8f79de8a099d98f0985f4690dad5613ea",
+      "records": 399144,
+      "parser_versions": [
+        "jxlab client-asset-index/0.1"
+      ]
+    }
+  ],
+  "record_counts": {
+    "entity:dialognpc_literal": 649,
+    "entities": 52319,
+    "entity:localization": 1366,
+    "entity:task_dialogue": 732,
+    "edges": 30776,
+    "entity:map_transfer": 769,
+    "entity:map_level_membership": 110,
+    "entity:map_transmit_catalog": 133,
+    "entity:map_protection": 108,
+    "entity:travel_station": 15,
+    "entity:revive_position": 89,
+    "entity:map_spawn": 9318,
+    "entity:item": 28786,
+    "entity:map": 1057,
+    "entity:npc": 5728,
+    "entity:faction": 13,
+    "entity:route": 25,
+    "entity:skill": 1980,
+    "entity:sub": 631,
+    "entity:task": 439,
+    "entity:task_id_range": 22,
+    "entity:task_objective_type": 4,
+    "entity:task_objective_kill_npc": 228,
+    "entity:task_objective_find_item": 12,
+    "entity:task_objective_find_equip": 87,
+    "entity:task_objective_buy_item": 18,
+    "assets": 399144
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_research.py",
+  "parser_version": "jxlab research-audit/0.1",
+  "generated_at_utc": "2026-08-14T07:07:07.317869+00:00",
+  "classification_basis": "Explicit server task_def.txt range label not marked chính tuyến. This index does not infer a single universal side-quest category.",
+  "tasks": [
+    {
+      "record_key": "task:00000000000000E3:entry:0439e022",
+      "task_id": "00000000000000E3",
+      "name": "Bị Chiến Nhật Thường (cấp 90)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Hằng ngày",
+        "range_locator": "line:9"
+      }
+    },
+    {
+      "record_key": "task:00000000000000E2:entry:0b37a915",
+      "task_id": "00000000000000E2",
+      "name": "Chuẩn Bị Chiến Sự (cấp 90)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Cốt truyện",
+        "range_locator": "line:8"
+      }
+    },
+    {
+      "record_key": "task:00000000000000E0:entry:0cc4c7eb",
+      "task_id": "00000000000000E0",
+      "name": "Trốn Chạy",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ phó bản",
+        "configured_description": "Loại editor nhiệm vụ thông dụng",
+        "range_locator": "line:6"
+      }
+    },
+    {
+      "record_key": "task:00000000000000DC:entry:44c12190",
+      "task_id": "00000000000000DC",
+      "name": "Người Mất Tích",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ phó bản",
+        "configured_description": "Loại editor nhiệm vụ thông dụng",
+        "range_locator": "line:4"
+      }
+    },
+    {
+      "record_key": "task:00000000000000DB:entry:4bdf9683",
+      "task_id": "00000000000000DB",
+      "name": "Nghi Chủng",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ phó bản",
+        "configured_description": "Loại editor nhiệm vụ thông dụng",
+        "range_locator": "line:4"
+      }
+    },
+    {
+      "record_key": "task:0000000000000152:entry:57d856b9",
+      "task_id": "0000000000000152",
+      "name": "Cổ Họa (Chính tuyến - Trung)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Cốt truyện",
+        "range_locator": "line:13"
+      }
+    },
+    {
+      "record_key": "task:0000000000000151:entry:5ad61fac",
+      "task_id": "0000000000000151",
+      "name": "Cổ Họa (Chính tuyến - Sơ)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Cốt truyện",
+        "range_locator": "line:13"
+      }
+    },
+    {
+      "record_key": "task:000000000000014E:entry:6fc4b16e",
+      "task_id": "000000000000014E",
+      "name": "Cổ Họa (Hằng ngày - Trung)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Hằng ngày",
+        "range_locator": "line:11"
+      }
+    },
+    {
+      "record_key": "task:000000000000014D:entry:92d36651",
+      "task_id": "000000000000014D",
+      "name": "Cổ Họa (Hằng ngày - Sơ)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Hằng ngày",
+        "range_locator": "line:11"
+      }
+    },
+    {
+      "record_key": "task:0000000000000170:entry:bf99fed3",
+      "task_id": "0000000000000170",
+      "name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 130)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Hằng ngày",
+        "range_locator": "line:20"
+      }
+    },
+    {
+      "record_key": "task:000000000000016E:entry:cdf1aaa2",
+      "task_id": "000000000000016E",
+      "name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 110)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Hằng ngày",
+        "range_locator": "line:18"
+      }
+    },
+    {
+      "record_key": "task:000000000000016F:entry:cefbe5bf",
+      "task_id": "000000000000016F",
+      "name": "Hải Lăng Vương Mộ-Chính tuyến (cấp 130)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Cốt truyện",
+        "range_locator": "line:19"
+      }
+    },
+    {
+      "record_key": "task:000000000000016D:entry:f0881395",
+      "task_id": "000000000000016D",
+      "name": "Hải Lăng Vương Mộ-Chính tuyến  (cấp 110)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Cốt truyện",
+        "range_locator": "line:17"
+      }
+    },
+    {
+      "record_key": "task:000000000000016C:entry:f786d978",
+      "task_id": "000000000000016C",
+      "name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 90)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Hằng ngày",
+        "range_locator": "line:16"
+      }
+    },
+    {
+      "record_key": "task:000000000000016B:entry:fa9c8e6b",
+      "task_id": "000000000000016B",
+      "name": "Hải Lăng Vương Mộ-Chính tuyến (cấp 90)",
+      "classification": {
+        "class": "configured_non_main",
+        "configured_type": "Task",
+        "configured_label": "Nhiệm vụ quân doanh",
+        "configured_description": "Cốt truyện",
+        "range_locator": "line:15"
+      }
+    }
+  ]
+}

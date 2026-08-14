@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/build_research.py",
+  "parser_version": "jxlab research-audit/0.1",
+  "generated_at_utc": "2026-08-14T07:07:07.364890+00:00",
+  "entries": [
+    {
+      "domain": "task_def",
+      "status": "EDITION_DRIFT",
+      "server_path": "server/gameserver/setting/task/task_def.txt",
+      "server_sha256": "fcc6b9456786d792a13593821c6571b1ffcd7e20103e5e8d4de55fdda86d3044",
+      "client_path": "client/setting/task/task_def.txt",
+      "client_sha256": "dfe546402fb157009b0f056a427ac99860a48d93f0042308576478b630388164",
+      "interpretation": "Byte equality/difference applies to these local unknown-build copies only."
+    },
+    {
+      "domain": "linktask_type_select",
+      "status": "EDITION_DRIFT",
+      "server_path": "server/gameserver/setting/task/linktask/type_select.txt",
+      "server_sha256": "9db95111582848c2d0a18250c483c6a9e30e36b47720eee862dca0fc08bc0030",
+      "client_path": "client/setting/task/linktask/type_select.txt",
+      "client_sha256": "16a194da40da289ee10ea3b9b9a2230dee1aabb956b69e0ae05ad04305cba9f1",
+      "interpretation": "Byte equality/difference applies to these local unknown-build copies only."
+    },
+    {
+      "domain": "linktask_killnpc",
+      "status": "EDITION_DRIFT",
+      "server_path": "server/gameserver/setting/task/linktask/entity_killnpc.txt",
+      "server_sha256": "2c850d6f9cbb8ae57240f71a3a2b389739b0acdff1d0c4c2e6222a1ab2b27172",
+      "client_path": "client/setting/task/linktask/entity_killnpc.txt",
+      "client_sha256": "5945f9e2dc3e849b6e9725d84d5a25f8a6fc50117d2063eda03e7c80d8eb70a4",
+      "interpretation": "Byte equality/difference applies to these local unknown-build copies only."
+    },
+    {
+      "domain": "linktask_finditem",
+      "status": "EDITION_DRIFT",
+      "server_path": "server/gameserver/setting/task/linktask/entity_finditem.txt",
+      "server_sha256": "32d2976d254153de2cff2089f92a6b90154cdf0a0842bcb8e9ec24fa75c238bf",
+      "client_path": "client/setting/task/linktask/entity_finditem.txt",
+      "client_sha256": "99665b5b81bc7a5c9d3c034896c84989a83490a667fa403c604e7076882f8aeb",
+      "interpretation": "Byte equality/difference applies to these local unknown-build copies only."
+    },
+    {
+      "domain": "faction",
+      "status": "EDITION_DRIFT",
+      "server_path": "server/gameserver/setting/faction/faction.xml",
+      "server_sha256": "bc232fdbc282ed89ac01a2d779666071a0f3f08a67ab8468c5b3d460140379e6",
+      "client_path": "client/setting/faction/faction.xml",
+      "client_sha256": "bb1d606fd91f22bd40b588eb58c31e33a2b450a3e5eb2f7e0cd152954ac504b5",
+      "interpretation": "Byte equality/difference applies to these local unknown-build copies only."
+    },
+    {
+      "domain": "skill",
+      "status": "EDITION_DRIFT",
+      "server_path": "server/gameserver/setting/fightskill/skill.txt",
+      "server_sha256": "8033d34013115e2e192c7e3ed7b543db5e3dce6658854f62d883b99f39bbc9f6",
+      "client_path": "client/setting/fightskill/skill.txt",
+      "client_sha256": "be196093af1f082eab46423f461d3934b05529e8ffa56ccdbbb06bff052f6bf9",
+      "interpretation": "Byte equality/difference applies to these local unknown-build copies only."
+    },
+    {
+      "domain": "maplist",
+      "status": "EDITION_DRIFT",
+      "server_path": "server/gameserver/setting/map/maplist.txt",
+      "server_sha256": "14da8ff9c87bf8793e2c17f6ef591a5d51d1c97aabf9c0fd263a752cbfaaa061",
+      "client_path": "client/setting/map/maplist.txt",
+      "client_sha256": "d24ef8ee5831d2fe9d496ed42854b4d9447d4b9f686263e7f8fd85956c485e93",
+      "interpretation": "Byte equality/difference applies to these local unknown-build copies only."
+    },
+    {
+      "domain": "map_info_hanshuigudu",
+      "status": "EDITION_DRIFT",
+      "server_path": "server/gameserver/setting/map/map_info/hanshuigudu/info.txt",
+      "server_sha256": "3bcce56283fb0fbf89f057454e338de5e101475a9acbcf4899292749fc29f822",
+      "client_path": "client/setting/map/map_info/hanshuigudu/info.txt",
+      "client_sha256": "1a1d8d9aa3449b294d6871bfdf5382c1ac9c8abed39ed233b52304a06572ff5f",
+      "interpretation": "Byte equality/difference applies to these local unknown-build copies only."
+    },
+    {
+      "domain": "mapid_level",
+      "status": "EDITION_DRIFT",
+      "server_path": "server/gameserver/setting/map/mapid_level.txt",
+      "server_sha256": "84d82e7d33de2cd3b62a233078041eae23748316d09bd879c6c60e45cbbd4bdc",
+      "client_path": "client/setting/map/mapid_level.txt",
+      "client_sha256": "d97636b0e2254659698752b00d4e43ebbd1ae544c91d6715882f7c50eea1953b",
+      "interpretation": "Byte equality/difference applies to these local unknown-build copies only."
+    },
+    {
+      "domain": "task_publish_external_listing",
+      "status": "EDITION_DRIFT",
+      "archive_path": "client/pak/task_publish.pak",
+      "archive_sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+      "listing_path": "client/pak/task_publish.pak.txt",
+      "listing_sha256": "e8693778360260780cdcb78b7d4280a66aeb885fe7922542540096877525179b",
+      "difference": "binary index 1,074 entries vs companion listing 1,129 entries; ID sets and most sizes differ"
+    },
+    {
+      "domain": "task_publish_embedded_listing",
+      "status": "EDITION_DRIFT",
+      "archive_path": "client/pak/task_publish.pak",
+      "embedded_entry_id": "9efc8acb",
+      "difference": "embedded listing covers 1,073 archive IDs but 563 entries differ on expanded or stored sizes; path mapping remains lead-only"
+    },
+    {
+      "domain": "task_archive_duplicate_logical_id",
+      "status": "CONFLICT",
+      "logical_task_id": "000000000000017B",
+      "archive_record_count": 2,
+      "handling": "both entry-specific records retained; no automatic merge"
+    }
+  ],
+  "counts": {
+    "EDITION_DRIFT": 11,
+    "CONFLICT": 1
+  }
+}

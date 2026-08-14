@@ -6,6 +6,7 @@
 /paks/**
 /extracted/**
 /extracted-assets-original/**
+/generated/extracted/**
 !/client/README.txt
 !/server/README.txt
 !/official-pages/README.txt

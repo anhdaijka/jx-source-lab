@@ -46,3 +46,6 @@ Ask user only for genuine decisions: edition/build identity, destructive action,
 
 ## 12. Promotion gate
 Promote material to a future novel repo only after provenance, edition status, contradiction log and confidence review exist. Future novel continuity can never override a later higher-authority source correction.
+
+## 13. Usage-efficient model recommendation
+At the end of every work report or handoff, if a next step remains, recommend the most usage-efficient suitable model among GPT-5.6 Sol, Terra, and Luna, together with the lowest sufficient reasoning level. Base the recommendation on the actual complexity and risk of the next step, not on the current model. Give one primary recommendation and a brief reason; do not recommend a more expensive model or reasoning level unless it is materially needed for correctness or safety.
