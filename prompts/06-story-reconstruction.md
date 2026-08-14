@@ -1,0 +1,1 @@
+Read `AGENTS.md` and `docs/reconstruction-protocol.md`. Only begin after relevant corpora exist. Produce a GAME STORY DOSSIER, not a novel outline. Cite evidence for claims, classify confidence, distinguish implementation from producer lore, record edition drift and mark missing causality UNKNOWN. Never fill gaps with literary invention.

@@ -1,0 +1,1 @@
+Read `AGENTS.md`. Recover item IDs, CN/VI names, categories, descriptions, properties, rarity/quality, reward/drop/quest/crafting relations and edition drift. Include Huyền Tinh and other notable families. Do not choose novel items yet.

@@ -1,0 +1,1 @@
+SELECT t.task_key,t.parent_key,t.name_cn,t.name_vi,d.prerequisite_key,d.relation FROM tasks t LEFT JOIN task_dependencies d ON d.task_key=t.task_key WHERE t.task_key=:task_key OR t.parent_key=:task_key ORDER BY t.task_key;

@@ -1,0 +1,18 @@
+PRAGMA foreign_keys = ON;
+CREATE TABLE IF NOT EXISTS source_records (id INTEGER PRIMARY KEY, source_id TEXT NOT NULL, evidence_class TEXT NOT NULL, path TEXT NOT NULL, sha256 TEXT, edition TEXT, encoding TEXT, locator TEXT, notes TEXT);
+CREATE INDEX IF NOT EXISTS idx_source_records_path ON source_records(path);
+CREATE INDEX IF NOT EXISTS idx_source_records_sha ON source_records(sha256);
+CREATE TABLE IF NOT EXISTS tasks (id INTEGER PRIMARY KEY, task_key TEXT NOT NULL, parent_key TEXT, name_cn TEXT, name_vi TEXT, giver_npc_key TEXT, turnin_npc_key TEXT, location_key TEXT, raw_payload_json TEXT);
+CREATE INDEX IF NOT EXISTS idx_tasks_key ON tasks(task_key);
+CREATE INDEX IF NOT EXISTS idx_tasks_parent ON tasks(parent_key);
+CREATE TABLE IF NOT EXISTS task_dependencies (task_key TEXT NOT NULL, prerequisite_key TEXT NOT NULL, relation TEXT, source_record_id INTEGER, FOREIGN KEY(source_record_id) REFERENCES source_records(id));
+CREATE TABLE IF NOT EXISTS dialogues (id INTEGER PRIMARY KEY, dialogue_key TEXT, task_key TEXT, npc_key TEXT, phase TEXT, language TEXT, text TEXT NOT NULL, source_record_id INTEGER, FOREIGN KEY(source_record_id) REFERENCES source_records(id));
+CREATE TABLE IF NOT EXISTS npcs (id INTEGER PRIMARY KEY, npc_key TEXT NOT NULL, name_cn TEXT, name_vi TEXT, faction_key TEXT, location_key TEXT, raw_payload_json TEXT);
+CREATE TABLE IF NOT EXISTS sects (id INTEGER PRIMARY KEY, sect_key TEXT NOT NULL, name_cn TEXT, name_vi TEXT, raw_payload_json TEXT);
+CREATE TABLE IF NOT EXISTS skills (id INTEGER PRIMARY KEY, skill_key TEXT NOT NULL, name_cn TEXT, name_vi TEXT, sect_key TEXT, route_key TEXT, level_req TEXT, description TEXT, raw_payload_json TEXT);
+CREATE TABLE IF NOT EXISTS items (id INTEGER PRIMARY KEY, item_key TEXT NOT NULL, name_cn TEXT, name_vi TEXT, item_type TEXT, description TEXT, raw_payload_json TEXT);
+CREATE TABLE IF NOT EXISTS locations (id INTEGER PRIMARY KEY, location_key TEXT NOT NULL, name_cn TEXT, name_vi TEXT, map_key TEXT, description TEXT, raw_payload_json TEXT);
+CREATE TABLE IF NOT EXISTS assets (id INTEGER PRIMARY KEY, asset_key TEXT, source_archive TEXT, internal_path TEXT, output_path TEXT, sha256 TEXT, file_type TEXT, width INTEGER, height INTEGER, raw_payload_json TEXT);
+CREATE TABLE IF NOT EXISTS entity_sources (entity_type TEXT NOT NULL, entity_key TEXT NOT NULL, source_record_id INTEGER NOT NULL, locator TEXT, FOREIGN KEY(source_record_id) REFERENCES source_records(id));
+CREATE TABLE IF NOT EXISTS claims (id INTEGER PRIMARY KEY, claim_key TEXT NOT NULL, claim_text TEXT NOT NULL, status TEXT NOT NULL, notes TEXT);
+CREATE TABLE IF NOT EXISTS claim_evidence (claim_id INTEGER NOT NULL, source_record_id INTEGER NOT NULL, support_type TEXT, locator TEXT, FOREIGN KEY(claim_id) REFERENCES claims(id), FOREIGN KEY(source_record_id) REFERENCES source_records(id));

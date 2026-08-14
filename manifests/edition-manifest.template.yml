@@ -1,0 +1,26 @@
+schema_version: "1.0"
+sources:
+  - id: server-primary
+    root: server/
+    type: RAW_SERVER
+    origin: UNKNOWN
+    product: "Kiếm Thế / JX"
+    language: UNKNOWN
+    build: UNKNOWN
+    version: UNKNOWN
+    approximate_date: UNKNOWN
+    official_status: UNKNOWN
+    modified_status: UNKNOWN
+    notes: ""
+  - id: client-primary
+    root: client/
+    type: RAW_CLIENT
+    origin: UNKNOWN
+    product: "Kiếm Thế / JX"
+    language: UNKNOWN
+    build: UNKNOWN
+    version: UNKNOWN
+    approximate_date: UNKNOWN
+    official_status: UNKNOWN
+    modified_status: UNKNOWN
+    notes: ""

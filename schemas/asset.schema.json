@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JX Asset Record",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "source_archive",
+    "internal_path",
+    "sha256"
+  ],
+  "properties": {
+    "asset_id": {
+      "type": [
+        "string",
+        "array",
+        "object",
+        "null"
+      ]
+    },
+    "source_archive": {
+      "type": [
+        "string",
+        "array",
+        "object",
+        "null"
+      ]
+    },
+    "internal_path": {
+      "type": [
+        "string",
+        "array",
+        "object",
+        "null"
+      ]
+    },
+    "sha256": {
+      "type": [
+        "string",
+        "array",
+        "object",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

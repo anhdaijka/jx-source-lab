@@ -1,0 +1,302 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 372,
+    "sha256": "ca431d6ae7376ad3c289bdc61b5758491d3f51b6c12f947d6a92f28e22939ac2"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 3420,
+    "sha256": "7a8e36fa6704118032d315e1bd4027a157644498ec0466c70597ce97457a7dff"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2149,
+    "sha256": "c2a68c414476ef193ed75a24824727dc625e3df1cdad6bff5a1f86a33451556e"
+  },
+  {
+    "path": "START-HERE.txt",
+    "bytes": 589,
+    "sha256": "0c096f3d9750c432bbfb609a971580220d5473b91e531c79ea2e7dcda31d3e01"
+  },
+  {
+    "path": "client/README.txt",
+    "bytes": 74,
+    "sha256": "a894e4a87e1f143706a9c838473779ae8e25b72752c43c9bf253f709de4af0d7"
+  },
+  {
+    "path": "database/schema.sql",
+    "bytes": 2839,
+    "sha256": "feb380ca3b00ba4dfe13408200ad0714da2fc9566db2b7e99d2fa4afad0299a5"
+  },
+  {
+    "path": "database/work/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "docs/codex-workflows.md",
+    "bytes": 445,
+    "sha256": "3b9b790aa67c0dd11ea742e39602e328c49cafbdc7b8d5ca7ba2c6fee1f0dcd8"
+  },
+  {
+    "path": "docs/pak-forensics-protocol.md",
+    "bytes": 933,
+    "sha256": "5f3352a189f4a2c968397f462f74439646b06a081bd00e56a13ba439690493f1"
+  },
+  {
+    "path": "docs/promotion-gates.md",
+    "bytes": 758,
+    "sha256": "0c23d85260cd415f6533d72d6181aee528fa1d91a18b9ed6eba6a516350c51db"
+  },
+  {
+    "path": "docs/reconstruction-protocol.md",
+    "bytes": 1070,
+    "sha256": "640184eb4bb1d8b8abbf2c63d8cb96a2029313768678d9b064db0b40f97ef2af"
+  },
+  {
+    "path": "docs/research-release-1.0.md",
+    "bytes": 543,
+    "sha256": "46c4440345d323709c94d2dc992cdda2c2cb436ff1a6b9713fc5f7c825a06ae9"
+  },
+  {
+    "path": "docs/source-authority.md",
+    "bytes": 733,
+    "sha256": "2a11461aee6655ce5939b4372477e05c838e6927c4cbcc5ac58a36830ece574a"
+  },
+  {
+    "path": "generated/README.md",
+    "bytes": 180,
+    "sha256": "063e552186f084595b352a5897c56d08c6a8b13bbb708ef0e75f177126e41085"
+  },
+  {
+    "path": "generated/records/assets/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "generated/records/items/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "generated/records/locations/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "generated/records/npcs/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "generated/records/sects/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "generated/records/skills/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "generated/records/tasks/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "generated/release/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "generated/reports/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "lab.toml",
+    "bytes": 649,
+    "sha256": "9432a48294f5ec306dbbeb5ed3d3c87e157b524f0242890e4ae436321730bcd6"
+  },
+  {
+    "path": "manifests/edition-manifest.template.yml",
+    "bytes": 589,
+    "sha256": "8fb4cba9f70b31237d876b86a57ed75e348d76bfd408a66eb7098818036c3724"
+  },
+  {
+    "path": "official-pages/README.txt",
+    "bytes": 71,
+    "sha256": "91dbaeb37fa9796bc446514f4ba70da3c4a74dbe0092a9d293cd4a07b8b12eef"
+  },
+  {
+    "path": "private-input/README.txt",
+    "bytes": 63,
+    "sha256": "e8286adb8b170b2f8f3eab01ac4529c891b7c21589f7f171f6cbc861f0e47385"
+  },
+  {
+    "path": "prompts/00-first-codex-session.md",
+    "bytes": 1583,
+    "sha256": "a2af23f84eb4decd1d3d8fe24de6cd6883581014c58aef8664bfef41e703a4b3"
+  },
+  {
+    "path": "prompts/01-quest-archaeology.md",
+    "bytes": 316,
+    "sha256": "3651e526eb9d2de512afb6d18cc145e3718aa1bbb5552b2187cd2e08ea686cd5"
+  },
+  {
+    "path": "prompts/02-martial-corpus.md",
+    "bytes": 273,
+    "sha256": "72e469a9051271d21378b3bdd00d2f81e3b6838ea0ea54ce4bcb72b47804a3ee"
+  },
+  {
+    "path": "prompts/03-item-corpus.md",
+    "bytes": 239,
+    "sha256": "e0758a6145672b54e284a80ced8480439126881004390683d5a4e6851f156d26"
+  },
+  {
+    "path": "prompts/04-world-corpus.md",
+    "bytes": 187,
+    "sha256": "1b6b005ba1a1eed484225ac0928592fc3e31b31d0bf618c6ff8012400886639f"
+  },
+  {
+    "path": "prompts/05-pak-archaeology.md",
+    "bytes": 310,
+    "sha256": "f854e818c388b3ced6fd983def3ee534766e66e0d71f452dc8c7da1a039200df"
+  },
+  {
+    "path": "prompts/06-story-reconstruction.md",
+    "bytes": 340,
+    "sha256": "44ac15c2c4228bcd4e8d9df1fe5fda21349a51a47357ae9c12c83b0185c89009"
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 195,
+    "sha256": "5b798ae168445be44361d502f4b494a1f2fb353b11e532b15698e8b42dfa030e"
+  },
+  {
+    "path": "queries/find-dialogue-by-term.sql",
+    "bytes": 130,
+    "sha256": "f3e06ae66bf08d38024c9d3a10de3d053965ae555b41dfb1e656dad8a234519c"
+  },
+  {
+    "path": "queries/find-item-mentions.sql",
+    "bytes": 169,
+    "sha256": "966747a83116467ce5456b8421c65090b747b79ac14fbd38a4a618e18d89c03a"
+  },
+  {
+    "path": "queries/find-skill-by-sect.sql",
+    "bytes": 149,
+    "sha256": "eac1e51dd72105e5c032e116f1ba20cebd9141978744c7c5d912201a20b173e0"
+  },
+  {
+    "path": "queries/find-task-chain.sql",
+    "bytes": 223,
+    "sha256": "165daa6bcea993dad5f09090cfe61d69a5553324ce3590004752546cdb3aa832"
+  },
+  {
+    "path": "research/README.md",
+    "bytes": 192,
+    "sha256": "402ef20ed2b96c1d033dfda5c8932ca5f5085d67da8913830c40935056b7afe6"
+  },
+  {
+    "path": "research/items/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "research/martial/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "research/pak/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "research/quest-archaeology/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "research/story-reconstruction/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "research/world/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "run-lab.bat",
+    "bytes": 44,
+    "sha256": "486097d433bdadcaa68f37dd0e3cfeb8187d2e93779391436955e42d97d6fcef"
+  },
+  {
+    "path": "run-lab.ps1",
+    "bytes": 206,
+    "sha256": "e0d5f74b831e8203066cf1e5eb16a17b02e8ecff38527e058daa9bd0deb4936a"
+  },
+  {
+    "path": "schemas/asset.schema.json",
+    "bytes": 737,
+    "sha256": "bdf8ae7726fa712795abbe59cdf77d473e84483d6a1c1f041390f56c78c0ca6e"
+  },
+  {
+    "path": "schemas/claim.schema.json",
+    "bytes": 661,
+    "sha256": "d3d092fe332f69283985deea247bc6856abebce388a061cfe93eeb6e189e98a1"
+  },
+  {
+    "path": "schemas/item.schema.json",
+    "bytes": 587,
+    "sha256": "7abbb469de832e3bf5d4766f4ff5968bbd2f5e402c037c3e831d2eb954196a32"
+  },
+  {
+    "path": "schemas/location.schema.json",
+    "bytes": 599,
+    "sha256": "1c51513b0eb14d24a63eac871aa5ad63bb5f77af47d7370c8da4518227c81b21"
+  },
+  {
+    "path": "schemas/npc.schema.json",
+    "bytes": 584,
+    "sha256": "7326cb651ad81ff6789547f404ae6f2b670a9e5274cb4e8882e2d3b6a26bb9d7"
+  },
+  {
+    "path": "schemas/sect.schema.json",
+    "bytes": 587,
+    "sha256": "3b2aee38d2a15942eba39fd7950b62d05145796917c5aaa0d29c79801e753261"
+  },
+  {
+    "path": "schemas/skill.schema.json",
+    "bytes": 590,
+    "sha256": "bb73aad5bdb6bacce797a47926596d6becf8b3e5d0c9100fe148551bd0d0770d"
+  },
+  {
+    "path": "schemas/source-record.schema.json",
+    "bytes": 888,
+    "sha256": "3c362caa7e03256cd0095d94fe7eb280afa1f147a93458ab9eb94eb334fc972f"
+  },
+  {
+    "path": "schemas/task.schema.json",
+    "bytes": 587,
+    "sha256": "e9758e2d9eb6e1fcacad88e7376085a6f863495fc19d072b02df230b26db0168"
+  },
+  {
+    "path": "scripts/jxlab.py",
+    "bytes": 8613,
+    "sha256": "6f4f98115853a8d63bbcc531d200271752b269f5b327d59a41a4a0ed88eefe65"
+  },
+  {
+    "path": "server/README.txt",
+    "bytes": 81,
+    "sha256": "fd44910da9ba2ed9f17dd648c63af13a183abbacb14a0bc96e8f93c6f7642a53"
+  },
+  {
+    "path": "tests/test_jxlab.py",
+    "bytes": 459,
+    "sha256": "1f53810b754a607fe0555958cb3b203a31d5268cce759baaaac853d1a412e4b9"
+  }
+]

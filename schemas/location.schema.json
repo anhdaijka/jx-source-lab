@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JX Location Record",
+  "type": "object",
+  "required": [
+    "location_id",
+    "name",
+    "source_records"
+  ],
+  "properties": {
+    "location_id": {
+      "type": [
+        "string",
+        "array",
+        "object",
+        "null"
+      ]
+    },
+    "name": {
+      "type": [
+        "string",
+        "array",
+        "object",
+        "null"
+      ]
+    },
+    "source_records": {
+      "type": [
+        "string",
+        "array",
+        "object",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

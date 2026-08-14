@@ -1,0 +1,7 @@
+[project]
+name = "jx-source-lab"
+version = "0.1.0"
+description = "Read-only source archaeology toolkit for JX/Kiem The"
+requires-python = ">=3.11"
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JX Source Record",
+  "type": "object",
+  "required": [
+    "source_id",
+    "evidence_class",
+    "path",
+    "sha256"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string"
+    },
+    "evidence_class": {
+      "enum": [
+        "RAW_SERVER",
+        "RAW_CLIENT",
+        "OFFICIAL_KINGSOFT_XOYO",
+        "OFFICIAL_VNG",
+        "OFFICIAL_ARCHIVE",
+        "LEGACY_LEAD"
+      ]
+    },
+    "path": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "string"
+    },
+    "edition": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "encoding": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "locator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

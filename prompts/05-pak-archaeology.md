@@ -1,0 +1,1 @@
+Read `AGENTS.md` and `docs/pak-forensics-protocol.md`. Inventory/hash archives, search source for actual loader implementation, document format, then write a read-only extractor. Text/config/localization before images. Preserve archive/internal-path/hash provenance. Do not repack or execute unknown binaries.

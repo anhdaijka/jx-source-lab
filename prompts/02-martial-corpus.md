@@ -1,0 +1,1 @@
+Read `AGENTS.md`. Recover sect IDs/names, route/branch names, weapons, skill IDs/names, tiers, descriptions, numeric properties, prerequisites, associated NPCs if evidenced, localization and edition drift. Build source corpus first; do not invent wuxia interpretation yet.

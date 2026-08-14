@@ -1,0 +1,1 @@
+Read `AGENTS.md`. Work only on quest/task archaeology. Recover IDs, prerequisites/gates, giver/turn-in, objectives, dialogue links, maps, item refs, script callbacks, completion state and next task. Build deterministic records with provenance. Unknown stays UNKNOWN. Task titles alone cannot establish micro-events.

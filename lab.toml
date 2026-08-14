@@ -1,0 +1,18 @@
+schema_version = "1.0"
+[source_roots]
+client = "client"
+server = "server"
+official_pages = "official-pages"
+private_input = "private-input"
+[outputs]
+reports = "generated/reports"
+records = "generated/records"
+database = "database/work/jx-source-lab.sqlite3"
+[inventory]
+hash_files_by_default = false
+max_text_probe_bytes = 131072
+max_candidate_examples = 250
+[text]
+candidate_extensions = [".txt", ".ini", ".cfg", ".conf", ".xml", ".lua", ".js", ".json", ".csv", ".tsv", ".tab", ".dat", ".list", ".lst", ".script", ".py", ".c", ".cc", ".cpp", ".h", ".hpp", ".cs", ".properties", ".res", ".str"]
+[pak]
+extensions = [".pak", ".pkg", ".pack", ".zip"]

@@ -1,0 +1,15 @@
+JX SOURCE LAB — START HERE
+
+1) Copy game client contents into client/
+2) Copy server/source contents into server/
+3) Optional official saved pages into official-pages/
+4) Open the whole jx-source-lab folder in Codex
+5) Have Codex read AGENTS.md and prompts/00-first-codex-session.md
+6) Safe first commands:
+   python scripts/jxlab.py inventory
+   python scripts/jxlab.py find-pak-refs
+   python scripts/jxlab.py text-candidates
+7) Provenance-grade hashes later:
+   python scripts/jxlab.py inventory --hash
+
+DO NOT ask Codex to write a novel from task titles. Reconstruct the game first.
