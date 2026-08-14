@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "generator": "scripts/jxcorpus.py",
-  "generated_at_utc": "2026-08-14T07:01:11.275233+00:00",
+  "generated_at_utc": "2026-08-14T08:57:50.183933+00:00",
   "counts": {
     "ambiguous": 5600,
     "unresolved": 600

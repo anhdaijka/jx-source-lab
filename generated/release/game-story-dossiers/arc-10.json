@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.561791+00:00",
+  "dossier_id": "dossier-arc-10",
+  "arc_id": "arc-10",
+  "title": "Northern intelligence and Vọng Long Sơn",
+  "chronology_or_level_range": "level 120",
+  "premise_claim_ids": [
+    "IR007"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR007",
+    "IR008",
+    "IR016"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR007",
+    "IR008",
+    "IR016"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR007",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    },
+    {
+      "order": 2,
+      "claim_id": "IR008",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    },
+    {
+      "order": 3,
+      "claim_id": "IR016",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR007",
+    "IR008",
+    "IR016"
+  ],
+  "reveal_claim_ids": [
+    "IR007",
+    "IR008",
+    "IR016"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR016"
+  ],
+  "consequence_claim_ids": [
+    "IR016"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR007",
+    "IR008",
+    "IR016"
+  ],
+  "central_unknown_ids": [],
+  "material_conflict_ids": [],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS"
+}

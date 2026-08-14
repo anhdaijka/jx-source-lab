@@ -59,7 +59,8 @@ def build_task_graph():
     for record in tasks:
         nodes.append({'key':record['record_key'],'logical_key':record['logical_key'],'kind':'task','id':record['task_id'],'name':record['name'],'classification':record['classification']})
     for record in subs:nodes.append({'key':record['record_key'],'logical_key':record['logical_key'],'kind':'subtask','id':record['task_id'],'name':record['name']})
-    graph_edges=[{key:edge.get(key) for key in ('edge_id','source_key','target_key','relation','resolution','function')} for edge in edges if edge['relation'] in {'manages_sub','accepts_next_sub','requires_finished_sub'}]
+    graph_edge_fields=('edge_id','source_key','target_key','relation','resolution','function','managed_inline_id','managed_refer_id','managed_inline_name','managed_inline_description','standalone_name','label_relation','semantic_join_status','standalone_content_usable','wrapper_inline_authority')
+    graph_edges=[{key:edge.get(key) for key in graph_edge_fields if edge.get(key) is not None} for edge in edges if edge['relation'] in {'manages_sub','accepts_next_sub','requires_finished_sub'}]
     main_tasks=[record for record in tasks if record['classification']['class']=='main']
     non_main=[record for record in tasks if record['classification']['class']=='configured_non_main']
     reconstruction={**generated_meta(),'reconstruction_type':'evidence_graph_not_narrative',
@@ -92,7 +93,8 @@ def build_task_graph():
            '- XML task names and text are raw-build content, not automatically launch-era producer canon.',
            '- A missing edge means `UNKNOWN`; adjacency, numeric IDs, and task titles are never used to invent links.',
            '- One logical task ID occurs in two archive entries; both records are preserved independently.',
-           '- Official Kingsoft/Xoyo/VNG evidence is absent from the supplied `official-pages/` scope.','',
+           '- Internet-package summaries remain `LEGACY_LEAD`; verified underlying Kingsoft/Xoyo/VNG pages are tracked separately in `research/reconciliation/lore-concordance.json`.','',
+           '- Source-only causal dossiers are generated under `research/reconstruction/game-story-dossiers/`; no player-to-novel-character adaptation is performed.','',
            '## Longest explicit chains (identifiers only)','']
     lines.extend(f"- `{chain['task_record_key']}`: {len(chain['subtask_sequence'])} subtask nodes; termination `{chain['termination']}`" for chain in longest)
     md_path.write_text('\n'.join(lines)+'\n',encoding='utf-8')
@@ -103,6 +105,9 @@ def build_ledgers(task_summary):
     domain_report_path=ROOT/'generated/reports/domain-corpus-report.json';domain=json.loads(domain_report_path.read_text(encoding='utf-8'))
     unresolved_edge_path=RESEARCH/'unresolved-reference-ledger.json';unresolved_edges=json.loads(unresolved_edge_path.read_text(encoding='utf-8'))
     pack_report=ROOT/'generated/reports/pak-structure-report.json';asset_report=ROOT/'generated/reports/client-asset-index-report.json'
+    reconciliation_path=RESEARCH/'reconciliation'/'lore-concordance.json'
+    reconciliation=json.loads(reconciliation_path.read_text(encoding='utf-8'))
+    reconciliation_claims=load_jsonl(RESEARCH/'reconciliation'/'internet-research-claims.jsonl')
     drift_entries=[entry for entry in edition['entries'] if entry['status']=='EDITION_DRIFT']
     drift_entries.extend([
         {'domain':'task_publish_external_listing','status':'EDITION_DRIFT','archive_path':'client/pak/task_publish.pak','archive_sha256':'ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f',
@@ -113,16 +118,15 @@ def build_ledgers(task_summary):
         {'domain':'task_archive_duplicate_logical_id','status':'CONFLICT','logical_task_id':'000000000000017B','archive_record_count':2,
          'handling':'both entry-specific records retained; no automatic merge'},
     ])
+    drift_entries.extend(reconciliation['conflicts'])
     contradiction_path=RESEARCH/'contradiction-ledger.json';write_json(contradiction_path,{**generated_meta(),'entries':drift_entries,
                                                                                            'counts':dict(Counter(entry['status'] for entry in drift_entries))})
-    questions=[
-        {'question_id':'edition-identity','status':'UNKNOWN','question':'What exact producer edition/build lineage do the supplied client and server trees represent?','impact':'Launch-era or producer-canon claims cannot be promoted.','next_evidence':'Authoritative build metadata or official archive provenance.'},
-        {'question_id':'pak-fragment-format','status':'UNKNOWN','question':'What is the fragment payload subformat for flag 0x10000000?','impact':'27,519 client entries remain structurally indexed but not decoded.','next_evidence':'XPackFile fragment-read disassembly and copied-sample validation.'},
-        {'question_id':'pak-variant-layouts','status':'UNKNOWN','question':'What layouts are used by image21168.pak and update2021.pak?','impact':'Two archives are recorded but not entry-indexed.','next_evidence':'Loader branch evidence for these variants.'},
-        {'question_id':'pack-path-hash','status':'UNKNOWN','question':'How are internal paths mapped to PACK entry IDs?','impact':'Most client asset internal paths remain UNKNOWN.','next_evidence':'Hash routine/source or binary-exact companion listings.'},
-        {'question_id':'official-evidence','status':'UNKNOWN','question':'Which raw-build claims are confirmed by official Kingsoft/Xoyo/VNG sources?','impact':'S4 official cross-source coverage is absent.','next_evidence':'Saved official pages/archives with URLs, dates, and hashes.'},
-        {'question_id':'ambiguous-references','status':'UNKNOWN','question':'Which additional keys disambiguate class/name-only joins?','impact':f"{unresolved_edges['counts'].get('ambiguous',0):,} edges remain ambiguous.",'next_evidence':'Runtime loader keys or additional composite fields.'},
-        {'question_id':'unresolved-references','status':'UNKNOWN','question':'What sources resolve currently absent target IDs?','impact':f"{unresolved_edges['counts'].get('unresolved',0):,} edges remain unresolved.",'next_evidence':'Edition-matched NPC/map/item tables or loader behavior.'},
+    questions=list(reconciliation['unresolved_questions'])+[
+        {'question_id':'pak-fragment-format','status':'UNKNOWN','centrality':'NON_CENTRAL','question':'What is the fragment payload subformat for flag 0x10000000?','impact':'27,519 client entries remain structurally indexed but not decoded.','next_evidence':'XPackFile fragment-read evidence and copied-sample validation.'},
+        {'question_id':'pak-variant-layouts','status':'UNKNOWN','centrality':'NON_CENTRAL','question':'What layouts are used by image21168.pak and update2021.pak?','impact':'Two archives are recorded but not entry-indexed.','next_evidence':'Loader branch evidence for these variants.'},
+        {'question_id':'pack-path-hash','status':'UNKNOWN','centrality':'NON_CENTRAL','question':'How are internal paths mapped to PACK entry IDs?','impact':'Most client asset internal paths remain UNKNOWN.','next_evidence':'Hash routine/source or binary-exact companion listings.'},
+        {'question_id':'ambiguous-references','status':'UNKNOWN','centrality':'NON_CENTRAL','question':'Which additional keys disambiguate class/name-only joins?','impact':f"{unresolved_edges['counts'].get('ambiguous',0):,} edges remain ambiguous.",'next_evidence':'Runtime loader keys or additional composite fields.'},
+        {'question_id':'unresolved-references','status':'UNKNOWN','centrality':'NON_CENTRAL','question':'What sources resolve currently absent target IDs?','impact':f"{unresolved_edges['counts'].get('unresolved',0):,} edges remain unresolved.",'next_evidence':'Edition-matched NPC/map/item tables or loader behavior.'},
     ]
     questions_path=RESEARCH/'unresolved-questions.json';write_json(questions_path,{**generated_meta(),'entries':questions})
     claims=[
@@ -131,17 +135,21 @@ def build_ledgers(task_summary):
         {'claim_id':'task-explicit-edges','claim':f"The reconstruction contains {task_summary['counts']['graph_edges']} explicit Task/Sub graph edges from XML containment, AskAccept, or IsRefFinished fields.",'status':'VERIFIED_DIRECT','evidence':[evidence(ROOT/'generated/records/edges/task-reference-edges.jsonl')],'notes':'No title or numeric adjacency edges are included.'},
         {'claim_id':'domain-corpus-lineage','claim':'All generated corpus entities and reference edges loaded into SQLite have at least one source record; foreign-key validation is clean.','status':'VERIFIED_DIRECT','evidence':[evidence(ROOT/'generated/reports/database-build-report.json')],'notes':'SQLite is a derived index, not higher authority than raw sources.'},
         {'claim_id':'client-server-drift','claim':f"Core client/server comparison records {len([e for e in edition['entries'] if e['status']=='EDITION_DRIFT'])} byte-level edition drifts and {len([e for e in edition['entries'] if e['status']=='CROSS_SOURCE_CONFIRMED'])} byte-identical pairs.",'status':'EDITION_DRIFT','evidence':[evidence(edition_path)],'notes':'Equality applies only to the supplied unknown-build copies.'},
-        {'claim_id':'official-canon-status','claim':'Producer-edition identity and official-lore confirmation are not established by the supplied source scope.','status':'UNKNOWN','evidence':[evidence(ROOT/'official-pages/README.txt')],'notes':'Raw-build implementation evidence must not be promoted to launch-era producer canon.'},
+        {'claim_id':'internet-research-scope','claim':f"The reconciled internet package contains {reconciliation['package_inventory']['file_count']} hashed research files; package summaries remain LEGACY_LEAD while verified underlying pages retain their own authority class.",'status':'VERIFIED_DIRECT','evidence':[evidence(reconciliation_path),evidence(RESEARCH/'reconciliation'/'internet-research-claims.jsonl')],'notes':'Package authority and underlying-source authority are never conflated.'},
     ]
+    claims.extend(reconciliation_claims)
     claims_path=RESEARCH/'claims.jsonl'
     with claims_path.open('w',encoding='utf-8',newline='\n') as output:
         for claim in claims:output.write(json.dumps(claim,ensure_ascii=False,separators=(',',':'))+'\n')
     confidence={**generated_meta(),'claim_status_counts':dict(Counter(claim['status'] for claim in claims)),'claims':claims,
                 'coverage':{'corpus_counts':domain['task_archive']['counts']|domain['npc_dialogue']['counts']|domain['localization']['counts']|domain['faction_skill']['counts']|domain['items']['counts']|domain['map_features']['counts'],
                             'unresolved_reference_counts':unresolved_edges['counts'],
-                            'asset_scope':json.loads(asset_report.read_text(encoding='utf-8'))['status_counts']},
-                'promotion_decision':'NOT_AUTHORIZED_FOR_NOVEL_PROMOTION',
-                'reason':'Edition identity, official cross-source evidence, fragment formats, variant layouts, and unresolved/ambiguous joins remain documented.'}
+                            'asset_scope':json.loads(asset_report.read_text(encoding='utf-8'))['status_counts'],
+                            'internet_research_claims':len(reconciliation_claims),'game_story_dossiers':14},
+                'unresolved_centrality_counts':dict(Counter(row['centrality'] for row in questions)),
+                'promotion_gates':reconciliation['promotion_gates'],
+                'promotion_decision':reconciliation['promotion_decision'],
+                'reason':'Central story and cross-source lore are sufficient under the current policy; remaining central gaps are explicit and tolerable, with no unresolved MATERIAL narrative conflict.'}
     confidence_path=RESEARCH/'confidence-report.json';write_json(confidence_path,confidence)
     return {'contradiction_ledger':jxlab.rel(contradiction_path),'unresolved_questions':jxlab.rel(questions_path),'claims':jxlab.rel(claims_path),'confidence_report':jxlab.rel(confidence_path)}
 

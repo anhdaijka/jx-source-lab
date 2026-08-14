@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.554269+00:00",
+  "dossier_id": "dossier-arc-03",
+  "arc_id": "arc-03",
+  "title": "Binh Qua Trung Nguyên",
+  "chronology_or_level_range": "pre-50 regional",
+  "premise_claim_ids": [
+    "IR003"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR003",
+    "IR019"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR003",
+    "IR019"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR003",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    },
+    {
+      "order": 2,
+      "claim_id": "IR019",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR003",
+    "IR019"
+  ],
+  "reveal_claim_ids": [
+    "IR003",
+    "IR019"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR019"
+  ],
+  "consequence_claim_ids": [
+    "IR019"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR003",
+    "IR019"
+  ],
+  "central_unknown_ids": [
+    "bingge-full-order"
+  ],
+  "material_conflict_ids": [],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS"
+}

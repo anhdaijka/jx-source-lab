@@ -1,0 +1,673 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.571107+00:00",
+  "package_inventory": {
+    "file_count": 33,
+    "total_bytes": 97462,
+    "files": [
+      {
+        "path": "private-input/internet-research/00-README.md",
+        "size": 4130,
+        "sha256": "94070b0d75ca03066bbc2a536e467956506a34627779e22fff03c397d13c9eaa"
+      },
+      {
+        "path": "private-input/internet-research/01-executive-overview.md",
+        "size": 17658,
+        "sha256": "d85ca13de3334074122efc9a0d305353b65c6975313dff4e01472436a8abb6de"
+      },
+      {
+        "path": "private-input/internet-research/02-historical-background.md",
+        "size": 5998,
+        "sha256": "f05c44b108806267f60f51ca79e185f35698d738e939d15fbe8283a115bb48b4"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-00-prologue-du-long-giac.md",
+        "size": 1386,
+        "sha256": "435723d223aa09091fd47e920ca9217da78cbabf1ff8af19e56e43239fc56d44"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-01-opening-player-ba-tuyen.md",
+        "size": 1763,
+        "sha256": "5610a647c907c3fe305f14f35b0648c41e1e39f98b45825265fd040fc1e2a9b7"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-02-yen-vu-giang-nam.md",
+        "size": 3440,
+        "sha256": "053282363ed432a76e5fb311f495d7d499b7bc65dda904f36665b89ce6ccd45f"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-03-binh-qua-trung-nguyen.md",
+        "size": 2078,
+        "sha256": "7f054753a5d90ce7ce70f9d1b79958671c5aec7f430f6343ccd8ffab282eb596"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-04-tay-nam-me-canh.md",
+        "size": 1810,
+        "sha256": "1df5ffc2cbe4619d1f6152208e16c33bc0f0942c611d52d2ee30dbfa79adcd5a"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-05-than-chau-vang-su.md",
+        "size": 1086,
+        "sha256": "3eebfddaeee46df7a80a59e36ba1df1f1927f03fa98221e37acf87c296ef86cf"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-06-cap-50-80-cross-narrative.md",
+        "size": 1571,
+        "sha256": "dc3e834af81ba4632933910236352a1fba2e5a6c048048a6eb15eb07d873a211"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-07-cap-90-khanh-nguyen.md",
+        "size": 1083,
+        "sha256": "fb32e65b743d724bf2b2fdfe696fd62d5e7d32af0c19684173e64fd1c5e2e846"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-08-cap-100-man-thien-qua-hai.md",
+        "size": 986,
+        "sha256": "07cce5b46df6d5e4c42f062687140f43a2569055969f04ab819c1170bb697727"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-09-cap-110-dai-ly.md",
+        "size": 2080,
+        "sha256": "fb60d3d88a9bbf6a27e0890f510bd428608c385726fa42268deca861326de0fe"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-10-cap-120-vong-long-son.md",
+        "size": 1665,
+        "sha256": "e802a8ea040eea40d21abbbab8ff1b022088e7655c20f443398271b8699edfa7"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-11-cap-130-bac-phat.md",
+        "size": 1263,
+        "sha256": "8fd8925b112640d693e582764e984e53a58c0c60a2dd255bb3efd40122bb89dd"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/arc-12-cap-135-140-linh-bich-bac.md",
+        "size": 3034,
+        "sha256": "acc2067141f5c2a08a20c924df1274112c346e641ff559c192af5792d7b56fa5"
+      },
+      {
+        "path": "private-input/internet-research/03-main-story/ending-and-endpoint.md",
+        "size": 2043,
+        "sha256": "eef21fb78765b991a2366467cc7753466d9497f5c68ad14ebf93cb3ec42cf375"
+      },
+      {
+        "path": "private-input/internet-research/04-complete-chronological-timeline.md",
+        "size": 5802,
+        "sha256": "861199b979b6d9392e4e8f0b5ed9cb66bad7d564c3b1fba776137aaa6af1559a"
+      },
+      {
+        "path": "private-input/internet-research/05-major-characters.md",
+        "size": 6444,
+        "sha256": "d45e571af1a053f7ce20bc4fd5df90a330de2a01442c57339433dd72fcd4a71d"
+      },
+      {
+        "path": "private-input/internet-research/06-factions-and-organizations.md",
+        "size": 4034,
+        "sha256": "33926ef485bf9ac08c168607beea2a2976364cb6219e4d801563430f801fca1c"
+      },
+      {
+        "path": "private-input/internet-research/07-mysteries-reveals-conspiracies.md",
+        "size": 2960,
+        "sha256": "f0304d7c5492696ee3e51fa44761d475b69258a6ecf1e39a5dfc084ef478dc0d"
+      },
+      {
+        "path": "private-input/internet-research/08-related-lore.md",
+        "size": 1591,
+        "sha256": "e729bc1612aa79e2ae42b173ec4acf15d7bf9f82079e20ca428739c84f56fbc5"
+      },
+      {
+        "path": "private-input/internet-research/09-unresolved-threads.md",
+        "size": 1322,
+        "sha256": "a1c34506dced1c96d28be191127ab3030e31b08fbf5defa3837f421ea878ce63"
+      },
+      {
+        "path": "private-input/internet-research/10-name-concordance-cn-vi.md",
+        "size": 3192,
+        "sha256": "d417965076fba25f26f1e64d15d4e9d20254956204aca65287da9dc2ef7a18e1"
+      },
+      {
+        "path": "private-input/internet-research/11-canon-confidence-map.md",
+        "size": 3051,
+        "sha256": "4c1e9fb4c2afea386e18649f03f9840198dae3905ff62c9a08d567699d27733a"
+      },
+      {
+        "path": "private-input/internet-research/12-source-critical-notes.md",
+        "size": 2551,
+        "sha256": "701e420c9519fef9ef24ad2249524edb8b287eee4c95542bba4d70e8ef6855a0"
+      },
+      {
+        "path": "private-input/internet-research/13-bibliography.md",
+        "size": 6942,
+        "sha256": "59900ff8e797b50c7e9cdf2978a02146cd8a67d92dd6fd84a82a2ce4409382e4"
+      },
+      {
+        "path": "private-input/internet-research/evidence/archive-and-secondary-sources.md",
+        "size": 728,
+        "sha256": "1733cad8f0f0f9cb1e48f593519dad83f8db7669e98ebd7646de808a69682355"
+      },
+      {
+        "path": "private-input/internet-research/evidence/community-leads.md",
+        "size": 753,
+        "sha256": "a39606d9791f2c0f24477665136c6d98d87f7742d7d0b38f47f05c64fa0d543d"
+      },
+      {
+        "path": "private-input/internet-research/evidence/evidence-ledger.md",
+        "size": 1730,
+        "sha256": "022ce01a82405b83cc5eea901210630dda793f543af9d7f771a906337ee90d61"
+      },
+      {
+        "path": "private-input/internet-research/evidence/kingsoft-xoyo-sources.md",
+        "size": 1029,
+        "sha256": "fc39d7f8782a7b156869d1a63f2696b6c9a0853643477d9b55acf65612595693"
+      },
+      {
+        "path": "private-input/internet-research/evidence/quest-records.md",
+        "size": 1377,
+        "sha256": "12e31b747ebd79f363ea7e73cfa1e74f5d74a4bb6f88cda20de1c26be0ef1d33"
+      },
+      {
+        "path": "private-input/internet-research/evidence/vng-zing-sources.md",
+        "size": 882,
+        "sha256": "745b06d430769107296eeb69a06ee954bc1d433c3b6ea2b1ef77f983a89a0a0e"
+      }
+    ]
+  },
+  "claim_status_counts": {
+    "VERIFIED_CROSS_SOURCE": 8,
+    "STRONG": 6,
+    "INFERENCE": 1,
+    "VERIFIED_DIRECT": 10
+  },
+  "claims": [
+    {
+      "claim_id": "IR001",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "arc_ids": [
+        "arc-00"
+      ],
+      "centrality": "CORE_WORLD_MACGUFFIN",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR002",
+      "status": "STRONG",
+      "arc_ids": [
+        "arc-00"
+      ],
+      "centrality": "CORE_OPENING_CHRONOLOGY",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR003",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "arc_ids": [
+        "arc-01",
+        "arc-02",
+        "arc-03",
+        "arc-04",
+        "arc-06"
+      ],
+      "centrality": "CORE_STORY_ARCHITECTURE",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR004",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "arc_ids": [
+        "arc-01",
+        "arc-07"
+      ],
+      "centrality": "CORE_PLAYER_POSITION",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR005",
+      "status": "STRONG",
+      "arc_ids": [
+        "arc-05"
+      ],
+      "centrality": "CORE_CONVERGENCE_GATE",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "contemporary_partner_web",
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR006",
+      "status": "STRONG",
+      "arc_ids": [
+        "arc-09"
+      ],
+      "centrality": "CORE_HIGH_LEVEL_ARC",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR007",
+      "status": "STRONG",
+      "arc_ids": [
+        "arc-10"
+      ],
+      "centrality": "CORE_HIGH_LEVEL_ARC",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR008",
+      "status": "INFERENCE",
+      "arc_ids": [
+        "arc-10"
+      ],
+      "centrality": "SUPPORTING_ARC_OUTCOME",
+      "narrative_impact": "POSSIBLE",
+      "source_families": [
+        "internet_research_package"
+      ]
+    },
+    {
+      "claim_id": "IR009",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "arc_ids": [
+        "arc-07",
+        "arc-11"
+      ],
+      "centrality": "CORE_HIGH_LEVEL_ARC",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR010",
+      "status": "VERIFIED_DIRECT",
+      "arc_ids": [
+        "arc-12"
+      ],
+      "centrality": "CORE_ENDPOINT_ARC",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package"
+      ]
+    },
+    {
+      "claim_id": "IR011",
+      "status": "VERIFIED_DIRECT",
+      "arc_ids": [
+        "arc-12"
+      ],
+      "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR012",
+      "status": "VERIFIED_DIRECT",
+      "arc_ids": [
+        "arc-12"
+      ],
+      "centrality": "RELEASE_METADATA",
+      "narrative_impact": "NONE",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package"
+      ]
+    },
+    {
+      "claim_id": "IR013",
+      "status": "STRONG",
+      "arc_ids": [
+        "endpoint"
+      ],
+      "centrality": "SUPPORTING_CHRONOLOGY",
+      "narrative_impact": "POSSIBLE",
+      "source_families": [
+        "internet_research_package"
+      ]
+    },
+    {
+      "claim_id": "IR014",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "arc_ids": [
+        "arc-02"
+      ],
+      "centrality": "IMPORTANT_PRE50_RECOVERY",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "contemporary_partner_web",
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR015",
+      "status": "VERIFIED_DIRECT",
+      "arc_ids": [
+        "arc-08"
+      ],
+      "centrality": "CORE_HIGH_LEVEL_ARC",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR016",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "arc_ids": [
+        "arc-01",
+        "arc-10"
+      ],
+      "centrality": "NORMALIZATION_AND_EDITION",
+      "narrative_impact": "NONE",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR017",
+      "status": "STRONG",
+      "arc_ids": [
+        "endpoint"
+      ],
+      "centrality": "RELEASE_AUDIT_CONCLUSION",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "internet_research_package"
+      ]
+    },
+    {
+      "claim_id": "IR018",
+      "status": "VERIFIED_DIRECT",
+      "arc_ids": [
+        "arc-06"
+      ],
+      "centrality": "CORE_MISSING_CHAIN_RECOVERY",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "lab_derived_index",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR019",
+      "status": "VERIFIED_DIRECT",
+      "arc_ids": [
+        "arc-03"
+      ],
+      "centrality": "IMPORTANT_PRE50_RECOVERY",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR020",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "arc_ids": [
+        "arc-04",
+        "arc-12"
+      ],
+      "centrality": "IMPORTANT_PRE50_RECOVERY",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR021",
+      "status": "VERIFIED_DIRECT",
+      "arc_ids": [
+        "arc-01",
+        "arc-12"
+      ],
+      "centrality": "CORE_PLAYER_IDENTITY_REVEAL",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR022",
+      "status": "VERIFIED_DIRECT",
+      "arc_ids": [
+        "arc-06"
+      ],
+      "centrality": "CORE_POST50_SUCCESSION_CHAIN",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "lab_derived_index",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR023",
+      "status": "VERIFIED_DIRECT",
+      "arc_ids": [
+        "arc-06"
+      ],
+      "centrality": "CORE_POST50_RELIC_CHAIN",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "lab_derived_index",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR024",
+      "status": "VERIFIED_DIRECT",
+      "arc_ids": [
+        "arc-06"
+      ],
+      "centrality": "CORE_POST50_PURSUIT_CHAIN",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "lab_derived_index",
+        "lab_raw_story"
+      ]
+    },
+    {
+      "claim_id": "IR025",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "arc_ids": [
+        "arc-06"
+      ],
+      "centrality": "CORE_POST50_ENDPOINT_CHAIN",
+      "narrative_impact": "MATERIAL",
+      "source_families": [
+        "first_party_web",
+        "lab_derived_index",
+        "lab_raw_story"
+      ]
+    }
+  ],
+  "structural_audit": {
+    "managed_label_relation_counts": {
+      "MATCH": 449,
+      "VARIANT": 183
+    },
+    "core_50_80": {
+      "managed_edges": 61,
+      "label_variants": 61,
+      "explicit_refer_matches": 61,
+      "semantic_joins_blocked": 61,
+      "handling": "Explicit same-archive refer links are structural. Inline wrapper labels and standalone target labels remain separate evidence fields."
+    },
+    "post50_49_89": {
+      "managed_edges": 77,
+      "label_variants": 77,
+      "id_reuse_variants": 77,
+      "semantic_joins_blocked": 77,
+      "macro_task_order": [
+        13,
+        14,
+        15,
+        17,
+        16,
+        18,
+        21,
+        19,
+        20,
+        22,
+        23,
+        24
+      ],
+      "handling": "Wrapper-inline evidence controls narrative reconstruction; unrelated same-ID standalone content is excluded."
+    }
+  },
+  "conflicts": [
+    {
+      "conflict_id": "chronology-1189-later-events",
+      "status": "CONFLICT",
+      "narrative_impact": "POSSIBLE",
+      "resolution_status": "DOCUMENTED",
+      "handling": "Preserve Xoyo dates; do not silently repair them with external history."
+    },
+    {
+      "conflict_id": "wu-xi-early-death",
+      "status": "CONFLICT",
+      "narrative_impact": "MATERIAL",
+      "resolution_status": "RESOLVED",
+      "handling": "Later first-party 1205 arc controls; early wording is not a canonical death."
+    },
+    {
+      "conflict_id": "level-140-marketing-135-gate",
+      "status": "EDITION_DRIFT",
+      "narrative_impact": "NONE",
+      "resolution_status": "RESOLVED",
+      "handling": "One arc: marketed as 140, mechanically gated at 135."
+    },
+    {
+      "conflict_id": "youlong-jue-character",
+      "status": "CONFLICT",
+      "narrative_impact": "POSSIBLE",
+      "resolution_status": "DOCUMENTED",
+      "handling": "Keep 游龙诀 variant separate; global relic remains 游龙珏."
+    },
+    {
+      "conflict_id": "managed-sub-label-variants",
+      "status": "CONFLICT",
+      "narrative_impact": "POSSIBLE",
+      "resolution_status": "DOCUMENTED",
+      "handling": "Preserve wrapper inline name/description and standalone target name separately. Structural target resolution is retained, but all 77 post-50 VARIANT joins are semantically blocked from importing standalone content."
+    }
+  ],
+  "unresolved_questions": [
+    {
+      "question_id": "parents-identities",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "What are the names, affiliations and exact fate of the player’s biological parents?",
+      "impact": "Identity details cannot be fixed in future canon; the evidenced reveal still functions."
+    },
+    {
+      "question_id": "player-guardian-lineage",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "Is the player demonstrably one of the guardian-descendant lines?",
+      "impact": "Do not equate the player with a specific lineage."
+    },
+    {
+      "question_id": "du-long-final-secret",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "What is the final combined meaning and outcome of Du Long Giác and the descendants’ secret?",
+      "impact": "The macguffin can be promoted only as an unresolved long mystery."
+    },
+    {
+      "question_id": "bingge-full-order",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "What is the complete cross-family causal order of Binh Qua Trung Nguyên?",
+      "impact": "Raw families are usable; uncertain bridges remain excluded."
+    },
+    {
+      "question_id": "post50-micro-dialogue-recovery",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "Can the exact objectives and dialogue for all 77 post-50 wrapper-inline subtasks be recovered without joining unrelated same-ID standalone records?",
+      "impact": "The macro causality and level-gated order are usable; standalone dialogue and objectives remain excluded unless separately reconciled."
+    },
+    {
+      "question_id": "level100-full-chain",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "What is the complete Man Thiên Quá Hải chain beyond the recovered local task node?",
+      "impact": "Use the recovered covert-return beat only."
+    },
+    {
+      "question_id": "returning-woman-identity",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "Is the unnamed returning woman at Linh Bích definitely Ân Đồng?",
+      "impact": "Keep the identity as inference, not canon fact."
+    },
+    {
+      "question_id": "post-lingbi-continuation",
+      "status": "UNKNOWN",
+      "centrality": "CENTRAL_TOLERABLE",
+      "question": "Which later coherent edition, if any, resolves the post-Linh-Bích story and Du Long Giác?",
+      "impact": "The promoted corpus ends at a continuation point."
+    }
+  ],
+  "central_blocker_count": 0,
+  "unresolved_material_conflict_count": 0,
+  "promotion_gates": {
+    "S3": {
+      "status": "PASS",
+      "basis": "All declared main arcs have claim-linked source-only dossiers; central unknowns are explicit."
+    },
+    "S4": {
+      "status": "PASS",
+      "basis": "All load-bearing research claims are reconciled; no unresolved MATERIAL narrative conflict remains."
+    },
+    "S5": {
+      "status": "PASS",
+      "basis": "Curated claims, concordance, dossiers, unresolved ledger and confidence inputs are complete for release validation."
+    }
+  },
+  "promotion_decision": "NOVEL_PROMOTION_READY"
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.560887+00:00",
+  "dossier_id": "dossier-arc-09",
+  "arc_id": "arc-09",
+  "title": "Đại Lý crisis",
+  "chronology_or_level_range": "level 110",
+  "premise_claim_ids": [
+    "IR006"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR006"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR006"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR006",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR006"
+  ],
+  "reveal_claim_ids": [
+    "IR006"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR006"
+  ],
+  "consequence_claim_ids": [
+    "IR006"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR006"
+  ],
+  "central_unknown_ids": [],
+  "material_conflict_ids": [],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS"
+}

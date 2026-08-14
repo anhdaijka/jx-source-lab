@@ -1,0 +1,1843 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.546290+00:00",
+  "reconstruction_id": "level-50-89-mainline",
+  "title": "Post-50 cross-narrative reconstruction",
+  "level_gate_span": "49-89",
+  "authority_boundary": {
+    "primary_detail_source": "RAW_CLIENT wrapper-inline Managed/Sub records",
+    "internet_role": "architecture, prerequisite and named-release corroboration only",
+    "standalone_subtask_rule": "Standalone content is excluded whenever semantic_join_status is ID_REUSE_VARIANT."
+  },
+  "architecture_evidence": [
+    {
+      "source_family": "first_party_web",
+      "support_type": "direct_content",
+      "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+      "url": "https://jxsj.xoyo.com/show-3415-6173-1.html",
+      "retrieved_at_utc": "2026-08-14T08:00:00+00:00",
+      "response_sha256": "278b09f4fa3b46606facee255e1c510e7de0ec5e5828f4c07f82a64892339442",
+      "verification_status": "LIVE_HTTP_200_CONTENT_MATCH",
+      "locator": "三条区域主线; 江南区; 中原区; 西南区; 50级之后; 交叉叙事",
+      "citation_id": "KX-ARCH-01"
+    },
+    {
+      "source_family": "contemporary_partner_web",
+      "support_type": "direct_content",
+      "evidence_class": "OFFICIAL_ARCHIVE",
+      "url": "https://jxsj.17173.com/content/2008-07-04/1215138256.shtml",
+      "retrieved_at_utc": "2026-08-14T08:00:00+00:00",
+      "response_sha256": "8c65304f24b1dfc4b9354656083aa1d8b4be2242fdcccd95f590c3d0c3c359b2",
+      "verification_status": "LIVE_HTTP_200_CONTENT_MATCH",
+      "locator": "神州往事接任务以完成50级前主线为前提",
+      "citation_id": "KX-PRE50-01"
+    },
+    {
+      "source_family": "first_party_web",
+      "support_type": "direct_content",
+      "evidence_class": "OFFICIAL_KINGSOFT_XOYO",
+      "url": "https://jxsj.xoyo.com/kfnotic/296247/",
+      "retrieved_at_utc": "2026-08-14T08:00:00+00:00",
+      "response_sha256": "07c190981e531aac519d8713d649aa7998b7fce4ac1f1d4c55cfbca9539754dc",
+      "verification_status": "LIVE_HTTP_200_CONTENT_MATCH",
+      "locator": "2008-08-12 maintenance; mainline tasks 别有洞天 and 家国大义",
+      "citation_id": "KX-POST50-PATCH-01"
+    }
+  ],
+  "macro_task_order": [
+    13,
+    14,
+    15,
+    17,
+    16,
+    18,
+    21,
+    19,
+    20,
+    22,
+    23,
+    24
+  ],
+  "family_count": 12,
+  "managed_inline_subtask_count": 77,
+  "blocked_standalone_join_count": 77,
+  "phases": [
+    {
+      "phase_id": "post50-49-58",
+      "level_range": "49-58",
+      "task_ids": [
+        13,
+        14,
+        15
+      ],
+      "claim_id": "IR022",
+      "summary": "Bạch Thu Lâm assigns a secret mission to locate and protect Gia Vương; the chain moves through Tương Dương, Hán Thủy, Phi Long and Thiên Quỳnh, counters Lý Hậu and ends with Gia Vương taking the throne."
+    },
+    {
+      "phase_id": "post50-58-69",
+      "level_range": "58-69",
+      "task_ids": [
+        17,
+        16,
+        18
+      ],
+      "claim_id": "IR023",
+      "summary": "The player investigates a Đường Môn insider and a Du Long diagram through Lý Nguyên Triết, Đường Khuyết, Nạp Tư and Hắc Long Đàm; the relic is then stolen at Điểm Thương."
+    },
+    {
+      "phase_id": "post50-69-79",
+      "level_range": "69-79",
+      "task_ids": [
+        21,
+        19,
+        20
+      ],
+      "claim_id": "IR024",
+      "summary": "The investigation follows an Ngô Hi information leak and a cross-faction pursuit involving Cái Bang, Ngũ Độc, Jin-linked actors and Nhất Phẩm Đường, ending in the Tây Hạ confrontation."
+    },
+    {
+      "phase_id": "post50-79-89",
+      "level_range": "79-89",
+      "task_ids": [
+        22,
+        23,
+        24
+      ],
+      "claim_id": "IR025",
+      "summary": "After the Du Long recovery effort, Nhất Phẩm Đường attacks Nghĩa Quân and competing groups pursue the treasure; the chain reaches a cave conflict involving Hoàn Nhan Tương and ends at Đại Nghĩa Nước Nhà."
+    }
+  ],
+  "task_families": [
+    {
+      "narrative_order": 1,
+      "task_id": 13,
+      "record_key": "task:000000000000000D:entry:f66eae4a",
+      "name": "Người Kế Vị",
+      "phase_id": "post50-49-58",
+      "min_level_gate": 49,
+      "max_level_gate": 52,
+      "managed_inline_count": 5,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "0000000000000064",
+          "inline_name": "Kinh Biến",
+          "level_gates": [
+            49
+          ],
+          "description_sha256": "d7c72dd99956fa3d2159645e944b0fcc316d14faa6a7d0034593421204e3e397",
+          "standalone_target_id": "0000000000000064",
+          "standalone_name": "Giang Hồ Tiểu Tăng",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/f66eae4a.bin",
+            "sha256": "ea39b2c7881e21b4d9b6b847055a6f911c5dd2b3c172cab50950950e257121d9",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "0000000000000060",
+          "inline_name": "Bám Đuôi",
+          "level_gates": [
+            50
+          ],
+          "description_sha256": "6c5570d8bcafa95842f951ecc6d5e1be93e0b44d66d1aedb75bb6c8adb2cbf9a",
+          "standalone_target_id": "0000000000000060",
+          "standalone_name": "Tìm Khấu Nhuệ",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/f66eae4a.bin",
+            "sha256": "ea39b2c7881e21b4d9b6b847055a6f911c5dd2b3c172cab50950950e257121d9",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "0000000000000061",
+          "inline_name": "Phi Long Cốc",
+          "level_gates": [
+            50
+          ],
+          "description_sha256": "f8f0abd84a5dc92da12003972b607a310e53bd98240bae6293038e8a83eccedf",
+          "standalone_target_id": "0000000000000061",
+          "standalone_name": "Ma Y Thần Tướng",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/f66eae4a.bin",
+            "sha256": "ea39b2c7881e21b4d9b6b847055a6f911c5dd2b3c172cab50950950e257121d9",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "0000000000000062",
+          "inline_name": "Thiên Quỳnh Cung",
+          "level_gates": [
+            52
+          ],
+          "description_sha256": "df1bb42ac6e7bd4e99c972902a1e6b126cfba86b5e91d393fb34c4724ad6e062",
+          "standalone_target_id": "0000000000000062",
+          "standalone_name": "Vượt Ải Kiếm Chủng",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/f66eae4a.bin",
+            "sha256": "ea39b2c7881e21b4d9b6b847055a6f911c5dd2b3c172cab50950950e257121d9",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "0000000000000063",
+          "inline_name": "Binh Bất Yếm Trá",
+          "level_gates": [
+            52
+          ],
+          "description_sha256": "47524c250eea796f65b79a01e5d76f4516046324ac607c070278c18c9ee0224e",
+          "standalone_target_id": "0000000000000063",
+          "standalone_name": "Mưu trí cứu Ngu Tẩu",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/f66eae4a.bin",
+            "sha256": "ea39b2c7881e21b4d9b6b847055a6f911c5dd2b3c172cab50950950e257121d9",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:1045;id:f66eae4a;offset:2217907;stored:4519;expanded:22799;output_sha256:ea39b2c7881e21b4d9b6b847055a6f911c5dd2b3c172cab50950950e257121d9",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "narrative_order": 2,
+      "task_id": 14,
+      "record_key": "task:000000000000000E:entry:f350f967",
+      "name": "Đột Biến",
+      "phase_id": "post50-49-58",
+      "min_level_gate": 53,
+      "max_level_gate": 57,
+      "managed_inline_count": 5,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "0000000000000065",
+          "inline_name": "Cần Vương",
+          "level_gates": [
+            53
+          ],
+          "description_sha256": "ff7c39d1afaa5be49043c898b9c7aa19077d34209b5649cd99e3c1da69638a64",
+          "standalone_target_id": "0000000000000065",
+          "standalone_name": "Cái Bang Ngộ Tập",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/f350f967.bin",
+            "sha256": "aa664f39a8d3212343457412d1aea317bb88a97b52a7b8ac765ddbab301336e4",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "0000000000000066",
+          "inline_name": "Binh Phù",
+          "level_gates": [
+            53
+          ],
+          "description_sha256": "4927b309fc1e269c82056e5fb6a50ec21813357b5c326f733d4c3146c0da47bc",
+          "standalone_target_id": "0000000000000066",
+          "standalone_name": "Xuất Cung Ký Lục",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/f350f967.bin",
+            "sha256": "aa664f39a8d3212343457412d1aea317bb88a97b52a7b8ac765ddbab301336e4",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "0000000000000067",
+          "inline_name": "Ngọc Bút Lệnh",
+          "level_gates": [
+            55
+          ],
+          "description_sha256": "123baaacaf1934d4989c08df06fca3b0d2de5e83d003e35e98e0abebaf5c8acc",
+          "standalone_target_id": "0000000000000067",
+          "standalone_name": "Điều Tra Vất Vả",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/f350f967.bin",
+            "sha256": "aa664f39a8d3212343457412d1aea317bb88a97b52a7b8ac765ddbab301336e4",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "0000000000000068",
+          "inline_name": "Hồng Nương Tử",
+          "level_gates": [
+            55
+          ],
+          "description_sha256": "aadcd67acf874a65044ed38f18f914a91d0d221cc0b50d87eb7d3e55ec6ba855",
+          "standalone_target_id": "0000000000000068",
+          "standalone_name": "Đệ tử Cái Bang",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/f350f967.bin",
+            "sha256": "aa664f39a8d3212343457412d1aea317bb88a97b52a7b8ac765ddbab301336e4",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "0000000000000069",
+          "inline_name": "Mật đạo",
+          "level_gates": [
+            57
+          ],
+          "description_sha256": "184e1312b14ed263b6828e7efd551965ba45db3761e4c180deb84e696a3c53ad",
+          "standalone_target_id": "0000000000000069",
+          "standalone_name": "Cứu Viện Khẩn Cấp",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/f350f967.bin",
+            "sha256": "aa664f39a8d3212343457412d1aea317bb88a97b52a7b8ac765ddbab301336e4",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:1035;id:f350f967;offset:2197939;stored:5518;expanded:27175;output_sha256:aa664f39a8d3212343457412d1aea317bb88a97b52a7b8ac765ddbab301336e4",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "narrative_order": 3,
+      "task_id": 15,
+      "record_key": "task:000000000000000F:entry:cc5a3074",
+      "name": "Tân Triều",
+      "phase_id": "post50-49-58",
+      "min_level_gate": 57,
+      "max_level_gate": 58,
+      "managed_inline_count": 5,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "000000000000006A",
+          "inline_name": "Xả Tang",
+          "level_gates": [
+            57
+          ],
+          "description_sha256": "eb53f8ef892908ab0dc38f0989c0d49616add34070b45e15e9562be6098986c7",
+          "standalone_target_id": "000000000000006A",
+          "standalone_name": "Thưởng Kỳ Yến Hội",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/cc5a3074.bin",
+            "sha256": "60b43543cf2e413369e38cdbb02c4cedb39fc7a8d84a627c017abdaf4b5a8d54",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "000000000000006B",
+          "inline_name": "Thủ Dụ",
+          "level_gates": [
+            58
+          ],
+          "description_sha256": "8cd09af3e7fd0409e39d830c1c1d33a76ca2644fbfa4c4db8276079c6f487e90",
+          "standalone_target_id": "000000000000006B",
+          "standalone_name": "Sơ Tố Miêu Thực",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/cc5a3074.bin",
+            "sha256": "60b43543cf2e413369e38cdbb02c4cedb39fc7a8d84a627c017abdaf4b5a8d54",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "000000000000006C",
+          "inline_name": "Ngô Thị",
+          "level_gates": [
+            58
+          ],
+          "description_sha256": "8e02317672e9a54cfb95794545b500791764ed08f4b353fb4f15b0aed8e1624b",
+          "standalone_target_id": "000000000000006C",
+          "standalone_name": "Lão Miêu Ban Ban",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/cc5a3074.bin",
+            "sha256": "60b43543cf2e413369e38cdbb02c4cedb39fc7a8d84a627c017abdaf4b5a8d54",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "000000000000006D",
+          "inline_name": "Tân Triều",
+          "level_gates": [
+            58
+          ],
+          "description_sha256": "47b631f3fe7428eaf4242225e2155488674fad8bfa0b07eaf61fa8bd6cf43d72",
+          "standalone_target_id": "000000000000006D",
+          "standalone_name": "Viên Quang Bí Thuật",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/cc5a3074.bin",
+            "sha256": "60b43543cf2e413369e38cdbb02c4cedb39fc7a8d84a627c017abdaf4b5a8d54",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "000000000000006E",
+          "inline_name": "Hồi Hương",
+          "level_gates": [
+            58
+          ],
+          "description_sha256": "4ea0b4c17e5468ec8f1eaad27f1119338a7fd308abe744f1c75f755036a29500",
+          "standalone_target_id": "000000000000006E",
+          "standalone_name": "Ngũ Thiên Bát Quái",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/cc5a3074.bin",
+            "sha256": "60b43543cf2e413369e38cdbb02c4cedb39fc7a8d84a627c017abdaf4b5a8d54",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:881;id:cc5a3074;offset:2066997;stored:4984;expanded:27483;output_sha256:60b43543cf2e413369e38cdbb02c4cedb39fc7a8d84a627c017abdaf4b5a8d54",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "narrative_order": 4,
+      "task_id": 17,
+      "record_key": "task:0000000000000011:entry:be6247a5",
+      "name": "Báo Ân",
+      "phase_id": "post50-58-69",
+      "min_level_gate": 58,
+      "max_level_gate": 63,
+      "managed_inline_count": 6,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "0000000000000074",
+          "inline_name": "Tân Minh Ước",
+          "level_gates": [
+            58
+          ],
+          "description_sha256": "488c282bddc074a500a910ea9c62422851e6a8f51b042303c05b0ec1a7d22c54",
+          "standalone_target_id": "0000000000000074",
+          "standalone_name": "Mất",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/be6247a5.bin",
+            "sha256": "7c30e55000fedb7279a0fbaf0ca61d109fa8d645421b59a70fa7ed251894963f",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "0000000000000075",
+          "inline_name": "Truy Tìm Kho Báu",
+          "level_gates": [
+            60
+          ],
+          "description_sha256": "580006146b6bd7e06a8d0f85d763f0a9e66b36973df87006885861fd760c3a0f",
+          "standalone_target_id": "0000000000000075",
+          "standalone_name": "Biệt Viện Tượng Tâm",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/be6247a5.bin",
+            "sha256": "7c30e55000fedb7279a0fbaf0ca61d109fa8d645421b59a70fa7ed251894963f",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "0000000000000076",
+          "inline_name": "Tìm người",
+          "level_gates": [
+            60
+          ],
+          "description_sha256": "17b09b99a9b94de228aade4164c42b936b67586e0a35bf79038298e1e963a031",
+          "standalone_target_id": "0000000000000076",
+          "standalone_name": "Võ Đang Chi Hành",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/be6247a5.bin",
+            "sha256": "7c30e55000fedb7279a0fbaf0ca61d109fa8d645421b59a70fa7ed251894963f",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "0000000000000077",
+          "inline_name": "Uy Hiếp",
+          "level_gates": [
+            61
+          ],
+          "description_sha256": "8dbad3962e48e744e69c4c29a17981f5efd9db0c7992a3c0248951a1d2c1166a",
+          "standalone_target_id": "0000000000000077",
+          "standalone_name": "Khâm Định Chủ Trì",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/be6247a5.bin",
+            "sha256": "7c30e55000fedb7279a0fbaf0ca61d109fa8d645421b59a70fa7ed251894963f",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "0000000000000078",
+          "inline_name": "Kết Nghĩa",
+          "level_gates": [
+            62
+          ],
+          "description_sha256": "6b2bfca658c6646bb319ad55465813b8537661426ba00a2dc4044e5a7ef2b7da",
+          "standalone_target_id": "0000000000000078",
+          "standalone_name": "Tiêu diệt Mã Tặc",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/be6247a5.bin",
+            "sha256": "7c30e55000fedb7279a0fbaf0ca61d109fa8d645421b59a70fa7ed251894963f",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        },
+        {
+          "ordinal": 6,
+          "inline_id": "0000000000000079",
+          "inline_name": "Chân Tướng",
+          "level_gates": [
+            63
+          ],
+          "description_sha256": "f971db9e81661762d58979b6bb6bcc31bc7e5fa8c807e3ea8b8e39e107752259",
+          "standalone_target_id": "0000000000000079",
+          "standalone_name": "Mạo Danh Thay Thế",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/be6247a5.bin",
+            "sha256": "7c30e55000fedb7279a0fbaf0ca61d109fa8d645421b59a70fa7ed251894963f",
+            "locator": "/Task/Managed/Sub[6]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:818;id:be6247a5;offset:118770;stored:5685;expanded:29447;output_sha256:7c30e55000fedb7279a0fbaf0ca61d109fa8d645421b59a70fa7ed251894963f",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "narrative_order": 5,
+      "task_id": 16,
+      "record_key": "task:0000000000000010:entry:bd780c88",
+      "name": "Tìm Ra Lời Đáp",
+      "phase_id": "post50-58-69",
+      "min_level_gate": 63,
+      "max_level_gate": 65,
+      "managed_inline_count": 5,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "000000000000006F",
+          "inline_name": "Bí Mật Che Giấu",
+          "level_gates": [
+            63
+          ],
+          "description_sha256": "418cd6a876214fe3ea9a0fd53321a31372ff6b59ba3bcc8222121bce87972300",
+          "standalone_target_id": "000000000000006F",
+          "standalone_name": "Vô Liễm Đại Sư",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/bd780c88.bin",
+            "sha256": "da034b18384673572b99116b155ca23b6339f4356a50dbb59a0640f36b07c830",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "0000000000000070",
+          "inline_name": "Người Gan Dạ",
+          "level_gates": [
+            64
+          ],
+          "description_sha256": "b287b5e0f9c64ee637a7258c4187f819adc69d521d42c7243a16a79b2433bca3",
+          "standalone_target_id": "0000000000000070",
+          "standalone_name": "Quan Phỉ Cấu Kết",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/bd780c88.bin",
+            "sha256": "da034b18384673572b99116b155ca23b6339f4356a50dbb59a0640f36b07c830",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "0000000000000071",
+          "inline_name": "Tân Tộc Trưởng",
+          "level_gates": [
+            65
+          ],
+          "description_sha256": "14fa75e11901aba2779e7c43f983e973483e8085cdf6d22d8e7f78a66f5c7808",
+          "standalone_target_id": "0000000000000071",
+          "standalone_name": "Lễ Thượng Vãng Lai",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/bd780c88.bin",
+            "sha256": "da034b18384673572b99116b155ca23b6339f4356a50dbb59a0640f36b07c830",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "0000000000000072",
+          "inline_name": "Thần Thú",
+          "level_gates": [
+            65
+          ],
+          "description_sha256": "cc8e93ace2e218f65266962a595e63e7f6e3a3ed2f3e33a52bc992f834fbe92e",
+          "standalone_target_id": "0000000000000072",
+          "standalone_name": "Trú Nhan Tân Phương",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/bd780c88.bin",
+            "sha256": "da034b18384673572b99116b155ca23b6339f4356a50dbb59a0640f36b07c830",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "0000000000000073",
+          "inline_name": "Hắc Long Đàm",
+          "level_gates": [
+            65
+          ],
+          "description_sha256": "dd22bed11a49c18adc167eb4c1ab67f1f28548daa36a6a2cf2e53837281ee2df",
+          "standalone_target_id": "0000000000000073",
+          "standalone_name": "Thiên Nhược Hữu Tình",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/bd780c88.bin",
+            "sha256": "da034b18384673572b99116b155ca23b6339f4356a50dbb59a0640f36b07c830",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:813;id:bd780c88;offset:113363;stored:5407;expanded:24863;output_sha256:da034b18384673572b99116b155ca23b6339f4356a50dbb59a0640f36b07c830",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "narrative_order": 6,
+      "task_id": 18,
+      "record_key": "task:0000000000000012:entry:bb6b9eb2",
+      "name": "Bí Mật Che Giấu",
+      "phase_id": "post50-58-69",
+      "min_level_gate": 65,
+      "max_level_gate": 69,
+      "managed_inline_count": 6,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "000000000000007A",
+          "inline_name": "Trục Cuốn",
+          "level_gates": [
+            65
+          ],
+          "description_sha256": "9099390c333184a7613f14bc986ebe8d433391f619fb01917c4001d11c2889c9",
+          "standalone_target_id": "000000000000007A",
+          "standalone_name": "Hành Cung Ngộ Thích ",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/bb6b9eb2.bin",
+            "sha256": "5fdfe487d797cc1accd0d1632cd8bb7af992cc6c80e3709cc18ea44b17a37822",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "000000000000007B",
+          "inline_name": "Mưu Kế",
+          "level_gates": [
+            66
+          ],
+          "description_sha256": "576af7d7259848a62e98756254968a71c2e9e7bcb1350a9b1a4cea72562b3437",
+          "standalone_target_id": "000000000000007B",
+          "standalone_name": "Tìm Hoàng Thúc",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/bb6b9eb2.bin",
+            "sha256": "5fdfe487d797cc1accd0d1632cd8bb7af992cc6c80e3709cc18ea44b17a37822",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "000000000000007C",
+          "inline_name": "Tranh Đoạt",
+          "level_gates": [
+            67
+          ],
+          "description_sha256": "175a2edf061e47d21a5754f814c5bbccfb0f0a28f5d252d9f241636a389d3f78",
+          "standalone_target_id": "000000000000007C",
+          "standalone_name": "Hốt Nhiên Hữu Tật",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/bb6b9eb2.bin",
+            "sha256": "5fdfe487d797cc1accd0d1632cd8bb7af992cc6c80e3709cc18ea44b17a37822",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "000000000000007D",
+          "inline_name": "Huyền Nghi",
+          "level_gates": [
+            67
+          ],
+          "description_sha256": "8316944f8d44cc76fcdc8e84c10ebf561d185935dea29c329756908bb7896378",
+          "standalone_target_id": "000000000000007D",
+          "standalone_name": "Tầm Y",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/bb6b9eb2.bin",
+            "sha256": "5fdfe487d797cc1accd0d1632cd8bb7af992cc6c80e3709cc18ea44b17a37822",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "000000000000007E",
+          "inline_name": "Rút Lui",
+          "level_gates": [
+            68
+          ],
+          "description_sha256": "d423c201d09d33ae49afdafeb5a1586f7471a265c20a76608f536e8aaad7cfcf",
+          "standalone_target_id": "000000000000007E",
+          "standalone_name": "Diệu Thủ Hồi Xuân",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/bb6b9eb2.bin",
+            "sha256": "5fdfe487d797cc1accd0d1632cd8bb7af992cc6c80e3709cc18ea44b17a37822",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        },
+        {
+          "ordinal": 6,
+          "inline_id": "000000000000007F",
+          "inline_name": "Khí Phách",
+          "level_gates": [
+            69
+          ],
+          "description_sha256": "361f6192aaecc32dcccca306a604f5bbb82348bef65c79c7939198b69081dc07",
+          "standalone_target_id": "000000000000007F",
+          "standalone_name": "Ngẫu Nhiên Phát Hiện",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/bb6b9eb2.bin",
+            "sha256": "5fdfe487d797cc1accd0d1632cd8bb7af992cc6c80e3709cc18ea44b17a37822",
+            "locator": "/Task/Managed/Sub[6]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:804;id:bb6b9eb2;offset:961857;stored:5864;expanded:37180;output_sha256:5fdfe487d797cc1accd0d1632cd8bb7af992cc6c80e3709cc18ea44b17a37822",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "narrative_order": 7,
+      "task_id": 21,
+      "record_key": "task:0000000000000015:entry:b248bbe9",
+      "name": "Súc Thế Đãi Phát",
+      "phase_id": "post50-69-79",
+      "min_level_gate": 69,
+      "max_level_gate": 73,
+      "managed_inline_count": 7,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "0000000000000090",
+          "inline_name": "Súc Thế Đãi Phát",
+          "level_gates": [
+            69
+          ],
+          "description_sha256": "0dc8b72277f79a8469fda766646c01ad8e83b8f0638fb5c7d044e99d9449d8f6",
+          "standalone_target_id": "0000000000000090",
+          "standalone_name": "Nam Cung Uyển Nhi",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b248bbe9.bin",
+            "sha256": "c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "0000000000000091",
+          "inline_name": "Chinh Binh",
+          "level_gates": [
+            70
+          ],
+          "description_sha256": "54b7103570a2eaedadc862d20b42f750ccc086c93390d7b9ae9ddf26ac8f09fa",
+          "standalone_target_id": "0000000000000091",
+          "standalone_name": "Ngô Tài Ngô Đức",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b248bbe9.bin",
+            "sha256": "c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "0000000000000092",
+          "inline_name": "Võ Đài So Nghệ",
+          "level_gates": [
+            70
+          ],
+          "description_sha256": "0510ed4e35e504924b70d4859f07650602164045342e8766498c8afd5ae5d6c7",
+          "standalone_target_id": "0000000000000092",
+          "standalone_name": "Tìm Ngô Đức",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b248bbe9.bin",
+            "sha256": "c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "0000000000000093",
+          "inline_name": "Thiết Uyển",
+          "level_gates": [
+            71
+          ],
+          "description_sha256": "0fe22c4efc1b78e0d961ba8a406e05afb4a34f0582fc756b9c5edeef6121d6b6",
+          "standalone_target_id": "0000000000000093",
+          "standalone_name": "Đại Lý Báo Tín",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b248bbe9.bin",
+            "sha256": "c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "0000000000000094",
+          "inline_name": "Hậu Viện",
+          "level_gates": [
+            72
+          ],
+          "description_sha256": "f5f9d5ea4c2d25b367fc61c0030b5c3986b681190185bbcab37970501ba624e6",
+          "standalone_target_id": "0000000000000094",
+          "standalone_name": "Đường Môn Mật Sự",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b248bbe9.bin",
+            "sha256": "c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        },
+        {
+          "ordinal": 6,
+          "inline_id": "0000000000000095",
+          "inline_name": "Phòng Khách",
+          "level_gates": [
+            73
+          ],
+          "description_sha256": "e6ac772f93bdc69342f71b0244c2f3538f113cbcefb728780339d234d03d24ad",
+          "standalone_target_id": "0000000000000095",
+          "standalone_name": "Phá Ốc Chi Hành",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b248bbe9.bin",
+            "sha256": "c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+            "locator": "/Task/Managed/Sub[6]"
+          }
+        },
+        {
+          "ordinal": 7,
+          "inline_id": "0000000000000096",
+          "inline_name": "Mưu Đồ Bí Mật",
+          "level_gates": [
+            73
+          ],
+          "description_sha256": "aebe501c7d09434d70d4f0af038448c6aa7df86810b6fa00073e3864619e9112",
+          "standalone_target_id": "0000000000000096",
+          "standalone_name": "Trường Ca Môn Nhân",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b248bbe9.bin",
+            "sha256": "c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+            "locator": "/Task/Managed/Sub[7]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:754;id:b248bbe9;offset:1956159;stored:5360;expanded:29669;output_sha256:c09d43e4e03574a5a3e77366380ffec86d70405f7c8cb258792f2dd9e53b312d",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "narrative_order": 8,
+      "task_id": 19,
+      "record_key": "task:0000000000000013:entry:b45d29cf",
+      "name": "Âm Sai Dương Thác",
+      "phase_id": "post50-69-79",
+      "min_level_gate": 74,
+      "max_level_gate": 76,
+      "managed_inline_count": 8,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "0000000000000080",
+          "inline_name": "Phát Hiện Mới",
+          "level_gates": [
+            74
+          ],
+          "description_sha256": "38d7f014d85ea3c944b3819b3b52400749dcd8c422cce5f94c6393b05bb82ca0",
+          "standalone_target_id": "0000000000000080",
+          "standalone_name": "Thanh Than Thạch Trường",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b45d29cf.bin",
+            "sha256": "1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "0000000000000081",
+          "inline_name": "Dị Quốc Mật Lệnh",
+          "level_gates": [
+            74
+          ],
+          "description_sha256": "06ad79af6917bcdacc7a87844da5fc5a8836c417ef4590662aa3f0ce11192be7",
+          "standalone_target_id": "0000000000000081",
+          "standalone_name": "Nhất Điểm Thù Hận",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b45d29cf.bin",
+            "sha256": "1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "0000000000000082",
+          "inline_name": "Tìm Về",
+          "level_gates": [
+            74
+          ],
+          "description_sha256": "79e0bc945abac62955d6bb628a6b7dab216accbf7ffd4e2d0b50797df822d7c9",
+          "standalone_target_id": "0000000000000082",
+          "standalone_name": "Mật Thư ",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b45d29cf.bin",
+            "sha256": "1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "0000000000000083",
+          "inline_name": "Phân Đà",
+          "level_gates": [
+            74
+          ],
+          "description_sha256": "180db8754938abf1a7f89acc23d6463dc1ade8b9da54aba2ad71507358c01263",
+          "standalone_target_id": "0000000000000083",
+          "standalone_name": "Thiên Vương Phân Đà",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b45d29cf.bin",
+            "sha256": "1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "0000000000000084",
+          "inline_name": "Tiến Công Nghi Binh",
+          "level_gates": [
+            75
+          ],
+          "description_sha256": "a4a068ec7be004b0a360be1d158202861392a8181046e62d020d0c8746f1b741",
+          "standalone_target_id": "0000000000000084",
+          "standalone_name": "Biệt Viện Đường Môn",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b45d29cf.bin",
+            "sha256": "1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        },
+        {
+          "ordinal": 6,
+          "inline_id": "0000000000000085",
+          "inline_name": "Hợp Tác",
+          "level_gates": [
+            75
+          ],
+          "description_sha256": "6120c87892c9124c0ad85f18bacc988e5da6d444dd7d8f3313debbbb24cca209",
+          "standalone_target_id": "0000000000000085",
+          "standalone_name": "Cướp Đoạt Báu Vật",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b45d29cf.bin",
+            "sha256": "1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+            "locator": "/Task/Managed/Sub[6]"
+          }
+        },
+        {
+          "ordinal": 7,
+          "inline_id": "0000000000000086",
+          "inline_name": "Đồng Minh Mới",
+          "level_gates": [
+            76
+          ],
+          "description_sha256": "3b610d59c0c36c6660384a51d32e51dfe591f15964b2bac2a1ac024edc57d312",
+          "standalone_target_id": "0000000000000086",
+          "standalone_name": "Hộ Tống Bảo Ngọc",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b45d29cf.bin",
+            "sha256": "1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+            "locator": "/Task/Managed/Sub[7]"
+          }
+        },
+        {
+          "ordinal": 8,
+          "inline_id": "0000000000000087",
+          "inline_name": "Ngàn Dặm Theo Dấu",
+          "level_gates": [
+            76
+          ],
+          "description_sha256": "d30612fdd985866df77b407ec55c533a78620f269d68c31a0a5cc0918b5257aa",
+          "standalone_target_id": "0000000000000087",
+          "standalone_name": "La Thị Huynh Đệ",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b45d29cf.bin",
+            "sha256": "1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+            "locator": "/Task/Managed/Sub[8]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:766;id:b45d29cf;offset:1970109;stored:5492;expanded:34085;output_sha256:1b78f6e8d7d1b67e4eadcdbc6f6fa521d4570d8e49f9cd307b01aff5e6bcc1aa",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "narrative_order": 9,
+      "task_id": 20,
+      "record_key": "task:0000000000000014:entry:b14760dc",
+      "name": "Hé Lộ Manh Mối",
+      "phase_id": "post50-69-79",
+      "min_level_gate": 77,
+      "max_level_gate": 79,
+      "managed_inline_count": 8,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "0000000000000088",
+          "inline_name": "Manh Mối",
+          "level_gates": [
+            77
+          ],
+          "description_sha256": "cb8a296c2866b4ff92cab3ca1f90d16a12514aa5bb03be8cea8ce2985e2e8161",
+          "standalone_target_id": "0000000000000088",
+          "standalone_name": "Tìm Phản Đồ",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b14760dc.bin",
+            "sha256": "070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "0000000000000089",
+          "inline_name": "Theo Dấu",
+          "level_gates": [
+            77
+          ],
+          "description_sha256": "29d377065954fa9016e82ee1a8eaafbdd0d6ef4b679c5ac78bdb55db389cfd93",
+          "standalone_target_id": "0000000000000089",
+          "standalone_name": "Truy Tìm Bí Mật",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b14760dc.bin",
+            "sha256": "070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "000000000000008A",
+          "inline_name": "Hậu Thổ Doanh",
+          "level_gates": [
+            78
+          ],
+          "description_sha256": "945405aff3dc205aeee936bb3e823d521709415a74853ecb1e2803062c319afe",
+          "standalone_target_id": "000000000000008A",
+          "standalone_name": "Tam Hiệu Sào Huyệt",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b14760dc.bin",
+            "sha256": "070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "000000000000008B",
+          "inline_name": "Lộng Xà Thuật",
+          "level_gates": [
+            78
+          ],
+          "description_sha256": "d1358c47a95d656eb8a9f1e14dea0099caeacfa560983fe8c1b36c5898b4de14",
+          "standalone_target_id": "000000000000008B",
+          "standalone_name": "Vào quân doanh",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b14760dc.bin",
+            "sha256": "070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "000000000000008C",
+          "inline_name": "Xà Vương",
+          "level_gates": [
+            79
+          ],
+          "description_sha256": "1ad01f1a4e32a2151ff0a1517848659f13cd9ac760ee867d4302ec743efba0e6",
+          "standalone_target_id": "000000000000008C",
+          "standalone_name": "Tìm được cống phẩm",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b14760dc.bin",
+            "sha256": "070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        },
+        {
+          "ordinal": 6,
+          "inline_id": "000000000000008D",
+          "inline_name": "Tai Biến",
+          "level_gates": [
+            79
+          ],
+          "description_sha256": "7910e7d7f1c7af421930939c71f68c7fe0739e73596529a3c1f7921da522bef4",
+          "standalone_target_id": "000000000000008D",
+          "standalone_name": "Đuổi Cùng Diệt Tận",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b14760dc.bin",
+            "sha256": "070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+            "locator": "/Task/Managed/Sub[6]"
+          }
+        },
+        {
+          "ordinal": 7,
+          "inline_id": "000000000000008E",
+          "inline_name": "Định Sách",
+          "level_gates": [
+            79
+          ],
+          "description_sha256": "d851ffc8acbee99d359122def995439c7266aecc213777b920b13f4ad1fee5cb",
+          "standalone_target_id": "000000000000008E",
+          "standalone_name": "Thanh Tẩy Quân Doanh",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b14760dc.bin",
+            "sha256": "070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+            "locator": "/Task/Managed/Sub[7]"
+          }
+        },
+        {
+          "ordinal": 8,
+          "inline_id": "000000000000008F",
+          "inline_name": "Đấu Võ",
+          "level_gates": [
+            79
+          ],
+          "description_sha256": "259c55e1d0ffb16e503e4c004cfd0d9df92eb7f0fee13444f561b7ca4618d4f4",
+          "standalone_target_id": "000000000000008F",
+          "standalone_name": "Chiến Thắng Già Âm",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/b14760dc.bin",
+            "sha256": "070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+            "locator": "/Task/Managed/Sub[8]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:747;id:b14760dc;offset:1948646;stored:5449;expanded:34731;output_sha256:070e9195b810e19c50d9a4a232a0316c071919d400f166821111c6db89207709",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "narrative_order": 10,
+      "task_id": 22,
+      "record_key": "task:0000000000000016:entry:8fb2f206",
+      "name": "Mang Ngọc Mắc Tội",
+      "phase_id": "post50-79-89",
+      "min_level_gate": 79,
+      "max_level_gate": 82,
+      "managed_inline_count": 6,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "0000000000000097",
+          "inline_name": "Tiết Phẫn Nhất Kích",
+          "level_gates": [
+            79
+          ],
+          "description_sha256": "e9d1710e79dec5937495c86a21e7b0ccb7ff1ed670c46bd2c9073338e1014fe8",
+          "standalone_target_id": "0000000000000097",
+          "standalone_name": "Tìm được Tín Sứ",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/8fb2f206.bin",
+            "sha256": "f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "0000000000000098",
+          "inline_name": "Đạo Trị Binh",
+          "level_gates": [
+            80
+          ],
+          "description_sha256": "2bc89263446062dffe73fe3770e655126091c7069b538ed9ef7bad617d6a9cdf",
+          "standalone_target_id": "0000000000000098",
+          "standalone_name": "Cứu Tín Sứ",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/8fb2f206.bin",
+            "sha256": "f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "0000000000000099",
+          "inline_name": "Hỏa Lực Thập Túc",
+          "level_gates": [
+            80
+          ],
+          "description_sha256": "aa84c658ab94cea0ec60c576e4b8e9c4fc22c10550c330d9140630aca4ee13e3",
+          "standalone_target_id": "0000000000000099",
+          "standalone_name": "Hộ Tống Tín Sứ",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/8fb2f206.bin",
+            "sha256": "f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "000000000000009A",
+          "inline_name": "Chế Tạo Hỏa Dược",
+          "level_gates": [
+            81
+          ],
+          "description_sha256": "8ef5ce9c8b020f218793b67975346c65f9a0dce287b727b7a2149bba1c2bbde2",
+          "standalone_target_id": "000000000000009A",
+          "standalone_name": "Thái Hậu Hữu Dị",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/8fb2f206.bin",
+            "sha256": "f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "000000000000009B",
+          "inline_name": "Bổ Sung Đạn Dược",
+          "level_gates": [
+            81
+          ],
+          "description_sha256": "034b0ce17657d5901995d757e6e8ef102925fcc29842470b246d112e552afd4a",
+          "standalone_target_id": "000000000000009B",
+          "standalone_name": "Bổ Dược Dương Bản",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/8fb2f206.bin",
+            "sha256": "f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        },
+        {
+          "ordinal": 6,
+          "inline_id": "000000000000009C",
+          "inline_name": "Truy Tìm Căn Nguyên",
+          "level_gates": [
+            82
+          ],
+          "description_sha256": "ecf064cca79303509069cc670e0a3636d0d655ecc93acb89da82d6190b00e1d9",
+          "standalone_target_id": "000000000000009C",
+          "standalone_name": "Ngũ Hành Khốn Long",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/8fb2f206.bin",
+            "sha256": "f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+            "locator": "/Task/Managed/Sub[6]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:615;id:8fb2f206;offset:1811233;stored:4864;expanded:26207;output_sha256:f75f6b92b89d254fb25cbba3e391b8e5442298728943ca6f50b61f696fb090a7",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "narrative_order": 11,
+      "task_id": 23,
+      "record_key": "task:0000000000000017:entry:88a40d13",
+      "name": "Bộ Bộ Vi Doanh",
+      "phase_id": "post50-79-89",
+      "min_level_gate": 82,
+      "max_level_gate": 85,
+      "managed_inline_count": 5,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "000000000000009D",
+          "inline_name": "Lực Ách Yếu Hại",
+          "level_gates": [
+            82
+          ],
+          "description_sha256": "072461e1dc50c4f4f2b564c98524612f46f039bc8c8f9de39fcce004e1acff28",
+          "standalone_target_id": "000000000000009D",
+          "standalone_name": "Làm nhiệm vụ giúp đại sư",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/88a40d13.bin",
+            "sha256": "7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "000000000000009E",
+          "inline_name": "Mưu Sâu Kế Độc",
+          "level_gates": [
+            83
+          ],
+          "description_sha256": "423fab3ea2cc223210e9ea7a9cd5b94d916c044cec5cf3bbdb45eaffd9cf30d2",
+          "standalone_target_id": "000000000000009E",
+          "standalone_name": "Đến Đại Lý",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/88a40d13.bin",
+            "sha256": "7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "000000000000009F",
+          "inline_name": "Tập Kích Bất Ngờ",
+          "level_gates": [
+            83
+          ],
+          "description_sha256": "107583084db8ab68cbdbf4427317d911c43d3e4a151fada54b4603df20716905",
+          "standalone_target_id": "000000000000009F",
+          "standalone_name": "Hoa Thi Vu",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/88a40d13.bin",
+            "sha256": "7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "00000000000000A0",
+          "inline_name": "Tham Lợi Trước Mắt",
+          "level_gates": [
+            84
+          ],
+          "description_sha256": "bb61a115eab698318e5450213bffb49bb411aa90e4d94da38071c957cb733365",
+          "standalone_target_id": "00000000000000A0",
+          "standalone_name": "Lại là một nhiệm vụ vô danh",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/88a40d13.bin",
+            "sha256": "7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "00000000000000A1",
+          "inline_name": "Quên Họa Sau Lưng",
+          "level_gates": [
+            85
+          ],
+          "description_sha256": "4f073b96cf778304c734971af1a7e6b17ee09a9bc3db4e3aacd5a78f0ac2dd56",
+          "standalone_target_id": "00000000000000A1",
+          "standalone_name": "Giải vây Thiên Long Tự",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/88a40d13.bin",
+            "sha256": "7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:582;id:88a40d13;offset:767013;stored:6595;expanded:32194;output_sha256:7e76ca883737f72e1e6ab7dcf72326bab26fecccd8cdb3b9a4d4c55a1d4f9cac",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    },
+    {
+      "narrative_order": 12,
+      "task_id": 24,
+      "record_key": "task:0000000000000018:entry:85ae4420",
+      "name": "Xua Tan Mây Mù",
+      "phase_id": "post50-79-89",
+      "min_level_gate": 86,
+      "max_level_gate": 89,
+      "managed_inline_count": 11,
+      "managed_subtasks": [
+        {
+          "ordinal": 1,
+          "inline_id": "00000000000000A2",
+          "inline_name": "Bỗng Nhiên Tỉnh Lại",
+          "level_gates": [
+            86
+          ],
+          "description_sha256": "4832f06d1fcfedbc28f05b7ce5838427d7b66dc58dca28c3ae6efc129dcc0df7",
+          "standalone_target_id": "00000000000000A2",
+          "standalone_name": "Động Thiên Ngọc Giản",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/85ae4420.bin",
+            "sha256": "fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+            "locator": "/Task/Managed/Sub[1]"
+          }
+        },
+        {
+          "ordinal": 2,
+          "inline_id": "00000000000000A3",
+          "inline_name": "Ngọc Nát Đá Tan",
+          "level_gates": [
+            86
+          ],
+          "description_sha256": "e4a15c55b38496f5df2e6354f2b6ef1c0f54f7266394c72903fa9ef49d163282",
+          "standalone_target_id": "00000000000000A3",
+          "standalone_name": "Cổ Quái Lão Đầu",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/85ae4420.bin",
+            "sha256": "fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+            "locator": "/Task/Managed/Sub[2]"
+          }
+        },
+        {
+          "ordinal": 3,
+          "inline_id": "00000000000000A4",
+          "inline_name": "Tiến Cúc Động",
+          "level_gates": [
+            86
+          ],
+          "description_sha256": "02f9596c0b521184a0aaf1c36fd948fcb29b521b33cb8e638d27bbe3481bcf2a",
+          "standalone_target_id": "00000000000000A4",
+          "standalone_name": "Chiếu Giản Hành Sự",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/85ae4420.bin",
+            "sha256": "fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+            "locator": "/Task/Managed/Sub[3]"
+          }
+        },
+        {
+          "ordinal": 4,
+          "inline_id": "00000000000000A5",
+          "inline_name": "Dị Tượng Trong Động",
+          "level_gates": [
+            87
+          ],
+          "description_sha256": "be804da6705b5e3750bde6fadfc817b761ba408f79a26786140547232a415d5f",
+          "standalone_target_id": "00000000000000A5",
+          "standalone_name": "Ngọc Tủy Phi Phượng",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/85ae4420.bin",
+            "sha256": "fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+            "locator": "/Task/Managed/Sub[4]"
+          }
+        },
+        {
+          "ordinal": 5,
+          "inline_id": "00000000000000A6",
+          "inline_name": "Động Tiên",
+          "level_gates": [
+            87
+          ],
+          "description_sha256": "93077a11c7067bdba88069a7e6f3fafac0421c9e070f34179efa8aa2d8dd831c",
+          "standalone_target_id": "00000000000000A6",
+          "standalone_name": "Bang Nguyên Bí Động",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/85ae4420.bin",
+            "sha256": "fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+            "locator": "/Task/Managed/Sub[5]"
+          }
+        },
+        {
+          "ordinal": 6,
+          "inline_id": "00000000000000A7",
+          "inline_name": "Bí Mật Bị Lộ",
+          "level_gates": [
+            87
+          ],
+          "description_sha256": "6e7dee694f015a36ea39d9d873b6c8e19484a97d5275947b5dc0a73b6c122524",
+          "standalone_target_id": "00000000000000A7",
+          "standalone_name": "Di Hoa Tiếp Mộc",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/85ae4420.bin",
+            "sha256": "fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+            "locator": "/Task/Managed/Sub[6]"
+          }
+        },
+        {
+          "ordinal": 7,
+          "inline_id": "00000000000000A8",
+          "inline_name": "Tìm Lối Vào",
+          "level_gates": [
+            88
+          ],
+          "description_sha256": "f86cb4942b5b1098c8831b3c05396e71cbb0b218783a47cf6e47c1dbe88e0939",
+          "standalone_target_id": "00000000000000A8",
+          "standalone_name": "Tiếp Tục Phá Hoại",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/85ae4420.bin",
+            "sha256": "fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+            "locator": "/Task/Managed/Sub[7]"
+          }
+        },
+        {
+          "ordinal": 8,
+          "inline_id": "00000000000000A9",
+          "inline_name": "Cẩn Tắc Vô Ưu",
+          "level_gates": [
+            88
+          ],
+          "description_sha256": "4a26ae1ae68ab6e5d569cfb4ddbdcdc33e804ac3f2d149b7901653c720f78836",
+          "standalone_target_id": "00000000000000A9",
+          "standalone_name": "Giết Chết Nhị Thương",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/85ae4420.bin",
+            "sha256": "fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+            "locator": "/Task/Managed/Sub[8]"
+          }
+        },
+        {
+          "ordinal": 9,
+          "inline_id": "00000000000000AA",
+          "inline_name": "Kẻ Thù Gặp Nhau",
+          "level_gates": [
+            88
+          ],
+          "description_sha256": "4554cb1d7c9b74772c9aff5e6e05802d26d6e98cf94987766bff3badbc917819",
+          "standalone_target_id": "00000000000000AA",
+          "standalone_name": "Tương Cơ Hạ Thủ",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/85ae4420.bin",
+            "sha256": "fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+            "locator": "/Task/Managed/Sub[9]"
+          }
+        },
+        {
+          "ordinal": 10,
+          "inline_id": "00000000000000AB",
+          "inline_name": "Chẳng Về Tay Không",
+          "level_gates": [
+            89
+          ],
+          "description_sha256": "1f435ee051ff2746ed8d8bddc2b2afbe1b0899dda486793026c5ae29538592b6",
+          "standalone_target_id": "00000000000000AB",
+          "standalone_name": "Cường Nõ Chi Mạt ",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/85ae4420.bin",
+            "sha256": "fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+            "locator": "/Task/Managed/Sub[10]"
+          }
+        },
+        {
+          "ordinal": 11,
+          "inline_id": "00000000000000AC",
+          "inline_name": "Đại Nghĩa Nước Nhà",
+          "level_gates": [
+            89
+          ],
+          "description_sha256": "ee6649002d6b6dbcb330fc5b96ba95a909dcb500243de301ebae0f77de205f06",
+          "standalone_target_id": "00000000000000AC",
+          "standalone_name": "Vượt Qua Chướng Ngại",
+          "semantic_join_status": "ID_REUSE_VARIANT",
+          "standalone_content_usable": false,
+          "source_locator": {
+            "path": "generated/extracted/task_publish-ac48ad39a653/entries/85ae4420.bin",
+            "sha256": "fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+            "locator": "/Task/Managed/Sub[11]"
+          }
+        }
+      ],
+      "source_records": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "edition": null,
+          "encoding": "binary PACK + decoded UTF-8 XML",
+          "locator": "index:568;id:85ae4420;offset:745096;stored:8235;expanded:54698;output_sha256:fc75cb1e8133e690abbc16caa877e402f82f58e2015e748864c08fa97fbdce11",
+          "notes": "Decoded with engine-confirmed UCL NRV2B safe_8 mapping."
+        }
+      ]
+    }
+  ],
+  "search_audit": {
+    "scope": "Locate detailed contemporary or first-party walkthrough evidence for the original post-50 mainline without identifying the exact local client/server version.",
+    "searched_at_utc": "2026-08-14T08:51:12+00:00",
+    "method": "Web search plus the public 17173 search API, restricted to jxsj.17173.com; exact phrase matching was applied locally to the first 100 relevance-ranked results per term.",
+    "queries": [
+      {
+        "term": "飞龙谷",
+        "api_total_count": 10985,
+        "exact_matches_in_first_100": 0
+      },
+      {
+        "term": "李元哲",
+        "api_total_count": 0,
+        "exact_matches_in_first_100": 0
+      },
+      {
+        "term": "怀璧其罪",
+        "api_total_count": 2532,
+        "exact_matches_in_first_100": 0
+      },
+      {
+        "term": "家国大义",
+        "api_total_count": 1774,
+        "exact_matches_in_first_100": 0
+      },
+      {
+        "term": "进菊洞",
+        "api_total_count": 8687,
+        "exact_matches_in_first_100": 0
+      },
+      {
+        "term": "天琼宫",
+        "api_total_count": 10409,
+        "exact_matches_in_first_100": 0
+      },
+      {
+        "term": "黑龙潭",
+        "api_total_count": 9720,
+        "exact_matches_in_first_100": 0
+      },
+      {
+        "term": "游龙图",
+        "api_total_count": 11119,
+        "exact_matches_in_first_100": 0
+      }
+    ],
+    "located_sources": [
+      "KX-ARCH-01",
+      "KX-PRE50-01",
+      "KX-POST50-PATCH-01"
+    ],
+    "result": "BOUNDED_NOT_FOUND_DETAILED_WALKTHROUGH",
+    "interpretation": "This does not prove that no walkthrough exists. The raw wrapper corpus remains the primary detailed evidence; web sources corroborate architecture, the pre-50 prerequisite and named post-50 mainline endpoints only."
+  },
+  "conclusion": "The three regional routes are pre-50 selectors. After their convergence, levels 49-89 form one shared cross-narrative represented by the ordered wrapper families; no second three-route choice at level 50 is supported."
+}

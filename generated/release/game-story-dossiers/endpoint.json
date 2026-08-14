@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.564579+00:00",
+  "dossier_id": "dossier-endpoint",
+  "arc_id": "endpoint",
+  "title": "Verified publication endpoint",
+  "chronology_or_level_range": "post-135/140 boundary",
+  "premise_claim_ids": [
+    "IR013"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR013",
+    "IR017"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR013",
+    "IR017"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR013",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    },
+    {
+      "order": 2,
+      "claim_id": "IR017",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR013",
+    "IR017"
+  ],
+  "reveal_claim_ids": [
+    "IR013",
+    "IR017"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR017"
+  ],
+  "consequence_claim_ids": [
+    "IR017"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR013",
+    "IR017"
+  ],
+  "central_unknown_ids": [
+    "du-long-final-secret",
+    "post-lingbi-continuation"
+  ],
+  "material_conflict_ids": [],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS"
+}

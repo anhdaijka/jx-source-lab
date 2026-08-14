@@ -2,14 +2,15 @@
 
 - Generator: `scripts/jxlab.py`
 - Schema version: `1.0`
-- Generated (UTC): `2026-08-14T07:08:41.616476+00:00`
+- Generated (UTC): `2026-08-14T08:22:58.103409+00:00`
 - Input scope: `client` = `client`, `server` = `server`, `official_pages` = `official-pages`, `private_input` = `private-input`
-- Files: **15,994**
+- Files: **16,027**
 - Hashes included: **True**
 
 ## Roots
 
 - `client`: 7,520 files / 16,900,709,725 bytes
+- `private_input`: 33 files / 97,462 bytes
 - `server`: 8,474 files / 344,005,454 bytes
 
 ## Top extensions
@@ -22,6 +23,7 @@
 - `.dll`: 81
 - `.pak`: 67
 - `.lnk`: 35
+- `.md`: 33
 - `.rar`: 25
 - `.role`: 19
 - `.exe`: 11
@@ -56,5 +58,5 @@
 
 ## Text probe
 
-- text_like: 13,504
+- text_like: 13,537
 - binary_or_unknown: 2,490

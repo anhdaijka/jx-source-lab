@@ -17,6 +17,7 @@ ROOT=Path(__file__).resolve().parents[1]
 RELEASE=ROOT/'generated'/'release'
 REPORT=ROOT/'generated'/'reports'/'release-validation-report.json'
 ALLOWED_CLAIM_STATUS={'VERIFIED_DIRECT','VERIFIED_CROSS_SOURCE','STRONG','INFERENCE','UNKNOWN','CONFLICT','EDITION_DRIFT'}
+ALLOWED_PROMOTION={'NOVEL_PROMOTION_READY','NOVEL_PROMOTION_NOT_READY'}
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--verify-source-hashes',action='store_true');args=parser.parse_args()
@@ -37,6 +38,10 @@ def main():
             if not source_path.exists():errors.append(f"Missing canonical source {source['path']}");continue
             if jxlab.sha256_file(source_path)!=source['sha256']:errors.append(f"Canonical source hash mismatch {source['path']}")
             checks['canonical_source_hashes_checked']+=1
+    for row in manifest.get('supporting_artifacts',[]):
+        path=ROOT/row['path']
+        if not path.exists() or jxlab.sha256_file(path)!=row['sha256']:errors.append(f"Supporting artifact mismatch {row['path']}")
+        checks['supporting_artifact_hashes_checked']+=1
     checksum_lines=(RELEASE/'checksums.sha256').read_text(encoding='ascii').splitlines()
     for line in checksum_lines:
         match=re.fullmatch(r'([0-9a-f]{64})  (.+)',line)
@@ -44,7 +49,7 @@ def main():
         path=RELEASE/match.group(2)
         if not path.exists() or jxlab.sha256_file(path)!=match.group(1):errors.append(f'Checksum mismatch {match.group(2)}')
         checks['release_checksums_checked']+=1
-    for path in sorted(RELEASE.glob('*.json')):
+    for path in sorted(RELEASE.rglob('*.json')):
         try:json.loads(path.read_text(encoding='utf-8'));checks['json_files_parsed']+=1
         except Exception as error:errors.append(f'JSON parse failure {path.name}: {error}')
     corpus_metrics={}
@@ -83,11 +88,52 @@ def main():
         if not claim.get('evidence'):errors.append(f'Claim {line_number} has no evidence')
     metrics['claim_status_counts']=dict(Counter(claim['status'] for claim in claims));checks['claims_checked']=len(claims)
     confidence=json.loads((RELEASE/'16-confidence-report.json').read_text(encoding='utf-8'))
-    if confidence.get('promotion_decision')!='NOT_AUTHORIZED_FOR_NOVEL_PROMOTION':errors.append('Novel promotion boundary is missing')
+    promotion=confidence.get('promotion_decision')
+    if promotion not in ALLOWED_PROMOTION:errors.append('Invalid novel promotion decision')
+    if manifest.get('novel_promotion')!=promotion:errors.append('Manifest/confidence promotion decision mismatch')
     unresolved=json.loads((RELEASE/'14-unresolved-questions.json').read_text(encoding='utf-8'))
     if any(row.get('status')!='UNKNOWN' for row in unresolved['entries']):errors.append('Unresolved question promoted above UNKNOWN')
+    central_blockers=sum(row.get('centrality')=='CENTRAL_BLOCKER' for row in unresolved['entries'])
+    if promotion=='NOVEL_PROMOTION_READY' and central_blockers:errors.append('Promotion ready with CENTRAL_BLOCKER questions')
     contradiction=json.loads((RELEASE/'15-edition-drift-ledger.json').read_text(encoding='utf-8'))
     if any(row.get('status') not in {'EDITION_DRIFT','CONFLICT'} for row in contradiction['entries']):errors.append('Contradiction ledger contains an invalid promoted status')
+    unresolved_material=[row for row in contradiction['entries'] if row.get('narrative_impact')=='MATERIAL' and row.get('resolution_status')!='RESOLVED']
+    if promotion=='NOVEL_PROMOTION_READY' and unresolved_material:errors.append('Promotion ready with unresolved MATERIAL narrative conflict')
+    concordance=json.loads((RELEASE/'13-lore-concordance.json').read_text(encoding='utf-8'))
+    if concordance.get('promotion_decision')!=promotion:errors.append('Concordance promotion decision mismatch')
+    if concordance.get('central_blocker_count')!=central_blockers:errors.append('Concordance central blocker count mismatch')
+    if promotion=='NOVEL_PROMOTION_READY' and any(row.get('status')!='PASS' for row in concordance.get('promotion_gates',{}).values()):errors.append('Promotion ready while a promotion gate is not PASS')
+    core_audit=concordance.get('structural_audit',{}).get('core_50_80',{})
+    if core_audit.get('managed_edges')!=61 or core_audit.get('explicit_refer_matches')!=61:errors.append('50-80 managed-sub explicit-reference audit is incomplete')
+    if core_audit.get('label_variants')!=61:errors.append('50-80 managed-sub label variants are not fully preserved')
+    if core_audit.get('semantic_joins_blocked')!=61:errors.append('50-80 unsafe standalone semantic joins are not fully blocked')
+    post50_audit=concordance.get('structural_audit',{}).get('post50_49_89',{})
+    expected_post50_order=[13,14,15,17,16,18,21,19,20,22,23,24]
+    if post50_audit.get('managed_edges')!=77 or post50_audit.get('label_variants')!=77:errors.append('49-89 managed wrapper audit is incomplete')
+    if post50_audit.get('id_reuse_variants')!=77 or post50_audit.get('semantic_joins_blocked')!=77:errors.append('49-89 unsafe standalone semantic joins are not fully blocked')
+    if post50_audit.get('macro_task_order')!=expected_post50_order:errors.append('49-89 macro task order differs from the validated order')
+    post50=json.loads((RELEASE/'level-50-89-mainline.json').read_text(encoding='utf-8'))
+    if post50.get('macro_task_order')!=expected_post50_order or post50.get('family_count')!=12:errors.append('49-89 reconstruction family order/count mismatch')
+    if post50.get('managed_inline_subtask_count')!=77 or post50.get('blocked_standalone_join_count')!=77:errors.append('49-89 reconstruction semantic safety counts mismatch')
+    if sum(row.get('managed_inline_count',0) for row in post50.get('task_families',[]))!=77:errors.append('49-89 reconstruction managed-sub count mismatch')
+    if any(subtask.get('standalone_content_usable') is not False or subtask.get('semantic_join_status')!='ID_REUSE_VARIANT' for family in post50.get('task_families',[]) for subtask in family.get('managed_subtasks',[])):errors.append('49-89 reconstruction contains an unsafe standalone content join')
+    post50_search=json.loads((RELEASE/'level-50-89-internet-search-ledger.json').read_text(encoding='utf-8'))
+    if post50_search.get('result')!='BOUNDED_NOT_FOUND_DETAILED_WALKTHROUGH':errors.append('49-89 bounded Internet search result is not preserved')
+    claim_ids={claim['claim_id'] for claim in claims}
+    dossier_index=json.loads((RELEASE/'game-story-dossiers'/'index.json').read_text(encoding='utf-8'))
+    dossier_paths=sorted(path for path in (RELEASE/'game-story-dossiers').glob('*.json') if path.name!='index.json')
+    if dossier_index.get('dossier_count')!=len(dossier_paths):errors.append('Dossier index count mismatch')
+    if set(dossier_index.get('declared_arcs',[]))!={json.loads(path.read_text(encoding='utf-8'))['arc_id'] for path in dossier_paths}:errors.append('Dossier arc coverage mismatch')
+    for path in dossier_paths:
+        dossier=json.loads(path.read_text(encoding='utf-8'));refs=set(dossier.get('premise_claim_ids',[]))
+        for row in dossier.get('ordered_events',[]):refs.add(row.get('claim_id'))
+        for field in ('character_and_faction_claim_ids','goal_and_motive_claim_ids','player_learns_claim_ids','reveal_claim_ids','climax_resolution_claim_ids','consequence_claim_ids','important_named_reference_claim_ids'):refs.update(dossier.get(field,[]))
+        missing=refs-claim_ids
+        if missing:errors.append(f'{path.name} references unknown claims: {sorted(missing)}')
+        if not dossier.get('ordered_events') or not dossier.get('premise_claim_ids'):errors.append(f'{path.name} lacks claim-linked causal structure')
+        if dossier.get('arc_id')=='arc-06' and [row.get('claim_id') for row in dossier.get('ordered_events',[])]!=['IR022','IR023','IR024','IR025']:errors.append('arc-06 ordered events do not match the validated 49-89 phase order')
+        checks['dossiers_checked']+=1
+    metrics['promotion']={'decision':promotion,'central_blockers':central_blockers,'unresolved_material_conflicts':len(unresolved_material),'dossiers':len(dossier_paths)}
     main_graph=json.loads((RELEASE/'03-main-task-graph.json').read_text(encoding='utf-8'))
     unresolved_graph=[edge for edge in main_graph['edges'] if edge.get('resolution')!='resolved']
     if unresolved_graph:errors.append(f'Main task graph has {len(unresolved_graph)} non-resolved explicit edges')

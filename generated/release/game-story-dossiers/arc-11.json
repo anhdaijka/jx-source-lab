@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.562720+00:00",
+  "dossier_id": "dossier-arc-11",
+  "arc_id": "arc-11",
+  "title": "Decision for Northern Expedition",
+  "chronology_or_level_range": "level 130",
+  "premise_claim_ids": [
+    "IR009"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR009"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR009"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR009",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR009"
+  ],
+  "reveal_claim_ids": [
+    "IR009"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR009"
+  ],
+  "consequence_claim_ids": [
+    "IR009"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR009"
+  ],
+  "central_unknown_ids": [],
+  "material_conflict_ids": [],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS"
+}

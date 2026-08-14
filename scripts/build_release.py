@@ -13,7 +13,7 @@ import jxlab
 
 ROOT=Path(__file__).resolve().parents[1]
 RELEASE=ROOT/'generated'/'release'
-VERSION='1.0'
+VERSION='1.1'
 
 def write_json(path,payload):path.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
 
@@ -68,6 +68,17 @@ def main():
     for source,destination in copy_pairs:copy_json(source,destination)
     shutil.copyfile(ROOT/'research/reconstruction/game-story-reconstruction.md',RELEASE/'13-game-story-reconstruction.md')
     shutil.copyfile(ROOT/'research/claims.jsonl',RELEASE/'claims.jsonl')
+    concordance_source=ROOT/'research/reconciliation/lore-concordance.json'
+    dossier_index_source=ROOT/'research/reconstruction/game-story-dossiers/index.json'
+    post50_source=ROOT/'research/reconstruction/level-50-89-mainline.json'
+    post50_search_source=ROOT/'research/reconciliation/level-50-89-internet-search-ledger.json'
+    copy_json(concordance_source,RELEASE/'13-lore-concordance.json')
+    copy_json(post50_source,RELEASE/'level-50-89-mainline.json')
+    copy_json(post50_search_source,RELEASE/'level-50-89-internet-search-ledger.json')
+    dossier_release=RELEASE/'game-story-dossiers';dossier_release.mkdir(parents=True,exist_ok=True)
+    for source in sorted((ROOT/'research/reconstruction/game-story-dossiers').glob('*.json')):copy_json(source,dossier_release/source.name)
+    confidence=json.loads((ROOT/'research/confidence-report.json').read_text(encoding='utf-8'))
+    promotion=confidence['promotion_decision']
 
     corpus_specs=[
         ('dialogue corpus',[ROOT/'generated/records/dialogue/dialognpc-records.jsonl',ROOT/'generated/records/dialogue/task-dialogue-records.jsonl',ROOT/'generated/records/dialogue/localization-records.jsonl'],RELEASE/'05-dialogue-corpus.jsonl.gz'),
@@ -83,11 +94,11 @@ def main():
 
     readme=RELEASE/'README.md'
     readme.write_text('\n'.join([
-        '# JX Source Lab — Research Release 1.0','',
-        'Local evidence release assembled from the supplied unknown-build client/server trees. This is source archaeology, not novel authorization.','',
+        '# JX Source Lab — Research Release 1.1','',
+        'Source-only lore release reconciled from the Lab corpus and the independent internet-research package. This is source archaeology, not novel prose.','',
         '## Authority boundary','',
         '- Raw-build implementation facts are scoped to their hashed source files.',
-        '- Official Kingsoft/Xoyo/VNG evidence is absent from the supplied source scope.',
+        '- Internet-package summaries remain `LEGACY_LEAD`; live-verified underlying Kingsoft/Xoyo/VNG pages retain separate provenance and authority.',
         '- Missing facts remain `UNKNOWN`; client/server/listing conflicts remain `EDITION_DRIFT`.',
         '- Proprietary payloads are not included. The client asset artifact contains metadata/hashes only.',
         '- Do not publicly redistribute this local release without a separate ownership/licensing decision.','',
@@ -96,7 +107,7 @@ def main():
         '- Two variant-layout archives are recorded at archive level but not entry-indexed.',
         '- Image/audio/update payloads follow the text/config-first protocol and are structurally indexed, not decoded.',
         '- Internal asset paths remain `UNKNOWN` where no binary-exact listing exists.',
-        '- Novel promotion remains `NOT_AUTHORIZED_FOR_NOVEL_PROMOTION`.','',
+        f'- Promotion decision: `{promotion}`. This permits preparation of a curated source-canon package only; it does not authorize prose in this Lab.','',
         'See `release-manifest.json`, `checksums.sha256`, and `16-confidence-report.json` for audit state.',''
     ]),encoding='utf-8')
 
@@ -109,22 +120,27 @@ def main():
     artifacts.extend(artifact(destination,label,sources) for label,sources,destination in corpus_specs)
     artifacts.extend([
         artifact(RELEASE/'12-client-asset-index.jsonl.gz','client asset index',[ROOT/'generated/records/assets/client-asset-index.jsonl.gz']),
-        artifact(RELEASE/'13-game-story-reconstruction.json','game-story evidence reconstruction',[ROOT/'research/reconstruction/game-story-evidence-graph.json']),
+        artifact(RELEASE/'13-game-story-reconstruction.json','game-story dossiers and evidence reconstruction',[ROOT/'research/reconstruction/game-story-evidence-graph.json',concordance_source,dossier_index_source,post50_source,post50_search_source]),
         artifact(RELEASE/'14-unresolved-questions.json','unresolved questions',[ROOT/'research/unresolved-questions.json']),
         artifact(RELEASE/'15-edition-drift-ledger.json','edition-drift and contradiction ledger',[ROOT/'research/contradiction-ledger.json']),
         artifact(RELEASE/'16-confidence-report.json','confidence report',[ROOT/'research/confidence-report.json']),
     ])
+    supporting_sources=[concordance_source,post50_source,post50_search_source,*sorted((ROOT/'research/reconstruction/game-story-dossiers').glob('*.json'))]
+    supporting_artifacts=[{'path':jxlab.rel(RELEASE/'13-lore-concordance.json'),'sha256':jxlab.sha256_file(RELEASE/'13-lore-concordance.json')},
+                          {'path':jxlab.rel(RELEASE/'level-50-89-mainline.json'),'sha256':jxlab.sha256_file(RELEASE/'level-50-89-mainline.json')},
+                          {'path':jxlab.rel(RELEASE/'level-50-89-internet-search-ledger.json'),'sha256':jxlab.sha256_file(RELEASE/'level-50-89-internet-search-ledger.json')},
+                          *[{'path':jxlab.rel(dossier_release/source.name),'sha256':jxlab.sha256_file(dossier_release/source.name)} for source in supporting_sources[3:]]]
     manifest={
         'schema_version':'1.0','release_name':'JX Source Lab Research Release','release_version':VERSION,
         'generator':'scripts/build_release.py','generated_at_utc':datetime.now(timezone.utc).isoformat(),
-        'release_status':'COMPLETE_WITH_DOCUMENTED_UNKNOWNS','novel_promotion':'NOT_AUTHORIZED_FOR_NOVEL_PROMOTION',
-        'artifacts':artifacts,
-        'validation_requirements':['artifact SHA-256','gzip JSONL parse','JSON parse','source provenance coverage','SQLite foreign keys','claim status audit'],
+        'release_status':'COMPLETE_WITH_DOCUMENTED_UNKNOWNS','novel_promotion':promotion,
+        'artifacts':artifacts,'supporting_artifacts':supporting_artifacts,
+        'validation_requirements':['artifact SHA-256','gzip JSONL parse','JSON parse','source provenance coverage','SQLite foreign keys','claim status audit','dossier claim linkage','promotion-gate consistency'],
     }
     manifest_path=RELEASE/'release-manifest.json';write_json(manifest_path,manifest)
-    checksum_targets=sorted([path for path in RELEASE.iterdir() if path.is_file() and path.name not in {'.gitkeep','checksums.sha256'}],key=lambda value:value.name)
-    (RELEASE/'checksums.sha256').write_text('\n'.join(f'{jxlab.sha256_file(path)}  {path.name}' for path in checksum_targets)+'\n',encoding='ascii')
+    checksum_targets=sorted([path for path in RELEASE.rglob('*') if path.is_file() and path.name not in {'.gitkeep','checksums.sha256'}],key=lambda value:jxlab.rel(value))
+    (RELEASE/'checksums.sha256').write_text('\n'.join(f'{jxlab.sha256_file(path)}  {path.relative_to(RELEASE).as_posix()}' for path in checksum_targets)+'\n',encoding='ascii')
     print(json.dumps({'release':jxlab.rel(RELEASE),'artifact_count':len(artifacts),'status':manifest['release_status'],
-                      'sizes':{path.name:path.stat().st_size for path in checksum_targets}},indent=2))
+                      'sizes':{path.relative_to(RELEASE).as_posix():path.stat().st_size for path in checksum_targets},'promotion_decision':promotion},indent=2))
 
 if __name__=='__main__':main()

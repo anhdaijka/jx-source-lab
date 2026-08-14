@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.548722+00:00",
+  "scope": "Locate detailed contemporary or first-party walkthrough evidence for the original post-50 mainline without identifying the exact local client/server version.",
+  "searched_at_utc": "2026-08-14T08:51:12+00:00",
+  "method": "Web search plus the public 17173 search API, restricted to jxsj.17173.com; exact phrase matching was applied locally to the first 100 relevance-ranked results per term.",
+  "queries": [
+    {
+      "term": "飞龙谷",
+      "api_total_count": 10985,
+      "exact_matches_in_first_100": 0
+    },
+    {
+      "term": "李元哲",
+      "api_total_count": 0,
+      "exact_matches_in_first_100": 0
+    },
+    {
+      "term": "怀璧其罪",
+      "api_total_count": 2532,
+      "exact_matches_in_first_100": 0
+    },
+    {
+      "term": "家国大义",
+      "api_total_count": 1774,
+      "exact_matches_in_first_100": 0
+    },
+    {
+      "term": "进菊洞",
+      "api_total_count": 8687,
+      "exact_matches_in_first_100": 0
+    },
+    {
+      "term": "天琼宫",
+      "api_total_count": 10409,
+      "exact_matches_in_first_100": 0
+    },
+    {
+      "term": "黑龙潭",
+      "api_total_count": 9720,
+      "exact_matches_in_first_100": 0
+    },
+    {
+      "term": "游龙图",
+      "api_total_count": 11119,
+      "exact_matches_in_first_100": 0
+    }
+  ],
+  "located_sources": [
+    "KX-ARCH-01",
+    "KX-PRE50-01",
+    "KX-POST50-PATCH-01"
+  ],
+  "result": "BOUNDED_NOT_FOUND_DETAILED_WALKTHROUGH",
+  "interpretation": "This does not prove that no walkthrough exists. The raw wrapper corpus remains the primary detailed evidence; web sources corroborate architecture, the pre-50 prerequisite and named post-50 mainline endpoints only."
+}

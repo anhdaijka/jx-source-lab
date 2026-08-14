@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generator": "scripts/build_research.py",
   "parser_version": "jxlab research-audit/0.1",
-  "generated_at_utc": "2026-08-14T07:07:07.364890+00:00",
+  "generated_at_utc": "2026-08-14T08:58:30.788374+00:00",
   "entries": [
     {
       "domain": "task_def",
@@ -107,10 +107,45 @@
       "logical_task_id": "000000000000017B",
       "archive_record_count": 2,
       "handling": "both entry-specific records retained; no automatic merge"
+    },
+    {
+      "conflict_id": "chronology-1189-later-events",
+      "status": "CONFLICT",
+      "narrative_impact": "POSSIBLE",
+      "resolution_status": "DOCUMENTED",
+      "handling": "Preserve Xoyo dates; do not silently repair them with external history."
+    },
+    {
+      "conflict_id": "wu-xi-early-death",
+      "status": "CONFLICT",
+      "narrative_impact": "MATERIAL",
+      "resolution_status": "RESOLVED",
+      "handling": "Later first-party 1205 arc controls; early wording is not a canonical death."
+    },
+    {
+      "conflict_id": "level-140-marketing-135-gate",
+      "status": "EDITION_DRIFT",
+      "narrative_impact": "NONE",
+      "resolution_status": "RESOLVED",
+      "handling": "One arc: marketed as 140, mechanically gated at 135."
+    },
+    {
+      "conflict_id": "youlong-jue-character",
+      "status": "CONFLICT",
+      "narrative_impact": "POSSIBLE",
+      "resolution_status": "DOCUMENTED",
+      "handling": "Keep 游龙诀 variant separate; global relic remains 游龙珏."
+    },
+    {
+      "conflict_id": "managed-sub-label-variants",
+      "status": "CONFLICT",
+      "narrative_impact": "POSSIBLE",
+      "resolution_status": "DOCUMENTED",
+      "handling": "Preserve wrapper inline name/description and standalone target name separately. Structural target resolution is retained, but all 77 post-50 VARIANT joins are semantically blocked from importing standalone content."
     }
   ],
   "counts": {
-    "EDITION_DRIFT": 11,
-    "CONFLICT": 1
+    "EDITION_DRIFT": 12,
+    "CONFLICT": 5
   }
 }

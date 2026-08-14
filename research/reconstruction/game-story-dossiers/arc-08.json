@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.559921+00:00",
+  "dossier_id": "dossier-arc-08",
+  "arc_id": "arc-08",
+  "title": "Man Thiên Quá Hải",
+  "chronology_or_level_range": "level 100",
+  "premise_claim_ids": [
+    "IR015"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR015"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR015"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR015",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR015"
+  ],
+  "reveal_claim_ids": [
+    "IR015"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR015"
+  ],
+  "consequence_claim_ids": [
+    "IR015"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR015"
+  ],
+  "central_unknown_ids": [
+    "level100-full-chain"
+  ],
+  "material_conflict_ids": [],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS"
+}

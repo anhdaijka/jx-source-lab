@@ -19,7 +19,9 @@ This artifact is a structured reconstruction of implementation evidence, not a n
 - XML task names and text are raw-build content, not automatically launch-era producer canon.
 - A missing edge means `UNKNOWN`; adjacency, numeric IDs, and task titles are never used to invent links.
 - One logical task ID occurs in two archive entries; both records are preserved independently.
-- Official Kingsoft/Xoyo/VNG evidence is absent from the supplied `official-pages/` scope.
+- Internet-package summaries remain `LEGACY_LEAD`; verified underlying Kingsoft/Xoyo/VNG pages are tracked separately in `research/reconciliation/lore-concordance.json`.
+
+- Source-only causal dossiers are generated under `research/reconstruction/game-story-dossiers/`; no player-to-novel-character adaptation is performed.
 
 ## Longest explicit chains (identifiers only)
 

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "generator": "scripts/build_release.py",
-  "release_version": "1.0",
-  "generated_at_utc": "2026-08-14T07:09:56.030280+00:00",
+  "release_version": "1.1",
+  "generated_at_utc": "2026-08-14T08:58:52.795517+00:00",
   "roots": [
     {
       "source_id": "client-primary",
@@ -27,7 +27,7 @@
     {
       "source_id": "private-input",
       "evidence_class": "LEGACY_LEAD",
-      "available_evidence_files": 0,
+      "available_evidence_files": 33,
       "path": "private-input/"
     }
   ],

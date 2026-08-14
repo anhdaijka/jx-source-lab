@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JX Source-Only Game Story Dossier",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generator",
+    "dossier_id",
+    "arc_id",
+    "title",
+    "chronology_or_level_range",
+    "premise_claim_ids",
+    "ordered_events",
+    "central_unknown_ids",
+    "material_conflict_ids",
+    "promotion_status"
+  ],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "generator": {"type": "string"},
+    "dossier_id": {"type": "string"},
+    "arc_id": {"type": "string"},
+    "title": {"type": "string"},
+    "chronology_or_level_range": {"type": "string"},
+    "premise_claim_ids": {"$ref": "#/$defs/claimIds"},
+    "ordered_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["order", "claim_id", "ordering_basis"],
+        "properties": {
+          "order": {"type": "integer", "minimum": 1},
+          "claim_id": {"type": "string"},
+          "ordering_basis": {"type": "string"}
+        }
+      }
+    },
+    "central_unknown_ids": {"$ref": "#/$defs/claimIds"},
+    "material_conflict_ids": {"$ref": "#/$defs/claimIds"},
+    "promotion_status": {"type": "string"}
+  },
+  "$defs": {
+    "claimIds": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    }
+  }
+}

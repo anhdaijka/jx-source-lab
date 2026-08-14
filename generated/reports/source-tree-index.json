@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "generator": "scripts/jxlab.py",
-  "generated_at_utc": "2026-08-14T07:08:41.616476+00:00",
+  "generated_at_utc": "2026-08-14T08:22:58.103409+00:00",
   "input_scope": {
     "client": "client",
     "server": "server",
@@ -52648,6 +52648,237 @@
       "ext": ".dll",
       "text_like": false,
       "encoding": null
+    },
+    {
+      "path": "private-input/internet-research/00-README.md",
+      "size": 4130,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/01-executive-overview.md",
+      "size": 17658,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/02-historical-background.md",
+      "size": 5998,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-00-prologue-du-long-giac.md",
+      "size": 1386,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-01-opening-player-ba-tuyen.md",
+      "size": 1763,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-02-yen-vu-giang-nam.md",
+      "size": 3440,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-03-binh-qua-trung-nguyen.md",
+      "size": 2078,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-04-tay-nam-me-canh.md",
+      "size": 1810,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-05-than-chau-vang-su.md",
+      "size": 1086,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-06-cap-50-80-cross-narrative.md",
+      "size": 1571,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-07-cap-90-khanh-nguyen.md",
+      "size": 1083,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-08-cap-100-man-thien-qua-hai.md",
+      "size": 986,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-09-cap-110-dai-ly.md",
+      "size": 2080,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-10-cap-120-vong-long-son.md",
+      "size": 1665,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-11-cap-130-bac-phat.md",
+      "size": 1263,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/arc-12-cap-135-140-linh-bich-bac.md",
+      "size": 3034,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/03-main-story/ending-and-endpoint.md",
+      "size": 2043,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/04-complete-chronological-timeline.md",
+      "size": 5802,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/05-major-characters.md",
+      "size": 6444,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/06-factions-and-organizations.md",
+      "size": 4034,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/07-mysteries-reveals-conspiracies.md",
+      "size": 2960,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/08-related-lore.md",
+      "size": 1591,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/09-unresolved-threads.md",
+      "size": 1322,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/10-name-concordance-cn-vi.md",
+      "size": 3192,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/11-canon-confidence-map.md",
+      "size": 3051,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/12-source-critical-notes.md",
+      "size": 2551,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/13-bibliography.md",
+      "size": 6942,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/evidence/archive-and-secondary-sources.md",
+      "size": 728,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/evidence/community-leads.md",
+      "size": 753,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/evidence/evidence-ledger.md",
+      "size": 1730,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/evidence/kingsoft-xoyo-sources.md",
+      "size": 1029,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/evidence/quest-records.md",
+      "size": 1377,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "path": "private-input/internet-research/evidence/vng-zing-sources.md",
+      "size": 882,
+      "ext": ".md",
+      "text_like": true,
+      "encoding": "utf-8-sig"
     },
     {
       "path": "server/Gamecenter/engine.dll",

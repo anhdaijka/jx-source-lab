@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "generator": "scripts/build_database.py",
-  "generated_at_utc": "2026-08-14T07:04:27.731081+00:00",
+  "generated_at_utc": "2026-08-14T08:58:45.740395+00:00",
   "database_path": "database/work/jx-source-lab.sqlite3",
-  "database_sha256": "5fd71ce5346d03bde4ab3f6d961580af81017cb57cc10bba5ad4eb7b988b1b6f",
+  "database_sha256": "e0e9921c3fd1cd173f2e187f2a728ab3dc42fabc4d0761cb5d1108eb4e1aff26",
   "table_counts": {
     "corpus_files": 18,
     "corpus_entities": 52319,
@@ -69,7 +69,7 @@
     },
     {
       "path": "generated/records/edges/task-reference-edges.jsonl",
-      "sha256": "2b345862d3cb1338ec3a2c72985f6fa15f3e604c4ac074a39f29398a2d66a659",
+      "sha256": "efcd5c1073c16b651e56b6b76b26acb6b704e00bd76279772eea28b9a5ac8270",
       "records": 5547,
       "parser_versions": [
         "UNKNOWN"

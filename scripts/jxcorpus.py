@@ -163,8 +163,19 @@ def build_task_archive_corpus():
         if root.tag=='Task':
             for ordinal,child in enumerate(root.findall('./Managed/Sub'),1):
                 target=(child.attrib.get('refer') or child.attrib.get('id') or '').upper()
+                standalone=next((record for record in subs if record['task_id']==target),None)
+                inline_name=child.attrib.get('name','')
+                standalone_name=standalone.get('name','') if standalone else None
+                label_relation='MATCH' if standalone and inline_name==standalone_name else 'VARIANT' if standalone else 'UNRESOLVED'
+                semantic_join_status='SAFE_MATCH' if label_relation=='MATCH' else 'ID_REUSE_VARIANT' if label_relation=='VARIANT' else 'UNRESOLVED_TARGET'
                 edges.append({'edge_id':f'{root_key}:manages:{ordinal}','source_key':root_key,'target_key':f'sub:{target}',
                               'relation':'manages_sub','resolution':'resolved' if target in sub_keys else 'unresolved',
+                              'managed_inline_id':(child.attrib.get('id') or '').upper(),'managed_refer_id':(child.attrib.get('refer') or '').upper(),
+                              'managed_inline_name':inline_name,'managed_inline_description':child.attrib.get('describe',''),
+                              'standalone_name':standalone_name,'label_relation':label_relation,
+                              'semantic_join_status':semantic_join_status,
+                              'standalone_content_usable':semantic_join_status=='SAFE_MATCH',
+                              'wrapper_inline_authority':'PRIMARY_FOR_MANAGED_TASK',
                               'source_records':provenance})
         for ordinal,grid in enumerate(root.iter('Grid'),1):
             function=(grid.findtext('Function') or '').strip();parameters=grid_parameters(grid)

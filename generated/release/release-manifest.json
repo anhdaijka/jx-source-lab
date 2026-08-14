@@ -1,35 +1,35 @@
 {
   "schema_version": "1.0",
   "release_name": "JX Source Lab Research Release",
-  "release_version": "1.0",
+  "release_version": "1.1",
   "generator": "scripts/build_release.py",
-  "generated_at_utc": "2026-08-14T07:09:57.639177+00:00",
+  "generated_at_utc": "2026-08-14T08:58:54.251153+00:00",
   "release_status": "COMPLETE_WITH_DOCUMENTED_UNKNOWNS",
-  "novel_promotion": "NOT_AUTHORIZED_FOR_NOVEL_PROMOTION",
+  "novel_promotion": "NOVEL_PROMOTION_READY",
   "artifacts": [
     {
       "deliverable": "source manifest",
       "path": "generated/release/01-source-manifest.json",
-      "sha256": "e71ac71ede84f29b036b9d55d31d18c4126c5f44ee307e44a27da5caef954db1",
-      "size": 5640476,
+      "sha256": "b16ac598ac84353dcc4ff8b08dca1b14541aded8381373adefd23db212f4c0ec",
+      "size": 5652605,
       "record_count": null,
       "canonical_sources": [
         {
           "path": "generated/reports/source-inventory.json",
-          "sha256": "e71ac71ede84f29b036b9d55d31d18c4126c5f44ee307e44a27da5caef954db1"
+          "sha256": "b16ac598ac84353dcc4ff8b08dca1b14541aded8381373adefd23db212f4c0ec"
         }
       ]
     },
     {
       "deliverable": "edition matrix",
       "path": "generated/release/02-edition-matrix.json",
-      "sha256": "bb1e476cf59e6a9dd76dd31e502d9e7566025698ad1c93fc0c7c1e39198c9ec8",
-      "size": 11567,
+      "sha256": "35fc54365fe268e8db563df4afdba7b9749d11c48b230c72fb94093a3f6d8f65",
+      "size": 11568,
       "record_count": null,
       "canonical_sources": [
         {
           "path": "research/edition-drift-ledger.json",
-          "sha256": "847e9d78959810388df9f95e2e5c67003632f72aabaea3515cfb955ea61f002c"
+          "sha256": "ad3033039ee1246124bbf603a3107f28812bfc36e8a1229c6ce405b36e8cccef"
         },
         {
           "path": "manifests/edition-manifest.local.yml",
@@ -40,26 +40,26 @@
     {
       "deliverable": "main task graph",
       "path": "generated/release/03-main-task-graph.json",
-      "sha256": "685fa5f2aacc32ff731d06ad79dc8b8beb2409e5f6e118bde47ab6a607ee79df",
-      "size": 1037830,
+      "sha256": "424a2f0064448db3a1abd4dac18f26e3009aa80bbcccb591cbef0192fcdf2b19",
+      "size": 2152095,
       "record_count": null,
       "canonical_sources": [
         {
           "path": "research/reconstruction/main-task-graph.json",
-          "sha256": "685fa5f2aacc32ff731d06ad79dc8b8beb2409e5f6e118bde47ab6a607ee79df"
+          "sha256": "424a2f0064448db3a1abd4dac18f26e3009aa80bbcccb591cbef0192fcdf2b19"
         }
       ]
     },
     {
       "deliverable": "configured non-main task index",
       "path": "generated/release/04-configured-non-main-task-index.json",
-      "sha256": "72f8fa88365c5c98d032a121970abc91c5933b4ee89b4b762acd8a18fc74b8e1",
+      "sha256": "eb3ce9a89189e36a563991bc5a569ace2496592d0eb8a48ea2efe6f1627c5ecc",
       "size": 6857,
       "record_count": null,
       "canonical_sources": [
         {
           "path": "research/reconstruction/configured-non-main-task-index.json",
-          "sha256": "72f8fa88365c5c98d032a121970abc91c5933b4ee89b4b762acd8a18fc74b8e1"
+          "sha256": "eb3ce9a89189e36a563991bc5a569ace2496592d0eb8a48ea2efe6f1627c5ecc"
         }
       ]
     },
@@ -180,56 +180,146 @@
       ]
     },
     {
-      "deliverable": "game-story evidence reconstruction",
+      "deliverable": "game-story dossiers and evidence reconstruction",
       "path": "generated/release/13-game-story-reconstruction.json",
-      "sha256": "359fb0ba6e339b3c2a9bd2a73c533d41f3e7c787bc7dbdea77298a9dee501c69",
-      "size": 1372590,
+      "sha256": "75ce41e331d7371055580ee7b7d0347d05d8819f69492c1a934b6230504d4f05",
+      "size": 2514234,
       "record_count": null,
       "canonical_sources": [
         {
           "path": "research/reconstruction/game-story-evidence-graph.json",
-          "sha256": "359fb0ba6e339b3c2a9bd2a73c533d41f3e7c787bc7dbdea77298a9dee501c69"
+          "sha256": "75ce41e331d7371055580ee7b7d0347d05d8819f69492c1a934b6230504d4f05"
+        },
+        {
+          "path": "research/reconciliation/lore-concordance.json",
+          "sha256": "fd48ec83ee305fd77ded6977422373feb80396dca26622b6bf6b7c62e05c92a0"
+        },
+        {
+          "path": "research/reconstruction/game-story-dossiers/index.json",
+          "sha256": "cd1dbec79f0cd340f564b5b9309f0356409321749e2c566a14cf654da0a62a60"
+        },
+        {
+          "path": "research/reconstruction/level-50-89-mainline.json",
+          "sha256": "ab2c16dce5034084a7571edfa299432f94cb2b3c9f855145a12f7023a8a0d640"
+        },
+        {
+          "path": "research/reconciliation/level-50-89-internet-search-ledger.json",
+          "sha256": "1838f3e4c820b61a93c911b6a09d239453b51e393e39eaf7164008bf1b8f29c2"
         }
       ]
     },
     {
       "deliverable": "unresolved questions",
       "path": "generated/release/14-unresolved-questions.json",
-      "sha256": "7d7a55c49ac36fb72e929f0a4fb6447a568c37b1d1b10ab79e3af3114ffb6876",
-      "size": 2455,
+      "sha256": "df1a487d572262ff48fe07c190ed0fafe9b82fb35253bf5d299dcc126f1a8c88",
+      "size": 4581,
       "record_count": null,
       "canonical_sources": [
         {
           "path": "research/unresolved-questions.json",
-          "sha256": "7d7a55c49ac36fb72e929f0a4fb6447a568c37b1d1b10ab79e3af3114ffb6876"
+          "sha256": "df1a487d572262ff48fe07c190ed0fafe9b82fb35253bf5d299dcc126f1a8c88"
         }
       ]
     },
     {
       "deliverable": "edition-drift and contradiction ledger",
       "path": "generated/release/15-edition-drift-ledger.json",
-      "sha256": "6b88b7c367e77e994a0ddc7fde48f263cd95380676c6dbce3dc2ed6364212e40",
-      "size": 5967,
+      "sha256": "1456dff8ad602f320cd9858ba9c1fb51001bc7de2d99647cc35464afdd9c650f",
+      "size": 7426,
       "record_count": null,
       "canonical_sources": [
         {
           "path": "research/contradiction-ledger.json",
-          "sha256": "6b88b7c367e77e994a0ddc7fde48f263cd95380676c6dbce3dc2ed6364212e40"
+          "sha256": "1456dff8ad602f320cd9858ba9c1fb51001bc7de2d99647cc35464afdd9c650f"
         }
       ]
     },
     {
       "deliverable": "confidence report",
       "path": "generated/release/16-confidence-report.json",
-      "sha256": "f2faae27fc3b2a5836738f433153f4933715b374c21ae2af83bb3c45859e20a1",
-      "size": 4954,
+      "sha256": "dfd0534345bf24af6f41207b55791080e75b1658622d57b7490ecdd0af17d8fb",
+      "size": 78609,
       "record_count": null,
       "canonical_sources": [
         {
           "path": "research/confidence-report.json",
-          "sha256": "f2faae27fc3b2a5836738f433153f4933715b374c21ae2af83bb3c45859e20a1"
+          "sha256": "dfd0534345bf24af6f41207b55791080e75b1658622d57b7490ecdd0af17d8fb"
         }
       ]
+    }
+  ],
+  "supporting_artifacts": [
+    {
+      "path": "generated/release/13-lore-concordance.json",
+      "sha256": "b738c868c16b944c99e1c202c12f075333b7295127b57758117b219f687d01e6"
+    },
+    {
+      "path": "generated/release/level-50-89-mainline.json",
+      "sha256": "e6b80963e92aeba13aead140d438e10dce87e7a14cb8b6a9d8d41b048453d21d"
+    },
+    {
+      "path": "generated/release/level-50-89-internet-search-ledger.json",
+      "sha256": "c237f2b2d7b8632ebf65ced10ac1d4d2ac3944a3141aaa792690147527e358f9"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-00.json",
+      "sha256": "25249faf96b369d037bbd991dd37a667c5ae50a24e501fbf439f884544b67bf3"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-01.json",
+      "sha256": "5e8aed8a01fc82f23bef3162775226c52234055d1429e14f4b331d3eb08a9d0f"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-02.json",
+      "sha256": "99711f3ee704880a582e46d7ce336bf1bc9a65387df9152cb6bdeb7b814ef79e"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-03.json",
+      "sha256": "27a320a2650b4b6ec39002bccad7bec2249d6b1cf78d54773c6a28b5634ec155"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-04.json",
+      "sha256": "e614fd60e08deb04ea8dde18bef9ce8234b975d7c0d3df546d03bbbf207143df"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-05.json",
+      "sha256": "0a958b67fceedaa9f90b995e5c1ebd848313fac8bcd6bf33cc752f0a83fa255d"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-06.json",
+      "sha256": "2eba3fd60fc8e6096495715d63547f0473297462bd815981bca9d853e2cd4c41"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-07.json",
+      "sha256": "1d128f4e60292e3d0f5166c4d682eedb86ddb3a66b0d8d01e5ba40e1e84c0be0"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-08.json",
+      "sha256": "b90499be8bf558aae3ca188b35297244b55e5013ee25cc50c77421ff9639bf1b"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-09.json",
+      "sha256": "7dcaf054fdbc852ae1fd245d50bfafa411b1bc9644822a6bf82518d1f9886a6d"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-10.json",
+      "sha256": "3e88feea89936fbc466a5b93e950085bb4b1b1397131cb847593b6cdb4f5408c"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-11.json",
+      "sha256": "39aec1b6ecebd26b26d63ed0f4a6679b375aecf3d354d9801d267cc9f19ecf54"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/arc-12.json",
+      "sha256": "f3fbe3e7bb3f44e9f556b8ea177ea4a9ef4e2f017c70696611d26e8d0f337166"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/endpoint.json",
+      "sha256": "2b18d230e3316feb31411ea91b54ecd237c178d92617b921b9ed6541dfa3748b"
+    },
+    {
+      "path": "generated/release/game-story-dossiers/index.json",
+      "sha256": "9a966ef4fd1ca4c36018f655edd5927173edf888437a00269bb4a6934780c253"
     }
   ],
   "validation_requirements": [
@@ -238,6 +328,8 @@
     "JSON parse",
     "source provenance coverage",
     "SQLite foreign keys",
-    "claim status audit"
+    "claim status audit",
+    "dossier claim linkage",
+    "promotion-gate consistency"
   ]
 }

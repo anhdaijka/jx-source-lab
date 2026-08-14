@@ -26,6 +26,26 @@
         "EDITION_DRIFT"
       ]
     },
+    "claim_kind": {
+      "type": "string"
+    },
+    "arc_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "centrality": {
+      "type": "string"
+    },
+    "narrative_impact": {
+      "enum": [
+        "NONE",
+        "POSSIBLE",
+        "MATERIAL"
+      ]
+    },
     "evidence": {
       "type": "array",
       "items": {

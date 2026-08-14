@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.573031+00:00",
+  "dossier_count": 14,
+  "declared_arcs": [
+    "arc-00",
+    "arc-01",
+    "arc-02",
+    "arc-03",
+    "arc-04",
+    "arc-05",
+    "arc-06",
+    "arc-07",
+    "arc-08",
+    "arc-09",
+    "arc-10",
+    "arc-11",
+    "arc-12",
+    "endpoint"
+  ],
+  "dossiers": [
+    {
+      "arc_id": "arc-00",
+      "path": "research/reconstruction/game-story-dossiers/arc-00.json",
+      "sha256": "62641edc1f3e63386d68835a4e57b43ec8261720e551f9ea0b28b2d377556908",
+      "claim_ids": [
+        "IR001",
+        "IR002"
+      ],
+      "central_unknown_ids": [],
+      "material_conflict_ids": []
+    },
+    {
+      "arc_id": "arc-01",
+      "path": "research/reconstruction/game-story-dossiers/arc-01.json",
+      "sha256": "b5ea4e619763da0f6c4ad5d29267a01f0572b72ef1c7b7af53f49a838f93b25b",
+      "claim_ids": [
+        "IR003",
+        "IR004",
+        "IR021"
+      ],
+      "central_unknown_ids": [
+        "parents-identities",
+        "player-guardian-lineage"
+      ],
+      "material_conflict_ids": []
+    },
+    {
+      "arc_id": "arc-02",
+      "path": "research/reconstruction/game-story-dossiers/arc-02.json",
+      "sha256": "15553da2c59c4019892ec59d9408d923aff889dae66ec54dc60a975ab5dfe5da",
+      "claim_ids": [
+        "IR003",
+        "IR014"
+      ],
+      "central_unknown_ids": [],
+      "material_conflict_ids": []
+    },
+    {
+      "arc_id": "arc-03",
+      "path": "research/reconstruction/game-story-dossiers/arc-03.json",
+      "sha256": "0617628b0c5a4e849b059df518dc8057806e76919a55e288407df850d1182d42",
+      "claim_ids": [
+        "IR003",
+        "IR019"
+      ],
+      "central_unknown_ids": [
+        "bingge-full-order"
+      ],
+      "material_conflict_ids": []
+    },
+    {
+      "arc_id": "arc-04",
+      "path": "research/reconstruction/game-story-dossiers/arc-04.json",
+      "sha256": "f66ec46df048d985ee3e37920f4845e6d4fecb5fe3f6644414524f7822506354",
+      "claim_ids": [
+        "IR003",
+        "IR020"
+      ],
+      "central_unknown_ids": [],
+      "material_conflict_ids": [
+        "wu-xi-early-death"
+      ]
+    },
+    {
+      "arc_id": "arc-05",
+      "path": "research/reconstruction/game-story-dossiers/arc-05.json",
+      "sha256": "126fbe5f957c14cb1f555d127eae7543552eff15d376ede92e0ad8af0680d435",
+      "claim_ids": [
+        "IR005"
+      ],
+      "central_unknown_ids": [],
+      "material_conflict_ids": []
+    },
+    {
+      "arc_id": "arc-06",
+      "path": "research/reconstruction/game-story-dossiers/arc-06.json",
+      "sha256": "b43332f30af2c8a05fd3eab195ed41025e287ba1a456727ec1ec5eb90fe7da04",
+      "claim_ids": [
+        "IR003",
+        "IR022",
+        "IR023",
+        "IR024",
+        "IR025",
+        "IR018"
+      ],
+      "central_unknown_ids": [
+        "post50-micro-dialogue-recovery"
+      ],
+      "material_conflict_ids": []
+    },
+    {
+      "arc_id": "arc-07",
+      "path": "research/reconstruction/game-story-dossiers/arc-07.json",
+      "sha256": "d81502eb907145e554eb2d668f59a304fd54e14137f18f3def9256800edb7aaf",
+      "claim_ids": [
+        "IR004",
+        "IR009"
+      ],
+      "central_unknown_ids": [],
+      "material_conflict_ids": []
+    },
+    {
+      "arc_id": "arc-08",
+      "path": "research/reconstruction/game-story-dossiers/arc-08.json",
+      "sha256": "8735fcbbc74b12fd4279576e76a5d08303b1ba5b5d28c735bfa13fb104ae3bb9",
+      "claim_ids": [
+        "IR015"
+      ],
+      "central_unknown_ids": [
+        "level100-full-chain"
+      ],
+      "material_conflict_ids": []
+    },
+    {
+      "arc_id": "arc-09",
+      "path": "research/reconstruction/game-story-dossiers/arc-09.json",
+      "sha256": "e4e1bf777f002fb16f1f841c23601cb53ace4f2a21f04ab3d64525b23ecd0199",
+      "claim_ids": [
+        "IR006"
+      ],
+      "central_unknown_ids": [],
+      "material_conflict_ids": []
+    },
+    {
+      "arc_id": "arc-10",
+      "path": "research/reconstruction/game-story-dossiers/arc-10.json",
+      "sha256": "13c4cab28a9d7344d51f0820b3a35fa4a0aa8fa052116debbd6695d1e3103821",
+      "claim_ids": [
+        "IR007",
+        "IR008",
+        "IR016"
+      ],
+      "central_unknown_ids": [],
+      "material_conflict_ids": []
+    },
+    {
+      "arc_id": "arc-11",
+      "path": "research/reconstruction/game-story-dossiers/arc-11.json",
+      "sha256": "7f17e35351f4b5db25a2b600371a975d10882a26cf5990f0a66af29a268e4035",
+      "claim_ids": [
+        "IR009"
+      ],
+      "central_unknown_ids": [],
+      "material_conflict_ids": []
+    },
+    {
+      "arc_id": "arc-12",
+      "path": "research/reconstruction/game-story-dossiers/arc-12.json",
+      "sha256": "317a2417337f7e2f018b5eba18b7461dfda448109f8de6450f7682b20451d900",
+      "claim_ids": [
+        "IR010",
+        "IR011",
+        "IR012",
+        "IR020",
+        "IR021"
+      ],
+      "central_unknown_ids": [
+        "parents-identities",
+        "player-guardian-lineage"
+      ],
+      "material_conflict_ids": [
+        "wu-xi-early-death"
+      ]
+    },
+    {
+      "arc_id": "endpoint",
+      "path": "research/reconstruction/game-story-dossiers/endpoint.json",
+      "sha256": "2543f4586634c0b6f140be61676d4f1a8b377430b5202552c7fff7ee82eff919",
+      "claim_ids": [
+        "IR013",
+        "IR017"
+      ],
+      "central_unknown_ids": [
+        "du-long-final-secret",
+        "post-lingbi-continuation"
+      ],
+      "material_conflict_ids": []
+    }
+  ],
+  "promotion_decision": "NOVEL_PROMOTION_READY"
+}

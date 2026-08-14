@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.557397+00:00",
+  "dossier_id": "dossier-arc-06",
+  "arc_id": "arc-06",
+  "title": "Post-50 cross-narrative",
+  "chronology_or_level_range": "level gates 49-89",
+  "premise_claim_ids": [
+    "IR003"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR003",
+    "IR022",
+    "IR023",
+    "IR024",
+    "IR025",
+    "IR018"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR003",
+    "IR022",
+    "IR023",
+    "IR024",
+    "IR025",
+    "IR018"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR022",
+      "ordering_basis": "wrapper-inline TaskCond:IsLevelAE gates and managed order"
+    },
+    {
+      "order": 2,
+      "claim_id": "IR023",
+      "ordering_basis": "wrapper-inline TaskCond:IsLevelAE gates and managed order"
+    },
+    {
+      "order": 3,
+      "claim_id": "IR024",
+      "ordering_basis": "wrapper-inline TaskCond:IsLevelAE gates and managed order"
+    },
+    {
+      "order": 4,
+      "claim_id": "IR025",
+      "ordering_basis": "wrapper-inline TaskCond:IsLevelAE gates and managed order"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR003",
+    "IR022",
+    "IR023",
+    "IR024",
+    "IR025",
+    "IR018"
+  ],
+  "reveal_claim_ids": [
+    "IR003",
+    "IR022",
+    "IR023",
+    "IR024",
+    "IR025",
+    "IR018"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR018"
+  ],
+  "consequence_claim_ids": [
+    "IR018"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR003",
+    "IR022",
+    "IR023",
+    "IR024",
+    "IR025",
+    "IR018"
+  ],
+  "central_unknown_ids": [
+    "post50-micro-dialogue-recovery"
+  ],
+  "material_conflict_ids": [],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS",
+  "evidence_limit_claim_ids": [
+    "IR018"
+  ],
+  "reconstruction_path": "research/reconstruction/level-50-89-mainline.json"
+}

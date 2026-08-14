@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.563530+00:00",
+  "dossier_id": "dossier-arc-12",
+  "arc_id": "arc-12",
+  "title": "Linh Bích and player-origin reveal",
+  "chronology_or_level_range": "level 135/140",
+  "premise_claim_ids": [
+    "IR010"
+  ],
+  "character_and_faction_claim_ids": [
+    "IR010",
+    "IR011",
+    "IR012",
+    "IR020",
+    "IR021"
+  ],
+  "goal_and_motive_claim_ids": [
+    "IR010",
+    "IR011",
+    "IR012",
+    "IR020",
+    "IR021"
+  ],
+  "ordered_events": [
+    {
+      "order": 1,
+      "claim_id": "IR010",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    },
+    {
+      "order": 2,
+      "claim_id": "IR011",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    },
+    {
+      "order": 3,
+      "claim_id": "IR012",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    },
+    {
+      "order": 4,
+      "claim_id": "IR020",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    },
+    {
+      "order": 5,
+      "claim_id": "IR021",
+      "ordering_basis": "evidence grouping; no missing bridge inferred"
+    }
+  ],
+  "player_learns_claim_ids": [
+    "IR010",
+    "IR011",
+    "IR012",
+    "IR020",
+    "IR021"
+  ],
+  "reveal_claim_ids": [
+    "IR010",
+    "IR011",
+    "IR012",
+    "IR020",
+    "IR021"
+  ],
+  "climax_resolution_claim_ids": [
+    "IR021"
+  ],
+  "consequence_claim_ids": [
+    "IR021"
+  ],
+  "important_named_reference_claim_ids": [
+    "IR010",
+    "IR011",
+    "IR012",
+    "IR020",
+    "IR021"
+  ],
+  "central_unknown_ids": [
+    "parents-identities",
+    "player-guardian-lineage"
+  ],
+  "material_conflict_ids": [
+    "wu-xi-early-death"
+  ],
+  "promotion_status": "PROMOTABLE_WITH_DOCUMENTED_UNKNOWNS"
+}

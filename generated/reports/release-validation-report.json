@@ -1,19 +1,21 @@
 {
   "schema_version": "1.0",
   "generator": "scripts/validate_release.py",
-  "generated_at_utc": "2026-08-14T07:12:16.901378+00:00",
+  "generated_at_utc": "2026-08-14T08:59:53.792787+00:00",
   "status": "PASS",
   "full_source_hash_verification": true,
   "checks": {
-    "json_files_parsed": 10,
+    "json_files_parsed": 28,
     "artifact_hashes_checked": 16,
-    "canonical_source_hashes_checked": 20,
-    "release_checksums_checked": 20,
+    "canonical_source_hashes_checked": 24,
+    "supporting_artifact_hashes_checked": 18,
+    "release_checksums_checked": 38,
     "gzip_jsonl_files_parsed": 8,
-    "claims_checked": 6,
+    "claims_checked": 31,
+    "dossiers_checked": 14,
     "sqlite_foreign_key_checks": 1,
-    "json_schemas_parsed": 9,
-    "raw_source_hashes_checked": 15994
+    "json_schemas_parsed": 10,
+    "raw_source_hashes_checked": 16027
   },
   "metrics": {
     "corpora": {
@@ -85,9 +87,17 @@
       }
     },
     "claim_status_counts": {
-      "VERIFIED_DIRECT": 4,
+      "VERIFIED_DIRECT": 15,
       "EDITION_DRIFT": 1,
-      "UNKNOWN": 1
+      "VERIFIED_CROSS_SOURCE": 8,
+      "STRONG": 6,
+      "INFERENCE": 1
+    },
+    "promotion": {
+      "decision": "NOVEL_PROMOTION_READY",
+      "central_blockers": 0,
+      "unresolved_material_conflicts": 0,
+      "dossiers": 14
     },
     "main_task_graph": {
       "tasks": 424,

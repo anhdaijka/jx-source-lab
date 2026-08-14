@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "generator": "scripts/reconcile_internet_research.py",
+  "parser_version": "jxlab internet-reconciliation/0.2",
+  "generated_at_utc": "2026-08-14T08:57:55.574226+00:00",
+  "package_files": 33,
+  "claims": 25,
+  "dossiers": 14,
+  "claim_status_counts": {
+    "VERIFIED_CROSS_SOURCE": 8,
+    "STRONG": 6,
+    "INFERENCE": 1,
+    "VERIFIED_DIRECT": 10
+  },
+  "central_blockers": 0,
+  "unresolved_material_conflicts": 0,
+  "post50_task_families": 12,
+  "post50_managed_inline_subtasks": 77,
+  "post50_blocked_standalone_joins": 77,
+  "promotion_decision": "NOVEL_PROMOTION_READY"
+}

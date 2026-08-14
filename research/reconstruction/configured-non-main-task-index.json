@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "generator": "scripts/build_research.py",
   "parser_version": "jxlab research-audit/0.1",
-  "generated_at_utc": "2026-08-14T07:07:07.317869+00:00",
+  "generated_at_utc": "2026-08-14T08:58:30.748143+00:00",
   "classification_basis": "Explicit server task_def.txt range label not marked chính tuyến. This index does not infer a single universal side-quest category.",
   "tasks": [
     {
