@@ -1,0 +1,762 @@
+{
+  "schema_version": "1.0",
+  "handoff_status": "NOVEL_STORY_SUPPLEMENT_READY",
+  "promotion_status": "SOURCE_STORY_SUPPLEMENT_READY",
+  "scope": "BOUNDED_V2_STORY_SUPPLEMENT_P01_P02_P03",
+  "generated_at_utc": "2026-08-15T20:50:00Z",
+  "source_repository": "anhdaijka/jx-source-lab",
+  "source_evidence_commit": "1c282dfbbb2a0d027109437ab01ecbc21c0190bc",
+  "selection_basis": "User-approved P01/P02/P03 source-import claim manifest after collision review.",
+  "user_approval_refs": [
+    "USER_EXPLICIT_V2_SOURCE_PACKAGE_ADMISSION_DIRECTION_A_2026-08-16",
+    "USER_EXPLICIT_V2_SOURCE_IMPORT_P01_P02_P03_A_2026-08-16"
+  ],
+  "promoted_claim_count": 24,
+  "corroborative_record_count": 1,
+  "claim_records": [
+    {
+      "id": "P01-C01",
+      "package": "P01",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Lý Hậu is the imperial actor persecuting Quang Tông's heir; she is not herself a fugitive.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:00000000000000E0:entry:0cc4c7eb"
+        }
+      ],
+      "parent_source_claim": "IR022",
+      "chronology_status": "SOURCE_FIXED",
+      "guards": [
+        "Does not reorder IR022→IR023→IR024→IR025."
+      ]
+    },
+    {
+      "id": "P01-C02",
+      "package": "P01",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Gia Vương is the pursued heir/prince in the qualified side-source narrative; no separate unnamed fugitive prince is established.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:00000000000000E0:entry:0cc4c7eb"
+        }
+      ],
+      "parent_source_claim": "IR022",
+      "chronology_status": "SOURCE_FIXED",
+      "guards": []
+    },
+    {
+      "id": "P01-C03",
+      "package": "P01",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Phi Long Cốc is a hiding/protection location for Gia Vương; Phi Long tiên sinh brings him there and Thiên Quỳnh Cung is named as the hiding place within the valley.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:00000000000000E0:entry:0cc4c7eb"
+        }
+      ],
+      "parent_source_claim": "IR022",
+      "chronology_status": "SOURCE_FIXED",
+      "guards": []
+    },
+    {
+      "id": "P01-C04",
+      "package": "P01",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Lãnh Vân is source-linked to the rescue/protection of Gia Vương in the qualified Task 224 text.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:00000000000000E0:entry:0cc4c7eb"
+        }
+      ],
+      "parent_source_claim": "IR022",
+      "chronology_status": "SOURCE_FIXED",
+      "guards": []
+    },
+    {
+      "id": "P01-C05",
+      "package": "P01",
+      "status": "CORROBORATIVE_VARIANT_ONLY",
+      "claim": "Task 347 carries a team/execution form of the same Gia Vương narrative and is corroborative evidence only, not a second story event.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:000000000000015B:entry:a58a1b49"
+        }
+      ],
+      "parent_source_claim": "IR022",
+      "chronology_status": "SOURCE_FIXED",
+      "guards": []
+    },
+    {
+      "id": "P02A-C01",
+      "package": "P02-A",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Bạch Man and Ô Man are explicit source groups in Đại Lý; source records escalating Bạch–Ô conflict and rebellion by 72 Trại Ô Man against Bạch Man rule.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:000000000000014E"
+        },
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:00000000000001FC:start"
+        },
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:4139"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_BANDED",
+      "guards": []
+    },
+    {
+      "id": "P02A-C02",
+      "package": "P02-A",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Qualified records attribute Cổ Thuật/trùng độc practices to relevant Ô Man actors/faction combat, and Đoàn Trí Hưng's troops suffer defeat before seeking Nghĩa Quân help.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:000000000000014E"
+        },
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:00000000000001FC:start"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_BANDED",
+      "guards": [
+        "Actor/faction practices do not define an ethnicity as inherently poisonous or evil."
+      ]
+    },
+    {
+      "id": "P02A-C03",
+      "package": "P02-A",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Nghĩa Quân and Đại Lý forces assault Bách Man Sơn and temporarily suppress the 72 Trại Ô Man uprising.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:000000000000014E"
+        },
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:00000000000001FC:start"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_BANDED",
+      "guards": [
+        "Bounded local outcome only; IR006 remains STRONG."
+      ]
+    },
+    {
+      "id": "P02B-C01",
+      "package": "P02-B",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Lam Mộng Điệp is a famous ca kỹ in Đại Lý; Nam Cung Uyển is her childhood friend from whom she had been separated for years.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:0000000000000068"
+        },
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:00000000000000FD"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_EVENT_UNDATED",
+      "guards": []
+    },
+    {
+      "id": "P02B-C02",
+      "package": "P02-B",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Lam Mộng Điệp's separation and courtesan life are tied in direct source to childhood kidnapping/trafficking.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:00000000000000FD"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_EVENT_UNDATED",
+      "guards": [
+        "Does not imply sexual assault or authorize sexual-coercion content."
+      ]
+    },
+    {
+      "id": "P02B-C03",
+      "package": "P02-B",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Lam Mộng Điệp and Nam Cung Uyển reunite briefly in Đại Lý before Lam Mộng Điệp is kidnapped by Bì La Các, linked in the qualified record to Ô Man leadership.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:00000000000000FD"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_EVENT_UNDATED",
+      "guards": []
+    },
+    {
+      "id": "P02B-C04",
+      "package": "P02-B",
+      "status": "VERIFIED_DIRECT",
+      "claim": "The direct obstacle in this chain is political/faction pressure around Đại Lý and Ô Man; source does not establish social condemnation of their friendship.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:00000000000000FD"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_EVENT_UNDATED",
+      "guards": [
+        "Negative-scope claim; no social-condemnation cause may be inferred."
+      ]
+    },
+    {
+      "id": "P02C-C01",
+      "package": "P02-C",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Tang Đại Nương is tied to Subtask 01F8; source dialogue says Đại Lý authorities are conscripting male youth for harsh labor service.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:00000000000001F8"
+        },
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:4385"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_EVENT_UNDATED",
+      "guards": []
+    },
+    {
+      "id": "P02C-C02",
+      "package": "P02-C",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Tang Đại Nương's household/farm suffers agricultural disruption because husband/son are away and communication has stopped.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:00000000000001F8"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_EVENT_UNDATED",
+      "guards": []
+    },
+    {
+      "id": "P02C-C03",
+      "package": "P02-C",
+      "status": "VERIFIED_DIRECT",
+      "claim": "The immediate source-side resolution gives agricultural relief while the conscripted family members remain away; it does not establish a wider corruption resolution.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:00000000000001F8"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_EVENT_UNDATED",
+      "guards": []
+    },
+    {
+      "id": "P02D-C01",
+      "package": "P02-D",
+      "status": "VERIFIED_DIRECT",
+      "claim": "A Lực worked repairing/building at Lưu Lão Gia's house in Đại Lý and suffered a head injury; Tiểu Hy is his younger sister and cares for him.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:0000000000000167"
+        },
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:000000000000021F"
+        },
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:5062"
+        },
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:5078"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_EVENT_UNDATED",
+      "guards": []
+    },
+    {
+      "id": "P02D-C02",
+      "package": "P02-D",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Lưu Lão Gia is a wealthy abusive actor in the direct chain, and source records mistreatment of Tiểu Nguyệt.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:000000000000021F"
+        },
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:5064"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_EVENT_UNDATED",
+      "guards": []
+    },
+    {
+      "id": "P02D-C03",
+      "package": "P02-D",
+      "status": "VERIFIED_DIRECT",
+      "claim": "A Lực and Tiểu Nguyệt have mutual affection; the direct outcome frees Tiểu Nguyệt, who goes to care for A Lực and Tiểu Hy after Lưu Lão Gia is punished.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:000000000000021F"
+        },
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:5063"
+        }
+      ],
+      "parent_source_claim": "IR006",
+      "chronology_status": "SOURCE_EVENT_UNDATED",
+      "guards": []
+    },
+    {
+      "id": "P03A-C01",
+      "package": "P03-A",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Raw Task 2 states the enthronement of Ninh Tông after Quang Tông's deposition and presents Cái Bang as seeking/aligning with pro-war court power associated with Hàn Thác Trụ.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:0000000000000002:entry:6a416b90"
+        }
+      ],
+      "parent_source_claim": "IR009",
+      "chronology_status": "SOURCE_BANDED",
+      "guards": [
+        "Task 2 is background evidence and is not asserted to directly cause Task 240."
+      ]
+    },
+    {
+      "id": "P03A-C02",
+      "package": "P03-A",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Task 240 / Subtask 415 is explicitly Khánh Nguyên Đảng Cấm.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "sub:000000000000019F"
+        }
+      ],
+      "parent_source_claim": "IR009",
+      "chronology_status": "SOURCE_BANDED",
+      "guards": []
+    },
+    {
+      "id": "P03A-C03",
+      "package": "P03-A",
+      "status": "VERIFIED_CROSS_SOURCE",
+      "claim": "Hàn Thác Trụ is a source-backed pro-war political actor; his later Northern Expedition decision remains governed by promoted IR009.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:0000000000000002:entry:6a416b90"
+        },
+        {
+          "source_id": "lab-reconstruction",
+          "evidence_class": "CROSS_SOURCE_CONFIRMED",
+          "path": "generated/novel-handoff/game-story/dossiers/arc-07.json",
+          "claim_id": "IR009"
+        }
+      ],
+      "parent_source_claim": "IR009",
+      "chronology_status": "SOURCE_FIXED",
+      "guards": []
+    },
+    {
+      "id": "P03B-C01",
+      "package": "P03-B",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Task 9 records Hoàn Nhan Tương/Wanyan Xiang as a Jin political-military actor associated with northern campaigns and court patronage.",
+      "evidence": [
+        {
+          "source_id": "client-primary",
+          "evidence_class": "RAW_CLIENT",
+          "path": "client/pak/task_publish.pak",
+          "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+          "record_key": "task:0000000000000009:entry:718d681b"
+        }
+      ],
+      "parent_source_claim": "IR007",
+      "chronology_status": "SOURCE_BANDED",
+      "guards": []
+    },
+    {
+      "id": "P03B-C02",
+      "package": "P03-B",
+      "status": "VERIFIED_DIRECT",
+      "claim": "NPC record 3548 explicitly designates Hoàn Nhan Tương as Giáo chủ Thiên Nhẫn.",
+      "evidence": [
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:3548"
+        }
+      ],
+      "parent_source_claim": "IR007",
+      "chronology_status": "SOURCE_BANDED",
+      "guards": []
+    },
+    {
+      "id": "P03B-C03",
+      "package": "P03-B",
+      "status": "VERIFIED_DIRECT",
+      "claim": "The direct NPC graph places Đoan Mộc Duệ, Ngột Tát, Bồ Sát Phong Nô and Vinh Đồ under the Hoàn Nhan Tương/Tianren command structure.",
+      "evidence": [
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:3548"
+        },
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:3544"
+        },
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:3545"
+        },
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:3546"
+        },
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:3547"
+        }
+      ],
+      "parent_source_claim": "IR007",
+      "chronology_status": "SOURCE_BANDED",
+      "guards": [
+        "Command graph does not establish each subordinate's novel role or motive."
+      ]
+    },
+    {
+      "id": "P03B-C04",
+      "package": "P03-B",
+      "status": "VERIFIED_DIRECT",
+      "claim": "Qualified records show Thiên Nhẫn continuing as an active Jin-linked sect/institution with Hoàn Nhan Tương represented as leader across multiple records.",
+      "evidence": [
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records/npcs/npc-records.jsonl",
+          "record_key": "npc:3548"
+        },
+        {
+          "source_id": "lab-derived-index",
+          "evidence_class": "DERIVED_FROM_RAW_CLIENT",
+          "path": "generated/records",
+          "locator": "qualified Tianren NPC/faction record set"
+        }
+      ],
+      "parent_source_claim": "IR007",
+      "chronology_status": "SOURCE_BANDED",
+      "guards": [
+        "Does not define Hoàn Nhan Tương's personal motive or complete Tianren ideology."
+      ]
+    }
+  ],
+  "exclusion_and_unknown_records": [
+    {
+      "id": "P01-X01",
+      "status": "EXCLUDE",
+      "claim": "Lý Hậu as a fugitive."
+    },
+    {
+      "id": "P01-X02",
+      "status": "EXCLUDE",
+      "claim": "A separate unnamed fugitive prince distinct from Gia Vương."
+    },
+    {
+      "id": "P01-X03",
+      "status": "EXCLUDE",
+      "claim": "Using Task 224/347 editor placement to reorder IR022→IR023→IR024→IR025."
+    },
+    {
+      "id": "P01-X04",
+      "status": "DEFER",
+      "claim": "Lãnh Sương Nhiên as a load-bearing protector until an exact direct locator is pinned."
+    },
+    {
+      "id": "P01-X05",
+      "status": "EXCLUDE",
+      "claim": "Extra historical identity, motive or palace chronology beyond selected source."
+    },
+    {
+      "id": "P02A-X01",
+      "status": "EXCLUDE",
+      "claim": "Ethnic essentialization of Bạch Man or Ô Man."
+    },
+    {
+      "id": "P02A-X02",
+      "status": "EXCLUDE",
+      "claim": "Treating actor/faction Cổ Thuật as innate ethnic evil."
+    },
+    {
+      "id": "P02A-X03",
+      "status": "EXCLUDE",
+      "claim": "Making Bạch–Ô chain the hidden cause of Du Long, Thúy Yên or La Tuyết causal spine."
+    },
+    {
+      "id": "P02A-X04",
+      "status": "GUARD",
+      "claim": "IR006 remains STRONG absent separate status review."
+    },
+    {
+      "id": "P02B-X01",
+      "status": "EXCLUDE",
+      "claim": "“Thanh mai trúc mã” as direct source wording."
+    },
+    {
+      "id": "P02B-X02",
+      "status": "EXCLUDE",
+      "claim": "Social-condemnation explanation for Lam Mộng Điệp–Nam Cung Uyển friendship."
+    },
+    {
+      "id": "P02B-X03",
+      "status": "EXCLUDE",
+      "claim": "Sexual-assault inference or on-page sexual coercion."
+    },
+    {
+      "id": "P02B-X04",
+      "status": "EXCLUDE",
+      "claim": "Invented song lyrics/music composition as game source."
+    },
+    {
+      "id": "P02B-X05",
+      "status": "PLACEMENT_ONLY",
+      "claim": "GA06 placement is adaptation design, not game chronology."
+    },
+    {
+      "id": "P02C-X01",
+      "status": "EXCLUDE",
+      "claim": "Khương-family officials/monks as perpetrators."
+    },
+    {
+      "id": "P02C-X02",
+      "status": "EXCLUDE",
+      "claim": "Temple-building purpose for labor conscription."
+    },
+    {
+      "id": "P02C-X03",
+      "status": "EXCLUDE",
+      "claim": "Embezzlement/bribery/corruption by a named actor."
+    },
+    {
+      "id": "P02C-X04",
+      "status": "ADAPTATION_OPTIONAL",
+      "claim": "Fertilizer-fetch gameplay is not a required novel beat."
+    },
+    {
+      "id": "P02D-X01",
+      "status": "EXCLUDE",
+      "claim": "Invented compensation/refused-wage settlement."
+    },
+    {
+      "id": "P02D-X02",
+      "status": "EXCLUDE",
+      "claim": "Prior sentimental paraphrases as source wording."
+    },
+    {
+      "id": "P02D-X03",
+      "status": "CORRECTED_METADATA_GUARD",
+      "claim": "Map ID 98 is not Tiểu Nguyệt/Lưu Lão Gia NPC ID."
+    },
+    {
+      "id": "P02D-X04",
+      "status": "PLACEMENT_ONLY",
+      "claim": "GA06 placement is adaptation design, not recovered game chronology."
+    },
+    {
+      "id": "P03A-X01",
+      "status": "EXCLUDE",
+      "claim": "Tân Khí Tật as in-game participant/direct interlocutor from qualified evidence."
+    },
+    {
+      "id": "P03A-X02",
+      "status": "EXCLUDE",
+      "claim": "Task 2 directly causes Task 240 or forms one continuous chain."
+    },
+    {
+      "id": "P03A-X03",
+      "status": "EXCLUDE",
+      "claim": "Source-imported psychology making Hàn Thác Trụ a patriot-saint or pure villain."
+    },
+    {
+      "id": "P03B-U01",
+      "status": "PROTECTED_UNKNOWN",
+      "claim": "Hoàn Nhan Tương's internal personal motive."
+    },
+    {
+      "id": "P03B-X01",
+      "status": "EXCLUDE",
+      "claim": "Hoàn Nhan Tương seeks to morally reform Thiên Nhẫn into a righteous sect."
+    },
+    {
+      "id": "P03B-X02",
+      "status": "EXCLUDE",
+      "claim": "Direct personal Du Long Giác motive for Hoàn Nhan Tương."
+    },
+    {
+      "id": "P03B-X03",
+      "status": "EXCLUDE",
+      "claim": "Hoàn Nhan Tương biography as complete Tianren history/ideology."
+    },
+    {
+      "id": "P03B-X04",
+      "status": "GUARD",
+      "claim": "P03-B does not strengthen IR007 STRONG into a full northern causal map."
+    }
+  ],
+  "parent_status_guards": {
+    "IR022": "UNCHANGED_VERIFIED_DIRECT",
+    "IR006": "UNCHANGED_STRONG",
+    "IR009": "UNCHANGED_VERIFIED_CROSS_SOURCE",
+    "IR007": "UNCHANGED_STRONG"
+  },
+  "chronology_guards": [
+    "IR022→IR023→IR024→IR025 remains authoritative.",
+    "P02-B/P02-C/P02-D are SOURCE_EVENT_UNDATED relative to level-110 mainline.",
+    "Novel host placement is adaptation metadata and does not become game chronology.",
+    "Task/editor IDs are not chronology proof."
+  ],
+  "protected_unknowns": [
+    "du-long-final-secret",
+    "parents-identities",
+    "player-guardian-lineage",
+    "Hoàn Nhan Tương internal personal motive",
+    "Ngô Hi final motive"
+  ],
+  "raw_proprietary_payloads_excluded": true,
+  "new_broad_source_research_performed": false,
+  "notes": "Contains derived claims and locators only; no raw dialogue, client/server payload, PAK, executable, archive, or private-input content."
+}
