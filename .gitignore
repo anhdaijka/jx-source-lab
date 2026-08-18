@@ -28,3 +28,6 @@ Thumbs.db
 *.log
 *.tmp
 /temp/
+
+generated/release/12-client-asset-index.jsonl
+
