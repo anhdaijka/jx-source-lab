@@ -1,0 +1,416 @@
+[
+  {
+    "subtask_id": "0000000000000132",
+    "entity_type": "NPC",
+    "entity_id": "3561",
+    "entity_name": "Điềm Tửu Thúc"
+  },
+  {
+    "subtask_id": "0000000000000132",
+    "entity_type": "NPC",
+    "entity_id": "3570",
+    "entity_name": "Bạch Thu Lâm"
+  },
+  {
+    "subtask_id": "0000000000000132",
+    "entity_type": "NPC",
+    "entity_id": "3571",
+    "entity_name": "Long Ngũ Thái Gia"
+  },
+  {
+    "subtask_id": "0000000000000132",
+    "entity_type": "LOCATION",
+    "entity_id": "village",
+    "entity_name": "Tân Thủ Thôn"
+  },
+  {
+    "subtask_id": "0000000000000133",
+    "entity_type": "NPC",
+    "entity_id": "3561",
+    "entity_name": "Điềm Tửu Thúc"
+  },
+  {
+    "subtask_id": "0000000000000133",
+    "entity_type": "NPC",
+    "entity_id": "3562",
+    "entity_name": "Thẩm Hà Diệp"
+  },
+  {
+    "subtask_id": "0000000000000133",
+    "entity_type": "NPC",
+    "entity_id": "3563",
+    "entity_name": "Hách Phiêu Tịnh"
+  },
+  {
+    "subtask_id": "0000000000000133",
+    "entity_type": "NPC",
+    "entity_id": "3564",
+    "entity_name": "Trương Trảm Kinh"
+  },
+  {
+    "subtask_id": "0000000000000133",
+    "entity_type": "NPC",
+    "entity_id": "3565",
+    "entity_name": "Bất Động Tiên Sinh"
+  },
+  {
+    "subtask_id": "0000000000000133",
+    "entity_type": "NPC",
+    "entity_id": "3566",
+    "entity_name": "Đại Lão Bạch"
+  },
+  {
+    "subtask_id": "0000000000000134",
+    "entity_type": "NPC",
+    "entity_id": "3561",
+    "entity_name": "Điềm Tửu Thúc"
+  },
+  {
+    "subtask_id": "0000000000000134",
+    "entity_type": "NPC",
+    "entity_id": "3565",
+    "entity_name": "Bất Động Tiên Sinh"
+  },
+  {
+    "subtask_id": "0000000000000135",
+    "entity_type": "NPC",
+    "entity_id": "3561",
+    "entity_name": "Điềm Tửu Thúc"
+  },
+  {
+    "subtask_id": "0000000000000135",
+    "entity_type": "NPC",
+    "entity_id": "3582",
+    "entity_name": "Thẩm Thiết Thạch"
+  },
+  {
+    "subtask_id": "0000000000000135",
+    "entity_type": "NPC",
+    "entity_id": "3583",
+    "entity_name": "Hứa Sĩ Vĩ"
+  },
+  {
+    "subtask_id": "0000000000000135",
+    "entity_type": "ITEM",
+    "entity_id": "thịt hươu",
+    "entity_name": "thịt hươu"
+  },
+  {
+    "subtask_id": "0000000000000135",
+    "entity_type": "ITEM",
+    "entity_id": "máu hươu",
+    "entity_name": "máu hươu"
+  },
+  {
+    "subtask_id": "000000000000013D",
+    "entity_type": "NPC",
+    "entity_id": "3582",
+    "entity_name": "Thẩm Thiết Thạch"
+  },
+  {
+    "subtask_id": "000000000000013D",
+    "entity_type": "NPC",
+    "entity_id": "3583",
+    "entity_name": "Hứa Sĩ Vĩ"
+  },
+  {
+    "subtask_id": "000000000000013E",
+    "entity_type": "NPC",
+    "entity_id": "3582",
+    "entity_name": "Thẩm Thiết Thạch"
+  },
+  {
+    "subtask_id": "000000000000013E",
+    "entity_type": "NPC",
+    "entity_id": "3583",
+    "entity_name": "Hứa Sĩ Vĩ"
+  },
+  {
+    "subtask_id": "000000000000013F",
+    "entity_type": "NPC",
+    "entity_id": "3562",
+    "entity_name": "Thẩm Hà Diệp"
+  },
+  {
+    "subtask_id": "000000000000013F",
+    "entity_type": "NPC",
+    "entity_id": "3570",
+    "entity_name": "Bạch Thu Lâm"
+  },
+  {
+    "subtask_id": "000000000000013F",
+    "entity_type": "NPC",
+    "entity_id": "3583",
+    "entity_name": "Hứa Sĩ Vĩ"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3474",
+    "entity_name": "Đồng Lăng"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3480",
+    "entity_name": "Đoàn Tu Tịnh"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3501",
+    "entity_name": "Bùi Viễn"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3507",
+    "entity_name": "Tịch Huyễn"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3513",
+    "entity_name": "Đường Tế Dân"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3519",
+    "entity_name": "Biên Nhất Xuân"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3525",
+    "entity_name": "Huyền Tịnh"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3531",
+    "entity_name": "Tô Nhã"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3537",
+    "entity_name": "La Tuấn"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3543",
+    "entity_name": "Tạ Phi Kinh"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3549",
+    "entity_name": "Minh Tuệ"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3555",
+    "entity_name": "Quy Kinh Tinh"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "NPC",
+    "entity_id": "3570",
+    "entity_name": "Bạch Thu Lâm"
+  },
+  {
+    "subtask_id": "0000000000000136",
+    "entity_type": "LOCATION",
+    "entity_id": "village",
+    "entity_name": "Tân Thủ Thôn"
+  },
+  {
+    "subtask_id": "0000000000000137",
+    "entity_type": "NPC",
+    "entity_id": "3570",
+    "entity_name": "Bạch Thu Lâm"
+  },
+  {
+    "subtask_id": "0000000000000137",
+    "entity_type": "NPC",
+    "entity_id": "3584",
+    "entity_name": "Giới Sơn Tông"
+  },
+  {
+    "subtask_id": "0000000000000140",
+    "entity_type": "NPC",
+    "entity_id": "3570",
+    "entity_name": "Bạch Thu Lâm"
+  },
+  {
+    "subtask_id": "0000000000000140",
+    "entity_type": "NPC",
+    "entity_id": "3584",
+    "entity_name": "Giới Sơn Tông"
+  },
+  {
+    "subtask_id": "0000000000000138",
+    "entity_type": "NPC",
+    "entity_id": "3561",
+    "entity_name": "Điềm Tửu Thúc"
+  },
+  {
+    "subtask_id": "0000000000000138",
+    "entity_type": "NPC",
+    "entity_id": "3562",
+    "entity_name": "Thẩm Hà Diệp"
+  },
+  {
+    "subtask_id": "0000000000000138",
+    "entity_type": "NPC",
+    "entity_id": "3563",
+    "entity_name": "Hách Phiêu Tịnh"
+  },
+  {
+    "subtask_id": "0000000000000138",
+    "entity_type": "NPC",
+    "entity_id": "3564",
+    "entity_name": "Trương Trảm Kinh"
+  },
+  {
+    "subtask_id": "0000000000000138",
+    "entity_type": "NPC",
+    "entity_id": "3565",
+    "entity_name": "Bất Động Tiên Sinh"
+  },
+  {
+    "subtask_id": "0000000000000138",
+    "entity_type": "ITEM",
+    "entity_id": "Tùng Mộc Phù",
+    "entity_name": "Tùng Mộc Phù"
+  },
+  {
+    "subtask_id": "0000000000000138",
+    "entity_type": "ITEM",
+    "entity_id": "Bột tàng hồng hoa (tiểu)",
+    "entity_name": "Bột tàng hồng hoa (tiểu)"
+  },
+  {
+    "subtask_id": "0000000000000138",
+    "entity_type": "ITEM",
+    "entity_id": "1 rương thuốc",
+    "entity_name": "1 rương thuốc"
+  },
+  {
+    "subtask_id": "0000000000000138",
+    "entity_type": "ITEM",
+    "entity_id": "Vải vụn á ma",
+    "entity_name": "Vải vụn á ma"
+  },
+  {
+    "subtask_id": "0000000000000138",
+    "entity_type": "ITEM",
+    "entity_id": "Truyền Tống Phù Thô",
+    "entity_name": "Truyền Tống Phù Thô"
+  },
+  {
+    "subtask_id": "0000000000000138",
+    "entity_type": "ITEM",
+    "entity_id": "Vải Á ma thô",
+    "entity_name": "Vải Á ma thô"
+  },
+  {
+    "subtask_id": "0000000000000139",
+    "entity_type": "NPC",
+    "entity_id": "2599",
+    "entity_name": "Trâu Đức Khoái"
+  },
+  {
+    "subtask_id": "0000000000000139",
+    "entity_type": "NPC",
+    "entity_id": "3567",
+    "entity_name": "Tạ Hiền"
+  },
+  {
+    "subtask_id": "0000000000000139",
+    "entity_type": "NPC",
+    "entity_id": "3570",
+    "entity_name": "Bạch Thu Lâm"
+  },
+  {
+    "subtask_id": "0000000000000139",
+    "entity_type": "NPC",
+    "entity_id": "3578",
+    "entity_name": "Rương cũ nát"
+  },
+  {
+    "subtask_id": "0000000000000139",
+    "entity_type": "NPC",
+    "entity_id": "3579",
+    "entity_name": "Rương cũ nát"
+  },
+  {
+    "subtask_id": "0000000000000139",
+    "entity_type": "NPC",
+    "entity_id": "3580",
+    "entity_name": "Rương cũ nát"
+  },
+  {
+    "subtask_id": "0000000000000139",
+    "entity_type": "NPC",
+    "entity_id": "3581",
+    "entity_name": "Rương kỳ lạ"
+  },
+  {
+    "subtask_id": "0000000000000139",
+    "entity_type": "LOCATION",
+    "entity_id": "village",
+    "entity_name": "Tân Thủ Thôn"
+  },
+  {
+    "subtask_id": "0000000000000141",
+    "entity_type": "NPC",
+    "entity_id": "3590",
+    "entity_name": "Cao Thăng"
+  },
+  {
+    "subtask_id": "0000000000000141",
+    "entity_type": "NPC",
+    "entity_id": "3591",
+    "entity_name": "Thôi Kiếm"
+  },
+  {
+    "subtask_id": "0000000000000141",
+    "entity_type": "LOCATION",
+    "entity_id": "l15",
+    "entity_name": "Tuyệt Vấn Pha"
+  },
+  {
+    "subtask_id": "0000000000000142",
+    "entity_type": "NPC",
+    "entity_id": "3585",
+    "entity_name": "Bạch Cương"
+  },
+  {
+    "subtask_id": "0000000000000142",
+    "entity_type": "NPC",
+    "entity_id": "3591",
+    "entity_name": "Thôi Kiếm"
+  },
+  {
+    "subtask_id": "0000000000000143",
+    "entity_type": "NPC",
+    "entity_id": "3585",
+    "entity_name": "Bạch Cương"
+  },
+  {
+    "subtask_id": "0000000000000143",
+    "entity_type": "NPC",
+    "entity_id": "3590",
+    "entity_name": "Cao Thăng"
+  },
+  {
+    "subtask_id": "0000000000000143",
+    "entity_type": "NPC",
+    "entity_id": "3591",
+    "entity_name": "Thôi Kiếm"
+  }
+]

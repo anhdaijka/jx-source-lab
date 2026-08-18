@@ -1,0 +1,16 @@
+{
+  "schema_version": "2.0",
+  "generator": "scripts/build_story_material_corpus.py",
+  "generated_at_utc": "2026-08-18T03:30:43.848672+00:00",
+  "task_family_id": "000000000000009D",
+  "task_family_name": "Thân Thế Chi Mê",
+  "subtasks_expected": 15,
+  "packets_generated": 15,
+  "packet_generation_rate": 1.0,
+  "exact_dialogue_nodes_extracted": 386,
+  "speaker_attribution_coverage_rate": 1.0,
+  "topology_edge_coverage_rate": 1.0,
+  "unresolved_subtasks_count": 0,
+  "conflicts_or_drift_count": 0,
+  "reconstruction_ready": true
+}

@@ -1,0 +1,2207 @@
+{
+  "schema_version": "2.0",
+  "generator": "scripts/build_story_material_corpus.py",
+  "dossier_id": "RECON-FAMILY-009D",
+  "family_id_hex": "000000000000009D",
+  "family_name": "Thân Thế Chi Mê",
+  "level_range": "Level 1 - 15",
+  "classification": "Main Storyline (Starter Village)",
+  "subtask_count": 15,
+  "ordered_implementation_events": [
+    {
+      "order": 1,
+      "subtask_id": "0000000000000132",
+      "subtask_name": "Sồ Phượng Thanh Minh ",
+      "summary": "1. Chỉ dẫn nhiệm vụ ở Tân Thủ Thôn là NPC nào: <color=Gold>Bạch Thu Lâm<color=White> 2. Làm sao mở giao diện nhiệm vụ: <color=Gold>Nhấn phím F4<color=White> 3. Làm sao tự động tìm đường: <color=Gold>Nhấp vào dòng chữ màu vàng có gạch dưới trong giao diện nhiệm vụ<color=White>",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 2,
+      "subtask_id": "0000000000000133",
+      "subtask_name": "Nghĩa Quân",
+      "summary": "Thu Di bảo ta đến thỉnh giáo Long Ngũ thái gia, sau đó đi gặp Điềm Tửu Thúc nhận binh khí, xem ra ngày ta dấn thân vào giang hồ ngày càng gần rồi!",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 3,
+      "subtask_id": "0000000000000134",
+      "subtask_name": "Kỳ Môn Độn Giáp",
+      "summary": "Nghĩa quân mặc dù toàn hỏi ta điều khó, nhưng chỉ là vì muốn tốt cho ta. Có điều, nhiều lúc Bất Động tiên sinh cũng hơi quá đáng.",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 4,
+      "subtask_id": "0000000000000135",
+      "subtask_name": "Sơ Thượng Sa Trường",
+      "summary": "Không biết tại sao, qua lời nói của Điềm Tửu Thúc, ta cảm thấy lo lắng.",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 5,
+      "subtask_id": "000000000000013D",
+      "subtask_name": "Bệnh Lạ",
+      "summary": "Ta thay Hứa huynh đệ mang máu và thịt hươu về, thật không biết phải giúp tên thợ săn điên khùng đó như thế nào nữa.",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 6,
+      "subtask_id": "000000000000013E",
+      "subtask_name": "Yêu Cầu Vô Lý",
+      "summary": "Ta thay Hứa huynh tìm Hầu Nhi Tửu về, và nghe Hứa huynh nói về căn bệnh kỳ quái của Thẩm thợ săn.",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 7,
+      "subtask_id": "000000000000013F",
+      "subtask_name": "Bất Kham Hồi Thủ",
+      "summary": "Cuối cùng Hứa huynh cũng nói ra nỗi khổ, thì ra tên thợ săn Thẩm Thiết Thạch này có bệnh não kỳ lạ, có thể chết bất cứ lúc nào. Thật khó cho người có tấm lòng nhân đức như Hứa huynh.",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 8,
+      "subtask_id": "0000000000000136",
+      "subtask_name": "Thập Nhị Môn Phái",
+      "summary": "Việc Điềm Tửu Thúc sai ta ra ngoài thành săn bắn đã khiến Thu Di lo lắng! Ta mới hiểu ra, tuy là cô nhi từ nhỏ không có cha mẹ, nhưng vẫn có một người quan tâm đến an nguy của ta. Thu Di bảo ta đến tìm đệ tử tiếp dẫn của thập nhị môn phái, chọn lựa kỹ môn phái mình muốn gia nhập, sau đó về tìm Thu Di.",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 9,
+      "subtask_id": "0000000000000137",
+      "subtask_name": "Tiểu Thí Ngưu Đao",
+      "summary": "Thu Di rất phấn khích khi bạn gia nhập thành công môn phái.",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 10,
+      "subtask_id": "0000000000000140",
+      "subtask_name": "Cơ Quan Đại Sư",
+      "summary": "Cuối cùng tìm được Giới sư phụ trong doanh trại cường tặc, nhưng ông ta lại có vẻ lo lắng, đã xảy ra chuyện gì?",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 11,
+      "subtask_id": "0000000000000138",
+      "subtask_name": "Tầm Sư Học Nghệ",
+      "summary": "Giới sư phụ tuy chỉ là người thầy thợ, nhưng lại có khí khái dũng cảm không thua nam nhi chiến trận. Không ngại an nguy bản thân, nhờ ta lập tức mang chìa khóa thạch thất giao cho Thu Di bảo vệ an toàn cơ quan thủy lưu và an nguy bá tánh toàn thôn! Ta đã hiểu câu nói hàm ý thâm sâu <color=Red>Tận diệt Kim cẩu, khôi phục giang sơn<color> này.",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 12,
+      "subtask_id": "0000000000000139",
+      "subtask_name": "Kỳ Trân Mê",
+      "summary": "Ở chặng cuối cùng học kỹ năng sống từ nghĩa quân, chủ tiệm tạp hóa Bất Động tiên sinh bảo ta đến tìm chủ tiền trang Tạ Hiền.",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 13,
+      "subtask_id": "0000000000000141",
+      "subtask_name": "Người Mất Tích",
+      "summary": "Bạch Cương bị truy sát, xảy ra cùng lúc với việc nghĩa quân phản đồ phá hoại cơ quan thủy lưu, e là bọn tặc nhân muốn ta chú ý. Thu Di đoán lần này Bạch Cương nhất định có tin quan trọng. Liên quan tới thân thế của ta, ta phải đến đó!",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 14,
+      "subtask_id": "0000000000000142",
+      "subtask_name": "Chung Trừng Nguyên Hung",
+      "summary": "Thích khách bên ngoài đã bị ta tiêu diệt phân nửa, nhưng tiếp viện cứ kéo đến, tướng mạo lại quái dị, không giống nhân sĩ Trung Nguyên. Hay là quay về xem tình hình của Bạch tiên sinh.",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    },
+    {
+      "order": 15,
+      "subtask_id": "0000000000000143",
+      "subtask_name": "Nhất Ngữ Thành Sấm",
+      "summary": "Nhiệm vụ hiện tại là truy tìm mảnh trục cuốn, lấy ra sấm thi!",
+      "ordering_basis": "TASK_PUBLISH_PAK_MANAGED_SUB_LINEAR_ORDER"
+    }
+  ],
+  "dialogue_backed_narrative_beats": [
+    {
+      "subtask_id": "0000000000000132",
+      "subtask_name": "Sồ Phượng Thanh Minh ",
+      "dialogue_exchanges": [
+        {
+          "speaker": "npc:3570",
+          "text": "Ngươi hãy đi tìm người trên đầu có dấu chấm hỏi, ông ta tên <color=red>Long Ngũ<color>, 30 năm trước là thủ lĩnh nghĩa quân. Hồi ấy, mọi người gọi ông ta là Long lão thái gia, rất có tiếng tăm trên giang hồ. Ông ta sẽ chỉ bảo cho ngươi những điều vô cùng có ích."
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Thỉnh giáo Bạch Thu Lâm ở Tân Thủ Thôn"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Thỉnh giáo Bạch Thu Lâm ở Tân Thủ Thôn"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3571",
+          "text": "Cuối cùng thì Thu Lâm đã bảo ngươi đến. Ta cũng không có gì nhiều để chỉ dạy cho ngươi, giang hồ hiểm ác khó lường, có một cặp mắt tinh tường thì mọi việc sẽ dễ dàng hơn. Nếu nhìn thấy trên đầu của một người nào đó có <color=red>dấu chấm than<color> thì chắc chắn đã có việc gì xảy ra với người đó, đối thoại với họ để dò hỏi, cũng có thể là có chuyện xảy ra với ngươi."
+        },
+        {
+          "speaker": "npc:3571",
+          "text": "Được, ngươi hãy chuyển lời đến <color=red>Thu Lâm<color>, bảo cô ta không cần bảo người đem nhân sâm đến đây nữa. Tình hình kinh tế của nghĩa quân đang rất khó khăn, ta không thể cứ ngồi không ăn bám mãi. Nhớ trước đây ta bôn ba giang hồ, chỉ với vài món vũ khí thông thường mà ta có thể dọc ngang thiên hạ nổi danh trong thời loạn thế đó!"
+        },
+        {
+          "speaker": "npc:3571",
+          "text": "Đúng rồi, trong nghĩa quân có câu nói \"Tận diệt Kim cẩu, khôi phục giang sơn\". Sau này ngươi sẽ thường nghe câu này."
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3571",
+          "text": "Thỉnh giáo Long Ngũ thái gia ở Tân Thủ Thôn"
+        },
+        {
+          "speaker": "npc:3571",
+          "text": "Thỉnh giáo Long Ngũ thái gia ở Tân Thủ Thôn"
+        },
+        {
+          "speaker": "npc:3571",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3571",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Lão thái gia thật trẻ con, nghĩa quân nghèo thì nghèo, nhưng mỗi tháng tốn vài lượng mua nhân sâm thì có đáng là bao. Những vũ khí mà lão thái gia dùng qua đều đã từng làm nên lịch sử cả, hiện giờ đang được tu sửa ở <color=red>thợ rèn Điềm Tửu<color>, ngươi hãy đến đó lấy. Nhưng Điềm Tửu là một người rất quái dị, khó tính, để ta khảo nghiệm ngươi một vài kinh nghiệm hành tẩu giang hồ, qua được ải của ta, mới hy vọng không bị ông ta làm khó dễ."
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ồ, trí nhớ của ngươi rất tốt, hãy đến tìm <color=red>Điềm Tửu<color>, ông ta ở ngay cửa tiệm binh khí."
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Hãy thử lại đi"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Tận diệt Kim cẩu, khôi phục giang sơn!"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Ái chà! Cái bánh ít này thật là ngon, rượu này cũng rất ngon! Rượu ngon."
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Là <playername> đấy à? Ngay cả vũ khí mà ngày xưa Long Ngũ thái gia từng sử dụng mà Thu Lâm cũng mang tặng ngươi sao? Thật là khoa trương quá đi. Xem ngươi kìa, vật phẩm treo lủng lẳng khắp người, chẳng hay ngươi có biết tác dụng của chúng không?"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Chuẩn bị sẵn sàng chưa? Ta bắt đầu hỏi đây."
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Ta đã phát cho ngươi vũ khí của Long lão thái gia rồi, nếu ngươi biết cách trang bị lên người thì ta sẽ phục ngươi sát đất và tặng thêm cho ngươi quà. Sao? Có muốn cá độ thêm lần nữa không? Ha ha..."
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Hãy thử lại đi"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "0000000000000133",
+      "subtask_name": "Nghĩa Quân",
+      "dialogue_exchanges": [
+        {
+          "speaker": "npc:3561",
+          "text": "Thôi không làm khó ngươi nữa! Đưa chuột vào vũ khí, nhấn chuột phải thì có thể trang bị. Lão thúc không những nói cho ngươi cách sử dụng vũ khí mà còn tặng thêm một bộ phòng cụ, một món trang sức và một Hồi thành phù! Nhưng hiện giờ không có ở đây."
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Hi hi! Thật ra là có, nhưng những vật này hiện không có ở chỗ ta, mà ở chỗ các ông chủ khác trong thôn. Bọn họ thua dưới tay của Điềm Tửu ta, nhưng lại muốn lờ đi, nếu ngươi có thể đòi được giúp ta, thì những thứ đó sẽ thuộc về ngươi. <color=red>Chủ tiệm phòng cụ Thẩm Hà Diệp <color> là con gái của Binh bộ thị lang tiền triều, tiểu thư của một gia đình danh giá, ngươi hãy đến tìm cô ta đi."
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "'Phong trú trần hương hoa dĩ tận, nhật vãn quyển sơ đầu. Vật thị nhân phi sự sự hưu, dục ngữ lệ tiên lưu.' Dị An Cư Sĩ quả nhiên thâm thúy vô cùng... <playername>, ngươi đến rồi. Nào, hãy ăn một quả tuyết lê. Tên say rượu của tiệm rèn bảo ngươi đến lấy phòng cụ phải không? Đây, cầm lấy. Nhưng hôm nay ta cảm thấy hơi buồn chán, cùng đoán câu đố với ta nào!"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "<playername>, ngươi hãy cầm lấy. Tiếp theo hãy đến gặp <color=red>Hách Phiêu Tịnh<color>, nhưng không dễ thỏa thuận giống như ta đâu đấy. Cô ta xuất thân từ gia đình nghèo khó, ở những nơi chợ búa, nên tính toán rất chi ly, ngươi cần phải khéo léo mới được."
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Hãy thử lại đi"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Hừm hừm! Lão già nát rượu đó bảo ngươi đến đây lấy trang sức phải không? Ta thiếu nợ ông ta bao giờ? Đúng thật là một tên bịp bợm, xấu xa. Nhưng <playername> ngươi đã đến đây, ta cũng có món quà này để tặng.\"\n\n\"Cái gì? Thẩm Hà Diệp cũng tặng ngươi một món trang bị à? Còn đưa ra câu đố với ngươi à? Thế thì không được, ngươi cũng phải trả lời một câu đố thì ta mới tặng trang sức."
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Ha ha! <playername> ngươi thật là dễ thương, mau đến đây, ta sẽ tặng cho ngươi món trang sức này. Bây giờ ngươi hãy đi tìm <color=red>Trương Trảm Kinh<color> ở tiệm thuốc. Ông ta là người rất nghiêm khắc đấy nhé!"
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Hãy thử lại đi"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Tận diệt Kim cẩu, khôi phục giang sơn!"
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Giúp Điềm Tửu đến đây đòi nợ à? Lão già đó thật gian xảo. Được, ta không chỉ giao cho ngươi thuốc đã thiếu ông ta, mà ta còn tặng thêm cho ngươi nữa. Trong chốn giang hồ khó tránh việc tàn sát lẫn nhau, sẽ có lúc ngươi phải cần đến. Không còn việc gì nữa rồi, ngươi hãy đến gặp <color=red>Bất Động tiên sinh<color> ở tiệm tạp hóa đi. Ông ta rất lười biếng, ngay cả việc ăn ngủ cũng không muốn động tay động chân, cho nên được gọi là Bất Động tiên sinh."
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Tận diệt Kim cẩu, khôi phục giang sơn!"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Đời người nếu có thể bất động thì bất động đi, mỗi lần động là tiêu hao nguyên khí, thật uổng phí. Sao? Nguyên khí là gì ư? Ngươi hỏi đúng người rồi đó! Chữ nguyên trong chữ nguyên khí, chữ khí cũng trong chữ nguyên khí! Ê.....đừng có đánh người chứ, tố chất, chú ý tố chất!"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Thôi, không nói linh tinh nữa. Hãy cầm lấy Hồi thành phù này đi, ngộ nhỡ đến chiến trường thu nhặt binh khí, ta dùng nó là có thể biến về thôn, lúc đó cảm thấy cuộc sống sao mà thanh thản đến thế, ha ha ha ha. Nào, ta có một ít <color=red>pháo hoa<color>, ngươi ra <color=red>trước tửu lầu<color> đốt giúp ta để chúc mừng cửa tiệm mới khai trương của Đại Lão Bạch."
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Còn nữa còn nữa! Đốt xong thì nhớ tìm y lấy một tấm ngân phiếu của ta gửi ở chỗ y. Tuyệt đối chớ quên! Nếu nhà ngươi dám quên, tối đến ta sẽ quật mộ tổ tiên nhà ngươi lên đấy!"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Thôi, không nói linh tinh nữa. Nào, ta có một ít <color=red>pháo hoa<color>, ngươi ra <color=red>trước tửu lầu<color> đốt giúp ta để chúc mừng cửa tiệm mới khai trương của Đại Lão Bạch."
+        },
+        {
+          "speaker": "npc:3566",
+          "text": "Tận diệt Kim cẩu, khôi phục giang sơn!"
+        },
+        {
+          "speaker": "npc:3566",
+          "text": "Ha ha ha... lão tặc Bất Động bảo ngươi đến đây à? Ông ta đã gạt ngươi đấy. Hôm nay quán rượu nhà ta khai trương, khách đến tham dự đều sẽ được một tấm ngân phiếu, Bất Động vì lười nhác không muốn đi, lại tiếc của, nên mới bảo ngươi đến đấy."
+        },
+        {
+          "speaker": "npc:3566",
+          "text": "Ngươi đã đến rồi thì hãy cầm tấm ngân phiếu này về giao cho Bất Động, ở chỗ ta còn một giải thưởng nhân dịp khai trương. Đó chính là câu đối. Bên trên câu đối là \"1 2 3 4 5 6 7 1\", ai có thể đối được câu này, thì sẽ được phần thưởng xứng đáng."
+        },
+        {
+          "speaker": "npc:3566",
+          "text": "Được, khi nào ngươi nghĩ ra được đáp án thì cứ đến tìm ta, dùng cách \"chat gần\" để nhập câu đối vào, và đứng bên cạnh ta. Nếu đúng, ta sẽ hậu tạ ngươi thỏa đáng. Còn bây giờ hãy đem tấm ngân phiếu về giao cho <color=red>Bất Động lão tặc<color>."
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Ha ha! Ta cứ tưởng lão ta nuốt lời, nếu ông ấy uy tín như thế thì rất đáng trở thành bằng hữu. Nhưng làm thế nào để kết giao hảo hữu, để ta chỉ cho ngươi biết nhé!"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Nhấn chuột trái vào người chơi, sau đó chọn thêm hảo hữu trong giao diện hiện ra phía dưới."
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Sao? Thấy ta có thông minh không? Khà khà!"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "0000000000000134",
+      "subtask_name": "Kỳ Môn Độn Giáp",
+      "dialogue_exchanges": [
+        {
+          "speaker": "npc:3565",
+          "text": "Ái chà! <playername> thật là giỏi. Nếu ta tiếp tục nhờ vả ngươi thì thật tội cho ngươi. Thực ra tất cả những việc này đều là sắp xếp của Thu Di để thử thách ngươi đó thôi. Có một bí mật ta muốn tiết lộ cho ngươi biết, nhưng khoan vui mừng vội."
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Thu Di dự định đưa ngươi đến thập nhị môn phái tu luyện võ công thượng thừa, đây không phải là cơ duyên mà ai cũng có được đâu! Ngoài ra, ta tặng thêm cho ngươi một trang bị mà cực khổ lắm ta mới có được. Hãy đến chỗ <color=red>Điềm Tửu<color> lấy đi."
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Thực ra những người trong nghĩa quân bọn ta đều không có ý trêu chọc nhà ngươi, vì vậy đừng chấp nhặt nhé!"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Lão già Bất Động đó đã nói gì với ngươi? Đúng là miệng mồm liếng thoắng, dám cướp lời ta."
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "0000000000000135",
+      "subtask_name": "Sơ Thượng Sa Trường",
+      "dialogue_exchanges": [
+        {
+          "speaker": "npc:3561",
+          "text": "Ngươi đã học không ít công phu, phía ngoài thôn này dã thú hoành hành, ngươi có thể dùng một số con vật để thử. Ngoài thôn có một thợ săn độc hành tên là <color=red>Thẩm Thiết Thạch<color>, là một lão nghĩa quân. Hắn sẽ có việc giao cho ngươi đi làm. À! Hắn... là một quái nhân, nhưng rất tốt bụng, dù hắn có nói hay làm gì thì cũng đừng lấy làm lạ."
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "player",
+          "text": "Xin hỏi có phải là Thẩm Thiết Thạch đại ca không?"
+        },
+        {
+          "speaker": "npc:3582",
+          "text": "Chết hết rồi, chỉ trong một ngày, họ chết cả rồi."
+        },
+        {
+          "speaker": "player",
+          "text": "Người này sao lại tự nói chuyện một mình vậy, hình như ta chưa gặp lần nào cả. Xin hỏi có phải là Thẩm Thiết Thạch đại ca không?"
+        },
+        {
+          "speaker": "npc:3582",
+          "text": "Có gì thì nói mau đi."
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Đây chẳng phải là thiếu chủ sao? Người này chính là Thẩm Thiết Thạch. Ý của y muốn nói nếu như thiếu chủ đã được Điềm Tửu dạy bảo, ra ngoài thôn tìm dã thú luyện tập thì cứ tự đi là được rồi."
+        },
+        {
+          "speaker": "player",
+          "text": "Xin hỏi các hạ là ai?"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Ta là Hứa Sĩ Vĩ, đồ đệ của Trảm Kinh tiên sinh. Bây giờ, ngươi hãy giết vài con hươu, lấy <color=red>thịt hươu<color> mang về. À, nếu tiện, lấy thêm một ít <color=red>máu hươu<color> tươi nhé!"
+        },
+        {
+          "speaker": "npc:3582",
+          "text": "Đi tìm thợ săn độc hành Thẩm Thiết Thạch"
+        },
+        {
+          "speaker": "npc:3582",
+          "text": "Đi tìm thợ săn độc hành Thẩm Thiết Thạch"
+        },
+        {
+          "speaker": "npc:3582",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3582",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "player",
+          "text": "Hứa đại ca, ta đã đem thịt hươu và máu hươu tươi về rồi này."
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Thiếu chủ thân thủ bất phàm, Sĩ Vĩ vô cùng bái phục."
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Đối thoại với Hứa Sĩ Vĩ"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Đối thoại với Hứa Sĩ Vĩ"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "000000000000013D",
+      "subtask_name": "Bệnh Lạ",
+      "dialogue_exchanges": [
+        {
+          "speaker": "player",
+          "text": "Hứa đại ca! Khó khăn lắm mới lấy được Hầu Nhi Tửu, có thể cho tại hạ biết Thẩm huynh mắc phải chứng bệnh gì không?"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Ta không biết nên bắt đầu từ đâu."
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Đối thoại với Hứa Sĩ Vĩ"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Đối thoại với Hứa Sĩ Vĩ"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "000000000000013E",
+      "subtask_name": "Yêu Cầu Vô Lý",
+      "dialogue_exchanges": [
+        {
+          "speaker": "player",
+          "text": "Hứa đại ca, ta kiếm được rất nhiều da hổ vàng, đừng nói là mùa đông này mà mười năm hay hai mươi năm nữa cũng vẫn đủ dùng."
+        },
+        {
+          "speaker": "npc:3582",
+          "text": "Đem da đến cho ta mặc nhanh, nhà ngươi nói nhiều quá, ta không thích ngươi."
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Phải trị hết bệnh ngoài da mới mặc được, Thiết Thạch huynh chờ một chút nhé!"
+        },
+        {
+          "speaker": "npc:3582",
+          "text": "Đồ mọt sách, còn nhiều lời nữa thì ta giẫm chết nhà ngươi đó! Ái chà, buồn ngủ quá, ta đi nghỉ trước rồi sẽ tính sổ sau!"
+        },
+        {
+          "speaker": "player",
+          "text": "Hay là Hứa đại ca cùng ta về thôn đi, gã thợ săn này không thể thuyết phục nổi, chúng ta cứ mặc hắn."
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Rốt cuộc cũng ngủ rồi. Ngủ được thì tốt, không bị hàn độc giày vò sống dở chết dở."
+        },
+        {
+          "speaker": "player",
+          "text": "Sao Hứa đại ca lại phải cực khổ vậy?"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Ôi... Thiếu chủ vừa nói số da hổ vàng lấy được đủ dùng 10 năm phải không? Nhưng ngươi đâu biết, Thiết Thạch huynh sống nay chết mai, đừng nói là 10 năm, ngay cả 5 năm còn chưa chắc qua nổi......"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Đối thoại với Hứa Sĩ Vĩ"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Đối thoại với Hứa Sĩ Vĩ"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "000000000000013F",
+      "subtask_name": "Bất Kham Hồi Thủ",
+      "dialogue_exchanges": [
+        {
+          "speaker": "player",
+          "text": "Hứa đại ca, quả thực là có Hắc Trân Châu! Ta đã có đủ để làm thành một chuỗi trân châu rồi."
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Tốt quá, thật là tốt quá! Thiếu chủ là người tốt, công phu cũng rất cao cường. Nhờ thiếu chủ lập tức đem chuỗi trân châu này tặng cho <color=red>Hà Diệp tỷ<color> để hoàn thành tâm nguyện của Thiết Thạch. Lát nữa ta sẽ đến gặp Điềm Tửu kể lại chi tiết những việc thiếu chủ đã làm."
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Đối thoại với Hứa Sĩ Vĩ"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Đối thoại với Hứa Sĩ Vĩ"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3583",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "player",
+          "text": "Hà Diệp tỷ, đây là chuỗi Hắc Trân Châu mà đệ đệ của Thiết Thạch đã vất vả lắm mới lấy được từ ổ gấu. Y nhờ ta chuyển cho tỷ, chúc sinh nhật vui vẻ!"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Mấy ngày nay trời lạnh thấu xương, bệnh của Tiểu Thạch có lẽ lại tái phát. Sao nó phải bỏ nhiều công sức như vậy chứ, tỷ tỷ như ta... ôi... "
+        },
+        {
+          "speaker": "player",
+          "text": "Tỷ tỷ đừng buồn, ta vừa từ ngoài thôn trở về, Thiết Thạch huynh vẫn khỏe, sức khỏe có dấu hiệu phục hồi rất tốt."
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Thật sao? Cũng đã mấy ngày rồi ta không đến thăm Tiểu Thạch, thế thì phải đến thăm nó vài ngày. À, Thu Lâm tỷ hình như đang tìm ngươi đó!"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Đối thoại với Thẩm Hà Diệp"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Đối thoại với Thẩm Hà Diệp"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "player",
+          "text": "Thu Di, ta về rồi."
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Thiếu chủ, ngươi thật là khiến ta lo lắng! Bên ngoài có rất nhiều bất trắc, công lực của ngươi còn yếu, sao lại tự tiện đi xa vậy chứ?"
+        },
+        {
+          "speaker": "player",
+          "text": "Chuyến đi lần này ta học hỏi được rất nhiều. Biết được quá khứ của thợ săn độc hành Thẩm Thiết Thạch, và hiểu thêm về nghĩa quân."
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Thiết Thạch thế nào? Trước đây hắn là một hảo hán, giờ lại thành ra thế này... Trong thôn này rất nhiều gia đình gặp chuyện đau thương mất mát, đều là hậu quả của việc huyết chiến với giặc Kim. Công việc chăm sóc lão ấu trong thôn của ta vốn chẳng phải dễ dàng gì, thiếu chủ đừng làm cho ta lo lắng thêm nữa!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Đối thoại với Thu Di"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Đối thoại với Thu Di"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "0000000000000136",
+      "subtask_name": "Thập Nhị Môn Phái",
+      "dialogue_exchanges": [
+        {
+          "speaker": "npc:3507",
+          "text": "Bổn tự nằm trên núi Thiếu Thất ở Hà Nam, huyền môn chính tông, phật pháp trăm năm. Trảm yêu trừ ma, bảo vệ nhân tâm là tâm nguyện của chúng tăng bổn tự."
+        },
+        {
+          "speaker": "\"Võ công Thiếu lâm ta phân ra hai hệ phái",
+          "text": "Đao và Côn. Cả hai đều là hệ ngoại công.\"\n<color=gold>Thiếu Lâm Đao: động tác nhanh gọn, sử dụng nhuần nhuyễn lối tấn công bằng cước pháp.<color>\n<color=gold>Thiếu Lâm Côn: coi trọng động tác, tấn công mạnh mẽ bằng côn.<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3507",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3507",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3501",
+          "text": "Động Đình Hồ sóng nước mênh mông, là nơi cuộc sống hết sức ấm no. Thiên Vương Bang ta từ khi Chung Dương Nhị Vương sáng lập đến nay, tuân theo quan niệm gồm 8 chữ sau: Trừng ác dương thiện, cứu dân tật khổ."
+        },
+        {
+          "speaker": "\"Võ công Thiên Vương Bang ta phân ra thành hai hệ hướng",
+          "text": "Thương Thiên Vương và Chùy Thiên Vương, đều là hệ ngoại công.\"\n<color=green>Thiên Vương Thương: động tác nhanh gọn, mạnh về tấn công bằng thương.<color>\n<color=gold>Thiên Vương Chùy: động tác nhanh gọn, võ sĩ sử dụng chùy có khả phòng thủ tốt<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3501",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3501",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3513",
+          "text": "Từ xưa Thục đạo khó đi còn hơn lên trời. Đường Gia Bảo ta hùng cứ vùng tây nam, trong lòng không lúc nào nguôi ước vọng nắm lấy vị trí đứng đầu võ lâm trung nguyên, làm điều gì đó có ích cho nhà Đại Tống."
+        },
+        {
+          "speaker": "\"Võ công Đường Môn ta phân ra hai hệ phái",
+          "text": "Hãm Tĩnh và Tụ Tiễn. Cả hai đều là hệ ngoại công.\"\n<color=gold>Đường Môn Hãm Tĩnh: tương đối coi trọng động tác, thích khách tinh thông tấn công từ xa<color>\n<color=green>Đường Môn Tụ Tiễn: chú trọng một số động tác nhất định, du hiệp tinh thông tấn công từ xa<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3513",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3513",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3519",
+          "text": "Ba mươi năm trước triều đình ra lệnh truy sát, khiến Ngũ Độc Giáo ta bị ép phải vào rừng nguyên sinh phía Nam, toàn quân gần như bị diệt. Giờ đây bổn giáo đã khôi phục trở lại. Lòng người trong thiên hạ giống như một ngọn lửa, làm gì có đúng sai, thắng làm vua thua làm giặc. Bài học xương máu lần trước chúng ta nhất quyết không phạm phải lần nữa."
+        },
+        {
+          "speaker": "\"Võ công Ngũ Độc Giáo ta phân thành hai hệ phái",
+          "text": "Đao và Chưởng. Đao Độc là hệ ngoại công, Chưởng Độc là hệ nội công.\"\n<color=gold>Ngũ Độc Đao: chú trọng một số động tác nhất định, đao khách duy trì tiêu hao sức lực địch thủ từ xa <color>\n<color=green>Ngũ Độc Chưởng: rất chú trọng động tác, coi việc giày vò đối thủ là niềm vui<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3519",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3519",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3525",
+          "text": "Nga My dưới sự lãnh đạo của chưởng môn đời trước Thanh Hiểu sư thái cùng với chưởng môn hiện tại là Vô Tưởng sư thái hiện đang tranh vị trí đứng đầu võ lâm với Thiếu Lâm và Võ Đang. Đệ tử trong phái đều là nữ, chẳng màng thế tục, không muốn dính vào chuyện ân oán trong giang hồ, giữ gìn bản thân trong sạch là được."
+        },
+        {
+          "speaker": "\"Võ công phái Nga My ta phân thành hai hệ phái",
+          "text": "Chưởng và kỹ năng hỗ trợ. Cả hai đều là hệ nội công.\"\n<color=green>Nga My Chưởng: chú trọng một số động tác nhất định, ni cô sẵn lòng giúp người, tinh thông chưởng pháp<color>\n<color=gold>Nga My Phụ Trợ: động tác nhanh gọn, ni cô tinh thông các kỹ năng hỗ trợ. Giúp ích rất nhiều cho đồng đội<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3525",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3525",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3531",
+          "text": "Năm xưa Thúy Yên Môn cực thịnh, trăm hoa khoe sắc, đứng đầu võ lâm. Ngày nay các sư tỷ năm xưa đã có chốn riêng của mình, các đệ tử nhỏ còn chưa trưởng thành, đang là lúc thiếu hụt hiền tài."
+        },
+        {
+          "speaker": "\"Võ công Thúy Yên Môn ta phân ra 2 hệ phái",
+          "text": "Kiếm và Đao. Đao Thúy Yên là hệ ngoại công, Kiếm Thúy Yên là hệ nội công.\"\n<color=gold>Thúy Yên Đao: vô cùng chú trọng đến động tác, đệ tử Thúy Yên ăn mặc hợp thời, tinh thông đao pháp thích sát du kích<color>\n<color=green>Thúy Yên Kiếm: chú trọng một số động tác nhất định, đệ tử Thúy Yên ăn mặc hợp thời, kiếm thuật từ xa xuất quỷ nhập thần<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3531",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3531",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3537",
+          "text": "Trận chiến Thái Thạch mấy chục năm trước, Cái Bang lão bang chủ Hà Nhân Ngã thống lĩnh tứ đại trưởng lão cùng mấy nghìn đệ tử tấn công quân Kim, giúp Ngu Doãn Văn đại nhân giữ được Trường Giang nhưng cũng kể từ đó bị hủy diệt, số người ít đi, không còn được như xưa nữa. Ta ở trong thôn này, muốn mời các nhân sĩ yêu nước gia nhập Cái Bang, cùng chống giặc Kim."
+        },
+        {
+          "speaker": "\"Võ công của Cái Bang ta phân thành hai hệ phái",
+          "text": "Chưởng và Côn. Côn là hệ ngoại công, Chưởng là hệ nội công.\"\n<color=gold>Cái Bang Côn: chú trọng một số động tác nhất định, người tấn công tinh thông Đả Cẩu Côn Pháp<color>\n<color=green>Cái Bang Chưởng: chú trọng một số động tác nhất định, người tấn công tinh thông Giáng Long Chưởng Pháp<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3537",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3537",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3543",
+          "text": "Kể từ sau khi triều đình cùng Nam Tống nghị hòa, mấy mươi năm khôi phục nguyên khí, thực ra Thiên Nhẫn Giáo ta chẳng phải muốn chiến tranh? Có chiến tranh, thì sẽ có người chết. Ai mà lại chẳng muốn sống? Nhưng bọn Thát Đát, Tây Hạ cứ dòm ngó như hổ đói, không thể không phòng bị."
+        },
+        {
+          "speaker": "\"Võ công Thiên Nhẫn Giáo ta phân làm hai hướng",
+          "text": "chiến và ma. Chiến Nhẫn là hệ ngoại công, Ma Nhẫn là hệ nội công.\"\n<color=gold>Chiến Nhẫn: chú trọng một số động tác nhất định, kỵ binh sở trường xung phong trận địa<color>\n<color=green>Ma Nhẫn: chú trọng một số động tác nhất định, dị nhân có thể sử dụng các loại pháp thuật<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3543",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3543",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3549",
+          "text": "Long Hổ Điện trên núi Võ Đang chính là tôn chủ của đạo gia thiên hạ. Sau khi chưởng môn đời trước là Thiên Mục đạo trưởng mất tích, Trùng Dương chân nhân vẫn luôn đảm nhận chức vụ chưởng môn thay thế. Võ Đang nằm ở biên giới giữa hai nước Tống và Kim liên tục giao tranh. Chân nhân mấy năm nay lao tâm quá độ, hy vọng có anh tài trẻ tuổi giúp ông ta."
+        },
+        {
+          "speaker": "\"Võ công của Võ Đang ta phân thành hai phái hệ",
+          "text": "Kiếm và Khí song tuyệt. Võ Đang Kiếm là hệ ngoại công, Võ Đang Khí là hệ nội công.\"\n<color=gold>Võ Đang Kiếm: chú trọng một số động tác nhất định, kiếm sĩ tinh thông thuật thích sát<color>\n<color=green>Võ Đang Khí: chú trọng một số động tác nhất định, sở trường Ngự Khí Pháp Môn<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3549",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3549",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3555",
+          "text": "Tây Côn Lôn quanh năm tuyết phủ, Côn Lôn kiếm tông nếu không có nội loạn, Băng Tuyết Kiếm Khí sớm đã hoành tảo Trung Nguyên. Hiện giờ đệ tử Thu Thạch tiên sinh của kiếm hoàng trước đây là Sở Khi Thiên từ Tây Vực trở về liên thủ với thủ tọa hạ viện Tạ Vũ Điền, Côn Lôn Phái cuối cùng cũng có được tình hình mới, thật khiến mọi người đều vui mừng."
+        },
+        {
+          "speaker": "\"Võ công Côn Lôn Phái ta phân thành hai hệ phái",
+          "text": "Đao và Kiếm. Côn Lôn Đao là hệ ngoại công, Côn Lôn Kiếm là hệ nội công.\"\n<color=gold>Côn Lôn Đao: chú trọng một số động tác nhất định, người tấn công thi triển đao thế như gió tuyết<color>\n<color=green>Côn Lôn Kiếm: chú trọng một số động tác nhất định, người tấn công kiếm khí tung hoành<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3555",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3555",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3480",
+          "text": "Đoàn Thị mấy trăm năm nay dốc lòng vì nước nhưng mãi vẫn không thể thành một nước lớn chính là do hai bộ Ô Man Tộc và Bạch Man không thể đồng lòng hợp sức giúp nước. Đế quân đương thời muốn hoàn thành một nghiệp lớn mà tổ tiên Đoàn Thị đã mong ước trăm năm! Đó là thu nhận anh hùng hào kiệt khắp nơi."
+        },
+        {
+          "speaker": "\"Võ công của Đoàn Thị ta phân làm hai hướng",
+          "text": "Chỉ và Khí. Chỉ Đoàn Thị là hệ ngoại công, Khí Đoàn Thị là hệ nội công.\"\n<color=gold>Chỉ Đoàn Thị: chú trọng một số động tác nhất định, chuyên gia cận chiến với chỉ lực kinh hồn.<color>\n<color=green>Khí Đoàn Thị: chú trọng một số động tác nhất định, nội ngoại công lưỡng toàn diện, có thể cận chiến và viễn chiến.<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3480",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3480",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3474",
+          "text": "Minh Giáo ta suy yếu từ sau đời Đường, triều đình cấm đoán, chỉ truyền giáo trong dân gian một cách bí mật. Chính vì vậy mà bị người đời hiểu lầm là giáo phái tà ác, người đời làm sao biết được nỗi niềm này chứ? Những giáo phái lớn đương thời quyết định nhập thế cứu dân, đưa hàng vạn người dân khốn khổ đến một tương lai tươi sáng."
+        },
+        {
+          "speaker": "\"Võ công Minh Giáo ta phân làm hai hướng",
+          "text": "Chùy và Kiếm. Minh Giáo Chùy là hệ ngoại công, Minh Giáo Kiếm là hệ nội công.\"\n<color=gold>Minh Giáo Chùy: chú trọng một số động tác nhất định, kỵ binh chuyển động như gió<color>\n<color=green>Minh Giáo Kiếm: kiếm khí xuất quỷ nhập thần, lấy thủ cấp đối phương như lấy đồ trong túi<color>"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3474",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3474",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Hiện giờ chắc ngươi đã tìm được môn phái ưng ý, vậy hãy đi gặp đệ tử tiếp dẫn xin <color=red>gia nhập môn phái<color>, rồi quay về báo cho ta biết."
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Phục mệnh Thu Di"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Phục mệnh Thu Di"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "0000000000000137",
+      "subtask_name": "Tiểu Thí Ngưu Đao",
+      "dialogue_exchanges": [
+        {
+          "speaker": "npc:3570",
+          "text": "Thiếu chủ nhân đã nhập môn phái, có được tuyệt học hộ thân, Thu Di không còn gì để lo lắng nữa. Hiện có chuyện kỳ lạ, chỉ thiếu chủ mới giải quyết được."
+        },
+        {
+          "speaker": "player",
+          "text": "Chuyện gì?"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Thủ lĩnh thợ thủ công Giới Sơn Tông của nghĩa quân ta mấy ngày trước ra khỏi thôn kiểm tra Cơ Quan Thú, bỗng nhiên mất tích. Theo tin mật thám, gần đây ngoài thôn có một số Nghĩa Quân Phản Đồ và Cường Tặc lảng vảng, thỉnh thoảng cướp của người đi đường, e rằng Giới sư phụ đã bị bắt cóc. Ta có dự cảm xấu, e rằng có âm mưu rất lớn phía sau chuyện này, hy vọng thiếu chủ tìm được Giới sư phụ."
+        },
+        {
+          "speaker": "player",
+          "text": "Thì ra là vậy, Thu Di không phải lo, mọi việc cứ giao cho <playername>."
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Nên cẩn thận, đây là <color=red>cẩm nang trưởng thành<color>, thiếu chủ ra khỏi thôn hãy mở ra xem, sẽ có diệu kế giúp vượt qua khó khăn. Thiếu chủ hãy đến <color=red>Quan Thạch Bình<color>, nghe nói gần nơi đó có Nghĩa Quân Phản Đồ xuất hiện."
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Thiếu chủ đã nhập môn phái, có được tuyệt học hộ thân, Thu Di không còn gì để lo lắng nữa. Hiện có chuyện kỳ lạ, chỉ thiếu chủ mới giải quyết được."
+        },
+        {
+          "speaker": "player",
+          "text": "Chuyện gì?"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Thủ lĩnh thợ thủ công Giới Sơn Tông của nghĩa quân ta mấy ngày trước ra khỏi thôn kiểm tra Cơ Quan Thú, bỗng nhiên mất tích. Theo tin mật thám, gần đây ngoài thôn có một số Nghĩa Quân Phản Đồ và Cường Tặc lảng vảng, thỉnh thoảng cướp của người đi đường, e rằng Giới sư phụ đã bị bắt cóc. Ta có dự cảm xấu, e rằng có âm mưu rất lớn phía sau chuyện này, hy vọng thiếu chủ tìm được Giới sư phụ."
+        },
+        {
+          "speaker": "player",
+          "text": "Thì ra là vậy, Thu Di không phải lo, mọi việc cứ giao cho <playername>."
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Nên cẩn thận, đây là <color=red>cẩm nang trưởng thành<color>, thiếu chủ ra khỏi thôn hãy mở ra xem, sẽ có diệu kế giúp vượt qua khó khăn. Thiếu chủ hãy ra <color=red>ngoài thôn<color>, nghe nói gần nơi đó có Nghĩa Quân Phản Đồ xuất hiện."
+        },
+        {
+          "speaker": "Nghĩa Quân Phản Đồ",
+          "text": "Người đâu, mau đưa Giới Sơn Tông vào doanh trại, chậm trễ khó tránh khỏi tội chết."
+        },
+        {
+          "speaker": "player",
+          "text": "Không được! Xem ra Giới sư phụ đúng là bị Nghĩa Quân Phản Đồ bắt."
+        },
+        {
+          "speaker": "player",
+          "text": "Giới sư phụ, tìm được ông rồi."
+        },
+        {
+          "speaker": "npc:3584",
+          "text": "Ha ha, thiếu chủ nhân vất vả quá. Lão phu tưởng rằng đã mất mạng nơi này, nếu vì lão phu gây họa cho nghĩa quân trong thôn, thì đó là bị trời bắt tội!"
+        },
+        {
+          "speaker": "npc:3584",
+          "text": "Cứu Giới Sơn Tông sư phụ"
+        },
+        {
+          "speaker": "npc:3584",
+          "text": "Cứu Giới Sơn Tông sư phụ"
+        },
+        {
+          "speaker": "npc:3584",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3584",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "0000000000000140",
+      "subtask_name": "Cơ Quan Đại Sư",
+      "dialogue_exchanges": [
+        {
+          "speaker": "player",
+          "text": "Giới sư phụ, ta đã lấy được chìa khóa, cái còn lại trong tay phản đồ nào?"
+        },
+        {
+          "speaker": "npc:3584",
+          "text": "Không, không, chìa khóa trong tay ngươi là quan trọng nhất. Hiện ngươi đang gặp rất nhiều nguy hiểm, việc phải làm ngay là đưa chìa khóa về thôn. Những việc khác thì nói cho Thu Di, y sẽ biết phải làm gì."
+        },
+        {
+          "speaker": "player",
+          "text": "Nhưng mà......"
+        },
+        {
+          "speaker": "npc:3584",
+          "text": "Đừng lo cho lão phu, lúc trước ta bị bắt là vì không có phòng bị, giờ chúng muốn bắt lại ta, dù chân ta có tàn phế thì cũng không dễ dàng như vậy đâu. Ngươi dẫn theo phế nhân như ta, ngược lại sẽ không thoát nổi, thiếu chủ mau quay về thôn báo cho Thu Di, lão phu sẽ càng an toàn hơn."
+        },
+        {
+          "speaker": "player",
+          "text": ".......vậy được, xin Giới sư phụ đợi chốc lát, ta sẽ lập tức về thôn kiếm người cứu ngài!"
+        },
+        {
+          "speaker": "npc:3584",
+          "text": "Đối thoại với Giới Sơn Tông"
+        },
+        {
+          "speaker": "npc:3584",
+          "text": "Đối thoại với Giới Sơn Tông"
+        },
+        {
+          "speaker": "npc:3584",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3584",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "player",
+          "text": "Thu Di, Giới sư phụ bị Nghĩa Quân Phản Đồ và Cường Tặc bắt giữ và cắt hết gân chân, đoạt lấy chìa khóa cơ quan thủy lưu trong thôn."
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ta đã biết rồi, hiện trong thôn đang có một số nhân vật bất minh xuất hiện. Cửa thạch thất đó cần 21 chìa khóa để mở, đều mất cả rồi sao?"
+        },
+        {
+          "speaker": "player",
+          "text": "Ta đã đoạt lại 20 cái!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Nếu vậy, tình hình chưa nguy cấp như ta nghĩ. Nhưng Thủ lĩnh nghĩa quân Phản Đồ và bọn Cường Tặc không phải cùng phe, sao lại cùng nhau làm việc này, thật khiến người khác tò mò. Ta sẽ lập tức phái người đi đón Giới sư phụ, ngươi lập tức đến các cửa tiệm trong thôn thông báo cho các ông chủ việc này."
+        },
+        {
+          "speaker": "player",
+          "text": "Biết rồi."
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Giao chìa khóa thạch thất cho Thu Di"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Giao chìa khóa thạch thất cho Thu Di"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "0000000000000138",
+      "subtask_name": "Tầm Sư Học Nghệ",
+      "dialogue_exchanges": [
+        {
+          "speaker": "player",
+          "text": "Điềm Tửu Thúc, Giới Sơn Tông sư phụ bị Nghĩa Quân Phản Đồ bắt cóc, trong thôn lại xuất hiện người lạ. Thu Di nhờ ta dặn ngài hãy hết sức cẩn thận."
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Xem ra trong thôn này không còn an toàn. Theo ta thiếu chủ nhân sẽ không ngồi yên lâu, thực ra định đưa ít đồ ra cho ngươi, giờ xem ra đã muộn. Nhưng học ít kỹ năng sống sẽ rất có ích cho sau này. Nhân lúc cơ quan thủy lưu chưa bị phá, ta sẽ dạy ngươi vài thứ dễ tập luyện."
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Gia công khoáng là kỹ năng hệ gia công. Có thể gia công nguyên thạch thành vật gia công cần cho việc chế tạo vật phẩm, như thỏi khoáng thành phẩm và bảo thạch. Ngươi hãy mua 4 <color=red>Đồng khoáng thạch thô<color> trong số các khoáng thạch ta bán. Sau đó nhấm phím F8, hoặc mở giao diện kỹ năng sống, trên thanh gia công khoáng gia công thành 4 <color=red>Thỏi đồng nhẹ<color>, sau đó đến báo cho ta biết."
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Gia công khoáng và kỹ năng hệ gia công. Có thể gia công nguyên thạch thành vật gia công cần cho việc chế tạo vật phẩm, như thỏi khoáng thành phẩm và bảo thạch. Ngươi hãy mua 4 <color=red>Đồng khoáng thạch thô<color> trong số các khoáng thạch ta bán ở đây. Sau đó nhấm phím F8, hoặc mở giao diện kỹ năng sống, trên thanh gia công khoáng gia công thành 4 <color=red>Thỏi đồng nhẹ<color>, sau đó báo cho ta biết."
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Thỉnh giáo Điềm Tửu Thúc"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Thỉnh giáo Điềm Tửu Thúc"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Tốt! Tương tự như thế, ngươi có thể luyện 4 thỏi đồng nhẹ này thành 1 thanh Nhuyễn Đồng Kiếm trên thanh chế tạo binh khí của giao diện kỹ năng sống, hãy thử xem!"
+        },
+        {
+          "speaker": "npc:3561",
+          "text": "Tốt! Ta đã truyền tuyệt kỹ cho ngươi. Chỉ mong sau này không làm hổ danh của Điềm Tửu ta. Giờ hãy tìm <color=red>Hà Diệp<color>!"
+        },
+        {
+          "speaker": "player",
+          "text": "Hà Diệp tỷ, Giới Sơn Tông sư phụ bị Nghĩa Quân Phản Đồ bắt cóc, trong thôn lại xuất hiện người lạ. Thu Di nhờ ta nói tỷ hãy cẩn thận."
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Ta có một hoài bão, nhưng lại bị tạo hóa trêu ngươi, ái chà... <playername>, Hà Diệp tỷ đây có vài tuyệt kỹ, sẽ truyền cho ngươi."
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Gia công da thú thuộc kỹ năng hệ gia công, có thể gia công các loại da thành da lông cần cho việc chế tạo vật phẩm. Ngươi hãy mua 4 mảnh <color=red>Da dê nát<color> trong số da lông ta bán. Sau đó nhấn phím F8, hoặc mở giao diện kỹ năng sống, trên thanh gia công da lông gia công thành 4 mảnh <color=red>Da dê nhỏ<color>, sau đó đến tìm ta."
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Gia công da thú thuộc kỹ năng hệ gia công, có thể gia công các loại da thành nguyên liệu cần cho việc chế tạo vật phẩm. Ngươi hãy mua 4 mảnh <color=red>Da dê nát<color> trong số da lông ta bán. Sau đó nhấn phím F8, hoặc mở giao diện kỹ năng sống, trên thanh gia công da lông gia công thành 4 mảnh <color=red>Da dê nhỏ<color>, sau đó đến tìm ta."
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Thỉnh giáo Thẩm Hà Diệp"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Thỉnh giáo Thẩm Hà Diệp"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Tốt! Tương tự như thế, ngươi có thể may 4 mảnh da dê nhỏ này thành 1 đôi Lữ Hành Ngoa trên thanh chế tạo phòng cụ của giao diện kỹ năng sống, hãy thử xem!"
+        },
+        {
+          "speaker": "npc:3562",
+          "text": "Được, Hà Diệp tỷ không còn gì để truyền cho ngươi. Mong rằng sau này ngươi tìm được bạn đời của mình trên giang hồ, không nên sống cô độc cả đời như tỷ! Hãy tìm <color=red>Phiêu Tịnh<color>."
+        },
+        {
+          "speaker": "player",
+          "text": "Phiêu Tịnh tỷ, Giới Sơn Tông sư phụ bị Nghĩa Quân Phản Đồ bắt cóc, trong thôn lại xuất hiện người lạ. Thu Di nhờ ta nói tỷ hãy cẩn thận."
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Ồ, <playername> đến rồi à. Những chuyện đó đâu đến lượt phận nữ nhi chúng ta lo. Ừm, cũng phải, ông ấy lang bạt nơi giang hồ, khó gặp là chuyện đương nhiên. Đừng lo, ngươi còn trẻ, sẽ có dịp gặp Uy Tỏa. Nào, cô nương sẽ dạy cho ngươi ít tuyệt chiêu."
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Gia công gỗ thuộc kỹ năng hệ gia công, có thể gia công Nguyên mộc thành tấm gỗ cần cho việc chế tạo vật phẩm, những tấm gỗ này có thể dùng để chế tạo vũ khí và đồ trang sức. Ngươi hãy mua 4 tấm <color=red>Gỗ thông thô<color> trong số gỗ ta bán. Sau đó nhấn phím F8, hoặc mở giao diện kỹ năng sống, trên thanh gia công gỗ gia công thành 4 tấm <color=red>Gỗ thông có hoa văn<color>, sau đó đến tìm ta."
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Gia công gỗ thuộc kỹ năng hệ gia công, có thể gia công Nguyên mộc thành tấm gỗ cần cho việc chế tạo vật phẩm, những tấm gỗ này có thể dùng để chế tạo vũ khí và đồ trang sức. Ngươi hãy mua 4 tấm <color=red>Gỗ thông thô<color> trong số gỗ ta bán. Sau đó nhấn phím F8, hoặc mở giao diện kỹ năng sống, trên thanh gia công gỗ gia công thành 4 tấm <color=red>Gỗ thông có hoa văn<color>, sau đó đến tìm ta."
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Thỉnh giáo Hách Phiêu Tịnh"
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Thỉnh giáo Hách Phiêu Tịnh"
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Tốt! Ngươi dùng cách tương tự, có thể chế 4 tấm gỗ thông có hoa văn này thành 1 miếng Tùng Mộc Phù trên thanh chế tạo trang sức của giao diện kỹ năng sống, hãy thử xem!"
+        },
+        {
+          "speaker": "npc:3563",
+          "text": "Lần này ta lại đấu tay đôi với ả Thẩm Hà Diệp, xem ả còn khinh thường người khác nữa không! Hãy đi tìm tên mọt sách <color=red>Trương Trảm Kinh<color>."
+        },
+        {
+          "speaker": "player",
+          "text": "Trảm Kinh thúc, Giới Sơn Tông sư phụ bị Nghĩa Quân Phản Đồ bắt cóc, trong thôn lại xuất hiện người lạ. Thu Di nhờ ta nói thúc hãy cẩn thận."
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Lại đây, ta tận mắt thấy ngươi lớn lên, giờ đây trong thôn không còn an toàn, e rằng đã sắp đến lúc ngươi ra giang hồ rồi! Hãy lưu ý đến sự an nguy của bản thân. Trảm Kinh thúc thúc không còn chăm sóc được cho ngươi, chỉ có thể truyền cho ngươi phương pháp chế thuốc này."
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Gia công thuốc thuộc kỹ năng hệ gia công. Có thể gia công thuốc thành bột cần cho việc chế tạo vật phẩm. Ngươi hãy mua 2 đóa <color=red>Tàng hồng hoa (tiểu)<color> trong số nguyên liệu thuốc ta bán. Sau đó nhấn phím F8, hoặc mở giao diện kỹ năng sống, trên thanh gia công thuốc gia công thành 2 gói <color=red>Bột tàng hồng hoa (tiểu)<color>, sau đó đến tìm ta."
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Gia công thuốc thuộc kỹ năng hệ gia công. Có thể gia công thuốc thành bột cần cho việc chế tạo vật phẩm. Ngươi hãy mua 2 đóa <color=red> Tàng hồng hoa (tiểu)<color> trong số nguyên liệu thuốc ta bán. Sau đó nhấn phím F8, hoặc mở giao diện kỹ năng sống, trên thanh gia công thuốc gia công thành 2 gói <color=red>Bột tàng hồng hoa (tiểu)<color>, sau đó đến tìm ta."
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Thỉnh giáo Trương Trảm Kinh"
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Thỉnh giáo Trương Trảm Kinh"
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Tốt! Tương tự như thế, ngươi có thể bào chế 2 gói Bột tàng hồng hoa (tiểu) này thành 1 Rương thuốc trên thanh chế thuốc của giao diện kỹ năng sống, hãy thử xem!"
+        },
+        {
+          "speaker": "npc:3564",
+          "text": "Cháu ngoan, hãy tìm <color=red>Bất Động tiên sinh<color>. Trảm Kinh thúc thúc sẽ không tiễn ngươi, khi rỗi rãi nhớ quay về."
+        },
+        {
+          "speaker": "player",
+          "text": "Tiên sinh, Giới Sơn Tông sư phụ bị Nghĩa Quân Phản Đồ bắt cóc, trong thôn lại xuất hiện người lạ. Thu Di nhờ ta nói tiên sinh hãy cẩn thận."
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Ái chà, xem ra thiếu chủ nhân sắp rời khỏi thôn rồi, nhưng ta lại bất động, làm sao đây? Ta sẽ dạy ngươi chút phương pháp kiếm tiền, để sau này ngươi không trách ta chẳng có ích gì cho ngươi."
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Gia công vải thuộc kỹ năng hệ gia công. Có thể gia công các loại vải thành nguyên liệu cần cho việc chế tạo vật phẩm. Ngươi hãy mua 2 tấm <color=red>Vải Á ma thô<color> trong số vải ta bán. Sau đó nhấn phím F8, hoặc mở giao diện kỹ năng sống, trên thanh gia công vải gia công thành 2 tấm <color=red>Vải vụn á ma<color>, sau đó đến tìm ta."
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Gia công vải thuộc kỹ năng hệ gia công. Có thể gia công các loại vải thành vải vóc cần cho việc chế tạo vật phẩm. Ngươi hãy mua 2 tấm <color=red>Vải Á ma thô<color> trong số vải ta bán. Sau đó nhấn phím F8, hoặc mở giao diện kỹ năng sống, chọn biểu tượng gia công vải, nhấn vào nút <color=red>chế tạo<color> bên dưới giao diện, gia công thành 2 tấm <color=red>Vải vụn á ma<color>, sau đó đến tìm ta."
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Thỉnh giáo Bất Động tiên sinh"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Thỉnh giáo Bất Động tiên sinh"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Tốt! Ngươi dùng cách tương tự, có thể chế 2 tấm Vải vụn á ma này thành 1 Truyền Tống Phù thô trên thanh chế tạo đồ thủ công mỹ nghệ của giao diện kỹ năng sống, hãy thử xem!"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Cậu bé thông minh, để Bất Động tiên sinh ta kiểm tra khả năng lý giải kỹ năng sống của ngươi."
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Bắt đầu kiểm tra nhé!"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Ái chà, <if me.nSex==0>tiểu tử<else>cô nương<endif> lợi hại thật!"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Thử thách khó thế này, chỉ một lần làm sao vượt qua được ngay chứ? Nào, làm lại lần nữa."
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3565",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "0000000000000139",
+      "subtask_name": "Kỳ Trân Mê",
+      "dialogue_exchanges": [
+        {
+          "speaker": "npc:3567",
+          "text": "Tận diệt Kim cẩu, khôi phục giang sơn!"
+        },
+        {
+          "speaker": "npc:3567",
+          "text": "Tiền tháng này thiếu 2 phần. Ái chà... bao nhiêu cái tàu há mồm đang chờ ăn đây, làm sao bây giờ. Ồ! Cháu đến rồi à? Tốt lắm! Làm cho ta việc này nhé."
+        },
+        {
+          "speaker": "npc:3567",
+          "text": "Tháng này nhiều huynh đệ chết, tiền cứu trợ bỏ ra khiến ta đau cả đầu. Hiện giờ ta phải tính tiền lãi cho vay năm nay, xem bang nào chưa trả, phải tranh thủ thời gian tìm người đi thu, nếu không tiền xoay vòng sẽ có vấn đề. Trong mấy chiếc <color=red>Rương cũ<color> kia, có sổ sách năm trước, lấy hết ra cho ta."
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3567",
+          "text": "Tìm chủ tiền trang Tạ Hiền"
+        },
+        {
+          "speaker": "npc:3567",
+          "text": "Tìm chủ tiền trang Tạ Hiền"
+        },
+        {
+          "speaker": "npc:3567",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3567",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "player",
+          "text": "Ủa? Trong rương này hình như có chiếc chìa khóa bạch đồng."
+        },
+        {
+          "speaker": "player",
+          "text": "Đây chẳng phải là thư của thủ khố Trâu Đức Khoái sao? Sao lại ở trong tiền trang nghĩa quân. Trong đó chắc có gì quan trọng... Dù gì cũng không ai biết, mình lén đọc xem sao."
+        },
+        {
+          "speaker": "Đức Khoái huynh",
+          "text": "Tháng trước gặp bọn Kim ở Hán Thủy Cổ Độ đấu 3 ngày 3 đêm, xác chết đầy đồng. Vợ chồng chủ nhân không rõ tăm tích. Tháng trước Thu Lâm tỷ đã hộ tống con của chủ nhân về quê, xin hết lòng giúp đỡ đừng để kẻ thù tìm thấy.\n\nĐệ Bạch Cương xin bái tạ"
+        },
+        {
+          "speaker": "player",
+          "text": "Con của vợ chồng chủ nhân nói đến trong thư chính là ta sao? Thì ra thủ khố Trâu Đức Khoái biết rõ thân thế của ta! Cha mẹ ta mất tích khi ta còn nhỏ, không biết hiện giờ họ thế nào? Ta phải đi tìm Thu Di hỏi cho rõ mới được."
+        },
+        {
+          "speaker": "player",
+          "text": "Thu Di, ta tìm được bức thư này trong quầy tiền trang, hãy xem!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Thư của Bạch Cương? Đúng là ý trời! Đã đến lúc cho ngươi biết chuyện của cha mẹ ngươi rồi."
+        },
+        {
+          "speaker": "player",
+          "text": "Bao nhiêu năm chờ đợi, cuối cùng ngày này cũng đã đến!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Cha ngươi trước kia là đệ tử cưng của thầy tướng số <color=red>Ma Y Cốc<color>! Có khả năng thông thần quỷ, đoán số mệnh. Ông thông thuộc kinh luân, có tài năng hơn người. Để cứu triều đình Nam Tống trong cơn dầu sôi lửa bỏng, cha ngươi đã bí mật tìm kiếm hào kiệt trong thiên hạ, nhằm thay đổi mệnh trời. Cũng vào lúc này, ông đã quen mẹ ngươi."
+        },
+        {
+          "speaker": "player",
+          "text": "Thu Di làm sao biết cha mẹ ta?"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ta và cha mẹ ngươi cùng lang bạt trên giang hồ, tình nghĩa như thủ túc. Sau khi họ kết hôn, ta, Bạch Cương, Trâu Đức Khoái vẫn luôn theo sát. Không ngờ, khi tìm ra đầu mối quan trọng, cha ngươi đã bị cao thủ Kim quốc thích sát tại Hán Thủy Cổ Độ... Lúc đó mẹ ngươi vừa ở cữ xong, có thể chạy trốn được. Nhưng sau khi giao ngươi cho ta, bà đã theo cha ngươi đến Hán Thủy, từ đó ra đi không về."
+        },
+        {
+          "speaker": "player",
+          "text": "Bạch Cương, Bạch Cương chẳng phải còn sống hay sao? Ông ấy đâu?"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ồ... đã 18 năm không biết tin của ông ấy."
+        },
+        {
+          "speaker": "player",
+          "text": "Lẽ nào, lẽ nào kết cuộc lại như vậy?"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ta đã nói ý trời khó đoán. Hôm nay, ta nhận được thư của Bạch Cương, ông ấy sắp quay về đây. Ngươi có thể tìm Trâu Đức Khoái hỏi cho rõ, tìm được Bạch Cương, chắc sẽ có đáp án chính xác."
+        },
+        {
+          "speaker": "player",
+          "text": "Ta đi ngay đây!"
+        },
+        {
+          "speaker": "Kim Cang",
+          "text": "Ngươi có thể về trả nhiệm vụ"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Đối thoại với Bạch Thu Lâm"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Đối thoại với Bạch Thu Lâm"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:2599",
+          "text": "Thiếu chủ nhân, không hay rồi! Người chúng ta phái đi tiếp ứng Bạch Cương giữa đường bị giết chết, còn Bạch Cương thì không rõ tăm tích!"
+        },
+        {
+          "speaker": "player",
+          "text": "Cái gì! Ta phải báo cho Thu Di biết ngay mới được."
+        },
+        {
+          "speaker": "npc:2599",
+          "text": "Hỏi thăm thủ khố Trâu Đức Khoái về tin tức Bạch Cương"
+        },
+        {
+          "speaker": "npc:2599",
+          "text": "Hỏi thăm thủ khố Trâu Đức Khoái về tin tức Bạch Cương"
+        },
+        {
+          "speaker": "npc:2599",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:2599",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Sao? Bạch Cương bị truy sát à? Ta sẽ phái một đội quân tinh nhuệ đến tiếp ứng. Chuyện này xảy ra cùng lúc với việc Nghĩa Quân Phản Đồ phá hoại cơ quan thủy lưu, e rằng bọn cướp muốn gây sự chú ý của ta. Nếu ta đoán không lầm, Bạch Cương đi lần này chắc chắn có <color=red>tin tức quan trọng <color>. E rằng liên quan rất lớn đến thân thế của thiếu chủ, tốt nhất thiếu chủ nên tự đi một chuyến!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3570",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "0000000000000141",
+      "subtask_name": "Người Mất Tích",
+      "dialogue_exchanges": [
+        {
+          "speaker": "player",
+          "text": "Huynh đệ, người gặp nạn ở đây là Bạch Cương tiên sinh sao?"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Đúng vậy! Tặc nhân thế mạnh, bọn ta tổn thất hơn một nửa số huynh đệ mới đưa được Bạch tiên sinh đến đây. Nhưng xung quanh đã bị thích khách bao vây, theo thực lực hiện giờ, khó mà thoát khỏi vòng vây!"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Vị <if me.nSex==0> tiểu huynh đệ<else>tiểu cô nương<endif> này trông mặt sao quen quá?"
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Bạch tiên sinh, vị này chính là thiếu chủ!"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Ái chà... 18 năm, đã 18 năm rồi, cuối cùng ta cũng đã gặp được thiếu chủ. Bạch Cương ta chết cũng không hối tiếc!"
+        },
+        {
+          "speaker": "player",
+          "text": "Bạch tiên sinh, ông đang mang trọng thương, đừng kích động như vậy!"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Bạch tiên sinh đã hôn mê. Thiếu chủ, huynh đệ vòng ngoài canh chừng rất cực khổ. Xem ra, ta phải giúp huynh đệ giết sạch đám thích khách này trước rồi mới có thể hộ tống Bạch Cương tiên sinh ra khỏi đây!"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Đến Tuyệt Vấn Pha hội ngộ với Cao Thăng"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Đến Tuyệt Vấn Pha hội ngộ với Cao Thăng"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "player",
+          "text": "Thôi huynh đệ, ta đã trừ khử hết bọn thích khách, nhưng dường như chúng có rất nhiều viện binh. Bạch tiên sinh hiện giờ ra sao?"
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Quay về hỏi Thôi Kiếm tình trạng thương tích của Bạch Cương"
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Quay về hỏi Thôi Kiếm tình trạng thương tích của Bạch Cương"
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "0000000000000142",
+      "subtask_name": "Chung Trừng Nguyên Hung",
+      "dialogue_exchanges": [
+        {
+          "speaker": "player",
+          "text": "Tiên sinh, ta đã trừ hết chúng báo thù cho một dũng sĩ tình thâm nghĩa trọng trong nghĩa quân rồi. Vừa rồi hình như tiên sinh vẫn chưa nói hết, có chuyện gì vậy?"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Chuyến đi này của ta thực ra có một việc cực kỳ quan trọng! Ta có giữ một quyển sách trong đó có một bài thơ dự báo cuối cùng mà phụ thân thiếu chủ để lại trước khi bước vào trận Hán Thủy năm xưa, lão chủ nhân nói trong đó có viết vận mệnh cả đời của thiếu chủ."
+        },
+        {
+          "speaker": "player",
+          "text": "Túi đó hiện giờ ở đâu?"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Ôi, mười tám năm nay ta mai danh ẩn tích, dùng đủ mọi cách mà vẫn không thoát được sự truy đuổi của kẻ thù, không thể đưa đến doanh trại nghĩa quân. Hôm nay nhìn thấy thành công sắp đến lại bị tặc nhân cướp mất vào phút cuối. Quyển sách đó bị hai tên thích khách xé tan, mỗi tên đem một vài mảnh đi."
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Nói vậy, trong đó nhất định có bí mật trọng đại. Bọn tặc nhân trước hết sẽ đem nhưng mảnh ghép đi, rồi cướp đi đồ của người khác."
+        },
+        {
+          "speaker": "player",
+          "text": "Ừm! Lúc nãy khi giao đấu, hình như có <color=red>võ sĩ Mông Cổ<color> và cả <color=red>cao thủ Nam Tống<color>. Việc cấp bách hiện nay là giành lại cuốn sách đó, ta lập tức hành động!"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Đối thoại với Bạch Cương tiên sinh"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Đối thoại với Bạch Cương tiên sinh"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    },
+    {
+      "subtask_id": "0000000000000143",
+      "subtask_name": "Nhất Ngữ Thành Sấm",
+      "dialogue_exchanges": [
+        {
+          "speaker": "npc:3590",
+          "text": "Mảnh trục cuốn bị võ sĩ Nam Tống cướp đi một phần rồi!"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Mảnh trục cuốn bị võ sĩ Nam Tống cướp đi một phần rồi!"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Hỏi Cao Thăng tung tích của mảnh trục cuốn"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Hỏi Cao Thăng tung tích của mảnh trục cuốn"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Mảnh trục cuốn đã bị võ sĩ Mông Cổ cướp đi 1 phần! Mau đi đoạt lại! Tất cả nhờ vào ngươi đấy!"
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Mảnh trục cuốn đã bị võ sĩ Mông Cổ cướp đi 1 phần! Mau đi đoạt lại! Tất cả nhờ vào ngươi đấy!"
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Hỏi Thôi Kiếm tung tích của mảnh trục cuốn"
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Hỏi Thôi Kiếm tung tích của mảnh trục cuốn"
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Thiếu chủ quả là tài giỏi hơn người! 18 năm nay, Bạch mỗ chưa mở được trục cuốn này, cuối cùng hôm nay đã giải được bí mật của nó."
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "<color=red>Thái bạch dạ quan tinh\nTrọc khí quy tam thanh\nThiên mã chấn trường dực\nLong Cung trích tử anh<color>"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Thơ này ta đọc không hiểu. Xem ra phải để Thu Lâm xem thử, trí tuệ của nàng ấy chỉ kém lão chủ nhân thôi."
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Cấp báo! Trong thôn xuất hiện đám giặc, chỉ sợ tung tích của thiếu chủ đã bị tiết lộ. Năm xưa lão chủ nhân thiên cơ thần toán, tuy không biết người đã làm gì mà tạo nên tham vọng cho vô số thế lực. Ngày nay lão chủ nhân sống chết không rõ, thiếu chủ liền trở thành mục tiêu công kích của chúng."
+        },
+        {
+          "speaker": "npc:3591",
+          "text": "Đám giặc đó giờ đã bị thiếu chủ diệt hơn một nửa, mình ta có thể hộ tống Bạch Tiên sinh hồi thôn. Bạch thủ lĩnh mong thiếu chủ không quay lại thôn nữa, nhiệm vụ chủ yếu hiện nay là bảo vệ an toàn cho thiếu chủ. Thủ lĩnh đã viết thư giới thiệu thiếu chủ đến giúp chưởng môn thập đại môn phái, có họ hậu thuẫn, cho dù có tìm được, đám giặc đó cũng không dám manh động. Về phần lão chủ nhân, Bạch thủ lĩnh sẽ điều tra rõ ràng, hễ có tin tức sẽ lập tức cử người đến báo với thiếu chủ!"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Xem ra Thu Lâm đã sắp xếp hết mọi thứ rồi. Có điều thiếu chủ chưa từng bước chân vào giang hồ, những ngày sắp tới chỉ có thể dựa vào chính mình. Bạch Cương phiêu bạt đã nhiều năm, biết rõ nguy hiểm trong đó, người hãy bảo trọng, một ngày nào đó, chúng ta nhất định trùng phùng, cùng nhau làm gì đó cho quốc gia này!"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Cuối cùng đã giải được sấm thi"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Cuối cùng đã giải được sấm thi"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3585",
+          "text": "Ngươi thật đáng khen"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Thiếu chủ, ta đã chuẩn bị ngựa đưa ngươi rời khỏi đây!"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Thông qua Cao Thăng rời khỏi nơi này"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Thông qua Cao Thăng rời khỏi nơi này"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Xin chào!"
+        },
+        {
+          "speaker": "npc:3590",
+          "text": "Ngươi thật đáng khen"
+        }
+      ]
+    }
+  ],
+  "character_roles": [
+    {
+      "npc_id": "3561",
+      "name": "Điềm Tửu Thúc",
+      "class_name": "bingqipulaoban",
+      "first_seen_subtask": "Sồ Phượng Thanh Minh "
+    },
+    {
+      "npc_id": "3570",
+      "name": "Bạch Thu Lâm",
+      "class_name": "yijunshouling",
+      "first_seen_subtask": "Sồ Phượng Thanh Minh "
+    },
+    {
+      "npc_id": "3571",
+      "name": "Long Ngũ Thái Gia",
+      "class_name": "longwutaiye",
+      "first_seen_subtask": "Sồ Phượng Thanh Minh "
+    },
+    {
+      "npc_id": "3562",
+      "name": "Thẩm Hà Diệp",
+      "class_name": "fangjupulaoban",
+      "first_seen_subtask": "Nghĩa Quân"
+    },
+    {
+      "npc_id": "3563",
+      "name": "Hách Phiêu Tịnh",
+      "class_name": "shoushipulaoban",
+      "first_seen_subtask": "Nghĩa Quân"
+    },
+    {
+      "npc_id": "3564",
+      "name": "Trương Trảm Kinh",
+      "class_name": "yaopulaoban",
+      "first_seen_subtask": "Nghĩa Quân"
+    },
+    {
+      "npc_id": "3565",
+      "name": "Bất Động Tiên Sinh",
+      "class_name": "zahuopulaoban",
+      "first_seen_subtask": "Nghĩa Quân"
+    },
+    {
+      "npc_id": "3566",
+      "name": "Đại Lão Bạch",
+      "class_name": "jiuloulaoban",
+      "first_seen_subtask": "Nghĩa Quân"
+    },
+    {
+      "npc_id": "3582",
+      "name": "Thẩm Thiết Thạch",
+      "class_name": "shentieshi",
+      "first_seen_subtask": "Sơ Thượng Sa Trường"
+    },
+    {
+      "npc_id": "3583",
+      "name": "Hứa Sĩ Vĩ",
+      "class_name": "xushiwei",
+      "first_seen_subtask": "Sơ Thượng Sa Trường"
+    },
+    {
+      "npc_id": "3474",
+      "name": "Đồng Lăng",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3480",
+      "name": "Đoàn Tu Tịnh",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3501",
+      "name": "Bùi Viễn",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3507",
+      "name": "Tịch Huyễn",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3513",
+      "name": "Đường Tế Dân",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3519",
+      "name": "Biên Nhất Xuân",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3525",
+      "name": "Huyền Tịnh",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3531",
+      "name": "Tô Nhã",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3537",
+      "name": "La Tuấn",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3543",
+      "name": "Tạ Phi Kinh",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3549",
+      "name": "Minh Tuệ",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3555",
+      "name": "Quy Kinh Tinh",
+      "class_name": "menpaijieyinren",
+      "first_seen_subtask": "Thập Nhị Môn Phái"
+    },
+    {
+      "npc_id": "3584",
+      "name": "Giới Sơn Tông",
+      "class_name": "jieshanzong",
+      "first_seen_subtask": "Tiểu Thí Ngưu Đao"
+    },
+    {
+      "npc_id": "2599",
+      "name": "Trâu Đức Khoái",
+      "class_name": "wupinbaoguanren",
+      "first_seen_subtask": "Kỳ Trân Mê"
+    },
+    {
+      "npc_id": "3567",
+      "name": "Tạ Hiền",
+      "class_name": "qianzhuang",
+      "first_seen_subtask": "Kỳ Trân Mê"
+    },
+    {
+      "npc_id": "3578",
+      "name": "Rương cũ nát",
+      "class_name": "withprocesstagnpc",
+      "first_seen_subtask": "Kỳ Trân Mê"
+    },
+    {
+      "npc_id": "3579",
+      "name": "Rương cũ nát",
+      "class_name": "withprocesstagnpc",
+      "first_seen_subtask": "Kỳ Trân Mê"
+    },
+    {
+      "npc_id": "3580",
+      "name": "Rương cũ nát",
+      "class_name": "withprocesstagnpc",
+      "first_seen_subtask": "Kỳ Trân Mê"
+    },
+    {
+      "npc_id": "3581",
+      "name": "Rương kỳ lạ",
+      "class_name": "withprocesstagnpc",
+      "first_seen_subtask": "Kỳ Trân Mê"
+    },
+    {
+      "npc_id": "3590",
+      "name": "Cao Thăng",
+      "class_name": "gaosheng",
+      "first_seen_subtask": "Người Mất Tích"
+    },
+    {
+      "npc_id": "3591",
+      "name": "Thôi Kiếm",
+      "class_name": "cuijian",
+      "first_seen_subtask": "Người Mất Tích"
+    },
+    {
+      "npc_id": "3585",
+      "name": "Bạch Cương",
+      "class_name": "baijiang",
+      "first_seen_subtask": "Chung Trừng Nguyên Hung"
+    }
+  ],
+  "faction_references": [
+    {
+      "faction_name": "Thiếu Lâm",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Thiên Vương",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Đường Môn",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Ngũ Độc",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Nga My",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Thúy Yên",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Cái Bang",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Thiên Nhẫn",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Võ Đang",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Côn Lôn",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Đoàn Thị",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Minh Giáo",
+      "first_referenced_in": "Thập Nhị Môn Phái"
+    },
+    {
+      "faction_name": "Nghĩa Quân",
+      "first_referenced_in": "Tiểu Thí Ngưu Đao"
+    }
+  ],
+  "knowledge_progression_summary": [
+    {
+      "subtask_id": "0000000000000132",
+      "subtask_name": "Sồ Phượng Thanh Minh ",
+      "new_knowledge": [
+        "Protagonist meets Long Ngũ, Bạch Thu Lâm, and village craftsmen (Điềm Tửu, Thẩm Hà Diệp, Hách Phiêu Tịnh, Trương Trảm Kinh, Bất Động).",
+        "Protagonist performs errands and helps with village tasks."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "parents-identities",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "0000000000000133",
+      "subtask_name": "Nghĩa Quân",
+      "new_knowledge": [
+        "Master Giới Sơn Tông trains protagonist in basic martial skills.",
+        "Giới Sơn Tông is reported kidnapped by Nghĩa Quân traitors.",
+        "Village elders test protagonist's craft and survival skills under emergency conditions."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "parents-identities",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "0000000000000134",
+      "subtask_name": "Kỳ Môn Độn Giáp",
+      "new_knowledge": [
+        "Bất Động Tiên Sinh reveals that all chores were a deliberate trial arranged by Thu Di (Bạch Thu Lâm).",
+        "Thu Di has already decided and planned to send protagonist to the Twelve Great Sects to train in superior martial arts.",
+        "Bất Động prepared starter equipment for protagonist at Điềm Tửu Thúc's shop.",
+        "Điềm Tửu Thúc gives starter equipment and prepares protagonist for outside combat trials."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "parents-identities",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "0000000000000135",
+      "subtask_name": "Sơ Thượng Sa Trường",
+      "new_knowledge": [
+        "Protagonist is sent outside the village to find veteran hunter Thẩm Thiết Thạch.",
+        "Thẩm Thiết Thạch is found in a severely traumatized, delirious state repeating 'Chết hết rồi, chỉ trong một ngày, họ chết cả rồi'.",
+        "Hứa Sĩ Vĩ (disciple of Trương Trảm Kinh) cares for Thẩm Thiết Thạch and asks for deer blood/meat."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "parents-identities",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "000000000000013D",
+      "subtask_name": "Bệnh Lạ",
+      "new_knowledge": [
+        "Hứa Sĩ Vĩ explains that Thẩm Thiết Thạch suffers from severe brain frost-poison requiring warm deer blood and monkey liquor (Hầu Nhi Tửu) to mitigate.",
+        "Protagonist gathers Hầu Nhi Tửu from wild monkeys."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "parents-identities",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "000000000000013E",
+      "subtask_name": "Yêu Cầu Vô Lý",
+      "new_knowledge": [
+        "Thẩm Thiết Thạch demands tiger pelts due to unbearable cold sensations from the internal injury.",
+        "Hứa Sĩ Vĩ reveals Thẩm Thiết Thạch lives on borrowed time with only a few years left due to incurable frost poison."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "parents-identities",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "000000000000013F",
+      "subtask_name": "Bất Kham Hồi Thủ",
+      "new_knowledge": [
+        "Thẩm suffers acute seizure screaming 'Đừng giết họ!'; Hứa Sĩ Vĩ uses hornet poison to paralyze nerves and alleviate extreme agony.",
+        "Thẩm regains clarity, moved by protagonist's sincerity, and reveals he was crippled 10 years ago by an armored Jin expert wielding extreme Yin frost palm while protecting a benefactor family.",
+        "Thẩm advises protagonist to join one of the Twelve Sects to build true martial mastery."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "parents-identities",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "0000000000000136",
+      "subtask_name": "Thập Nhị Môn Phái",
+      "new_knowledge": [
+        "Protagonist interviews representatives of all 12 Great Sects (Thiếu Lâm, Thiên Vương, Đường Môn, Ngũ Độc, Nga My, Thúy Yên, Cái Bang, Thiên Nhẫn, Võ Đang, Côn Lôn, Đoàn Thị, Minh Giáo).",
+        "La Tuấn explains Cái Bang history at Thái Thạch and invited patriots to join.",
+        "Protagonist chooses a sect, reports to Thu Di, and confirms martial route."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "parents-identities",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "0000000000000137",
+      "subtask_name": "Tiểu Thí Ngưu Đao",
+      "new_knowledge": [
+        "Protagonist tests new sect skills against bandits outside the village."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "parents-identities",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "0000000000000140",
+      "subtask_name": "Cơ Quan Đại Sư",
+      "new_knowledge": [
+        "Thu Di investigates Giới Sơn Tông's kidnapping and reveals Nghĩa Quân traitors sabotaged hydraulic mechanisms.",
+        "Protagonist rescues Giới Sơn Tông."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "parents-identities",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "0000000000000138",
+      "subtask_name": "Tầm Sư Học Nghệ",
+      "new_knowledge": [
+        "Protagonist completes master artisan craft training."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "parents-identities",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "0000000000000139",
+      "subtask_name": "Kỳ Trân Mê",
+      "new_knowledge": [
+        "Protagonist finds an old letter from Bạch Cương in a strange chest at the bank.",
+        "Thu Di reveals: protagonist's father was an exceptional disciple of Ma Y Cốc who sought to avert Southern Song crisis; father was assassinated by Jin masters at Hán Thủy Cổ Độ; mother left baby to Thu Di and died following father.",
+        "Bạch Cương (missing for 18 years) sent word of return but his escort team was attacked."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "exact-culprit-identity",
+        "hidden-traitor-network"
+      ]
+    },
+    {
+      "subtask_id": "0000000000000141",
+      "subtask_name": "Người Mất Tích",
+      "new_knowledge": [
+        "Protagonist reaches Tuyệt Vấn Pha, meets Cao Thăng and Thôi Kiếm; Bạch Cương is unconscious.",
+        "Protagonist defends against bizarre foreign assassins."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "exact-culprit-identity"
+      ]
+    },
+    {
+      "subtask_id": "0000000000000142",
+      "subtask_name": "Chung Trừng Nguyên Hung",
+      "new_knowledge": [
+        "Bạch Cương awakens, reveals the assassins are Jin experts tracking him since Hán Thủy using extreme Yin frost palm (the same cold palm that crippled Thẩm Thiết Thạch).",
+        "Protagonist wipes out the Jin attackers, avenging Thẩm Thiết Thạch."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret",
+        "prophecy-scroll-meaning"
+      ]
+    },
+    {
+      "subtask_id": "0000000000000143",
+      "subtask_name": "Nhất Ngữ Thành Sấm",
+      "new_knowledge": [
+        "Protagonist recovers scroll fragments from Song and Mongol warriors.",
+        "Bạch Cương deciphers the 18-year prophecy scroll for the protagonist.",
+        "Cao Thăng prepares horses as protagonist leaves the starter village into the wider world."
+      ],
+      "protected_unknowns": [
+        "du-long-final-secret"
+      ]
+    }
+  ],
+  "causal_reconstruction_summary": "Family 009D forms a single continuous causal progression in the starter village: 1) Protagonist is tested with errands by village elders; 2) Bất Động Tiên Sinh reveals Thu Di's plan to send protagonist to the 12 Great Sects (Task 0134); 3) Protagonist aids the crippled hunter Thẩm Thiết Thạch and uncovers his fatal Yin-frost palm injury from Jin assassins 10 years ago (0135-013F); 4) Protagonist interviews the 12 sect representatives and officially joins a sect (0136); 5) Protagonist rescues Giới Sơn Tông from traitors and masters craft skills (0137-0138); 6) Protagonist uncovers an 18-year-old letter revealing his father was a Ma Y Cốc master killed at Hán Thủy and his mother died following him (0139); 7) Protagonist defends the returning elder Bạch Cương at Tuyệt Vấn Pha, defeats the Jin assassins who crippled Thẩm, deciphers the prophecy scroll, and departs the village for the greater Wulin (0141-0143).",
+  "protected_unknowns": [
+    "du-long-final-secret",
+    "parents-identities-specific-details",
+    "hidden-traitor-network-mastermind"
+  ],
+  "reconstruction_status": "RECONSTRUCTION_READY_EVIDENCED"
+}

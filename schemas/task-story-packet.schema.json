@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JX Task Story Packet",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generator",
+    "packet_id",
+    "task_family",
+    "subtask",
+    "topology",
+    "characters_and_npcs",
+    "narrative_texts",
+    "player_knowledge_and_state",
+    "entities_and_systems",
+    "provenance_and_evidence"
+  ],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "generator": {"type": "string"},
+    "packet_id": {"type": "string"},
+    "story_classification": {
+      "enum": [
+        "MAIN_STORY",
+        "SIDE_STORY",
+        "FACTION_STORY",
+        "INSTANCE_STORY",
+        "FEATURE_LORE",
+        "WORLD_LIFE",
+        "REPEATABLE_DAILY",
+        "TUTORIAL_OR_UI_HEAVY"
+      ]
+    },
+    "task_family": {
+      "type": "object",
+      "required": ["id_hex", "id_dec", "name", "classification"],
+      "properties": {
+        "id_hex": {"type": "string"},
+        "id_dec": {"type": "integer"},
+        "name": {"type": "string"},
+        "classification": {"type": "string"},
+        "description": {"type": "string"}
+      }
+    },
+    "subtask": {
+      "type": "object",
+      "required": ["id_hex", "id_dec", "name_inline", "name_standalone", "order_in_family"],
+      "properties": {
+        "id_hex": {"type": "string"},
+        "id_dec": {"type": "integer"},
+        "name_inline": {"type": "string"},
+        "name_standalone": {"type": "string"},
+        "order_in_family": {"type": "integer", "minimum": 1}
+      }
+    },
+    "topology": {
+      "type": "object",
+      "required": ["prior_subtask_ids", "next_subtask_ids", "incoming_edges", "outgoing_edges"],
+      "properties": {
+        "prior_subtask_ids": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "next_subtask_ids": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "incoming_edges": {
+          "type": "array",
+          "items": {"type": "object"}
+        },
+        "outgoing_edges": {
+          "type": "array",
+          "items": {"type": "object"}
+        }
+      }
+    },
+    "characters_and_npcs": {
+      "type": "object",
+      "required": ["giver_npc", "turn_in_npc", "involved_npcs"],
+      "properties": {
+        "giver_npc": {
+          "type": ["object", "null"],
+          "properties": {
+            "npc_id": {"type": "string"},
+            "name": {"type": "string"},
+            "class_name": {"type": "string"}
+          }
+        },
+        "turn_in_npc": {
+          "type": ["object", "null"],
+          "properties": {
+            "npc_id": {"type": "string"},
+            "name": {"type": "string"},
+            "class_name": {"type": "string"}
+          }
+        },
+        "involved_npcs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["npc_id", "name", "role_or_function"],
+            "properties": {
+              "npc_id": {"type": "string"},
+              "name": {"type": "string"},
+              "class_name": {"type": "string"},
+              "role_or_function": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "narrative_texts": {
+      "type": "object",
+      "required": [
+        "task_description",
+        "dialogue_pop",
+        "dialogue_start",
+        "dialogue_prize",
+        "ordered_nodes"
+      ],
+      "properties": {
+        "task_description": {"type": "string"},
+        "dialogue_pop": {
+          "type": ["object", "null"],
+          "properties": {
+            "speaker": {"type": "string"},
+            "text": {"type": "string"},
+            "evidence_class": {"type": "string"}
+          }
+        },
+        "dialogue_start": {
+          "type": ["object", "null"],
+          "properties": {
+            "speaker": {"type": "string"},
+            "text": {"type": "string"},
+            "evidence_class": {"type": "string"}
+          }
+        },
+        "dialogue_prize": {
+          "type": ["object", "null"],
+          "properties": {
+            "speaker": {"type": "string"},
+            "text": {"type": "string"},
+            "evidence_class": {"type": "string"}
+          }
+        },
+        "ordered_nodes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["step_index", "node_type", "speaker", "text", "evidence_class"],
+            "properties": {
+              "step_index": {"type": "integer"},
+              "node_type": {
+                "enum": [
+                  "NPC_DIALOGUE",
+                  "PLAYER_TASK_NARRATION",
+                  "SYSTEM_UI_TEXT",
+                  "TASK_DESCRIPTION"
+                ]
+              },
+              "speaker": {"type": "string"},
+              "text": {"type": "string"},
+              "purpose": {"type": "string"},
+              "evidence_class": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "player_knowledge_and_state": {
+      "type": "object",
+      "required": ["prior_knowledge", "new_knowledge", "protected_unknowns"],
+      "properties": {
+        "prior_knowledge": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "new_knowledge": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "protected_unknowns": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "entities_and_systems": {
+      "type": "object",
+      "required": ["items", "monsters_or_targets", "locations_or_maps", "faction_references"],
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "count": {"type": "integer"},
+              "role": {"type": "string"}
+            }
+          }
+        },
+        "monsters_or_targets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "npc_id": {"type": "string"},
+              "role": {"type": "string"}
+            }
+          }
+        },
+        "locations_or_maps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "map_id": {"type": "string"},
+              "role": {"type": "string"}
+            }
+          }
+        },
+        "faction_references": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "provenance_and_evidence": {
+      "type": "object",
+      "required": ["evidence_class", "source_records", "parser_version", "conflicts_or_drift"],
+      "properties": {
+        "evidence_class": {"type": "string"},
+        "source_records": {
+          "type": "array",
+          "items": {"$ref": "source-record.schema.json"}
+        },
+        "parser_version": {"type": "string"},
+        "conflicts_or_drift": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    }
+  }
+}
