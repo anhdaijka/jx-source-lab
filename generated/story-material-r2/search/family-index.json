@@ -1,0 +1,5592 @@
+[
+  {
+    "family_id": "0000000000000001",
+    "family_name": "Tứ Diện Sở Ca",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000001",
+        "name": "Anh Cô Trở Về"
+      },
+      {
+        "subtask_id": "0000000000000002",
+        "name": "Thông Địch Phản Bang"
+      },
+      {
+        "subtask_id": "0000000000000003",
+        "name": "Tín Sứ Thần Bí"
+      },
+      {
+        "subtask_id": "0000000000000004",
+        "name": "Sát Cơ Trùng Trùng"
+      },
+      {
+        "subtask_id": "0000000000000005",
+        "name": "Bằng Chứng Thép"
+      },
+      {
+        "subtask_id": "0000000000000006",
+        "name": "Vi Đảo Chi Khốn"
+      },
+      {
+        "subtask_id": "0000000000000007",
+        "name": "Tứ Diện Sở Ca"
+      },
+      {
+        "subtask_id": "0000000000000008",
+        "name": "Tấm Lòng Trung Nghĩa"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000002",
+    "family_name": "Bất Ngờ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000009",
+        "name": "Tế Lễ"
+      },
+      {
+        "subtask_id": "000000000000000A",
+        "name": "Biến Loạn Chi Cục"
+      },
+      {
+        "subtask_id": "000000000000000B",
+        "name": "Ý Ngoại Trùng Phùng"
+      },
+      {
+        "subtask_id": "000000000000000C",
+        "name": "Cao Hạ Lập Phán"
+      },
+      {
+        "subtask_id": "000000000000000D",
+        "name": "Đông Sơn Tái Khởi"
+      },
+      {
+        "subtask_id": "000000000000000E",
+        "name": "Bạch Sơn Thạch Trường"
+      },
+      {
+        "subtask_id": "000000000000000F",
+        "name": "Mãnh Hổ Hạng"
+      },
+      {
+        "subtask_id": "0000000000000010",
+        "name": "Bí Mật Ảnh Xã"
+      },
+      {
+        "subtask_id": "0000000000000011",
+        "name": "Ảnh Giả Bỏ Trốn"
+      },
+      {
+        "subtask_id": "0000000000000012",
+        "name": "Thợ Săn Kỳ Lạ"
+      },
+      {
+        "subtask_id": "0000000000000013",
+        "name": "Võ Sĩ Kim quốc"
+      },
+      {
+        "subtask_id": "0000000000000014",
+        "name": "Kinh Thiên Chi Biến"
+      },
+      {
+        "subtask_id": "0000000000000015",
+        "name": "Hãn Huyết Bảo Mã"
+      },
+      {
+        "subtask_id": "0000000000000016",
+        "name": "Quẻ Quỷ Thần"
+      },
+      {
+        "subtask_id": "0000000000000017",
+        "name": "Di Hận"
+      },
+      {
+        "subtask_id": "0000000000000018",
+        "name": "Tế Kỳ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000003",
+    "family_name": "Mật Lâm Thâm Xứ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000019",
+        "name": "Mật Lâm Thâm Xứ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000004",
+    "family_name": "Tình Nghĩa Khó Lưỡng Toàn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000001A",
+        "name": "Hồng kỳ Kỳ chủ"
+      },
+      {
+        "subtask_id": "000000000000001B",
+        "name": "Di Nhân Phục Kích"
+      },
+      {
+        "subtask_id": "000000000000001C",
+        "name": "Xà Huyệt Hung Hiểm"
+      },
+      {
+        "subtask_id": "000000000000001D",
+        "name": "Bí Mật Bảo Đồ"
+      },
+      {
+        "subtask_id": "000000000000001E",
+        "name": "Ám Độ Trần Thương"
+      },
+      {
+        "subtask_id": "000000000000001F",
+        "name": "Tuyệt Bích Kỳ Hoa"
+      },
+      {
+        "subtask_id": "0000000000000020",
+        "name": "Ly Kỳ Thủ Thư"
+      },
+      {
+        "subtask_id": "0000000000000021",
+        "name": "Thiềm Cung Hội"
+      },
+      {
+        "subtask_id": "0000000000000022",
+        "name": "Tái Kiến Thiên Vương"
+      },
+      {
+        "subtask_id": "0000000000000023",
+        "name": "Khổ Chiến"
+      },
+      {
+        "subtask_id": "0000000000000024",
+        "name": "Vấn Tâm Nhất Kiếm"
+      },
+      {
+        "subtask_id": "0000000000000025",
+        "name": "Sinh Tử Quyết Chiến"
+      },
+      {
+        "subtask_id": "0000000000000026",
+        "name": "Vô Phương Hướng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000005",
+    "family_name": "Chuyện Cũ Ngũ Độc",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000027",
+        "name": "Hồng kỳ Kỳ chủ"
+      },
+      {
+        "subtask_id": "0000000000000028",
+        "name": "Di Nhân Phục Kích"
+      },
+      {
+        "subtask_id": "0000000000000029",
+        "name": "Xà Huyệt Hung Hiểm"
+      },
+      {
+        "subtask_id": "000000000000002A",
+        "name": "Bí Mật Bảo Đồ"
+      },
+      {
+        "subtask_id": "000000000000002B",
+        "name": "Ám Độ Trần Thương"
+      },
+      {
+        "subtask_id": "000000000000002C",
+        "name": "Tuyệt Bích Kỳ Hoa"
+      },
+      {
+        "subtask_id": "000000000000002D",
+        "name": "Ly Kỳ Thủ Thư"
+      },
+      {
+        "subtask_id": "000000000000002E",
+        "name": "Thiềm Cung Hội"
+      },
+      {
+        "subtask_id": "000000000000002F",
+        "name": "Tái Kiến Thiên Vương"
+      },
+      {
+        "subtask_id": "0000000000000030",
+        "name": "Khổ Chiến"
+      },
+      {
+        "subtask_id": "0000000000000031",
+        "name": "Vấn Tâm Nhất Kiếm"
+      },
+      {
+        "subtask_id": "0000000000000032",
+        "name": "Sinh Tử Quyết Chiến"
+      },
+      {
+        "subtask_id": "0000000000000033",
+        "name": "Vô Phương Hướng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000006",
+    "family_name": "Tuyết Dạ Kinh Biến",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000034",
+        "name": "Hợp Tông Đại Điển"
+      },
+      {
+        "subtask_id": "0000000000000035",
+        "name": "Tây Bắc Mã Tặc"
+      },
+      {
+        "subtask_id": "0000000000000036",
+        "name": "Đại Biến Đột Khởi"
+      },
+      {
+        "subtask_id": "0000000000000037",
+        "name": "Kinh Tâm Động Phách "
+      },
+      {
+        "subtask_id": "0000000000000038",
+        "name": "Thâu Thiên Hoán Nhật"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000007",
+    "family_name": "Thật Giả Khó Phân",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000039",
+        "name": "Phân Loạn Chi Cục"
+      },
+      {
+        "subtask_id": "000000000000003A",
+        "name": "Tử Cục"
+      },
+      {
+        "subtask_id": "000000000000003B",
+        "name": "Liễu Rũ Hoa Cười"
+      },
+      {
+        "subtask_id": "000000000000003C",
+        "name": "Công Dã Tràng"
+      },
+      {
+        "subtask_id": "000000000000003D",
+        "name": "Thần Tăng Không Vô"
+      },
+      {
+        "subtask_id": "000000000000003E",
+        "name": "A Tỳ Địa Ngục"
+      },
+      {
+        "subtask_id": "000000000000003F",
+        "name": "Khó Bề Tưởng Tượng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000008",
+    "family_name": "Trạch Tâm Nhân Hậu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000040",
+        "name": "Ai Oán Lầm Than"
+      },
+      {
+        "subtask_id": "0000000000000041",
+        "name": "Lôi Đình Thủ Đoạn"
+      },
+      {
+        "subtask_id": "0000000000000042",
+        "name": "Tủng Nhân Thính Văn"
+      },
+      {
+        "subtask_id": "0000000000000043",
+        "name": "Bí Mật Đê Vỡ"
+      },
+      {
+        "subtask_id": "0000000000000044",
+        "name": "Thần Bí Lai Khách"
+      },
+      {
+        "subtask_id": "0000000000000045",
+        "name": "Đại Nghĩa Nước Nhà"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000009",
+    "family_name": "Thiên Mục Chi Mê",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000046",
+        "name": "Thay Xà Đổi Cột"
+      },
+      {
+        "subtask_id": "0000000000000047",
+        "name": "Nhà Lao Hoàng Lăng"
+      },
+      {
+        "subtask_id": "0000000000000048",
+        "name": "Kinh Tâm Chi Lữ"
+      },
+      {
+        "subtask_id": "0000000000000049",
+        "name": "Phiêu Hãn Chi Đồ"
+      },
+      {
+        "subtask_id": "000000000000004A",
+        "name": "Chung Cực Doanh Cứu"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000000A",
+    "family_name": "Nhân Ái Sinh Hận",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000004B",
+        "name": "Bạch Y Diệu Thanh"
+      },
+      {
+        "subtask_id": "000000000000004C",
+        "name": "Đa Tình Chủng Tử"
+      },
+      {
+        "subtask_id": "000000000000004D",
+        "name": "Kinh Tâm Động Phách "
+      },
+      {
+        "subtask_id": "000000000000004E",
+        "name": "Nhân Ái Sinh Hận"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000000B",
+    "family_name": "Thế Sự Khó Lường",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000004F",
+        "name": "Ngộ Thích"
+      },
+      {
+        "subtask_id": "0000000000000050",
+        "name": "Nộ Sát"
+      },
+      {
+        "subtask_id": "0000000000000051",
+        "name": "Thôi Trần Xuất tân"
+      },
+      {
+        "subtask_id": "0000000000000052",
+        "name": "Săn Bắn"
+      },
+      {
+        "subtask_id": "0000000000000053",
+        "name": "Ý Liệu Chi Ngoại"
+      },
+      {
+        "subtask_id": "0000000000000054",
+        "name": "Thân Cô Thế Cô"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000000C",
+    "family_name": "Huyết Quang Tai",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000055",
+        "name": "La Bàn Định Bảo"
+      },
+      {
+        "subtask_id": "0000000000000056",
+        "name": "Du Long Xuất Thế"
+      },
+      {
+        "subtask_id": "0000000000000057",
+        "name": "Họa Khởi Tiêu Tường"
+      },
+      {
+        "subtask_id": "0000000000000058",
+        "name": "Trận Pháp Tầng Kế"
+      },
+      {
+        "subtask_id": "0000000000000059",
+        "name": "Huyền Nguyệt Đại Trận"
+      },
+      {
+        "subtask_id": "000000000000005A",
+        "name": "Nhổ Cỏ Tận Gốc"
+      },
+      {
+        "subtask_id": "000000000000005B",
+        "name": "Qua Được Kiếp Nạn"
+      },
+      {
+        "subtask_id": "000000000000005C",
+        "name": "Giang Hồ"
+      },
+      {
+        "subtask_id": "000000000000005D",
+        "name": "Giai Nhân Gặp Nạn"
+      },
+      {
+        "subtask_id": "000000000000005E",
+        "name": "Vị Khách Bí Ẩn"
+      },
+      {
+        "subtask_id": "000000000000005F",
+        "name": "Kết Cục Viên Mãn"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000000D",
+    "family_name": "Người Kế Vị",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000064",
+        "name": "Kinh Biến"
+      },
+      {
+        "subtask_id": "0000000000000060",
+        "name": "Bám Đuôi "
+      },
+      {
+        "subtask_id": "0000000000000061",
+        "name": "Phi Long Cốc"
+      },
+      {
+        "subtask_id": "0000000000000062",
+        "name": "Thiên Quỳnh Cung"
+      },
+      {
+        "subtask_id": "0000000000000063",
+        "name": "Binh Bất Yếm Trá "
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000000E",
+    "family_name": "Đột Biến",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000065",
+        "name": "Cần Vương"
+      },
+      {
+        "subtask_id": "0000000000000066",
+        "name": "Binh Phù"
+      },
+      {
+        "subtask_id": "0000000000000067",
+        "name": "Ngọc Bút Lệnh"
+      },
+      {
+        "subtask_id": "0000000000000068",
+        "name": "Hồng Nương Tử"
+      },
+      {
+        "subtask_id": "0000000000000069",
+        "name": "Mật đạo"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000000F",
+    "family_name": "Tân Triều",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000006A",
+        "name": "Xả Tang"
+      },
+      {
+        "subtask_id": "000000000000006B",
+        "name": "Thủ Dụ"
+      },
+      {
+        "subtask_id": "000000000000006C",
+        "name": "Ngô Thị"
+      },
+      {
+        "subtask_id": "000000000000006D",
+        "name": "Tân Triều"
+      },
+      {
+        "subtask_id": "000000000000006E",
+        "name": "Hồi Hương"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000010",
+    "family_name": "Tìm Ra Lời Đáp",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000006F",
+        "name": "Bí Mật Che Giấu"
+      },
+      {
+        "subtask_id": "0000000000000070",
+        "name": "Người Gan Dạ"
+      },
+      {
+        "subtask_id": "0000000000000071",
+        "name": "Tân Tộc Trưởng"
+      },
+      {
+        "subtask_id": "0000000000000072",
+        "name": "Thần Thú"
+      },
+      {
+        "subtask_id": "0000000000000073",
+        "name": "Hắc Long Đàm"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000011",
+    "family_name": "Báo Ân",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000074",
+        "name": "Tân Minh Ước"
+      },
+      {
+        "subtask_id": "0000000000000075",
+        "name": "Truy Tìm Kho Báu"
+      },
+      {
+        "subtask_id": "0000000000000076",
+        "name": "Tìm người"
+      },
+      {
+        "subtask_id": "0000000000000077",
+        "name": "Uy Hiếp"
+      },
+      {
+        "subtask_id": "0000000000000078",
+        "name": "Kết Nghĩa"
+      },
+      {
+        "subtask_id": "0000000000000079",
+        "name": "Chân Tướng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000012",
+    "family_name": "Bí Mật Che Giấu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000007A",
+        "name": "Trục Cuốn"
+      },
+      {
+        "subtask_id": "000000000000007B",
+        "name": "Mưu Kế"
+      },
+      {
+        "subtask_id": "000000000000007C",
+        "name": "Tranh Đoạt"
+      },
+      {
+        "subtask_id": "000000000000007D",
+        "name": "Huyền Nghi"
+      },
+      {
+        "subtask_id": "000000000000007E",
+        "name": "Rút Lui"
+      },
+      {
+        "subtask_id": "000000000000007F",
+        "name": "Khí Phách"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000013",
+    "family_name": "Âm Sai Dương Thác",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000080",
+        "name": "Phát Hiện Mới"
+      },
+      {
+        "subtask_id": "0000000000000081",
+        "name": "Dị Quốc Mật Lệnh"
+      },
+      {
+        "subtask_id": "0000000000000082",
+        "name": "Tìm Về"
+      },
+      {
+        "subtask_id": "0000000000000083",
+        "name": "Phân Đà "
+      },
+      {
+        "subtask_id": "0000000000000084",
+        "name": "Tiến Công Nghi Binh"
+      },
+      {
+        "subtask_id": "0000000000000085",
+        "name": "Hợp Tác"
+      },
+      {
+        "subtask_id": "0000000000000086",
+        "name": "Đồng Minh Mới"
+      },
+      {
+        "subtask_id": "0000000000000087",
+        "name": "Ngàn Dặm Theo Dấu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000014",
+    "family_name": "Hé Lộ Manh Mối",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000088",
+        "name": "Manh Mối"
+      },
+      {
+        "subtask_id": "0000000000000089",
+        "name": "Theo Dấu"
+      },
+      {
+        "subtask_id": "000000000000008A",
+        "name": "Hậu Thổ Doanh"
+      },
+      {
+        "subtask_id": "000000000000008B",
+        "name": "Lộng Xà Thuật"
+      },
+      {
+        "subtask_id": "000000000000008C",
+        "name": "Xà Vương"
+      },
+      {
+        "subtask_id": "000000000000008D",
+        "name": "Tai Biến"
+      },
+      {
+        "subtask_id": "000000000000008E",
+        "name": "Định Sách"
+      },
+      {
+        "subtask_id": "000000000000008F",
+        "name": "Đấu Võ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000015",
+    "family_name": "Súc Thế Đãi Phát",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000090",
+        "name": "Súc Thế Đãi Phát"
+      },
+      {
+        "subtask_id": "0000000000000091",
+        "name": "Chinh Binh"
+      },
+      {
+        "subtask_id": "0000000000000092",
+        "name": "Võ Đài So Nghệ"
+      },
+      {
+        "subtask_id": "0000000000000093",
+        "name": "Thiết Uyển"
+      },
+      {
+        "subtask_id": "0000000000000094",
+        "name": "Hậu Viện"
+      },
+      {
+        "subtask_id": "0000000000000095",
+        "name": "Phòng Khách"
+      },
+      {
+        "subtask_id": "0000000000000096",
+        "name": "Mưu Đồ Bí Mật"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000016",
+    "family_name": "Mang Ngọc Mắc Tội",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000097",
+        "name": "Tiết Phẫn Nhất Kích"
+      },
+      {
+        "subtask_id": "0000000000000098",
+        "name": "Đạo Trị Binh"
+      },
+      {
+        "subtask_id": "0000000000000099",
+        "name": "Hỏa Lực Thập Túc"
+      },
+      {
+        "subtask_id": "000000000000009A",
+        "name": "Chế Tạo Hỏa Dược"
+      },
+      {
+        "subtask_id": "000000000000009B",
+        "name": "Bổ Sung Đạn Dược"
+      },
+      {
+        "subtask_id": "000000000000009C",
+        "name": "Truy Tìm Căn Nguyên"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000017",
+    "family_name": "Bộ Bộ Vi Doanh",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000009D",
+        "name": "Lực Ách Yếu Hại"
+      },
+      {
+        "subtask_id": "000000000000009E",
+        "name": "Mưu Sâu Kế Độc"
+      },
+      {
+        "subtask_id": "000000000000009F",
+        "name": "Tập Kích Bất Ngờ "
+      },
+      {
+        "subtask_id": "00000000000000A0",
+        "name": "Tham Lợi Trước Mắt"
+      },
+      {
+        "subtask_id": "00000000000000A1",
+        "name": "Quên Họa Sau Lưng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000018",
+    "family_name": "Xua Tan Mây Mù",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000A2",
+        "name": "Bỗng Nhiên Tỉnh Lại"
+      },
+      {
+        "subtask_id": "00000000000000A3",
+        "name": "Ngọc Nát Đá Tan"
+      },
+      {
+        "subtask_id": "00000000000000A4",
+        "name": "Tiến Cúc Động"
+      },
+      {
+        "subtask_id": "00000000000000A5",
+        "name": "Dị Tượng Trong Động"
+      },
+      {
+        "subtask_id": "00000000000000A6",
+        "name": "Động Tiên"
+      },
+      {
+        "subtask_id": "00000000000000A7",
+        "name": "Bí Mật Bị Lộ"
+      },
+      {
+        "subtask_id": "00000000000000A8",
+        "name": "Tìm Lối Vào"
+      },
+      {
+        "subtask_id": "00000000000000A9",
+        "name": "Cẩn Tắc Vô Ưu"
+      },
+      {
+        "subtask_id": "00000000000000AA",
+        "name": "Kẻ Thù Gặp Nhau"
+      },
+      {
+        "subtask_id": "00000000000000AB",
+        "name": "Chẳng Về Tay Không"
+      },
+      {
+        "subtask_id": "00000000000000AC",
+        "name": "Đại Nghĩa Nước Nhà"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000019",
+    "family_name": "Mưu Kế Thâm Sâu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000AD",
+        "name": "Mưu Kế Thâm Sâu"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000001A",
+    "family_name": "Thu Phục",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000AE",
+        "name": "Thu Phục"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000001B",
+    "family_name": "Nghĩa Khí La Phong",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000AF",
+        "name": "Nghĩa Khí La Phong"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000001C",
+    "family_name": "Bố Giả Thương",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000B0",
+        "name": "Bố Giả Thương"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000001D",
+    "family_name": "Hầu Nhi Tửu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000B1",
+        "name": "Hầu Nhi Tửu"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000001E",
+    "family_name": "Ảnh Giả",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000B2",
+        "name": "Ảnh Giả"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000001F",
+    "family_name": "Đả Cẩu Trận Pháp",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000B3",
+        "name": "Đả Cẩu Trận Pháp"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000020",
+    "family_name": "Á Lão Đầu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000B4",
+        "name": "Á Lão Đầu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000021",
+    "family_name": "Nạn Cá Sấu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000B5",
+        "name": "Nạn Cá Sấu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000022",
+    "family_name": "Thương Nhân Thần Bí",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000B6",
+        "name": "Thương Nhân Thần Bí"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000023",
+    "family_name": "Bí Ẩn Phản Tộc",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000B7",
+        "name": "Bí Ẩn Phản Tộc"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000024",
+    "family_name": "Chứng Cứ Phản Loạn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000B8",
+        "name": "Chứng Cứ Phản Loạn"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000025",
+    "family_name": "Quý Hầu Mắc Nạn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000B9",
+        "name": "Quý Hầu Mắc Nạn"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000026",
+    "family_name": "Cược Đao Khách",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000BA",
+        "name": "Cược Đao Khách"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000027",
+    "family_name": "Cược Kiếm Khách",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000BB",
+        "name": "Cược Kiếm Khách"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000028",
+    "family_name": "Doanh Trại Cũ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000BC",
+        "name": "Doanh Trại Cũ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000029",
+    "family_name": "Công Tử Si Tình",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000BD",
+        "name": "Công Tử Si Tình"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000002A",
+    "family_name": "Cô Phần",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000BE",
+        "name": "Cô Phần"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000002B",
+    "family_name": "Họa Rắn Cạp Nong",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000BF",
+        "name": "Họa Rắn Cạp Nong"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000002C",
+    "family_name": "Đồ Thôn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000C0",
+        "name": "Đồ Thôn"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000002D",
+    "family_name": "Sát Thủ Thổ Sơn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000C1",
+        "name": "Sát Thủ Thổ Sơn"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000002E",
+    "family_name": "Nữ Vu Ca",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000C2",
+        "name": "Nữ Vu Ca"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000002F",
+    "family_name": "Đại Tuyết Chi Chủng",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000C3",
+        "name": "Đại Tuyết Chi Chủng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000030",
+    "family_name": "Lai Lịch Tống Thu Thạch",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000C4",
+        "name": "Lai Lịch Tống Thu Thạch"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000031",
+    "family_name": "Huynh Muội Du Thị ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000C5",
+        "name": "Huynh Muội Du Thị "
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000032",
+    "family_name": "Chủ Nhân Thần Bí",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000C6",
+        "name": "Chủ Nhân Thần Bí"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000033",
+    "family_name": "Băng Huyệt Bi Hào",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000C7",
+        "name": "Băng Huyệt Bi Hào"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000034",
+    "family_name": "Côn Lôn Cố Sự",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000C8",
+        "name": "Côn Lôn Cố Sự"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000035",
+    "family_name": "Trở Lại Nhân Gian",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000C9",
+        "name": "Trở Lại Nhân Gian"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000036",
+    "family_name": "Phạm Giới Chi Tăng",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000CA",
+        "name": "Phạm Giới Chi Tăng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000037",
+    "family_name": "Tứ Vị Danh Dược",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000CB",
+        "name": "Tứ Vị Danh Dược"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000038",
+    "family_name": "Danh Sư Không Tướng",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000CC",
+        "name": "Danh Sư Không Tướng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000039",
+    "family_name": "Thần Bí Thiết Tặc",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000CD",
+        "name": "Thần Bí Thiết Tặc"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000003A",
+    "family_name": "Phục Hồi Cơ Quan",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000CE",
+        "name": "Phục Hồi Cơ Quan"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000003B",
+    "family_name": "Đệ Tử Bị Thương",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000CF",
+        "name": "Đệ Tử Bị Thương"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000003C",
+    "family_name": "Khảo Nghiệm Cuối Cùng",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000D0",
+        "name": "Khảo Nghiệm Cuối Cùng"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000003D",
+    "family_name": "Diệu Kế Bình Loạn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000D1",
+        "name": "Diệu Kế Bình Loạn"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000003E",
+    "family_name": "Thái Điệp Tiên Tử",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000D2",
+        "name": "Thái Điệp Tiên Tử"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000003F",
+    "family_name": "Kiếm Khách Si Tình",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000D3",
+        "name": "Kiếm Khách Si Tình"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000040",
+    "family_name": "Thần Bí Kim Nhân",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000D4",
+        "name": "Thần Bí Kim Nhân"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000041",
+    "family_name": "Hổ Động Mê Tung",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000D5",
+        "name": "Hổ Động Mê Tung"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000042",
+    "family_name": "Đêm Mưa Rả Rích",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000D6",
+        "name": "Cược Đao Khách"
+      },
+      {
+        "subtask_id": "00000000000000D7",
+        "name": "Cược Kiếm Khách"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000043",
+    "family_name": "Thù Cũ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000D8",
+        "name": "Thù Cũ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000044",
+    "family_name": "Hoàng Lăng Chi Biến",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000D9",
+        "name": "Hoàng Lăng Chi Biến"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000045",
+    "family_name": "Kho Báu Đạo Mộ Tặc",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000DA",
+        "name": "Kho Báu Đạo Mộ Tặc"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000046",
+    "family_name": "Quân Cờ Thần Bí",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000DB",
+        "name": "Quân Cờ Thần Bí"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000047",
+    "family_name": "Thử Tài",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000DC",
+        "name": "Thử Tài"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000048",
+    "family_name": "Loạn Trong Giặc Ngoài",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000DD",
+        "name": "Loạn Trong Giặc Ngoài"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000049",
+    "family_name": "Giải Cứu Thích Khách",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000DE",
+        "name": "Giải Cứu Thích Khách"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000004A",
+    "family_name": "Diệt Khẩu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000DF",
+        "name": "Diệt Khẩu"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000004B",
+    "family_name": "Nga My Cố Sự",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000E0",
+        "name": "Nga My Cố Sự"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000004C",
+    "family_name": "Cầu Thân",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000E1",
+        "name": "Cầu Thân"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000004D",
+    "family_name": "Vô Niệm Kiếp",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000E2",
+        "name": "Vô Niệm Kiếp"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000004E",
+    "family_name": "Thách Đấu Cừu Tuyết",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000E3",
+        "name": "Thách Đấu Cừu Tuyết"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000004F",
+    "family_name": "Mối Hận Đường Gia",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000E4",
+        "name": "Mối Hận Đường Gia"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000050",
+    "family_name": "Cung Nữ Cung Thất",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000E5",
+        "name": "Cung Nữ Cung Thất"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000051",
+    "family_name": "Bạch Cốt Chi Thành",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000E6",
+        "name": "Bạch Cốt Chi Thành"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000052",
+    "family_name": "Hợp Tung Liên Hoành",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000E7",
+        "name": "Hợp Tung Liên Hoành"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000053",
+    "family_name": "Độc Kế",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000E8",
+        "name": "Độc Kế"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000054",
+    "family_name": "Tâm Pháp Mật Tịch",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000E9",
+        "name": "Tâm Pháp Mật Tịch"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000055",
+    "family_name": "Khuynh Tâm Chi Giao",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000EA",
+        "name": "Khuynh Tâm Chi Giao"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000056",
+    "family_name": "Đường Môn Tứ Lão",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000EB",
+        "name": "Đường Môn Tứ Lão"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000057",
+    "family_name": "Hoài Nghi",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000EC",
+        "name": "Hoài Nghi"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000058",
+    "family_name": "Ân Tình Đường Hiểu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000ED",
+        "name": "Ân Tình Đường Hiểu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000059",
+    "family_name": "Hoa Cốc Lai Khách",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000EE",
+        "name": "Hoa Cốc Lai Khách"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000005A",
+    "family_name": "Hộ Hoa Sứ Giả",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000EF",
+        "name": "Hộ Hoa Sứ Giả"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000005B",
+    "family_name": "Toàn Thiên Yến Tử",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000F0",
+        "name": "Toàn Thiên Yến Tử"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000005C",
+    "family_name": "Nỗi Nhục Sư Môn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000F1",
+        "name": "Nỗi Nhục Sư Môn"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000005D",
+    "family_name": "Khách Phương Bắc",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000F2",
+        "name": "Khách Phương Bắc"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000005E",
+    "family_name": "Thân Thế Vinh Giảo Giảo",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000F3",
+        "name": "Thân Thế Vinh Giảo Giảo"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000005F",
+    "family_name": "Ân Tình Trác Vân",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000F4",
+        "name": "Ân Tình Trác Vân"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000060",
+    "family_name": "Cứu Tế Thôn Dân",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000F5",
+        "name": "Cứu Tế Thôn Dân"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000061",
+    "family_name": "Huyền Thưởng Thông Cáo",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000F6",
+        "name": "Huyền Thưởng Thông Cáo"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000062",
+    "family_name": "Bình Định Biên Giới",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000F7",
+        "name": "Bình Định Biên Giới"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000063",
+    "family_name": "Lời Nói Dối Thiện Ý",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000F8",
+        "name": "Lời Nói Dối Thiện Ý"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000064",
+    "family_name": "Chuộc Mạng Tráng Đinh",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000F9",
+        "name": "Chuộc Mạng Tráng Đinh"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000066",
+    "family_name": "Luyện Nhật Đại Pháp",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000FB",
+        "name": "Luyện Nhật Đại Pháp"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000067",
+    "family_name": "Thanh Lý Môn Hộ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000FC",
+        "name": "Thanh Lý Môn Hộ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000068",
+    "family_name": "Hồ Điệp Mùa Thu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000FD",
+        "name": "Hồ Điệp Mùa Thu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000069",
+    "family_name": "Chấn Nhiếp Chi Lực",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000FE",
+        "name": "Chấn Nhiếp Chi Lực"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000006A",
+    "family_name": "Bách Quan Phổ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000000FF",
+        "name": "Bách Quan Phổ"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000006B",
+    "family_name": "Biên Quản Thái Học Sinh",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000100",
+        "name": "Biên Quản Thái Học Sinh"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000006C",
+    "family_name": "Lược Gia Trừng Giới",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000101",
+        "name": "Lược Gia Trừng Giới"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000006D",
+    "family_name": "Tình Hình Nguy Cấp",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000102",
+        "name": "Tình Hình Nguy Cấp"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000006E",
+    "family_name": "Đổ Ước",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000103",
+        "name": "Đổ Ước"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000006F",
+    "family_name": "Tấn Lang Tửu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000104",
+        "name": "Tấn Lang Tửu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000070",
+    "family_name": "Tiểu Mặc Nhĩ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000105",
+        "name": "Tiểu Mặc Nhĩ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000071",
+    "family_name": "Mua Đi Bán Lại",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000106",
+        "name": "Mua Đi Bán Lại"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000072",
+    "family_name": "Trừng Phạt",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000107",
+        "name": "Trừng Phạt"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000073",
+    "family_name": "Kim Khoáng",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000108",
+        "name": "Kim Khoáng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000074",
+    "family_name": "A Lợi Tư",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000109",
+        "name": "A Lợi Tư"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000075",
+    "family_name": "Gia Thù",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000010A",
+        "name": "Gia Thù"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000076",
+    "family_name": "Tử Ngọc Băng Xà",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000010B",
+        "name": "Tử Ngọc Băng Xà"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000077",
+    "family_name": "Hôn Quan",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000010C",
+        "name": "Hôn Quan"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000078",
+    "family_name": "Mua Bán Lớn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000010D",
+        "name": "Mua Bán Lớn"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000079",
+    "family_name": "Bình Loạn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000010E",
+        "name": "Bình Loạn"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000007A",
+    "family_name": "Lang Hài",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000010F",
+        "name": "Lang Hài"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000007B",
+    "family_name": "Trọng Thưởng",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000110",
+        "name": "Trọng Thưởng"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000007C",
+    "family_name": "Tầm Hồi Quái Vật",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000111",
+        "name": "Tầm Hồi Quái Vật"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000007D",
+    "family_name": "Đào Ly",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000112",
+        "name": "Đào Ly"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000007E",
+    "family_name": "Cựu Hận",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000113",
+        "name": "Cựu Hận"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000007F",
+    "family_name": "Khơi Thông",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000114",
+        "name": "Khơi Thông"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000080",
+    "family_name": "Võng Khai Nhất Diện",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000115",
+        "name": "Võng Khai Nhất Diện"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000081",
+    "family_name": "Cảnh Chung",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000116",
+        "name": "Cảnh Chung"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000082",
+    "family_name": "Y Giả Tâm",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000117",
+        "name": "Y Giả Tâm"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000083",
+    "family_name": "Thiết Mẫu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000118",
+        "name": "Thiết Mẫu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000084",
+    "family_name": "Đại Án Tử Mẫu Hoàn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000119",
+        "name": "Đại Án Tử Mẫu Hoàn"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000085",
+    "family_name": "Đại Án Thâm Khuê",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000011A",
+        "name": "Đại Án Thâm Khuê"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000086",
+    "family_name": "Tế Sống",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000011B",
+        "name": "Tế Sống"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000087",
+    "family_name": "Tín Đồ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000011C",
+        "name": "Tín Đồ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000088",
+    "family_name": "Luân Hồi",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000011D",
+        "name": "Luân Hồi"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000089",
+    "family_name": "Thích Khách",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000011E",
+        "name": "Thích Khách"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000008A",
+    "family_name": "Diệt Sạch Báo Thù",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000011F",
+        "name": "Diệt Sạch Báo Thù"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000008B",
+    "family_name": "Hoàng Lăng",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000120",
+        "name": "Hoàng Lăng"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000008C",
+    "family_name": "Cựu Ái Sở Tại",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000121",
+        "name": "Cựu Ái Sở Tại"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000008D",
+    "family_name": "Nghĩa Chi Sở Tại ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000122",
+        "name": "Nghĩa Chi Sở Tại "
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000008E",
+    "family_name": "Tình Ý Miên Man",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000123",
+        "name": "Tình Ý Miên Man"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000008F",
+    "family_name": "Hoàng Lăng Bí Sự",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000124",
+        "name": "Hoàng Lăng Bí Sự"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000090",
+    "family_name": "Địch Nhân Chi Hữu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000125",
+        "name": "Địch Nhân Chi Hữu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000091",
+    "family_name": "Dĩ Tiểu Kiến Đại",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000126",
+        "name": "Dĩ Tiểu Kiến Đại"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000092",
+    "family_name": "Khiêu Sơn Chấn Hổ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000127",
+        "name": "Khiêu Sơn Chấn Hổ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000093",
+    "family_name": "Đại Vị Khu Trục",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000128",
+        "name": "Đại Vị Khu Trục"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000094",
+    "family_name": "Sơn Môn Nạn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000129",
+        "name": "Sơn Môn Nạn"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000095",
+    "family_name": "Tín Đồ Nổi Giận",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000012A",
+        "name": "Tín Đồ Nổi Giận"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000096",
+    "family_name": "Thân Bạn Nguy Cơ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000012B",
+        "name": "Thân Bạn Nguy Cơ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000097",
+    "family_name": "Long Nhan Thịnh Nộ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000012C",
+        "name": "Long Nhan Thịnh Nộ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000098",
+    "family_name": "Lưu Khấu Chi Phong ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000012D",
+        "name": "Lưu Khấu Chi Phong "
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000099",
+    "family_name": "Ám Trung Chế Địch",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000012E",
+        "name": "Ám Trung Chế Địch"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000009A",
+    "family_name": "Sát Xà Thủ Đảm ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000012F",
+        "name": "Sát Xà Thủ Đảm "
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000009B",
+    "family_name": "Đồ Nhã Chi Thác",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000130",
+        "name": "Đồ Nhã Chi Thác"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000009C",
+    "family_name": "Cố Nhân Chi Tình",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000131",
+        "name": "Cố Nhân Chi Tình"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000009D",
+    "family_name": "Thân Thế Chi Mê",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000132",
+        "name": "Sồ Phượng Thanh Minh "
+      },
+      {
+        "subtask_id": "0000000000000133",
+        "name": "Nghĩa Quân"
+      },
+      {
+        "subtask_id": "0000000000000134",
+        "name": "Kỳ Môn Độn Giáp"
+      },
+      {
+        "subtask_id": "0000000000000135",
+        "name": "Sơ Thượng Sa Trường"
+      },
+      {
+        "subtask_id": "000000000000013D",
+        "name": "Bệnh Lạ"
+      },
+      {
+        "subtask_id": "000000000000013E",
+        "name": "Yêu Cầu Vô Lý"
+      },
+      {
+        "subtask_id": "000000000000013F",
+        "name": "Bất Kham Hồi Thủ"
+      },
+      {
+        "subtask_id": "0000000000000136",
+        "name": "Thập Nhị Môn Phái"
+      },
+      {
+        "subtask_id": "0000000000000137",
+        "name": "Tiểu Thí Ngưu Đao"
+      },
+      {
+        "subtask_id": "0000000000000140",
+        "name": "Cơ Quan Đại Sư"
+      },
+      {
+        "subtask_id": "0000000000000138",
+        "name": "Tầm Sư Học Nghệ"
+      },
+      {
+        "subtask_id": "0000000000000139",
+        "name": "Kỳ Trân Mê"
+      },
+      {
+        "subtask_id": "0000000000000141",
+        "name": "Người Mất Tích"
+      },
+      {
+        "subtask_id": "0000000000000142",
+        "name": "Chung Trừng Nguyên Hung"
+      },
+      {
+        "subtask_id": "0000000000000143",
+        "name": "Nhất Ngữ Thành Sấm"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000009E",
+    "family_name": "Sơn Vũ Dục Lai",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000013A",
+        "name": "Yên Vũ Giang Nam"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000009F",
+    "family_name": "Nghịch Vận Luân",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000013B",
+        "name": "Binh Qua Trung Nguyên"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000A0",
+    "family_name": "Hồ Điệp Phong Bạo",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000013C",
+        "name": "Tây Nam Mê Cảnh"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000A1",
+    "family_name": "Tâm Đắc Thư (sơ)",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000144",
+        "name": "Tâm Đắc Thư (sơ)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000A2",
+    "family_name": "Tâm Đắc Thư (trung)",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000145",
+        "name": "Tâm Đắc Thư (trung)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000A3",
+    "family_name": "Tâm Đắc Thư (cao)",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000146",
+        "name": "Tâm Đắc Thư (cao)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000A4",
+    "family_name": "Đánh Đuổi Cường Đạo",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000147",
+        "name": "Đánh Đuổi Cường Đạo"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000A5",
+    "family_name": "Hành Động Ám Sát",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000148",
+        "name": "Hành Động Ám Sát"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000A6",
+    "family_name": "Đường Lang Quyền Sư",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000149",
+        "name": "Đường Lang Quyền Sư"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000A7",
+    "family_name": "Ảnh Xã Anh Linh",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000014A",
+        "name": "Ảnh Xã Anh Linh"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000A8",
+    "family_name": "Hoa Hương Loa",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000014B",
+        "name": "Hoa Hương Loa"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000A9",
+    "family_name": "Ủy Thác Của Đệ Tử Thiên Vương",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000014C",
+        "name": "Ủy Thác Của Đệ Tử Thiên Vương"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000AA",
+    "family_name": "Chế Tạo Thương Thiên Vương",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000014D",
+        "name": "Chế Tạo Thương Thiên Vương"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000AB",
+    "family_name": "Quả Sồi",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000014E",
+        "name": "Quả Sồi"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000AC",
+    "family_name": "Đoạt Lại Pháp Khí",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000014F",
+        "name": "Đoạt Lại Pháp Khí"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000AD",
+    "family_name": "Rượu Mông Cổ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000150",
+        "name": "Rượu Mông Cổ"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000AE",
+    "family_name": "Hồi Môn Của Như Ý",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000151",
+        "name": "Hồi Môn Của Như Ý"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000AF",
+    "family_name": "Hộ Vệ Hành Thương",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000152",
+        "name": "Hộ Vệ Hành Thương"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000B0",
+    "family_name": "3 vạn con Ác viên",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000153",
+        "name": "3 vạn con Ác viên"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000B1",
+    "family_name": "Vật Thị Nhân Phi",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000154",
+        "name": "Vật Thị Nhân Phi"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000B2",
+    "family_name": "Bì Giáp Y",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000155",
+        "name": "Bì Giáp Y"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000B3",
+    "family_name": "Cơ Quan Thú Cốt",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000156",
+        "name": "Cơ Quan Thú Cốt"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000B4",
+    "family_name": "Thu Thập Mã Thảo",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000157",
+        "name": "Thu Thập Mã Thảo"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000B5",
+    "family_name": "Cùng Chống Quan Quân",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000158",
+        "name": "Cùng Chống Quan Quân"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000B6",
+    "family_name": "Quan Chiến",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000159",
+        "name": "Quan Chiến"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000B7",
+    "family_name": "Mối Hận Hắc Kỳ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000015A",
+        "name": "Mối Hận Hắc Kỳ"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000B8",
+    "family_name": "Hộ Pháp Hồng Kỳ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000015B",
+        "name": "Hộ Pháp Hồng Kỳ"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000B9",
+    "family_name": "Đệ Tử Hoàng Kỳ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000015C",
+        "name": "Đệ Tử Hoàng Kỳ"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000BA",
+    "family_name": "Họa Xà Đồ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000015D",
+        "name": "Họa Xà Đồ"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000BB",
+    "family_name": "Bức Thư Của Ông Lão",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000015E",
+        "name": "Bức Thư Của Ông Lão"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000BC",
+    "family_name": "Vào hang rắn tìm cha",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000015F",
+        "name": "Vào hang rắn tìm cha"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000BD",
+    "family_name": "Trừng Trị Tù Phạm",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000160",
+        "name": "Trừng Trị Tù Phạm"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000BE",
+    "family_name": "Thuyền Cỏ Mượn Tên",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000161",
+        "name": "Thuyền Cỏ Mượn Tên"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000BF",
+    "family_name": "Trưởng Sĩ Binh",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000162",
+        "name": "Trưởng Sĩ Binh"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000C0",
+    "family_name": "Xuân Tàm Tân Ty",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000163",
+        "name": "Xuân Tàm Tân Ty"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000C1",
+    "family_name": "Tứ Quý Hồi Công Đơn",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000164",
+        "name": "Tứ Quý Hồi Công Đơn"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000C2",
+    "family_name": "Đao Khách Quỵt Nợ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000165",
+        "name": "Đao Khách Quỵt Nợ"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000C5",
+    "family_name": "Chuyện Cũ Thần Châu",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000168",
+        "name": "Chuyện Cũ Thần Châu"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000C6",
+    "family_name": "Ma Nữ",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000169",
+        "name": "Ma Nữ"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000C7",
+    "family_name": "Long Thương",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000016A",
+        "name": "Long Thương"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000C8",
+    "family_name": "Cửu Tuyệt",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000016B",
+        "name": "Cửu Tuyệt"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000C9",
+    "family_name": "Tôn Sư",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000016C",
+        "name": "Tôn Sư"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000CA",
+    "family_name": "Chuyện Cũ Giang Hồ",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000016D",
+        "name": "Chuyện Cũ Giang Hồ"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000CB",
+    "family_name": "Nhiệm Vụ Tiếp Dẫn Thiên Vương",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000016E",
+        "name": "Thiên Vương Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "000000000000017A",
+        "name": "Thi Đấu Thiên Vương"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000CC",
+    "family_name": "Nhiệm Vụ Tiếp Dẫn Cái Bang",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000016F",
+        "name": "Cái Bang Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "000000000000017B",
+        "name": "Thi Đấu Cái Bang"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000CD",
+    "family_name": "Nhiệm Vụ Tiếp Dẫn Ngũ Độc",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000170",
+        "name": "Ngũ Độc Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "000000000000017C",
+        "name": "Thi Đấu Ngũ Độc"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000CE",
+    "family_name": "Nhiệm Vụ Tiếp Dẫn Côn Lôn",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000171",
+        "name": "Côn Lôn Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "000000000000017D",
+        "name": "Thi Đấu Côn Lôn"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000CF",
+    "family_name": "Nhiệm Vụ Tiếp Dẫn Võ Đang",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000172",
+        "name": "Võ Đang Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "000000000000017E",
+        "name": "Thi Đấu Võ Đang"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000D0",
+    "family_name": "Nhiệm Vụ Tiếp Dẫn Thiếu Lâm",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000173",
+        "name": "Thiếu Lâm Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "000000000000017F",
+        "name": "Thi Đấu Thiếu Lâm"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000D1",
+    "family_name": "Nhiệm Vụ Tiếp Dẫn Thiên Nhẫn",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000174",
+        "name": "Thiên Nhẫn Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "0000000000000180",
+        "name": "Thi Đấu Thiên Nhẫn"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000D2",
+    "family_name": "Nhiệm Vụ Tiếp Dẫn Nga My",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000175",
+        "name": "Nga My Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "0000000000000181",
+        "name": "Thi Đấu Nga My"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000D3",
+    "family_name": "Nhiệm vụ tiếp dẫn Đường Môn",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000176",
+        "name": "Đường Môn Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "0000000000000182",
+        "name": "Thi Đấu Đường Môn"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000D4",
+    "family_name": "Nhiệm Vụ Tiếp Dẫn Thúy Yên",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000177",
+        "name": "Thúy Yên Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "0000000000000183",
+        "name": "Thi Đấu Thúy Yên"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000D5",
+    "family_name": "Nhiệm Vụ Tiếp Dẫn Minh Giáo",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000178",
+        "name": "Minh Giáo Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "0000000000000184",
+        "name": "Thi Đấu Minh Giáo"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000D6",
+    "family_name": "Nhiệm Vụ Tiếp Dẫn Đoàn Thị",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000179",
+        "name": "Đoàn Thị Tu Luyện Châu"
+      },
+      {
+        "subtask_id": "0000000000000185",
+        "name": "Thi Đấu Đoàn Thị"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000D7",
+    "family_name": "Nhiệm Vụ Nghĩa Quân",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000186",
+        "name": "Nhiệm Vụ Nghĩa Quân"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000D8",
+    "family_name": "Vượt Ải Bạch Hổ Đường",
+    "classification": "INSTANCE_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000187",
+        "name": "Vượt Ải Bạch Hổ Đường"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000D9",
+    "family_name": "Tương Dương Lão Binh",
+    "classification": "INSTANCE_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000188",
+        "name": "Tương Dương Lão Binh"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000DA",
+    "family_name": "Đấu Lôi Đài",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000189",
+        "name": "Đấu Lôi Đài"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000DB",
+    "family_name": "Nghi Chủng",
+    "classification": "INSTANCE_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000018A",
+        "name": "Nghi Chủng"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000DC",
+    "family_name": "Người Mất Tích",
+    "classification": "INSTANCE_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000018B",
+        "name": "Người Mất Tích"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000DD",
+    "family_name": "Phó Ước",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000018C",
+        "name": "Phó Ước"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000DE",
+    "family_name": "Tìm Ngựa",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000018D",
+        "name": "Tìm Ngựa"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000DF",
+    "family_name": "Lão Mặc Nhĩ ",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000018E",
+        "name": "Lão Mặc Nhĩ "
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000E0",
+    "family_name": "Trốn Chạy",
+    "classification": "INSTANCE_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000018F",
+        "name": "Trốn Chạy"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000E1",
+    "family_name": "Hành Trình Mới",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000190",
+        "name": "Hành Trình Mới"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000E2",
+    "family_name": "Chuẩn Bị Chiến Sự (cấp 90)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000191",
+        "name": "Chuẩn Bị Chiến Sự (cấp 90)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000E3",
+    "family_name": "Bị Chiến Nhật Thường (cấp 90)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000192",
+        "name": "Bị Chiến Nhật Thường (cấp 90)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000E4",
+    "family_name": "Thao Luyện Tân Quân",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000193",
+        "name": "Thao Luyện Tân Quân"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000E5",
+    "family_name": "Tôn Tử Binh Pháp (cấp 90)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000194",
+        "name": "Tôn Tử Binh Pháp (cấp 90)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000E6",
+    "family_name": "Mặc Gia Cơ Quan Thuật (cấp 90)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000195",
+        "name": "Mặc Gia Cơ Quan Thuật (cấp 90)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000E7",
+    "family_name": "Vì Nước Vì Dân",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000196",
+        "name": "Vì Nước Vì Dân"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000E8",
+    "family_name": "Tân Triều Dương Quang",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000197",
+        "name": "Tân Triều Dương Quang"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000E9",
+    "family_name": "Tấm Lòng Ngay Thẳng",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000198",
+        "name": "Tấm Lòng Ngay Thẳng"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000EA",
+    "family_name": "Tuần Giảng Số Nhật",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000199",
+        "name": "Tuần Giảng Số Nhật"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000EB",
+    "family_name": "Lòng Người Khó Đoán",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000019A",
+        "name": "Lòng Người Khó Đoán"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000EC",
+    "family_name": "Sơn Vũ Dục Lai",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000019B",
+        "name": "Sơn Vũ Dục Lai"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000ED",
+    "family_name": "Quyết Chiến Một Trận",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000019C",
+        "name": "Quyết Chiến Một Trận"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000EE",
+    "family_name": "Nhất Niệm Chi Nhân",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000019D",
+        "name": "Nhất Niệm Chi Nhân"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000EF",
+    "family_name": "Thắng Bại Chưa Rõ",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000019E",
+        "name": "Thắng Bại Chưa Rõ"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000F0",
+    "family_name": "Khánh Nguyên Đảng Cấm",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000019F",
+        "name": "Khánh Nguyên Đảng Cấm"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000F1",
+    "family_name": "Câu Chuyện Trường Ca",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001A0",
+        "name": "Câu Chuyện Trường Ca"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000F2",
+    "family_name": "Trường Ca Tam Kiệt",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001A1",
+        "name": "Trường Ca Tam Kiệt"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000F3",
+    "family_name": "Thăm Dò Thát Đát",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001A2",
+        "name": "Thăm Dò Thát Đát"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000F4",
+    "family_name": "Thảo Nguyên Anh Hùng",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001A3",
+        "name": "Thảo Nguyên Anh Hùng"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000F5",
+    "family_name": "Sứ Giả Kim Quốc",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001A4",
+        "name": "Sứ Giả Kim Quốc"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000F6",
+    "family_name": "Cố Liêu Kỳ Tài",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001A5",
+        "name": "Cố Liêu Kỳ Tài"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000F7",
+    "family_name": "Công Phòng Tính Cử",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001A6",
+        "name": "Công Phòng Tính Cử"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000F8",
+    "family_name": "Giới Hào Phương Bắc",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001A7",
+        "name": "Giới Hào Phương Bắc"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000F9",
+    "family_name": "Phân Tiến Hợp Kích",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001A8",
+        "name": "Phân Tiến Hợp Kích"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000FA",
+    "family_name": "Kỵ Binh Dũng Mãnh",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001A9",
+        "name": "Kỵ Binh Dũng Mãnh"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000FB",
+    "family_name": "Hạ Chủ Hoàn Tông",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001AA",
+        "name": "Hạ Chủ Hoàn Tông"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000FC",
+    "family_name": "Dã Tâm To Lớn",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001AB",
+        "name": "Dã Tâm To Lớn"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000FD",
+    "family_name": "Trấn Di quận vương",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001AC",
+        "name": "Trấn Di quận vương"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000FE",
+    "family_name": "Lệ Binh Mạt Mã",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001AD",
+        "name": "Lệ Binh Mạt Mã"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000000FF",
+    "family_name": "Thu Phục Mã Tặc",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001AE",
+        "name": "Thu Phục Mã Tặc"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000100",
+    "family_name": "Yêu Đạo Huyền Hiệp",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001AF",
+        "name": "Yêu Đạo Huyền Hiệp"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000101",
+    "family_name": "Nhân Sinh Vô Thường",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001B0",
+        "name": "Nhân Sinh Vô Thường"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000102",
+    "family_name": "Biên Quản Đạo Châu",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001B1",
+        "name": "Biên Quản Đạo Châu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000103",
+    "family_name": "Biên Luyện Sứ",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001B2",
+        "name": "Biên Luyện Sứ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000104",
+    "family_name": "Binh Huyết",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001B3",
+        "name": "Binh Huyết"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000105",
+    "family_name": "Doanh Tiêu",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001B4",
+        "name": "Doanh Tiêu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000106",
+    "family_name": "Vũ Tiết Lang",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001B5",
+        "name": "Vũ Tiết Lang"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000107",
+    "family_name": "Diệu Kế Bổ Đạo",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001B6",
+        "name": "Diệu Kế Bổ Đạo"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000108",
+    "family_name": "Lấy Một Địch Trăm",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001B7",
+        "name": "Lấy Một Địch Trăm"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000109",
+    "family_name": "Dũng Sĩ Hứa Tuấn",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001B8",
+        "name": "Dũng Sĩ Hứa Tuấn"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000010A",
+    "family_name": "Vong Mệnh Chi Đồ",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001B9",
+        "name": "Vong Mệnh Chi Đồ"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000010B",
+    "family_name": "Chung Hữu Nhất Tử",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001BA",
+        "name": "Chung Hữu Nhất Tử"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000010C",
+    "family_name": "Túi Quân Hưởng (Cấp 90)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001BB",
+        "name": "Túi Quân Hưởng (Cấp 90)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000010D",
+    "family_name": "Thủ Lĩnh Lâu La",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001BC",
+        "name": "Thủ Lĩnh Lâu La"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000010E",
+    "family_name": "Thủ Lĩnh Giám Công",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001BD",
+        "name": "Thủ Lĩnh Giám Công"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000010F",
+    "family_name": "Thợ Cả",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001BE",
+        "name": "Thợ Cả"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000110",
+    "family_name": "Thợ Săn Dã Nhân",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001BF",
+        "name": "Thợ Săn Dã Nhân"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000111",
+    "family_name": "Trừng Trị Giám Công",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001C0",
+        "name": "Trừng Trị Giám Công"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000112",
+    "family_name": "Bạo Lực Man Diên",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001C1",
+        "name": "Bạo Lực Man Diên"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000113",
+    "family_name": "Quân Doanh Bổ Cấp",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001C2",
+        "name": "Quân Doanh Bổ Cấp"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000114",
+    "family_name": "Bức Thư Nhà",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001C3",
+        "name": "Bức Thư Nhà"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000115",
+    "family_name": "Diệt Trừ Chuột Núi",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001C4",
+        "name": "Diệt Trừ Chuột Núi"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000116",
+    "family_name": "Hái Thuốc",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001C5",
+        "name": "Hái Thuốc"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000117",
+    "family_name": "Tìm Nghĩa Quân",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001C6",
+        "name": "Tìm Nghĩa Quân"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000118",
+    "family_name": "Câu Cá",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001C7",
+        "name": "Câu Cá"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000119",
+    "family_name": "Tuyết Hồn Châu",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001C8",
+        "name": "Tuyết Hồn Châu"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000011A",
+    "family_name": "Chi Lan",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001C9",
+        "name": "Chi Lan"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000011B",
+    "family_name": "Bạch Cốt Chùy",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001CA",
+        "name": "Bạch Cốt Chùy"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000011C",
+    "family_name": "Tiền Xu Cổ",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001CB",
+        "name": "Tiền Xu Cổ"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000011D",
+    "family_name": "Tim Cá Sấu Chúa",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001CC",
+        "name": "Tim Cá Sấu Chúa"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000011E",
+    "family_name": "Hoa Tặc",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001CD",
+        "name": "Hoa Tặc"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000011F",
+    "family_name": "Nhị Đương Gia",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001CE",
+        "name": "Nhị Đương Gia"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000120",
+    "family_name": "Trừng Phạt",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001CF",
+        "name": "Trừng Phạt"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000121",
+    "family_name": "Tiên Nhũ Linh Thạch",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001D0",
+        "name": "Tiên Nhũ Linh Thạch"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000122",
+    "family_name": "Luyện Võ (Sơ)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001D1",
+        "name": "Luyện Võ (Sơ)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000123",
+    "family_name": "Gặp Họa",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001D2",
+        "name": "Gặp Họa"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000124",
+    "family_name": "Nghìn Cân Treo Sợi Tóc",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001D3",
+        "name": "Nghìn Cân Treo Sợi Tóc"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000125",
+    "family_name": "Lang Bạt Kỳ Hồ",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001D4",
+        "name": "Lang Bạt Kỳ Hồ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000126",
+    "family_name": "Man Thiên Quá Hải",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001D5",
+        "name": "Man Thiên Quá Hải"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000127",
+    "family_name": "Tại Thủy Nhất Phương",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001D6",
+        "name": "Tại Thủy Nhất Phương"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000128",
+    "family_name": "Mưa Thuận Gió Hòa",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001D7",
+        "name": "Mưa Thuận Gió Hòa"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000129",
+    "family_name": "Nhiệm Trọng Đạo Viễn",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001D8",
+        "name": "Nhiệm Trọng Đạo Viễn"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000012A",
+    "family_name": "Ám Lưu Dũng Động",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001D9",
+        "name": "Ám Lưu Dũng Động"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000012B",
+    "family_name": "Thập Vạn Hỏa Cấp",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001DA",
+        "name": "Thập Vạn Hỏa Cấp"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000012C",
+    "family_name": "Binh Nhung Tương Kiến",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001DB",
+        "name": "Binh Nhung Tương Kiến"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000012D",
+    "family_name": "Túy Tăng",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001DC",
+        "name": "Túy Tăng"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000012E",
+    "family_name": "Luyện Võ (Trung)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001DD",
+        "name": "Luyện Võ (Trung)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000012F",
+    "family_name": "Tiền Tiêu",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001DE",
+        "name": "Tiền Tiêu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000130",
+    "family_name": "Trùng Dương Cố Cư",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001DF",
+        "name": "Trùng Dương Cố Cư"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000131",
+    "family_name": "Tiêu Diệt Hắc Phong Trại",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001E0",
+        "name": "Tiêu Diệt Hắc Phong Trại"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000132",
+    "family_name": "Đại Vũ Đài",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001E1",
+        "name": "Đại Vũ Đài"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000133",
+    "family_name": "Phục Ngưu Sơn Trang",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001E2",
+        "name": "Phục Ngưu Sơn Trang"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000134",
+    "family_name": "Thế Chân Vạc",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001E3",
+        "name": "Thế Chân Vạc"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000135",
+    "family_name": "Thần Thú Xi Vưu",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001E4",
+        "name": "Thần Thú Xi Vưu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000136",
+    "family_name": "Nội Gián",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001E5",
+        "name": "Nội Gián"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000137",
+    "family_name": "Vụ Mất Tích Bí Ẩn",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001E6",
+        "name": "Vụ Mất Tích Bí Ẩn"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000138",
+    "family_name": "Trộm Đêm",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001E7",
+        "name": "Trộm Đêm"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000139",
+    "family_name": "Tuyệt Sát Chi Kiếp",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001E8",
+        "name": "Tuyệt Sát Chi Kiếp"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000013A",
+    "family_name": "Phương Thảo Mê Tung",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001E9",
+        "name": "Phương Thảo Mê Tung"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000013B",
+    "family_name": "Thâm Nhập Cổ Huyệt",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001EA",
+        "name": "Thâm Nhập Cổ Huyệt"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000013C",
+    "family_name": "Cổ Thuật Thần Bí",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001EB",
+        "name": "Cổ Thuật Thần Bí"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000013D",
+    "family_name": "Cải Tử Hồi Sinh",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001EC",
+        "name": "Cải Tử Hồi Sinh"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000013E",
+    "family_name": "Hổ Khẩu Lịch Hiểm",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001ED",
+        "name": "Hổ Khẩu Lịch Hiểm"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000013F",
+    "family_name": "Trừng Trị Tham Quan",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001EE",
+        "name": "Trừng Trị Tham Quan"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000140",
+    "family_name": "Phong Vũ Tiền Dạ",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001EF",
+        "name": "Phong Vũ Tiền Dạ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000141",
+    "family_name": "Ô Man Chi Chướng",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001F0",
+        "name": "Ô Man Chi Chướng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000142",
+    "family_name": "Bỉ Ngạn Phương Hoa",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001F1",
+        "name": "Bỉ Ngạn Phương Hoa"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000143",
+    "family_name": "Mật thám Tát Mãn Giáo",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001F2",
+        "name": "Mật thám Tát Mãn Giáo"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000144",
+    "family_name": "Hắc Mễ Oa Oa",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001F3",
+        "name": "Hắc Mễ Oa Oa"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000145",
+    "family_name": "Thu Thí Văn Khảo",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001F4",
+        "name": "Thu Thí Văn Khảo"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000146",
+    "family_name": "Tình Ý Vô Giá",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001F5",
+        "name": "Tình Ý Vô Giá"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000147",
+    "family_name": "Thiện Ác Hữu Báo",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001F6",
+        "name": "Thiện Ác Hữu Báo"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000148",
+    "family_name": "Giải Cứu Thương Khách",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001F7",
+        "name": "Giải Cứu Thương Khách"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000149",
+    "family_name": "Khương Thị Phụ Tử",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001F8",
+        "name": "Khương Thị Phụ Tử"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000014A",
+    "family_name": "Thử Hận Miên Miên",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001F9",
+        "name": "Thử Hận Miên Miên"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000014B",
+    "family_name": "Lòng Người Khó Lường",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001FA",
+        "name": "Lòng Người Khó Lường"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000014C",
+    "family_name": "Cẩm Nang Thần Bí",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001FB",
+        "name": "Cẩm Nang Thần Bí"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000014D",
+    "family_name": "Cổ Họa (Hằng ngày - Sơ)",
+    "classification": "REPEATABLE_DAILY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001FC",
+        "name": "Cổ Họa (Hằng ngày - Sơ)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000014E",
+    "family_name": "Cổ Họa (Hằng ngày - Trung)",
+    "classification": "INSTANCE_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001FD",
+        "name": "Cổ Họa (Hằng ngày - Trung)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000014F",
+    "family_name": "Cấm Địa (Sơ)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001FE",
+        "name": "Cấm Địa (Sơ)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000150",
+    "family_name": "Cấm Địa (trung)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "00000000000001FF",
+        "name": "Cấm Địa (trung)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000151",
+    "family_name": "Cổ Họa (Chính tuyến - Sơ)",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000200",
+        "name": "Cổ Họa (Chính tuyến - Sơ)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000152",
+    "family_name": "Cổ Họa (Chính tuyến - Trung)",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000201",
+        "name": "Cổ Họa (Chính tuyến - Trung)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000153",
+    "family_name": "\"Bách Xích Kinh\"",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000202",
+        "name": "\"Bách Xích Kinh\""
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000154",
+    "family_name": "Võ Mục Di Thư (cấp 110)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000203",
+        "name": "Võ Mục Di Thư (cấp 110)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000155",
+    "family_name": "Quỷ Cốc Đạo Thuật (cấp 110)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000204",
+        "name": "Quỷ Cốc Đạo Thuật (cấp 110)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000156",
+    "family_name": "Chúc tết",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000205",
+        "name": "Chúc tết"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000157",
+    "family_name": "Túi Quân Hưởng (cấp 110)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000206",
+        "name": "Túi Quân Hưởng (cấp 110)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000158",
+    "family_name": "Sư Đồ Truyền Công",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000207",
+        "name": "Sư Đồ Truyền Công"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000159",
+    "family_name": "Nghi Chủng - Đồng Đội",
+    "classification": "INSTANCE_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000208",
+        "name": "Nghi Chủng - Đồng Đội"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000015A",
+    "family_name": "Người Mất Tích - đồng đội",
+    "classification": "INSTANCE_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000209",
+        "name": "Người Mất Tích - đồng đội"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000015B",
+    "family_name": "Trốn Chạy - đồng đội",
+    "classification": "INSTANCE_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000020A",
+        "name": "Trốn Chạy - đồng đội"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000015C",
+    "family_name": "Túy Tăng - đồng đội",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000020B",
+        "name": "Túy Tăng - đồng đội"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000015D",
+    "family_name": "Trở Lại",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000020C",
+        "name": "Trở Lại"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000015E",
+    "family_name": "Giúp Bằng Hữu Trở Lại",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000020D",
+        "name": "Giúp Bằng Hữu Trở Lại"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000015F",
+    "family_name": "Hướng Dẫn Tranh Đoạt Lãnh Thổ",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000020E",
+        "name": "Hướng Dẫn Tranh Đoạt Lãnh Thổ"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000160",
+    "family_name": "Du Long Kinh Phượng",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000020F",
+        "name": "Ngao Tường Thiên Địa"
+      },
+      {
+        "subtask_id": "0000000000000210",
+        "name": "Đột Kích Bất Ngờ"
+      },
+      {
+        "subtask_id": "0000000000000211",
+        "name": "Tình Ý Đã Rõ"
+      },
+      {
+        "subtask_id": "0000000000000212",
+        "name": "Tiếng Đàn Ai Oán"
+      },
+      {
+        "subtask_id": "0000000000000213",
+        "name": "Tương Tố Tương Tri "
+      },
+      {
+        "subtask_id": "0000000000000214",
+        "name": "Manh Mối Sự Việc"
+      },
+      {
+        "subtask_id": "0000000000000215",
+        "name": "Phần Thắng Về Ai"
+      },
+      {
+        "subtask_id": "0000000000000216",
+        "name": "Lôi Đài Kim Ưng"
+      },
+      {
+        "subtask_id": "0000000000000217",
+        "name": "Tỉnh Mộng"
+      },
+      {
+        "subtask_id": "0000000000000218",
+        "name": "Tiền Lộ Mạn Mạn"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000161",
+    "family_name": "Bố Y Tình",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000219",
+        "name": "Bố Y Tình"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000162",
+    "family_name": "Lão Từ Sám Hối",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000021A",
+        "name": "Lão Từ Sám Hối"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000163",
+    "family_name": "Kim Lô Chùy",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000021B",
+        "name": "Kim Lô Chùy"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000164",
+    "family_name": "Tâm Ý Người Say",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000021C",
+        "name": "Tâm Ý Người Say"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000165",
+    "family_name": "Mong Bình An",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000021D",
+        "name": "Mong Bình An"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000166",
+    "family_name": "Hồ Tiên Chú",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000021E",
+        "name": "Hồ Tiên Chú"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000167",
+    "family_name": "Kẻ Khờ Yêu",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000021F",
+        "name": "Kẻ Khờ Yêu"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000168",
+    "family_name": "Cứu Đan Bích Tú",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000220",
+        "name": "Cứu Đan Bích Tú"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000169",
+    "family_name": "Áo Ấm Mùa Đông",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000221",
+        "name": "Áo Ấm Mùa Đông"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000016A",
+    "family_name": "Sinh Tử Tương Giao",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000222",
+        "name": "Sinh Tử Tương Giao"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000016B",
+    "family_name": "Hải Lăng Vương Mộ-Chính tuyến (cấp 90)",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000223",
+        "name": "Hải Lăng Vương Mộ-Chính tuyến (cấp 90)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000016C",
+    "family_name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 90)",
+    "classification": "REPEATABLE_DAILY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000224",
+        "name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 90)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000016D",
+    "family_name": "Hải Lăng Vương Mộ-Chính tuyến  (cấp 110)",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000225",
+        "name": "Hải Lăng Vương Mộ-Chính tuyến  (cấp 110)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000016E",
+    "family_name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 110)",
+    "classification": "REPEATABLE_DAILY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000226",
+        "name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 110)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000016F",
+    "family_name": "Hải Lăng Vương Mộ-Chính tuyến (cấp 130)",
+    "classification": "MAIN_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000227",
+        "name": "Hải Lăng Vương Mộ-Chính tuyến (cấp 130)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000170",
+    "family_name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 130)",
+    "classification": "REPEATABLE_DAILY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000228",
+        "name": "Hải Lăng Vương Mộ-Hằng ngày (cấp 130)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000171",
+    "family_name": "Bàn Cờ Tướng (cấp 90)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000229",
+        "name": "Bàn Cờ Tướng (cấp 90)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000172",
+    "family_name": "Bàn Cờ Tướng (cấp 110)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000022A",
+        "name": "Bàn Cờ Tướng (cấp 110)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000173",
+    "family_name": "Bàn Cờ Tướng (cấp 130)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000022B",
+        "name": "Bàn Cờ Tướng (cấp 130)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000174",
+    "family_name": "Ảo Ảnh (cấp 90)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000022C",
+        "name": "Ảo Ảnh (cấp 90)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000175",
+    "family_name": "Ảo Ảnh (cấp 110)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000022D",
+        "name": "Ảo Ảnh (cấp 110)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000176",
+    "family_name": "Ảo Ảnh (cấp 130)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000022E",
+        "name": "Ảo Ảnh (cấp 130)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000177",
+    "family_name": "Truy Bắt Lưu Nhất Bán (cấp 90)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000022F",
+        "name": "Truy Bắt Lưu Nhất Bán (cấp 90)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000178",
+    "family_name": "Truy Bắt Lưu Nhất Bán (cấp 110)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000230",
+        "name": "Truy Bắt Lưu Nhất Bán (cấp 110)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000179",
+    "family_name": "Truy Bắt Lưu Nhất Bán (cấp 130)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000231",
+        "name": "Truy Bắt Lưu Nhất Bán (cấp 130)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000017A",
+    "family_name": "Binh Pháp 36 Kế (cấp 130)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000232",
+        "name": "Binh Pháp 36 Kế (cấp 130)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000017B",
+    "family_name": "缺一门(130级)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000233",
+        "name": "缺一门(130级)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000017C",
+    "family_name": "Túi Quân Hưởng (cấp 130)",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000234",
+        "name": "Túi Quân Hưởng (cấp 130)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000017D",
+    "family_name": "Thám Thính Quân Doanh",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000235",
+        "name": "Thám Thính Quân Doanh"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000017E",
+    "family_name": "Giang Sơn Bắc Vọng",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000236",
+        "name": "Giải Cấm Lưu Ngôn"
+      },
+      {
+        "subtask_id": "0000000000000237",
+        "name": "Bán Quân Bán Hổ"
+      },
+      {
+        "subtask_id": "0000000000000238",
+        "name": "Ngoại Thích Chi Ưu"
+      },
+      {
+        "subtask_id": "0000000000000239",
+        "name": "Hậu Cung Kinh Biến"
+      },
+      {
+        "subtask_id": "000000000000023A",
+        "name": "Uất Ức Thành Tật"
+      },
+      {
+        "subtask_id": "000000000000023B",
+        "name": "Tâm Bệnh Tâm Dược"
+      },
+      {
+        "subtask_id": "000000000000023C",
+        "name": "Công Danh Cái Thế"
+      },
+      {
+        "subtask_id": "000000000000023D",
+        "name": "Sùng Nhạc Trình Tấu"
+      },
+      {
+        "subtask_id": "000000000000023E",
+        "name": "Bắc Vọng Trung Nguyên"
+      },
+      {
+        "subtask_id": "000000000000023F",
+        "name": "Thiên Biến Dị Tượng "
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000017F",
+    "family_name": "Nhiệm vụ Thiên Vương (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000240",
+        "name": "Nhiệm vụ Thiên Vương (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000180",
+    "family_name": "Nhiệm vụ Cái Bang (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000241",
+        "name": "Nhiệm vụ Cái Bang (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000181",
+    "family_name": "Nhiệm vụ Ngũ Độc (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000242",
+        "name": "Nhiệm vụ Ngũ Độc (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000182",
+    "family_name": "Nhiệm vụ Côn Lôn (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000243",
+        "name": "Nhiệm vụ Côn Lôn (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000183",
+    "family_name": "Nhiệm vụ Võ Đang (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000244",
+        "name": "Nhiệm vụ Võ Đang (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000184",
+    "family_name": "Nhiệm vụ Thiếu Lâm (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000245",
+        "name": "Nhiệm vụ Thiếu Lâm (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000185",
+    "family_name": "Nhiệm vụ Thiên Nhẫn (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000246",
+        "name": "Nhiệm vụ Thiên Nhẫn (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000186",
+    "family_name": "Nhiệm vụ Nga My (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000247",
+        "name": "Nhiệm vụ Nga My (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000187",
+    "family_name": "Nhiệm vụ Đường Môn (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000248",
+        "name": "Nhiệm vụ Đường Môn (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000188",
+    "family_name": "Nhiệm vụ Thúy Yên (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000249",
+        "name": "Nhiệm vụ Thúy Yên (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000189",
+    "family_name": "Nhiệm vụ Minh Giáo (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000024A",
+        "name": "Nhiệm vụ Minh Giáo (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000018A",
+    "family_name": "Nhiệm vụ Đoàn Thị (cấp 20)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000024B",
+        "name": "Nhiệm vụ Đoàn Thị (cấp 20)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000018B",
+    "family_name": "Tào Bang Nghị Sự",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000024C",
+        "name": "Tào Bang Nghị Sự"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000018C",
+    "family_name": "Hủ Thực Chi Chủng",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000024D",
+        "name": "Hủ Thực Chi Chủng"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000018D",
+    "family_name": "Diêm Bang Hành",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000024E",
+        "name": "Diêm Bang Hành"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000018E",
+    "family_name": "Tụ Hiền Đại Hội",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000024F",
+        "name": "Tụ Hiền Đại Hội"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000018F",
+    "family_name": "Thảo Nguyên Hùng Ưng",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000250",
+        "name": "Thảo Nguyên Hùng Ưng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000190",
+    "family_name": "Mãn Giang Hồng",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000251",
+        "name": "Mãn Giang Hồng"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000191",
+    "family_name": "Ma Y Dự Ngôn",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000252",
+        "name": "Ma Y Dự Ngôn"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000192",
+    "family_name": "Mã Bang Hành",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000253",
+        "name": "Mã Bang Hành"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000193",
+    "family_name": "Khiêu Hà Tử",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000254",
+        "name": "Khiêu Hà Tử"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000194",
+    "family_name": "Đúc Kiếm",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000255",
+        "name": "Đúc Kiếm"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000195",
+    "family_name": "Nhiệm vụ Thiên Vương (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000256",
+        "name": "Nhiệm vụ Thiên Vương (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000196",
+    "family_name": "Nhiệm vụ Cái Bang (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000257",
+        "name": "Nhiệm vụ Cái Bang (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000197",
+    "family_name": "Nhiệm vụ Ngũ Độc (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000258",
+        "name": "Nhiệm vụ Ngũ Độc (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000198",
+    "family_name": "Nhiệm vụ Côn Lôn (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000259",
+        "name": "Nhiệm vụ Côn Lôn (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "0000000000000199",
+    "family_name": "Nhiệm vụ Võ Đang (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000025A",
+        "name": "Nhiệm vụ Võ Đang (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000019A",
+    "family_name": "Nhiệm vụ Thiếu Lâm (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000025B",
+        "name": "Nhiệm vụ Thiếu Lâm (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000019B",
+    "family_name": "Nhiệm vụ Thiên Nhẫn (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000025C",
+        "name": "Nhiệm vụ Thiên Nhẫn (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000019C",
+    "family_name": "Nhiệm vụ Nga My (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000025D",
+        "name": "Nhiệm vụ Nga My (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000019D",
+    "family_name": "Nhiệm vụ Đường Môn (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000025E",
+        "name": "Nhiệm vụ Đường Môn (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000019E",
+    "family_name": "Nhiệm vụ Thúy Yên (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000025F",
+        "name": "Nhiệm vụ Thúy Yên (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "000000000000019F",
+    "family_name": "Nhiệm vụ Minh Giáo (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000260",
+        "name": "Nhiệm vụ Minh Giáo (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001A0",
+    "family_name": "Nhiệm vụ Đoàn Thị (cấp 30)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000261",
+        "name": "Nhiệm vụ Đoàn Thị (cấp 30)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001A1",
+    "family_name": "Nhiệm vụ Thiên Vương (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000262",
+        "name": "Nhiệm vụ Thiên Vương (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001A2",
+    "family_name": "Nhiệm vụ Cái Bang (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000263",
+        "name": "Nhiệm vụ Cái Bang (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001A3",
+    "family_name": "Nhiệm vụ Ngũ Độc (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000264",
+        "name": "Nhiệm vụ Ngũ Độc (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001A4",
+    "family_name": "Nhiệm vụ Côn Lôn (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000265",
+        "name": "Nhiệm vụ Côn Lôn (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001A5",
+    "family_name": "Nhiệm vụ Võ Đang (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000266",
+        "name": "Nhiệm vụ Võ Đang (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001A6",
+    "family_name": "Nhiệm vụ Thiếu Lâm (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000267",
+        "name": "Nhiệm vụ Thiếu Lâm (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001A7",
+    "family_name": "Nhiệm vụ Thiên Nhẫn (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000268",
+        "name": "Nhiệm vụ Thiên Nhẫn (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001A8",
+    "family_name": "Nhiệm vụ Nga My (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000269",
+        "name": "Nhiệm vụ Nga My (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001A9",
+    "family_name": "Nhiệm vụ Đường Môn (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000026A",
+        "name": "Nhiệm vụ Đường Môn (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001AA",
+    "family_name": "Nhiệm vụ Thúy Yên (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000026B",
+        "name": "Nhiệm vụ Thúy Yên (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001AB",
+    "family_name": "Nhiệm vụ Minh Giáo (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000026C",
+        "name": "Nhiệm vụ Minh Giáo (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001AC",
+    "family_name": "Nhiệm vụ Đoàn Thị (cấp 40)",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000026D",
+        "name": "Nhiệm vụ Đoàn Thị (cấp 40)"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001AD",
+    "family_name": "Hành Trình Bất Tận",
+    "classification": "UNCLASSIFIED",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000026E",
+        "name": "Hành Trình Bất Tận"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001AE",
+    "family_name": "Kỹ năng cấp 110_Thiếu Lâm",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000026F",
+        "name": "Kỹ năng cấp 110_Thiếu Lâm"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001AF",
+    "family_name": "Kỹ năng cấp 110_Thiên Vương",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000270",
+        "name": "Kỹ năng cấp 110_Thiên Vương"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001B0",
+    "family_name": "Kỹ năng cấp 110_Đường Môn",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000271",
+        "name": "Kỹ năng cấp 110_Đường Môn"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001B1",
+    "family_name": "Kỹ năng cấp 110_Ngũ Độc",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000272",
+        "name": "Kỹ năng cấp 110_Ngũ Độc"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001B2",
+    "family_name": "Kỹ năng cấp 110_Nga My",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000273",
+        "name": "Kỹ năng cấp 110_Nga My"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001B3",
+    "family_name": "Kỹ năng cấp 110_Thúy Yên",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000274",
+        "name": "Kỹ năng cấp 110_Thúy Yên"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001B4",
+    "family_name": "Kỹ năng cấp 110_Cái Bang",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000275",
+        "name": "Kỹ năng cấp 110_Cái Bang"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001B5",
+    "family_name": "Kỹ năng cấp 110_Thiên Nhẫn",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000276",
+        "name": "Kỹ năng cấp 110_Thiên Nhẫn"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001B6",
+    "family_name": "Kỹ năng cấp 110_Võ Đang",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000277",
+        "name": "Kỹ năng cấp 110_Võ Đang"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001B7",
+    "family_name": "Kỹ năng cấp 110_Côn Lôn",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000278",
+        "name": "Kỹ năng cấp 110_Côn Lôn"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001B8",
+    "family_name": "Kỹ năng cấp 110_Minh Giáo",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "0000000000000279",
+        "name": "Kỹ năng cấp 110_Minh Giáo"
+      }
+    ]
+  },
+  {
+    "family_id": "00000000000001B9",
+    "family_name": "Kỹ năng cấp 110_Đoàn Thị",
+    "classification": "FACTION_STORY",
+    "subtasks": [
+      {
+        "subtask_id": "000000000000027A",
+        "name": "Kỹ năng cấp 110_Đoàn Thị"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1340 @@
+[
+  {
+    "source": "0000000000000001",
+    "target": "0000000000000002",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000002",
+    "target": "0000000000000003",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000003",
+    "target": "0000000000000004",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000004",
+    "target": "0000000000000005",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000005",
+    "target": "0000000000000006",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "0000000000000006",
+    "target": "0000000000000007",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "0000000000000007",
+    "target": "0000000000000008",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000008",
+    "target": "0000000000000009",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000009",
+    "target": "000000000000000A",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000000A",
+    "target": "000000000000000B",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "000000000000000B",
+    "target": "000000000000000C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000000C",
+    "target": "000000000000000D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000000D",
+    "target": "000000000000000E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000000E",
+    "target": "000000000000000F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "000000000000000F",
+    "target": "0000000000000010",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "0000000000000010",
+    "target": "0000000000000011",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "0000000000000011",
+    "target": "0000000000000012",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000012",
+    "target": "0000000000000013",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "0000000000000013",
+    "target": "0000000000000014",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000014",
+    "target": "0000000000000015",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "0000000000000015",
+    "target": "0000000000000016",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000016",
+    "target": "0000000000000017",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000017",
+    "target": "0000000000000018",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000018",
+    "target": "0000000000000019",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "000000000000001A",
+    "target": "000000000000001B",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000001B",
+    "target": "000000000000001C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "000000000000001C",
+    "target": "000000000000001D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000001D",
+    "target": "000000000000001E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000001E",
+    "target": "000000000000001F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000001F",
+    "target": "0000000000000020",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000020",
+    "target": "0000000000000021",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000021",
+    "target": "0000000000000022",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000022",
+    "target": "0000000000000023",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000023",
+    "target": "0000000000000024",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000024",
+    "target": "0000000000000025",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000025",
+    "target": "0000000000000026",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000027",
+    "target": "0000000000000028",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000028",
+    "target": "0000000000000029",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000029",
+    "target": "000000000000002A",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000002A",
+    "target": "000000000000002B",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000002B",
+    "target": "000000000000002C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000002C",
+    "target": "000000000000002D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "000000000000002D",
+    "target": "000000000000002E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000002E",
+    "target": "000000000000002F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000002F",
+    "target": "0000000000000030",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000030",
+    "target": "0000000000000031",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000031",
+    "target": "0000000000000032",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000032",
+    "target": "0000000000000033",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000034",
+    "target": "0000000000000035",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000035",
+    "target": "0000000000000036",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000036",
+    "target": "0000000000000037",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000037",
+    "target": "0000000000000038",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "0000000000000038",
+    "target": "0000000000000039",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000039",
+    "target": "000000000000003A",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000003A",
+    "target": "000000000000003B",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "000000000000003B",
+    "target": "000000000000003C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "000000000000003C",
+    "target": "000000000000003D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000003D",
+    "target": "000000000000003E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "000000000000003E",
+    "target": "000000000000003F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000003F",
+    "target": "0000000000000040",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "0000000000000040",
+    "target": "0000000000000041",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000041",
+    "target": "0000000000000042",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000042",
+    "target": "0000000000000043",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "0000000000000043",
+    "target": "0000000000000044",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "0000000000000044",
+    "target": "0000000000000045",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000045",
+    "target": "0000000000000046",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000046",
+    "target": "0000000000000047",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "0000000000000047",
+    "target": "0000000000000048",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000048",
+    "target": "0000000000000049",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000049",
+    "target": "000000000000004A",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "000000000000004B",
+    "target": "000000000000004C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "000000000000004C",
+    "target": "000000000000004D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "000000000000004D",
+    "target": "000000000000004E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000004E",
+    "target": "000000000000004F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "000000000000004F",
+    "target": "0000000000000050",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000050",
+    "target": "0000000000000051",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000051",
+    "target": "0000000000000052",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000052",
+    "target": "0000000000000053",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000053",
+    "target": "0000000000000054",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "0000000000000054",
+    "target": "0000000000000055",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000055",
+    "target": "0000000000000056",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000056",
+    "target": "0000000000000057",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000057",
+    "target": "0000000000000058",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000058",
+    "target": "0000000000000059",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000059",
+    "target": "000000000000005A",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "000000000000005A",
+    "target": "000000000000005B",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "000000000000005B",
+    "target": "000000000000005C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "000000000000005C",
+    "target": "000000000000005D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "000000000000005D",
+    "target": "000000000000005E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000005E",
+    "target": "000000000000005F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000064",
+    "target": "0000000000000060",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000060",
+    "target": "0000000000000061",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000061",
+    "target": "0000000000000062",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000062",
+    "target": "0000000000000063",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000063",
+    "target": "0000000000000065",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000065",
+    "target": "0000000000000066",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000066",
+    "target": "0000000000000067",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000067",
+    "target": "0000000000000068",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000068",
+    "target": "0000000000000069",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000069",
+    "target": "000000000000006A",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "000000000000006A",
+    "target": "000000000000006B",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "000000000000006B",
+    "target": "000000000000006C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000006C",
+    "target": "000000000000006D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "000000000000006D",
+    "target": "000000000000006E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "000000000000006E",
+    "target": "0000000000000074",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "000000000000006F",
+    "target": "0000000000000070",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "0000000000000070",
+    "target": "0000000000000071",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "0000000000000071",
+    "target": "0000000000000072",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000072",
+    "target": "0000000000000073",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000073",
+    "target": "000000000000007A",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000074",
+    "target": "0000000000000075",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000075",
+    "target": "0000000000000076",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000076",
+    "target": "0000000000000077",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "0000000000000077",
+    "target": "0000000000000078",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000078",
+    "target": "0000000000000079",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "0000000000000079",
+    "target": "000000000000006F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "000000000000007A",
+    "target": "000000000000007B",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "000000000000007B",
+    "target": "000000000000007C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "000000000000007C",
+    "target": "000000000000007D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000007D",
+    "target": "000000000000007E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "000000000000007E",
+    "target": "000000000000007F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "000000000000007F",
+    "target": "0000000000000090",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "0000000000000080",
+    "target": "0000000000000081",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "0000000000000081",
+    "target": "0000000000000082",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "0000000000000082",
+    "target": "0000000000000083",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000083",
+    "target": "0000000000000084",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000084",
+    "target": "0000000000000085",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000085",
+    "target": "0000000000000086",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000086",
+    "target": "0000000000000087",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "0000000000000087",
+    "target": "0000000000000088",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000088",
+    "target": "0000000000000089",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000089",
+    "target": "000000000000008A",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "000000000000008A",
+    "target": "000000000000008B",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "000000000000008B",
+    "target": "000000000000008C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "000000000000008C",
+    "target": "000000000000008D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "000000000000008D",
+    "target": "000000000000008E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "000000000000008E",
+    "target": "000000000000008F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "000000000000008F",
+    "target": "0000000000000097",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000090",
+    "target": "0000000000000091",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000091",
+    "target": "0000000000000092",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000092",
+    "target": "0000000000000093",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000093",
+    "target": "0000000000000094",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000094",
+    "target": "0000000000000095",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000095",
+    "target": "0000000000000096",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000096",
+    "target": "0000000000000080",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000097",
+    "target": "0000000000000098",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000098",
+    "target": "0000000000000099",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000099",
+    "target": "000000000000009A",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "000000000000009A",
+    "target": "000000000000009B",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "000000000000009B",
+    "target": "000000000000009C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "000000000000009C",
+    "target": "000000000000009D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000009D",
+    "target": "000000000000009E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000009E",
+    "target": "000000000000009F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "000000000000009F",
+    "target": "00000000000000A0",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 11"
+  },
+  {
+    "source": "00000000000000A0",
+    "target": "00000000000000A1",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "00000000000000A1",
+    "target": "00000000000000A2",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 12"
+  },
+  {
+    "source": "00000000000000A2",
+    "target": "00000000000000A3",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "00000000000000A3",
+    "target": "00000000000000A4",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "00000000000000A4",
+    "target": "00000000000000A5",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "00000000000000A5",
+    "target": "00000000000000A6",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "00000000000000A6",
+    "target": "00000000000000A7",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "00000000000000A7",
+    "target": "00000000000000A8",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "00000000000000A8",
+    "target": "00000000000000A9",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "00000000000000A9",
+    "target": "00000000000000AA",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "00000000000000AA",
+    "target": "00000000000000AB",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "00000000000000AB",
+    "target": "00000000000000AC",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000132",
+    "target": "0000000000000133",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000133",
+    "target": "0000000000000134",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000134",
+    "target": "0000000000000135",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000135",
+    "target": "000000000000013D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "000000000000013D",
+    "target": "000000000000013E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "000000000000013E",
+    "target": "000000000000013F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "000000000000013F",
+    "target": "0000000000000136",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "0000000000000136",
+    "target": "0000000000000137",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 15"
+  },
+  {
+    "source": "0000000000000137",
+    "target": "0000000000000140",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 5"
+  },
+  {
+    "source": "0000000000000140",
+    "target": "0000000000000138",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 4"
+  },
+  {
+    "source": "0000000000000138",
+    "target": "0000000000000139",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 16"
+  },
+  {
+    "source": "0000000000000139",
+    "target": "0000000000000141",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 6"
+  },
+  {
+    "source": "0000000000000141",
+    "target": "0000000000000142",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 3"
+  },
+  {
+    "source": "0000000000000142",
+    "target": "0000000000000143",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 2"
+  },
+  {
+    "source": "0000000000000196",
+    "target": "0000000000000197",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000197",
+    "target": "0000000000000198",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "0000000000000198",
+    "target": "0000000000000199",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "0000000000000199",
+    "target": "000000000000019A",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 22"
+  },
+  {
+    "source": "000000000000019A",
+    "target": "000000000000019B",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 11"
+  },
+  {
+    "source": "000000000000019B",
+    "target": "000000000000019C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 12"
+  },
+  {
+    "source": "000000000000019C",
+    "target": "000000000000019D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 11"
+  },
+  {
+    "source": "000000000000019D",
+    "target": "000000000000019E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 11"
+  },
+  {
+    "source": "000000000000019E",
+    "target": "000000000000019F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 11"
+  },
+  {
+    "source": "00000000000001D2",
+    "target": "00000000000001D3",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "00000000000001D3",
+    "target": "00000000000001D4",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 11"
+  },
+  {
+    "source": "00000000000001D4",
+    "target": "00000000000001D5",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "00000000000001D5",
+    "target": "00000000000001D6",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "00000000000001D6",
+    "target": "00000000000001D7",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "00000000000001D7",
+    "target": "00000000000001D8",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "00000000000001D9",
+    "target": "00000000000001DA",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "00000000000001DA",
+    "target": "00000000000001DB",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 7"
+  },
+  {
+    "source": "00000000000001E8",
+    "target": "00000000000001E9",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "00000000000001E9",
+    "target": "00000000000001EA",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "00000000000001EA",
+    "target": "00000000000001EB",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "00000000000001EB",
+    "target": "00000000000001EC",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "00000000000001EC",
+    "target": "00000000000001ED",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "00000000000001ED",
+    "target": "00000000000001EE",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "00000000000001EE",
+    "target": "00000000000001EF",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "00000000000001EF",
+    "target": "00000000000001F0",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 12"
+  },
+  {
+    "source": "00000000000001F0",
+    "target": "00000000000001F1",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "000000000000020F",
+    "target": "0000000000000210",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 12"
+  },
+  {
+    "source": "0000000000000210",
+    "target": "0000000000000211",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 12"
+  },
+  {
+    "source": "0000000000000211",
+    "target": "0000000000000212",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "0000000000000213",
+    "target": "0000000000000214",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "0000000000000214",
+    "target": "0000000000000215",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "0000000000000215",
+    "target": "0000000000000216",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 12"
+  },
+  {
+    "source": "0000000000000216",
+    "target": "0000000000000217",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "0000000000000217",
+    "target": "0000000000000218",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 12"
+  },
+  {
+    "source": "0000000000000236",
+    "target": "0000000000000237",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "0000000000000237",
+    "target": "0000000000000238",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "0000000000000238",
+    "target": "0000000000000239",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 8"
+  },
+  {
+    "source": "0000000000000239",
+    "target": "000000000000023A",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 10"
+  },
+  {
+    "source": "000000000000023A",
+    "target": "000000000000023B",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "000000000000023B",
+    "target": "000000000000023C",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  },
+  {
+    "source": "000000000000023C",
+    "target": "000000000000023D",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 11"
+  },
+  {
+    "source": "000000000000023D",
+    "target": "000000000000023E",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 12"
+  },
+  {
+    "source": "000000000000023E",
+    "target": "000000000000023F",
+    "edge_type": "EXPLICIT_ASK_ACCEPT",
+    "detail": "Script action TaskAct:AskAccept at step 9"
+  }
+]

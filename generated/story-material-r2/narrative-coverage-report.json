@@ -1,16 +1,39 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "2.1",
   "generator": "scripts/build_story_material_corpus.py",
-  "generated_at_utc": "2026-08-18T03:30:43.848672+00:00",
-  "task_family_id": "000000000000009D",
-  "task_family_name": "Thân Thế Chi Mê",
-  "subtasks_expected": 15,
-  "packets_generated": 15,
-  "packet_generation_rate": 1.0,
-  "exact_dialogue_nodes_extracted": 386,
-  "speaker_attribution_coverage_rate": 1.0,
-  "topology_edge_coverage_rate": 1.0,
+  "generated_at_utc": "2026-08-18T03:45:44.777265+00:00",
+  "task_families_found": 438,
+  "subtasks_found": 631,
+  "packets_generated": 631,
+  "classification_breakdown": {
+    "MAIN_STORY": 201,
+    "UNCLASSIFIED": 162,
+    "FACTION_STORY": 62,
+    "INSTANCE_STORY": 9,
+    "REPEATABLE_DAILY": 4
+  },
+  "evidence_nodes_total": 20439,
+  "evidence_node_counts": {
+    "TASK_DESCRIPTION": 631,
+    "NPC_DIALOGUE": 12339,
+    "PLAYER_TASK_NARRATION": 6392,
+    "SYSTEM_UI_TEXT": 43,
+    "OBJECTIVE": 1034,
+    "SCRIPT_TRANSITION": 0
+  },
+  "speaker_attribution_metrics": {
+    "speaker_nodes_total": 19808,
+    "speaker_explicit_resolved": 7813,
+    "speaker_context_resolved": 8042,
+    "speaker_unresolved": 3953,
+    "speaker_verified_rate": 0.8004
+  },
+  "topology_metrics": {
+    "managed_edges_count": 193,
+    "explicit_transition_edges_count": 223,
+    "unresolved_edges_count": 0
+  },
   "unresolved_subtasks_count": 0,
-  "conflicts_or_drift_count": 0,
-  "reconstruction_ready": true
+  "extraction_coverage_rate": 1.0,
+  "corpus_extraction_ready": true
 }

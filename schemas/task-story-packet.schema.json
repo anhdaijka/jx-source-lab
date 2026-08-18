@@ -1,17 +1,18 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "JX Task Story Packet",
+  "title": "JX Task Story Packet R2.1",
   "type": "object",
   "required": [
     "schema_version",
     "generator",
     "packet_id",
+    "story_classification",
     "task_family",
     "subtask",
     "topology",
     "characters_and_npcs",
-    "narrative_texts",
-    "player_knowledge_and_state",
+    "extracted_evidence",
+    "source_claims",
     "entities_and_systems",
     "provenance_and_evidence"
   ],
@@ -28,7 +29,8 @@
         "FEATURE_LORE",
         "WORLD_LIFE",
         "REPEATABLE_DAILY",
-        "TUTORIAL_OR_UI_HEAVY"
+        "TUTORIAL_OR_UI_HEAVY",
+        "UNCLASSIFIED"
       ]
     },
     "task_family": {
@@ -50,7 +52,7 @@
         "id_dec": {"type": "integer"},
         "name_inline": {"type": "string"},
         "name_standalone": {"type": "string"},
-        "order_in_family": {"type": "integer", "minimum": 1}
+        "order_in_family": {"type": "integer", "minimum": 0}
       }
     },
     "topology": {
@@ -67,11 +69,45 @@
         },
         "incoming_edges": {
           "type": "array",
-          "items": {"type": "object"}
+          "items": {
+            "type": "object",
+            "required": ["source", "target", "edge_type"],
+            "properties": {
+              "source": {"type": "string"},
+              "target": {"type": "string"},
+              "edge_type": {
+                "enum": [
+                  "MANAGED_ORDER",
+                  "EXPLICIT_ASK_ACCEPT",
+                  "SCRIPT_TRANSITION",
+                  "CONDITION_EDGE",
+                  "INFERRED_SEQUENCE"
+                ]
+              },
+              "detail": {"type": "string"}
+            }
+          }
         },
         "outgoing_edges": {
           "type": "array",
-          "items": {"type": "object"}
+          "items": {
+            "type": "object",
+            "required": ["source", "target", "edge_type"],
+            "properties": {
+              "source": {"type": "string"},
+              "target": {"type": "string"},
+              "edge_type": {
+                "enum": [
+                  "MANAGED_ORDER",
+                  "EXPLICIT_ASK_ACCEPT",
+                  "SCRIPT_TRANSITION",
+                  "CONDITION_EDGE",
+                  "INFERRED_SEQUENCE"
+                ]
+              },
+              "detail": {"type": "string"}
+            }
+          }
         }
       }
     },
@@ -110,57 +146,56 @@
         }
       }
     },
-    "narrative_texts": {
+    "extracted_evidence": {
       "type": "object",
       "required": [
         "task_description",
         "dialogue_pop",
         "dialogue_start",
         "dialogue_prize",
-        "ordered_nodes"
+        "evidence_nodes"
       ],
       "properties": {
         "task_description": {"type": "string"},
-        "dialogue_pop": {
-          "type": ["object", "null"],
-          "properties": {
-            "speaker": {"type": "string"},
-            "text": {"type": "string"},
-            "evidence_class": {"type": "string"}
-          }
-        },
-        "dialogue_start": {
-          "type": ["object", "null"],
-          "properties": {
-            "speaker": {"type": "string"},
-            "text": {"type": "string"},
-            "evidence_class": {"type": "string"}
-          }
-        },
-        "dialogue_prize": {
-          "type": ["object", "null"],
-          "properties": {
-            "speaker": {"type": "string"},
-            "text": {"type": "string"},
-            "evidence_class": {"type": "string"}
-          }
-        },
-        "ordered_nodes": {
+        "dialogue_pop": {"type": ["object", "null"]},
+        "dialogue_start": {"type": ["object", "null"]},
+        "dialogue_prize": {"type": ["object", "null"]},
+        "evidence_nodes": {
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["step_index", "node_type", "speaker", "text", "evidence_class"],
+            "required": [
+              "evidence_id",
+              "node_type",
+              "speaker_id",
+              "speaker_resolution",
+              "text",
+              "evidence_class"
+            ],
             "properties": {
+              "evidence_id": {"type": "string"},
               "step_index": {"type": "integer"},
+              "grid_index": {"type": "integer"},
               "node_type": {
                 "enum": [
+                  "TASK_DESCRIPTION",
                   "NPC_DIALOGUE",
                   "PLAYER_TASK_NARRATION",
                   "SYSTEM_UI_TEXT",
-                  "TASK_DESCRIPTION"
+                  "OBJECTIVE",
+                  "SCRIPT_TRANSITION"
                 ]
               },
-              "speaker": {"type": "string"},
+              "speaker_id": {"type": ["string", "null"]},
+              "speaker_name": {"type": ["string", "null"]},
+              "speaker_resolution": {
+                "enum": [
+                  "EXPLICIT_NPC_TAG",
+                  "EXPLICIT_PLAYER_TAG",
+                  "CONTEXTUAL_DIALOGNPC",
+                  "UNRESOLVED"
+                ]
+              },
               "text": {"type": "string"},
               "purpose": {"type": "string"},
               "evidence_class": {"type": "string"}
@@ -169,65 +204,32 @@
         }
       }
     },
-    "player_knowledge_and_state": {
-      "type": "object",
-      "required": ["prior_knowledge", "new_knowledge", "protected_unknowns"],
-      "properties": {
-        "prior_knowledge": {
-          "type": "array",
-          "items": {"type": "string"}
-        },
-        "new_knowledge": {
-          "type": "array",
-          "items": {"type": "string"}
-        },
-        "protected_unknowns": {
-          "type": "array",
-          "items": {"type": "string"}
+    "source_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim_id", "claim_type", "claim_text", "status", "evidence_refs"],
+        "properties": {
+          "claim_id": {"type": "string"},
+          "claim_type": {"type": "string"},
+          "claim_text": {"type": "string"},
+          "status": {"enum": ["DIRECT", "DERIVED", "INFERRED", "UNKNOWN"]},
+          "evidence_refs": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
         }
       }
     },
     "entities_and_systems": {
       "type": "object",
-      "required": ["items", "monsters_or_targets", "locations_or_maps", "faction_references"],
+      "required": ["items", "monsters_or_targets", "locations_or_maps", "faction_references", "martial_references"],
       "properties": {
-        "items": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "name": {"type": "string"},
-              "count": {"type": "integer"},
-              "role": {"type": "string"}
-            }
-          }
-        },
-        "monsters_or_targets": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "name": {"type": "string"},
-              "npc_id": {"type": "string"},
-              "role": {"type": "string"}
-            }
-          }
-        },
-        "locations_or_maps": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "name": {"type": "string"},
-              "map_id": {"type": "string"},
-              "role": {"type": "string"}
-            }
-          }
-        },
-        "faction_references": {
-          "type": "array",
-          "items": {"type": "string"}
-        }
+        "items": {"type": "array"},
+        "monsters_or_targets": {"type": "array"},
+        "locations_or_maps": {"type": "array"},
+        "faction_references": {"type": "array", "items": {"type": "string"}},
+        "martial_references": {"type": "array", "items": {"type": "string"}}
       }
     },
     "provenance_and_evidence": {
@@ -235,15 +237,9 @@
       "required": ["evidence_class", "source_records", "parser_version", "conflicts_or_drift"],
       "properties": {
         "evidence_class": {"type": "string"},
-        "source_records": {
-          "type": "array",
-          "items": {"$ref": "source-record.schema.json"}
-        },
+        "source_records": {"type": "array"},
         "parser_version": {"type": "string"},
-        "conflicts_or_drift": {
-          "type": "array",
-          "items": {"type": "string"}
-        }
+        "conflicts_or_drift": {"type": "array"}
       }
     }
   }
