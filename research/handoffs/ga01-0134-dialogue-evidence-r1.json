@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0",
+  "handoff_id": "GA01-0134-DIALOGUE-EVIDENCE-R1",
+  "scope": "GA-01 STARTER TASK 0134 ARCHAEOLOGY",
+  "generated_at_utc": "2026-08-18T10:15:00Z",
+  "task_metadata": {
+    "task_family_id_hex": "000000000000009D",
+    "task_family_id_dec": 157,
+    "task_family_name": "Thân Thế Chi Mê",
+    "subtask_id_hex": "0000000000000134",
+    "subtask_id_dec": 308,
+    "subtask_name_vi": "Kỳ Môn Độn Giáp",
+    "subtask_name_zh_reconstructed": "奇门遁甲",
+    "classification": "Nhiệm vụ chính tuyến (Main Task)",
+    "entry_locators": {
+      "task_family": "task:000000000000009D:entry:8ead8c5c",
+      "subtask": "sub:0000000000000134:entry:86e7b76b"
+    }
+  },
+  "provenance_and_sources": [
+    {
+      "source_id": "client-primary",
+      "evidence_class": "RAW_CLIENT",
+      "path": "client/pak/task_publish.pak",
+      "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+      "locator": "index:574;id:86e7b76b;offset:754653;stored:1953;expanded:8740;output_sha256:afd0d36a46495f8ecb5dfe020cad1f15c48e74463866b9db80c5a51f815a6eb5",
+      "description": "Decoded XML payload for Sub 0000000000000134 (Kỳ Môn Độn Giáp)"
+    },
+    {
+      "source_id": "client-primary",
+      "evidence_class": "RAW_CLIENT",
+      "path": "client/pak/task_publish.pak",
+      "sha256": "ac48ad39a653007f9244a0f0abf0ab5944c638533114eea4fb7830b29c8bce3f",
+      "locator": "index:608;id:8ead8c5c;offset:1797389;stored:10361;expanded:68227;output_sha256:55a801d4604d3c168d0cc3fff7f80e7a07d072583bfce819f53bb739472903d6",
+      "description": "Decoded XML payload for Task 000000000000009D (Thân Thế Chi Mê)"
+    },
+    {
+      "source_id": "server-primary",
+      "evidence_class": "RAW_SERVER",
+      "path": "server/gameserver/setting/npc/npc.txt",
+      "sha256": "483648d45bb1a91cde4ab47a577917a9b82af53cd0516f38ba4a334cc73b9dee",
+      "locators": [
+        "line:3087 (npc:3561 Điềm Tửu Thúc / bingqipulaoban)",
+        "line:3091 (npc:3565 Bất Động Tiên Sinh / zahuopulaoban)",
+        "line:3092 (npc:3566 Đại Lão Bạch / jiuloulaoban)",
+        "line:3096 (npc:3570 Bạch Thu Lâm / yijunshouling)"
+      ],
+      "description": "NPC class and attribute records"
+    },
+    {
+      "source_id": "server-primary",
+      "evidence_class": "RAW_SERVER",
+      "path": "server/gameserver/setting/task/task_def.txt",
+      "sha256": "d04a60155b0a3c74cb1e223bb3ba3d7cae51f08a5c2d7675f928e469c47e0903",
+      "locator": "line:3 (TASK_ID_FIRST=0, TASK_ID_LAST=199, TASK_NAME=Nhiệm vụ chính tuyến)",
+      "description": "Task classification range definition"
+    }
+  ],
+  "task_graph_topology": {
+    "prior_subtask": {
+      "subtask_id_hex": "0000000000000133",
+      "subtask_name": "Tu Luyện Võ Công",
+      "hand_off_mechanism": "Step 16 of Sub 0133 executes TaskAct:AskAccept(0000000000000134) after Bất Động Tiên Sinh life-skill questions"
+    },
+    "active_subtask": {
+      "subtask_id_hex": "0000000000000134",
+      "subtask_name": "Kỳ Môn Độn Giáp"
+    },
+    "next_subtask": {
+      "subtask_id_hex": "0000000000000135",
+      "subtask_name": "Sơ Thượng Sa Trường",
+      "hand_off_mechanism": "Step 3 of Sub 0134 executes TaskAct:AskAccept(0000000000000135) upon speaking to Điềm Tửu Thúc"
+    },
+    "downstream_twelve_sect_resolution": {
+      "subtask_id_hex": "0000000000000136",
+      "subtask_name": "Thập Đại Môn Phái",
+      "description": "Formal execution where player interviews 12 sect representatives in starter village and joins a sect under Bạch Thu Lâm's confirmation"
+    }
+  },
+  "npc_cast_and_roles": {
+    "giver_and_informant": {
+      "npc_id": "3565",
+      "name_vi": "Bất Động Tiên Sinh",
+      "name_zh_gloss": "不动先生 (Bù Dòng Xiānsheng)",
+      "class_name": "zahuopulaoban",
+      "role": "Sundries vendor in starter village; acts as the humorous elder who tests player with errands and leaks Thu Di's plan"
+    },
+    "errand_vendor": {
+      "npc_id": "3566",
+      "name_vi": "Đại Lão Bạch",
+      "name_zh_gloss": "大老白 (Dà Lǎo Bái)",
+      "class_name": "jiuloulaoban",
+      "role": "Tavern / restaurant keeper; sells 2 portions of 'Thịt xào măng' (Bamboo shoot fried meat)"
+    },
+    "turn_in_and_equipment_provider": {
+      "npc_id": "3561",
+      "name_vi": "Điềm Tửu Thúc",
+      "name_zh_gloss": "甜酒叔 (Tián Jiǔ Shū)",
+      "class_name": "bingqipulaoban",
+      "role": "Weaponsmith vendor; holds the starter equipment reward and transitions player into outside combat training (0135)"
+    },
+    "macro_authority_and_planner": {
+      "npc_id": "3570",
+      "name_vi": "Thu Di / Bạch Thu Lâm",
+      "name_zh_gloss": "秋姨 / 白秋琳 (Qiū Yí / Bái Qiūlín)",
+      "class_name": "yijunshouling",
+      "role": "Leader of Nghĩa Quân; orchestrated the starter testing sequence and planned the 12-sect path for the protagonist"
+    }
+  },
+  "exact_source_texts": {
+    "task_009d_managed_inline_description": {
+      "evidence_class": "RAW_CLIENT",
+      "text_vi": "Nghĩa quân mặc dù toàn hỏi ta điều khó, nhưng chỉ là vì muốn tốt cho ta. Có điều, nhiều lúc Bất Động tiên sinh cũng hơi quá đáng. <stepdesc>Bất Động tiên sinh bảo ta đi gặp <npcpos=chủ tửu lầu Đại Lão Bạch,new,3566> mua 2 phần thịt xào măng, đồng thời cho ta biết, <color=Red>thức ăn trong tửu lầu<color=White> này đều là những dược liệu quý hiếm trong giang hồ. <stepdesc>Mua được thịt xào măng, để xem lão <npcpos=Bất Động tiên sinh,new,3565> này còn bày trò gì nữa đây! <stepdesc>Bất Động tiên sinh rốt cuộc cũng nói ra nguyên nhân. Thì ra vì để khảo nghiệm ta, vì Thu Di định sẽ gửi ta đến 12 môn phái để rèn luyện võ nghệ. Bất Động tiên sinh cho biết đã chuẩn bị sẵn cho ta một bộ trang bị, bảo ta đến chỗ <npcpos=Điềm Tửu Thúc,new,3561> để nhận.",
+      "chinese_semantic_gloss": "义军虽然总问我难题，但都是为了我好。不过，有时不动先生也太过分了。<stepdesc>不动先生让我去找酒楼老板大老白买两份笋炒肉，并告诉我，酒楼里的食物其实都是江湖中常用的疗伤珍药。<stepdesc>买到了笋炒肉，看这不动老先生还能耍什么花样！<stepdesc>不动先生终于说出了原因。原来是为了考验我，因为秋姨打算送我到十二大门派去磨练武艺。不动先生说已经为我准备好了一套装备，让我去甜酒叔处领取。"
+    },
+    "sub_0134_pop_dialogue": {
+      "evidence_class": "RAW_CLIENT",
+      "speaker": "Bất Động tiên sinh (npc:3565)",
+      "text_vi": "Bất Động tiên sinh: \"Ta cười đắc ý, ta cười đắc ý~\"",
+      "chinese_semantic_gloss": "不动先生：“我得意的笑，我得意的笑~”"
+    },
+    "sub_0134_start_dialogue": {
+      "evidence_class": "RAW_CLIENT",
+      "speaker": "Bất Động tiên sinh (npc:3565)",
+      "text_vi": "<npc=3565>: \"Đã nói bao nhiêu lần rồi, ngươi hãy giúp ta đi tìm chủ tửu lầu Đại Lão Bạch, mua hai phần thịt xào măng về đây. Nói nhỏ cho ngươi biết, đồ ăn trong tiệm này mới chính là thuốc trị thương thường dùng trong giang hồ đấy!\"",
+      "chinese_semantic_gloss": "<npc=3565>：“都说了多少次了，你帮我去找酒楼老板大老白，买两份笋炒肉回来。悄悄告诉你，这店里的食物才是江湖中常用的疗伤药呢！”"
+    },
+    "sub_0134_step1_execution": {
+      "step_index": 1,
+      "event_prompt": "Đối thoại với chủ tiệm, nhấn nút vật phẩm, có thể mở giao diện thương điếm ra, chọn mua đạo cụ trang bị",
+      "required_item": "Thịt xào măng (Count: 2)",
+      "step_over_event_text": "Đã mua thịt xào măng, giao cho Bất Động tiên sinh "
+    },
+    "sub_0134_step2_dialogue_sequence": {
+      "step_index": 2,
+      "speaker": "Bất Động tiên sinh (npc:3565)",
+      "interlocutor": "Player (<playername>)",
+      "messages": [
+        {
+          "index": 1,
+          "text_vi": "<npc=3565>: \"Ái chà! <playername> thật là giỏi. Nếu ta tiếp tục nhờ vả ngươi thì thật tội cho ngươi. Thực ra tất cả những việc này đều là sắp xếp của Thu Di để thử thách ngươi đó thôi. Có một bí mật ta muốn tiết lộ cho ngươi biết, nhưng khoan vui mừng vội.\"",
+          "chinese_semantic_gloss": "<npc=3565>：“哎呀！<playername>真能干。如果我继续使唤你可就太对不住你了。其实这一切都是秋姨安排来考验你的。有一个秘密我想透露给你，但先别高兴得太早。”"
+        },
+        {
+          "index": 2,
+          "text_vi": "<npc=3565>: \"Thu Di dự định đưa ngươi đến thập nhị môn phái tu luyện võ công thượng thừa, đây không phải là cơ duyên mà ai cũng có được đâu! Ngoài ra, ta tặng thêm cho ngươi một trang bị mà cực khổ lắm ta mới có được. Hãy đến chỗ <color=red>Điềm Tửu<color> lấy đi.\"",
+          "chinese_semantic_gloss": "<npc=3565>：“秋姨打算送你到十二大门派修习上乘武功，这可不是人人都能得到的机缘！另外，我还送你一件好不容易才弄到的装备。快去甜酒叔那里拿吧。”"
+        },
+        {
+          "index": 3,
+          "text_vi": "<npc=3565>: \"Thực ra những người trong nghĩa quân bọn ta đều không có ý trêu chọc nhà ngươi, vì vậy đừng chấp nhặt nhé!\"",
+          "chinese_semantic_gloss": "<npc=3565>：“其实我们义军里的大家伙儿都没有捉弄你的意思，所以千万别见怪呀！”"
+        }
+      ],
+      "step_over_event_text": "Bất Động tiên sinh nói trong nghĩa quân có rất nhiều người hài hước, ta có nên tin họ không nhỉ?"
+    },
+    "sub_0134_step3_turn_in_and_prize": {
+      "step_index": 3,
+      "speaker": "Điềm Tửu Thúc (npc:3561)",
+      "interlocutor": "Player (<playername>)",
+      "dialogue_vi": "<npc=3561>: \"Lão già Bất Động đó đã nói gì với ngươi? Đúng là miệng mồm liếng thoắng, dám cướp lời ta.\"",
+      "prize_text_vi": "<npc=3561>: \"Hãy bảo trọng!\"<end>",
+      "chinese_semantic_gloss": "<npc=3561>：“不动那个老家伙跟你说什么了？真是嘴快，敢抢我的话头。” / “多多保重！”",
+      "action": "TaskAct:AskAccept(0000000000000135)"
+    }
+  },
+  "story_bearing_findings_for_novel_s2": {
+    "1_orchestrated_testing": {
+      "source_fact": "All the tedious errands given by village NPCs (Điềm Tửu, Thẩm Hà Diệp, Hách Phiêu Tịnh, Trương Trảm Kinh, Bất Động) were not random abuse, but a deliberate test organized by Thu Di (Bạch Thu Lâm).",
+      "evidence_status": "RAW_CLIENT_DIRECT"
+    },
+    "2_pre_planned_twelve_sect_path": {
+      "source_fact": "Thu Di / Bạch Thu Lâm had ALREADY decided and planned to send the protagonist out to the Twelve Great Sects to train in superior martial arts before the player finishes the starter village.",
+      "evidence_status": "RAW_CLIENT_DIRECT",
+      "novel_impact": "In Chapter 1 S2, the twelve sects horizon is NOT an abrupt brainstorm or fantasy, but a real, actively prepared institutional pathway planned by Bạch Thu Lâm and known among the senior Nghĩa Quân inner circle."
+    },
+    "3_bat_dong_character_and_revelation": {
+      "source_fact": "Bất Động Tiên Sinh is humorous, chatty, likes to boast ('Ta cười đắc ý~'), and leaks the twelve-sect secret prematurely to the player, stealing Điềm Tửu Thúc's planned moment to tell the player.",
+      "evidence_status": "RAW_CLIENT_DIRECT",
+      "novel_impact": "Bất Động acts as the talkative elder whose banter relieves the protagonist's irritation while delivering genuine plot-advancing truth."
+    },
+    "4_protagonist_knowledge_state": {
+      "source_fact": "At the conclusion of 0134, the protagonist learns: (a) the elders' chores were a test; (b) Thu Di is sending them to the 12 Sects; (c) starter equipment is waiting at Điềm Tửu Thúc; (d) they are about to embark on martial trials outside the village.",
+      "evidence_status": "RAW_CLIENT_DIRECT"
+    },
+    "5_diem_tuu_thuc_transition": {
+      "source_fact": "Điềm Tửu Thúc grumbles about Bất Động stealing his announcement, hands over the gear/prize, wishes the protagonist 'Hãy bảo trọng!', and gives the next task 0135 (meeting the traumatized veteran hunter Thẩm Thiết Thạch outside the village).",
+      "evidence_status": "RAW_CLIENT_DIRECT"
+    }
+  },
+  "evidence_classification_summary": {
+    "RAW_CLIENT": [
+      "Subtask 0134 XML dialogue nodes and step sequences in client/pak/task_publish.pak (entry 86e7b76b)",
+      "Task 009D XML managed subtask descriptions in client/pak/task_publish.pak (entry 8ead8c5c)"
+    ],
+    "RAW_SERVER": [
+      "NPC attributes and class associations in server/gameserver/setting/npc/npc.txt",
+      "Task range definitions in server/gameserver/setting/task/task_def.txt"
+    ],
+    "RECONSTRUCTION": [
+      "Chronological ordering of subtasks 0132 -> 0133 -> 0134 -> 0135 -> 0136 under task family 009D",
+      "Chinese semantic gloss of raw Vietnamese client XML strings"
+    ],
+    "UNKNOWN_OR_EXCLUDED": [
+      "Exact identity of protagonist's parents (strictly protected unknown, not revealed in 0134; only first mentioned in 0139/0141)",
+      "Specific sect recommendation or bias by Bất Động (he mentions the 12 sects generally, without steering to a specific sect)"
+    ]
+  }
+}
